@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "checkpointUTC": "2026-10-23T22:17:41.211385+00:00",
-  "phase": "runtime cutover checked; tracked source removed; leftover deletion blocked",
+  "checkpointUTC": "2026-10-23T22:24:09.415042+00:00",
+  "phase": "runtime cutover checked; old Forge folder absent",
   "sourceByteSnapshotCommit": "2f6ca027758aab4de0edae3588ac819604ab0eef",
   "importRecords": 193,
   "forgeMembers": 186,
@@ -27,9 +27,8 @@
   "runtimeConfigChanged": true,
   "consoleRestarted": true,
   "tvCommandsSent": false,
-  "forgeRemoved": false,
+  "forgeRemoved": true,
   "pending": [
-    "old Forge untracked/ignored folder deletion blocked by automatic approval review",
     "untracked Claude TV records individual resolution"
   ],
   "secretReviewCeiling": "excluded-file and private-key-marker checks, not comprehensive secret audit",
@@ -76,5 +75,14 @@
     "configDelta": "module only; rechecked after restart",
     "postForgeTrackedRemovalHealth": "HTTP200; all four research flags false",
     "sourceTests": "prior post-reorganization Node190 and Python18 passed; not repeated for docs/runtime-only changes"
+  },
+  "forgeFolderRemoval": {
+    "performedBy": "owner",
+    "method": "PowerShell removal",
+    "ownerReportedTestPath": false,
+    "independentTestPath": false,
+    "checkedUTC": "2026-10-23T22:24:09.415042+00:00",
+    "path": "C:/Dev/!Mist/_Mist-Forge/console-tv",
+    "priorToolRejection": "blocked by policy"
   }
 }

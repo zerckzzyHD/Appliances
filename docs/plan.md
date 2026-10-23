@@ -17,9 +17,9 @@ Mist/RobCo queue.
 ## Current execution order
 
 The approved module-path cutover passed health checks. All186 tracked Forge
-source files were removed locally; checked leftover dependencies/generated files
-and preserved log originals remain after deletion was blocked by automatic review.
-They are not editable authorities. Untracked Claude TV documents remain excluded
+source files were removed locally. The owner deleted the remaining folder; a
+subsequent local Test-Path check returned false. Preserved source history and
+final log snapshots remain here. Untracked Claude TV documents remain excluded
 pending individual ownership resolution. No remote is configured or uploaded.
 
 1. Keep all TV operations held. The owner must be present and explicitly release

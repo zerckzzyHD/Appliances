@@ -42,9 +42,10 @@ Checkpoint: 2026-10-23. This page owns the concise current state; see
 The four owned Codex TV handoff originals were removed after hash verification
 (handoff local commitdaee234). The external tracker is now location-only after
 its original bytes matched the imported history. All186 tracked Forge TV files were removed in local commitd3d649d after
-cutover and hash checks. Checked untracked/ignored leftovers remain because
-automatic approval review blocked recursive folder deletion. Untracked Claude TV
-files were left untouched. [Migration record](migration.md) records these limits.
+cutover and hash checks. The owner deleted the remaining old folder, and a
+subsequent local filesystem check independently confirmed its absence. Untracked
+Claude TV files were left untouched. [Migration record](migration.md) records the
+cleanup evidence and remaining ownership limit.
 
 Final post-reorganization validation ran `npm run check`,
 190 Node tests through `npm test`, and 18 Python tests through

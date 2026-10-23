@@ -64,12 +64,12 @@ history remains available; the README location-only link remains. The four owned
 Codex handoff files were already removed in local commitdaee234; their byte-exact
 history is retained here. The external tracker is location-only.
 
-Recursive deletion of the old Forge folder was rejected by automatic approval
-review with only "blocked by policy" supplied. No alternative deletion was
-attempted. Remaining files are the two preserved sender log originals, ignored
-node_modules and five generated parser/license files; the bounded ignored-file
-inventory found no other paths. They are not current source or editable plans.
-This is a cleanup limit, not a runtime dependency.
+The command tool initially rejected recursive deletion with "blocked by policy."
+The owner then deleted the remaining folder directly in PowerShell and reported
+Test-Path returned false. A subsequent local filesystem check independently
+returned false for the exact old Forge console-tv path on2026-10-23. The old
+folder is absent; this cleanup is no longer pending. Original source and the
+separate final log snapshots remain preserved in this repository and Git history.
 
 The two untracked Claude TV brief/review files were neither imported nor removed.
 Their ownership/content needs individual resolution. Unrelated handoff work is
