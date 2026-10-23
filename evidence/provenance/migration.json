@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "checkpointUTC": "2026-10-23T22:04:54.543671+00:00",
+  "phase": "local organization verified; runtime cutover pending",
+  "sourceByteSnapshotCommit": "2f6ca027758aab4de0edae3588ac819604ab0eef",
+  "importRecords": 193,
+  "forgeMembers": 186,
+  "node": {
+    "passed": 190,
+    "failed": 0,
+    "skipped": 0,
+    "originalTests": 189,
+    "addedMigrationRegression": 1
+  },
+  "python": {
+    "passed": 18,
+    "failed": 0
+  },
+  "powerShellParsed": 29,
+  "syntax": "passed",
+  "format": "passed",
+  "repositoryAccounting": "passed",
+  "sourceSemanticReview": "restored JWT delimiters; AST equivalence regression passed; changed JS literals reviewed",
+  "handoffRemovalCommit": "daee234",
+  "tracker": "original hash preserved; location-only pointer",
+  "remote": "none configured",
+  "runtimeConfigChanged": false,
+  "consoleRestarted": false,
+  "tvCommandsSent": false,
+  "forgeRemoved": false,
+  "pending": [
+    "module path change and canonical restart approval",
+    "explicit release to end old sender without TV STOP",
+    "old Forge removal after verified cutover",
+    "untracked Claude TV records individual resolution"
+  ],
+  "secretReviewCeiling": "excluded-file and private-key-marker checks, not comprehensive secret audit"
+}

@@ -1561,5 +1561,8 @@
     "node_modules and generated files",
     "firmware archives and raw captures",
     "unrelated repository content"
-  ]
+  ],
+  "byteSnapshotCommit": "2f6ca027758aab4de0edae3588ac819604ab0eef",
+  "initialImportCommit": "534557e69ad78689329a39f7d574345085fbd438",
+  "lineEndingNote": "Initial import used inherited Git text normalization; this additional forward commit preserves exact 193 input bytes. No existing commit rewritten."
 }

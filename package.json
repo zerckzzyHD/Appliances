@@ -1,22 +1,26 @@
 {
-  "name": "mist-console-tv-client",
+  "name": "tv-workbench",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Approved LAN presentation client for the existing private Mist Console summary",
+  "description": "Private owner-controlled TV Home research and optional Console adapter",
   "engines": {
     "node": ">=20"
   },
   "scripts": {
-    "build:document": "node research/build-document-parser.mjs",
+    "build:document": "node scripts/build/build-document-parser.mjs",
     "pretest": "npm run build:document && npm run build:dependencies",
-    "check": "node --check vite-plugin.mjs && node --check src/time.mjs && node --check src/summary.mjs && node --check src/server.mjs && node --check src/page.mjs && node --check bin/serve.mjs",
-    "test": "node --test test/*.test.mjs",
-    "build:dependencies": "node research/build-dependency-parser.mjs"
+    "check": "node --check src/hosting/vite-plugin.mjs && node --check src/console/time.mjs && node --check src/console/summary.mjs && node --check src/console/server.mjs && node --check src/console/page.mjs && node --check scripts/launch/serve.mjs",
+    "test": "node --test test/*/*.test.mjs",
+    "build:dependencies": "node scripts/build/build-dependency-parser.mjs",
+    "test:python": "python -B -m unittest discover -s test/research -p \"dashcast*test.py\"",
+    "check:repo": "node scripts/check-repository.mjs",
+    "format:check": "prettier --check \"src/**/*.mjs\" \"scripts/**/*.mjs\" \"test/**/*.mjs\" README.md AGENTS.md \"docs/*.md\" \"docs/experiments/*.md\" \"docs/research/*.md\""
   },
   "devDependencies": {
     "acorn": "8.17.0",
     "esbuild": "0.25.12",
-    "parse5": "7.3.0"
+    "parse5": "7.3.0",
+    "prettier": "^3.9.6"
   }
 }
