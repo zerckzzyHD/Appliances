@@ -16,10 +16,11 @@ Mist/RobCo queue.
 
 ## Current execution order
 
-Migration prerequisite: finish the separately approved module-path cutover before
-removing old Forge source. Old TV directories remain transitional source, not
-editable current authorities. Untracked Claude TV documents are excluded pending
-individual ownership resolution. No remote is configured or uploaded.
+The approved module-path cutover passed health checks. All186 tracked Forge
+source files were removed locally; checked leftover dependencies/generated files
+and preserved log originals remain after deletion was blocked by automatic review.
+They are not editable authorities. Untracked Claude TV documents remain excluded
+pending individual ownership resolution. No remote is configured or uploaded.
 
 1. Keep all TV operations held. The owner must be present and explicitly release
    the earlier no-stop constraint before any live activity. Do not infer that

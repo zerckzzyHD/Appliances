@@ -6,10 +6,10 @@ control. Modifying stock Home and replacing it are both candidates. Mist Console
 is an optional existing read-only tile, not the project's identity.
 
 The project is still in research and preparation. An input-only Conjure page and
-its host integration are prepared behind `researchHomeInput: false`. No live
-option has been enabled, no Console restart or runtime cutover has occurred, and
-no TV operation has run for this phase. All TV operations remain held while the
-owner-presence and earlier no-stop constraints are unresolved.
+its host integration are prepared behind `researchHomeInput: false`. No live research
+option has been enabled. The approved Console module-path cutover and restart
+passed local/LAN health checks. The old sender exited locally without a TV STOP;
+no TV operation ran during cutover. Owner-present input testing remains held.
 
 ## Start here
 
@@ -19,7 +19,7 @@ owner-presence and earlier no-stop constraints are unresolved.
 - [Routes that have actually worked](docs/routes.md)
 - [Host lifecycle and operation gates](docs/operations.md)
 - [Model workflow](docs/models.md)
-- [Migration receipt and remaining cutover](docs/migration.md)
+- [Migration receipt and cleanup limits](docs/migration.md)
 - [Input experiment protocol](docs/experiments/home-input.md)
 - [Selected API and project references](docs/research/references.md)
 

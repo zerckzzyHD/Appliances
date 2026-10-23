@@ -1,7 +1,7 @@
 # Repository migration: transition record
 
 Checkpoint2026-10-23. [Plan](plan.md) owns product priorities; this document owns
-the finite migration receipt and pending cutover. It is not another TV roadmap.
+the finite migration receipt and cleanup limits. It is not another TV roadmap.
 
 ## Transferred and checked
 
@@ -30,54 +30,56 @@ the finite migration receipt and pending cutover. It is not another TV roadmap.
 - Forge README now links to this standalone home (local commit61f72d5); no
   current progress is duplicated in that index.
 
-## Pending: approved cutover and final cleanup
+## Approved runtime cutover
 
-No owner-local config, Console restart or TV operation has been performed.
-Source path removal is intentionally incomplete until these dependencies are
-resolved. Current documents here are authoritative; old Forge docs are transition
-sources, not another editable plan.
-
-Exact proposed host delta, in the existing ignored RobCo extension options:
+The owner separately approved the module-only config change, canonical Console
+restart, and ending the old local sender without a TV STOP. These actions ran on
+2026-10-23. The ignored host config now uses:
 
 ```text
-module:
-  from C:/Dev/!Mist/_Mist-Forge/console-tv/vite-plugin.mjs
-  to   C:/Dev/!TV/TV-Workbench/src/hosting/vite-plugin.mjs
+C:/Dev/!TV/TV-Workbench/src/hosting/vite-plugin.mjs
 ```
 
-Preserve every other option, including all research flags. Snapshot non-secret
-config bytes privately, validate the original module, reject races and change
-only this field. Canonical lifecycle is the existing host's dev-server manager:
-stop, then start --no-proxy. Verify local/LAN health and expected disabled research
-flags. No TV launch, pairing, settings, task or Tailscale change. Rollback restores
-exact old options and canonically restarts while old source is still available.
-This config/restart requires the separate approval specified in the repo proposal.
+The original non-secret bytes are retained privately in ignored .local/migration.
+The edit rejected concurrent changes and verified JSON equality except module.
+All other options were preserved. Canonical stop and start --no-proxy succeeded;
+no Tailscale configuration change was requested. Vite, LAN summary and main
+research health returned HTTP200. Research health reported document24,
+dependencies25, dashcastMarker and homeInput all false. Research loopback refused
+connection because the listener is bound to LAN. These checks establish hosting,
+not TV rendering or device compatibility.
 
-The old inline sender (tool session73923) was still running when its buffered
-output was inspected. It reports session_lost_before_stop, stopSent false. This
-is local process/log evidence, not a fresh TV query or current screen observation.
-Do not send STOP or terminate it under migration permission alone: obtain explicit
-release of the earlier no-stop instruction, then capture final local closure/log
-evidence and preserve any final snapshot separately. Avoid deleting a live log's
-parent folder. No sender interaction beyond buffered output read occurred here.
+Old tool session73923 exited through Ctrl+C with KeyboardInterrupt, exit1. No
+stop command or TV STOP was sent. Its earlier session_lost_before_stop event
+remains the final log event; the local exit does not establish current TV state
+or restoration. Both original sender logs have separately named immutable closure
+snapshots with hashes in [the receipt](../evidence/provenance/migration.json).
+Original imported snapshots were not changed.
 
-Once new hosting and sender closure are verified, remove exactly the original
-Forge console-tv subtree (tracked source plus checked ignored generated/dependency
-leftovers); update its README index to location-only. Resolve absolute removal
-paths first. Preserve original Git history. Archive the external tracker bytes
-already in the receipt; that tracker was subsequently hash-checked and replaced
-with a location-only link. No current progress is duplicated there.
+## Source retirement and remaining limits
 
-Untracked Claude TV brief/review files in the handoff repository were not imported
-or removed. They require individual ownership/content resolution; do not sweep
-their containing folder. All other dirty handoff files remain outside scope.
+All186 tracked Forge TV members matched their original receipt hashes immediately
+before removal. Local Forge commitd3d649d removes those members. Original Git
+history remains available; the README location-only link remains. The four owned
+Codex handoff files were already removed in local commitdaee234; their byte-exact
+history is retained here. The external tracker is location-only.
+
+Recursive deletion of the old Forge folder was rejected by automatic approval
+review with only "blocked by policy" supplied. No alternative deletion was
+attempted. Remaining files are the two preserved sender log originals, ignored
+node_modules and five generated parser/license files; the bounded ignored-file
+inventory found no other paths. They are not current source or editable plans.
+This is a cleanup limit, not a runtime dependency.
+
+The two untracked Claude TV brief/review files were neither imported nor removed.
+Their ownership/content needs individual resolution. Unrelated handoff work is
+untouched. No remote is configured here and nothing was pushed or uploaded.
 
 ## Validation ceiling
 
-Migrated Node190 (original189 plus1 regression) and Python18 tests passed locally;
-syntax/formatting and29 PowerShell files
-parsed. Repository checker verifies193 original blobs, immutable hashes, portable
-current links and relative module imports; excluded-file/private-key-marker checks
-are bounded checks, not a comprehensive secret audit. No live cutover or device
-compatibility claim follows from those results. Final recorded gate outcomes and
-pending approvals belong in [status](status.md) and the migration evidence receipt.
+Post-reorganization Node190, Python18, syntax, formatting,29 PowerShell parses
+and193-record provenance checks passed before this runtime-only cutover. Current
+document/link/provenance, syntax, formatting and whitespace checks passed;
+post-removal research health remained HTTP200 with all four flags false. No live Phase A
+input test, TV query, launch, credential read or TV setting change occurred.
+Further device tests remain held for owner presence and exact authorization.

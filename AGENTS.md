@@ -23,8 +23,9 @@ The Mist Console is optional, read-only integration.
   and do not transfer to another target, operation or phase. Owner-presence tests
   wait for the owner; do not impose presence on every future authorized read.
 - The current device-operation hold remains in force until the owner is present
-  and explicitly releases the earlier no-stop constraint. Never issue an
-  automatic stop, cleanup, retry, relaunch or takeover.
+  and approves the exact live scope. The old sender was separately approved to
+  exit locally without TV STOP; that approval does not authorize a TV action.
+  Never issue an automatic stop, cleanup, retry, relaunch or takeover.
 - Do not enable a research flag, edit local Console settings, restart Console,
   change a listener, change Tailscale, install a task/service, alter startup,
   update firmware or change device settings without separate exact approval.

@@ -28,7 +28,7 @@ navigation has ever worked. A page launch does not establish default Home owners
 
 ## Activation prerequisites
 
-First approve/verify repository hosting-path cutover in [operations](../operations.md).
+Repository hosting-path cutover passed the checks in [operations](../operations.md).
 The owner must be present and agree that main TV can be interrupted. Release the
 earlier no-stop/replacement-launch hold explicitly before any sender cleanup or
 replacement launch. Do not infer idle from Cast state or operate bedroom implicitly.

@@ -22,15 +22,16 @@ Checkpoint: 2026-10-23. This page owns the concise current state; see
   [`src/research/isolated-server.mjs`](../src/research/isolated-server.mjs)
   exposes it only behind `researchHomeInput: false` by default. It has no app
   action, persistence, polling, relaunch or automatic stop behavior.
-- The machine-local Console module reference still points to the previous Forge
-  checkout. This repository has not been cut over; no local runtime settings
-  were changed and no Console restart or live health check was performed as
-  part of this migration checkpoint. The previous tree is retained until a
-  separate approved cutover.
+- The approved machine-local module-only change points Console at this repository.
+  Canonical stop/start with --no-proxy succeeded. Vite returned HTTP 200; LAN
+  summary and main research health returned HTTP 200. All four research flags
+  were false. Loopback research refused connection, consistent with its LAN bind.
+- Old sender session73923 exited with KeyboardInterrupt (exit1). No TV STOP was
+  sent. Its final log snapshot records earlier session loss; TV screen state
+  and restoration were not checked.
 - No live Phase A input diagnostic has run. No TV query, launch, pairing,
-  credential read, setting change, server restart or cleanup was performed for
-  this phase. All TV operations remain held pending owner presence and explicit
-  release of the earlier no-stop constraint.
+  credential read or TV setting change occurred during cutover. Further TV
+  operations remain held pending owner presence and exact live authorization.
 - Earlier owner observations establish a full-screen Conjure Console page and
   directional/OK navigation in an earlier four-tile menu. They do not establish
   current-page input reception, an app-launch contract, default-Home ownership
@@ -40,14 +41,16 @@ Checkpoint: 2026-10-23. This page owns the concise current state; see
 
 The four owned Codex TV handoff originals were removed after hash verification
 (handoff local commitdaee234). The external tracker is now location-only after
-its original bytes matched the imported history. Forge source still awaits
-approved runtime-path cutover/sender closure; untracked Claude TV files were left
-untouched. [Migration record](migration.md) specifies the exact remaining delta.
+its original bytes matched the imported history. All186 tracked Forge TV files were removed in local commitd3d649d after
+cutover and hash checks. Checked untracked/ignored leftovers remain because
+automatic approval review blocked recursive folder deletion. Untracked Claude TV
+files were left untouched. [Migration record](migration.md) records these limits.
 
 Final post-reorganization validation ran `npm run check`,
 190 Node tests through `npm test`, and 18 Python tests through
 `npm run test:python`. These are local source/fixture checks, not TV evidence.
-No TV or runtime operation was part of those checks or this documentation pass.
+Those source checks did not operate a TV. The later approved runtime cutover
+is separately recorded above and in the migration receipt.
 All passed without failures/skips. Prettier and29 PowerShell file parses passed.
 The193-record provenance/import/link check passed. Node190 retains the original
 189 tests and adds one semantic-equivalence regression; no original tests removed.

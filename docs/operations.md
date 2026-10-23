@@ -4,9 +4,9 @@ This document describes the existing host boundary and the approvals required
 for later work. It does not authorize a TV action, runtime cutover or settings
 change.
 
-The exact proposed module-path cutover and rollback are in [migration](migration.md).
-It remains unexecuted. No device presence is needed merely to review that delta;
-owner presence is required for the subsequent physical-input experiment.
+The approved module-path cutover was executed and health-checked; its receipt
+and cleanup limits are in [migration](migration.md). Owner presence is still
+required for the subsequent physical-input experiment.
 
 ## Hosting lifecycle
 
@@ -19,11 +19,10 @@ directory server, all-interface bind or fallback listener.
 This repository has its own source, lockfile, local build scripts and tests.
 That makes offline development self-contained; it does not move ownership of
 the running listener or Console lifecycle. The machine-local Console extension
-has not been pointed at this repository; it still references the previous Forge
-checkout. A path cutover and Console restart require a separate, reviewed
-approval. Keep the previous source tree until the new path is explicitly enabled
-and verified. Local tests cannot prove which source a live Console process has
-loaded.
+now points at src/hosting/vite-plugin.mjs here. The approved canonical restart
+used --no-proxy; LAN health reported all research flags false. Further option
+changes/restarts need their own exact scope. Prior source can be recovered from
+Git history; checked old folder leftovers are not the runtime source.
 
 ## Research input page
 
@@ -43,20 +42,18 @@ was consumed. No approval transfers to another phase or target.
 
 ## Current runtime hold and rollback boundary
 
-At the current checkpoint, `researchHomeInput` has not been enabled, no Console
-restart or live health check has been performed for this repository, and no TV
-operation has run for Phase A. The owner-presence and prior no-stop constraints
-remain unresolved. Do not read credentials, change the ignored local options,
-restart Console, send a TV request, launch a receiver or issue cleanup while that
-hold remains.
+The approved hosting-path cutover and canonical restart passed health checks;
+`researchHomeInput` remains false. The old sender exited locally without TV STOP.
+No live Phase A operation has run. Further credentials, option changes/restarts,
+TV requests, launches and cleanup require their own exact authorization; owner
+presence remains required for the physical-input test.
 
-If a later exact approval is given, document the private before-state, change
-only the approved local option, use the canonical Console lifecycle, and verify
-the flag/run state before the owner-controlled action. After the owner ends the
-run, restore the approved option state and verify that research admission is
-disabled. Keep secrets out of backups and reports. Do not remove the old source
-until the path cutover is reviewed and verified; do not infer receiver cleanup
-from a log or a local source rollback.
+For a later approved run, record the private non-secret before-state, change only
+the approved option and verify the flag/run state. After the owner ends the run,
+restore the approved options and verify admission is disabled. Do not infer TV
+restoration from a process exit, log event or source rollback. If reverting this
+migration, recover the old source from its recorded Git history before restoring
+the original module path and canonically restarting. Do not rewrite history.
 
 LAN/Vite/Tailscale extraction, in-Mist Tailscale configuration, task/Startup
 inventory and unrelated Console integration requests remain with their owning

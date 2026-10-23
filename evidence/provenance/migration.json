@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "checkpointUTC": "2026-10-23T22:04:54.543671+00:00",
-  "phase": "local organization verified; runtime cutover pending",
+  "checkpointUTC": "2026-10-23T22:17:41.211385+00:00",
+  "phase": "runtime cutover checked; tracked source removed; leftover deletion blocked",
   "sourceByteSnapshotCommit": "2f6ca027758aab4de0edae3588ac819604ab0eef",
   "importRecords": 193,
   "forgeMembers": 186,
@@ -24,17 +24,57 @@
   "handoffRemovalCommit": "daee234",
   "tracker": "original hash preserved; location-only pointer",
   "remote": "none configured",
-  "runtimeConfigChanged": false,
-  "consoleRestarted": false,
+  "runtimeConfigChanged": true,
+  "consoleRestarted": true,
   "tvCommandsSent": false,
   "forgeRemoved": false,
   "pending": [
-    "module path change and canonical restart approval",
-    "explicit release to end old sender without TV STOP",
-    "old Forge removal after verified cutover",
+    "old Forge untracked/ignored folder deletion blocked by automatic approval review",
     "untracked Claude TV records individual resolution"
   ],
   "secretReviewCeiling": "excluded-file and private-key-marker checks, not comprehensive secret audit",
   "forgeIndexPointerCommit": "61f72d5",
-  "whitespaceGate": "passed across organization diff with CRLF recognized for immutable history/evidence"
+  "whitespaceGate": "passed across organization diff with CRLF recognized for immutable history/evidence",
+  "forgeTrackedMembersRemoved": 186,
+  "forgeRemovalCommit": "d3d649d",
+  "senderClosure": {
+    "session": 73923,
+    "localExitCode": 1,
+    "method": "KeyboardInterrupt",
+    "tvStopSent": false,
+    "tvStateChecked": false
+  },
+  "health": {
+    "vite": 200,
+    "summaryLAN": 200,
+    "researchMainLAN": 200,
+    "researchLoopback": "connection refused; LAN-only bind",
+    "flags": {
+      "document24": false,
+      "dependencies25": false,
+      "dashcastMarker": false,
+      "homeInput": false
+    }
+  },
+  "closureSnapshots": [
+    {
+      "path": "evidence/results/dashcast-inline-main-242785f7e23d4106b19d54598697ce97-closure-2026-10-23.jsonl",
+      "bytes": 964,
+      "sha256": "98130cd77e83a0060083f05c3cbfd1d11403974afcee05ae194dac7605c1b0a2"
+    },
+    {
+      "path": "evidence/results/dashcast-inline-main-ebefa7d9f9b5477fb670f9d16d058b74-closure-2026-10-23.jsonl",
+      "bytes": 510,
+      "sha256": "25bd867adbd1b7d752763a1dfea2c6e9ec22cca609afac859019e92660800eb7"
+    }
+  ],
+  "cutoverChecks": {
+    "repositoryAccounting": "passed:193 originals,186 mapped members, immutable hashes, links and imports",
+    "syntax": "passed",
+    "format": "passed",
+    "whitespace": "passed",
+    "configDelta": "module only; rechecked after restart",
+    "postForgeTrackedRemovalHealth": "HTTP200; all four research flags false",
+    "sourceTests": "prior post-reorganization Node190 and Python18 passed; not repeated for docs/runtime-only changes"
+  }
 }
