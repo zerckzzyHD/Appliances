@@ -34,5 +34,7 @@
     "old Forge removal after verified cutover",
     "untracked Claude TV records individual resolution"
   ],
-  "secretReviewCeiling": "excluded-file and private-key-marker checks, not comprehensive secret audit"
+  "secretReviewCeiling": "excluded-file and private-key-marker checks, not comprehensive secret audit",
+  "forgeIndexPointerCommit": "61f72d5",
+  "whitespaceGate": "passed across organization diff with CRLF recognized for immutable history/evidence"
 }

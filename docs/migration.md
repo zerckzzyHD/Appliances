@@ -15,6 +15,9 @@ the finite migration receipt and pending cutover. It is not another TV roadmap.
   forward commit2f6ca02 preserves the exact193 original file byte sequences.
   No existing commit was amended or rewritten. Historical originals and evidence
   use Git attributes that prevent future normalization.
+  Archive/evidence whitespace checks recognize CRLF as a line ending; this
+  preserves exact bytes rather than trimming historical records. The original
+  organization diff passes that check under the declared attributes.
 - Current source/lockfile/scripts/tests live here. No dependency on the old
   Forge source or RobCo node_modules is retained in maintained code. Console
   remains the runtime owner of the optional listener integration.
@@ -24,6 +27,8 @@ the finite migration receipt and pending cutover. It is not another TV roadmap.
 - After byte verification, four owned Codex TV handoff files were removed in
   handoff local commitdaee234. Their source history remains in that repository,
   and their imported originals are retained here. Unrelated dirty work unchanged.
+- Forge README now links to this standalone home (local commit61f72d5); no
+  current progress is duplicated in that index.
 
 ## Pending: approved cutover and final cleanup
 

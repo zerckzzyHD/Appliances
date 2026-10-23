@@ -1,3 +1,3 @@
 * text=auto eol=lf
-docs/history/** -text
-evidence/** -text
+docs/history/** -text whitespace=cr-at-eol
+evidence/** -text whitespace=cr-at-eol
