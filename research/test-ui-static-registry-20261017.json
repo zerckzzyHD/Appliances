@@ -1,0 +1,2995 @@
+{
+  "resource": "apiTestApp.html",
+  "bytes": 374655,
+  "sha256": "2aebe583db96750fa7d1f628f3c597caa8b03dc86116d8f8b25e57ab5e786809",
+  "parsedInlineScripts": 1,
+  "registryCount": 312,
+  "registry": [
+    {
+      "namespace": ["window.VIZIO_MODULES.App"],
+      "method": "getCurrentAppInfo",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.App"],
+      "method": "getAppInfo",
+      "type": "async",
+      "params": [
+        {
+          "name": "APP_ID",
+          "type": "string"
+        },
+        {
+          "name": "NAME_SPACE",
+          "type": "number"
+        }
+      ],
+      "staticSamples": [
+        {
+          "parameter": "APP_ID",
+          "values": ["3", "151", "568"]
+        },
+        {
+          "parameter": "NAME_SPACE",
+          "values": [4]
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.App"],
+      "method": "getIsCurrentVizioAppByCname",
+      "type": "async",
+      "params": [
+        {
+          "name": "cname",
+          "type": "string"
+        }
+      ],
+      "staticSamples": [
+        {
+          "parameter": "cname",
+          "values": ["sctv", "oobe", "wc-vizio-pay"]
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.App"],
+      "method": "getVizioAppInfoByCname",
+      "type": "async",
+      "params": [
+        {
+          "name": "cname",
+          "type": "string"
+        }
+      ],
+      "staticSamples": [
+        {
+          "parameter": "cname",
+          "values": ["sctv", "oobe", "wc-vizio-pay"]
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.App"],
+      "method": "subscribeToCurrentAppChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.App"],
+      "method": "launchApp",
+      "type": "async",
+      "params": [
+        {
+          "name": "appInfo",
+          "type": "object"
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.App"],
+      "method": "launchAmbient",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.App"],
+      "method": "exitApplication",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.App"],
+      "method": "getIsAppInBackground",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.App"],
+      "method": "getIsAppVisible",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.App"],
+      "method": "getAppVisibilityState",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.App"],
+      "method": "subscribeToAppVisibilityChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.App"],
+      "method": "subscribeToAppVisibilityStateChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.App"],
+      "method": "subscribeToAppOverlayDisplayed",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Bluetooth"],
+      "method": "getIsGamepadSupported",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Bluetooth"],
+      "method": "openGamepadPairingDialog",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Bluetooth"],
+      "method": "subscribeToBluetoothGamepadSupported",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Captions"],
+      "method": "enableClosedCaptions",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Captions"],
+      "method": "disableClosedCaptions",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Captions"],
+      "method": "toggleClosedCaptionsEnabled",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Captions"],
+      "method": "getIsClosedCaptionsEnabled",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Captions"],
+      "method": "subscribeToClosedCaptionsEnabled",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Captions"],
+      "method": "getClosedCaptionStyleArray",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Captions"],
+      "method": "subscribeToClosedCaptionsStyleChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getDeviceId",
+      "type": "async",
+      "params": [],
+      "group": "Identifier"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getESN",
+      "type": "async",
+      "params": [],
+      "group": "Identifier"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getSerialNumber",
+      "type": "async",
+      "params": [],
+      "group": "Identifier"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getChipsetName",
+      "type": "async",
+      "params": [],
+      "group": "Chipset"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getChipsetNumber",
+      "type": "async",
+      "params": [],
+      "group": "Chipset"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getSocNumber",
+      "type": "async",
+      "params": [],
+      "group": "Chipset"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getSocName",
+      "type": "async",
+      "params": [],
+      "group": "Chipset"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getModelYear",
+      "type": "async",
+      "params": [],
+      "group": "Model"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getModelName",
+      "type": "async",
+      "params": [],
+      "group": "Model"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getModelTypeNumber",
+      "type": "async",
+      "params": [],
+      "group": "Model"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getModelSeries",
+      "type": "async",
+      "params": [],
+      "group": "Model"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getModelSubseries",
+      "type": "async",
+      "params": [],
+      "group": "Model"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getIs2016Model",
+      "type": "async",
+      "params": [],
+      "group": "Model"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getIsPre2020Model",
+      "type": "async",
+      "params": [],
+      "group": "Model"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getPanelTypeNumber",
+      "type": "async",
+      "params": [],
+      "group": "Display"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getPanelTypeName",
+      "type": "async",
+      "params": [],
+      "group": "Display"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getPictureModes",
+      "type": "async",
+      "params": [],
+      "group": "Display"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "hasPictureMode",
+      "type": "async",
+      "params": [
+        {
+          "name": "mode",
+          "type": "string"
+        }
+      ],
+      "group": "Display"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getScreenSize",
+      "type": "async",
+      "params": [],
+      "group": "Display"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getResolutionNumber",
+      "type": "async",
+      "params": [],
+      "group": "Display"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getSupportedResolutions",
+      "type": "async",
+      "params": [],
+      "group": "Display"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getDisplayCapabilities",
+      "type": "async",
+      "params": [],
+      "group": "Display"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getIsSemaphoreCapable",
+      "type": "async",
+      "params": [],
+      "group": "Capability"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Device"],
+      "method": "getIsAirPlayEnabled",
+      "type": "async",
+      "params": [],
+      "group": "Capability"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getCapability",
+      "type": "async",
+      "params": [
+        {
+          "name": "key",
+          "type": "string"
+        }
+      ],
+      "group": "Dynamic Capability",
+      "staticSamples": [
+        {
+          "parameter": "key",
+          "values": [
+            "BT_GAMEPADS",
+            "VIZIO_PAY_CAPABLE",
+            "LOKI_WEBSOCKET",
+            "TUNER_OTA",
+            "TTS"
+          ]
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getIsCapabilityTrue",
+      "type": "async",
+      "params": [
+        {
+          "name": "key",
+          "type": "string"
+        }
+      ],
+      "group": "Dynamic Capability",
+      "staticSamples": [
+        {
+          "parameter": "key",
+          "values": [
+            "BT_GAMEPADS",
+            "VIZIO_PAY_CAPABLE",
+            "LOKI_WEBSOCKET",
+            "TUNER_OTA",
+            "TTS"
+          ]
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "subscribeToCapabilitiesChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Dynamic Capability"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getIsDpadEnabled",
+      "type": "async",
+      "params": [],
+      "group": "Support"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getIsDolbyAtmosCapable",
+      "type": "async",
+      "params": [],
+      "group": "Support"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "subscribeToDolbyAtmosCapabilityChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Support"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getCountryData",
+      "type": "async",
+      "params": [],
+      "group": "Environment"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getCountryFullName",
+      "type": "async",
+      "params": [],
+      "group": "Environment"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "subscribeToCastState",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Environment"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "displaySystemMenu",
+      "type": "async",
+      "params": [
+        {
+          "name": "menuUri",
+          "type": "string"
+        }
+      ],
+      "group": "Menu"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getIsSystemMenuDisplaying",
+      "type": "async",
+      "params": [],
+      "group": "Menu"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "subscribeToSystemMenuDisplay",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Menu"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getIPAddress",
+      "type": "async",
+      "params": [],
+      "group": "Identifier"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getMACAddress",
+      "type": "async",
+      "params": [],
+      "group": "Identifier"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getTvAdId",
+      "type": "async",
+      "params": [],
+      "group": "Identifier"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "subscribeToTvAdIdChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Identifier"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getIsNetworkConfigured",
+      "type": "async",
+      "params": [],
+      "group": "Network"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getIsNetworkConnected",
+      "type": "async",
+      "params": [],
+      "group": "Network"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "subscribeToNetworkConnected",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Network"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getNetworkConnectionType",
+      "type": "async",
+      "params": [],
+      "group": "Network"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "subscribeToNetworkConnectionTypeChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Network"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getNetworkInformation",
+      "type": "async",
+      "params": [],
+      "group": "Network"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getWifiSSID",
+      "type": "async",
+      "params": [],
+      "group": "Network"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getWifiSignalStrength",
+      "type": "async",
+      "params": [],
+      "group": "Network"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getPowerStateNumber",
+      "type": "async",
+      "params": [],
+      "group": "Power"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "subscribeToPowerStateNumberChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Power"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getPowerStateTitle",
+      "type": "async",
+      "params": [],
+      "group": "Power"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "subscribeToPowerStateTitleChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Power"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getPowerModeData",
+      "type": "async",
+      "params": [],
+      "group": "Power"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getPowerModeTitle",
+      "type": "async",
+      "params": [],
+      "group": "Power"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "setPowerMode",
+      "type": "async",
+      "params": [
+        {
+          "name": "modeTitle",
+          "type": "string"
+        }
+      ],
+      "group": "Power"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "togglePowerMode",
+      "type": "async",
+      "params": [],
+      "group": "Power"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getAvailablePowerModes",
+      "type": "async",
+      "params": [],
+      "group": "Power"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "rebootTv",
+      "type": "async",
+      "params": [],
+      "group": "Power"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getDeviceTimezoneGMTOffset",
+      "type": "async",
+      "params": [],
+      "group": "Time"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getDstOffset",
+      "type": "async",
+      "params": [],
+      "group": "Time"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getIsDstActive",
+      "type": "async",
+      "params": [],
+      "group": "Time"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getIs12HourTimeFormat",
+      "type": "async",
+      "params": [],
+      "group": "Time"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "subscribeToTimeFormatChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Time"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getTimezoneData",
+      "type": "async",
+      "params": [],
+      "group": "Time"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "subscribeToTimeZoneChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Time"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getBinaryNames",
+      "type": "async",
+      "params": [],
+      "group": "Version"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getBinaryVersion",
+      "type": "async",
+      "params": [
+        {
+          "name": "name",
+          "type": "string"
+        }
+      ],
+      "group": "Version"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getBuildVersion",
+      "type": "async",
+      "params": [],
+      "group": "Version"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getFirmwareVersion",
+      "type": "async",
+      "params": [],
+      "group": "Version"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getPackageVersion",
+      "type": "async",
+      "params": [],
+      "group": "Version"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getScConfigVersion",
+      "type": "async",
+      "params": [],
+      "group": "Version"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "subscribeToScConfigVersionChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Version"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getScplVersionString",
+      "type": "async",
+      "params": [],
+      "group": "Version"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "subscribeToScplVersionStringChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Version"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "getScplVersionNumbers",
+      "type": "async",
+      "params": [],
+      "group": "Version"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.System"],
+      "method": "subscribeToScplVersionNumbersChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Version"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.TextToSpeech"],
+      "method": "getTextToSpeechEnabled",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.TextToSpeech"],
+      "method": "setTextToSpeechEnabled",
+      "type": "async",
+      "params": [
+        {
+          "name": "enabled",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.TextToSpeech"],
+      "method": "subscribeToTextToSpeechEnabled",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.TextToSpeech"],
+      "method": "setChromevoxScriptEnabled",
+      "type": "async",
+      "params": [
+        {
+          "name": "enabled",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.TextToSpeech"],
+      "method": "getInjectedChromevoxScript",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.TextToSpeech"],
+      "method": "subscribeToChromevoxScriptInjected",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.TextToSpeech"],
+      "method": "speak",
+      "type": "async",
+      "params": [
+        {
+          "name": "text",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.TextToSpeech"],
+      "method": "stopSpeech",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Tuner"],
+      "method": "isAvailable",
+      "type": "async",
+      "params": [],
+      "group": "Support"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Tuner"],
+      "method": "getChannelList",
+      "type": "async",
+      "params": [],
+      "group": "Channel"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Tuner"],
+      "method": "subscribeToChannelListChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Channel"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Tuner"],
+      "method": "getChannelCount",
+      "type": "async",
+      "params": [],
+      "group": "Channel"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Tuner"],
+      "method": "getAnalogChannelCount",
+      "type": "async",
+      "params": [],
+      "group": "Channel"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Tuner"],
+      "method": "getDigitalChannelCount",
+      "type": "async",
+      "params": [],
+      "group": "Channel"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Tuner"],
+      "method": "getChannelInfo",
+      "type": "async",
+      "params": [
+        {
+          "name": "options",
+          "type": "object"
+        }
+      ],
+      "group": "Channel"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Tuner"],
+      "method": "getCurrentChannelInfo",
+      "type": "async",
+      "params": [],
+      "group": "Channel"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Tuner"],
+      "method": "getCurrentChannelId",
+      "type": "async",
+      "params": [],
+      "group": "Channel"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Tuner"],
+      "method": "playChannel",
+      "type": "async",
+      "params": [
+        {
+          "name": "options",
+          "type": "object"
+        }
+      ],
+      "group": "Channel"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Tuner"],
+      "method": "stopPlayback",
+      "type": "async",
+      "params": [],
+      "group": "Channel"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Tuner"],
+      "method": "startScan",
+      "type": "async",
+      "params": [
+        {
+          "name": "options",
+          "type": "object"
+        }
+      ],
+      "group": "Scan"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Tuner"],
+      "method": "scanToCompletion",
+      "type": "async",
+      "params": [
+        {
+          "name": "options",
+          "type": "object"
+        }
+      ],
+      "group": "Scan"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Tuner"],
+      "method": "cancelScan",
+      "type": "async",
+      "params": [],
+      "group": "Scan"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Tuner"],
+      "method": "getScanProgress",
+      "type": "async",
+      "params": [],
+      "group": "Scan"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Tuner"],
+      "method": "subscribeToScanProgress",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Scan"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Tuner"],
+      "method": "getSignalState",
+      "type": "async",
+      "params": [],
+      "group": "Signal"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.Tuner"],
+      "method": "subscribeToSignalState",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Signal"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.User"],
+      "method": "getIsAllTOSAccepted",
+      "type": "async",
+      "params": [],
+      "group": "Consent"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.User"],
+      "method": "subscribeToAllTOSAccepted",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Consent"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.User"],
+      "method": "getIsVizioTOSAccepted",
+      "type": "async",
+      "params": [],
+      "group": "Consent"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.User"],
+      "method": "getIsActivityDataPolicyAccepted",
+      "type": "async",
+      "params": [],
+      "group": "Consent"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.User"],
+      "method": "setActivityDataPolicyAccepted",
+      "type": "async",
+      "params": [
+        {
+          "name": "accepted",
+          "type": "boolean"
+        }
+      ],
+      "group": "Consent"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.User"],
+      "method": "subscribeToActivityDataPolicyAccepted",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Consent"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.User"],
+      "method": "getIsGoogleTOSAccepted",
+      "type": "async",
+      "params": [],
+      "group": "Consent"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.User"],
+      "method": "getIsItvNotificationsAccepted",
+      "type": "async",
+      "params": [],
+      "group": "Consent"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.User"],
+      "method": "setItvNotificationsAccepted",
+      "type": "async",
+      "params": [
+        {
+          "name": "accepted",
+          "type": "boolean"
+        }
+      ],
+      "group": "Consent"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.User"],
+      "method": "getLanguage",
+      "type": "async",
+      "params": [],
+      "group": "Options"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.User"],
+      "method": "subscribeToDeviceLanguageChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Options"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.User"],
+      "method": "getDeviceName",
+      "type": "async",
+      "params": [],
+      "group": "Options"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.User"],
+      "method": "subscribeToDeviceNameChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Options"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.User"],
+      "method": "subscribeToVolumeLevelChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Options"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.User"],
+      "method": "subscribeToVolumeMute",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Options"
+    },
+    {
+      "namespace": ["window.VIZIO_MODULES.User"],
+      "method": "subscribeToContentChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Options"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getCurrentApp",
+      "type": "callback",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "App"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getCurrentAppAsync",
+      "type": "async",
+      "params": [],
+      "group": "App"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "isCurrentApp",
+      "type": "async",
+      "params": [
+        {
+          "name": "cname",
+          "type": "string"
+        }
+      ],
+      "group": "App",
+      "staticSamples": [
+        {
+          "parameter": "cname",
+          "values": ["sctv", "oobe", "wc-vizio-pay"]
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getVIZIOApp",
+      "type": "sync",
+      "params": [
+        {
+          "name": "cname",
+          "type": "string"
+        }
+      ],
+      "group": "App",
+      "staticSamples": [
+        {
+          "parameter": "cname",
+          "values": ["sctv", "oobe", "wc-vizio-pay"]
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getVizioAppInfoByCname",
+      "type": "async",
+      "params": [
+        {
+          "name": "cname",
+          "type": "string"
+        }
+      ],
+      "group": "App",
+      "staticSamples": [
+        {
+          "parameter": "cname",
+          "values": ["sctv", "oobe", "wc-vizio-pay"]
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "launchApp",
+      "type": "callback",
+      "params": [
+        {
+          "name": "NAME_SPACE",
+          "type": "string"
+        },
+        {
+          "name": "APP_ID",
+          "type": "string"
+        },
+        {
+          "name": "MESSAGE",
+          "type": "string"
+        },
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "App",
+      "staticSamples": [
+        {
+          "parameter": "NAME_SPACE",
+          "values": [4]
+        },
+        {
+          "parameter": "APP_ID",
+          "values": ["3", "151", "568"]
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "launchAmbient",
+      "type": "async",
+      "params": [],
+      "group": "App"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "exitApplication",
+      "type": "async",
+      "params": [],
+      "group": "App"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setAppCurrentHandler",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "App"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setAppOverlayListener",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "App"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setVisibilityChangeListener",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "App"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setVisibilityChangeHandler",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "App"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "isBackgroundApp",
+      "type": "sync",
+      "params": [],
+      "group": "App"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "enableClosedCaptions",
+      "type": "async",
+      "params": [],
+      "group": "Captions"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "disableClosedCaptions",
+      "type": "async",
+      "params": [],
+      "group": "Captions"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "toggleClosedCaptions",
+      "type": "async",
+      "params": [],
+      "group": "Captions"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getClosedCaptionsStatus",
+      "type": "async",
+      "params": [],
+      "group": "Captions"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setClosedCaptionHandler",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Captions"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setClosedCaptionStyleChangeHandler",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Captions"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getClosedCaptionStyles",
+      "type": "callback",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Captions"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "isAirPlayEnabled",
+      "type": "async",
+      "params": [],
+      "group": "Device"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getDolbyAtmosSupport",
+      "type": "async",
+      "params": [],
+      "group": "Device"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getIsDpadEnabled",
+      "type": "async",
+      "params": [],
+      "group": "Device"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getDeviceHDRCapabilities",
+      "type": "callback",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Device"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getDevicePlaybackQualities",
+      "type": "callback",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Device"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "isSemaphoreCapable",
+      "type": "async",
+      "params": [],
+      "group": "Device"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getDeviceId",
+      "type": "callback",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Device"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getModelYear",
+      "type": "callback",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Device"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "is2016Model",
+      "type": "callback",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Device"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getModelName",
+      "type": "async",
+      "params": [],
+      "group": "Device"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "is2020Model",
+      "type": "callback",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Device"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setCustomClickTarget",
+      "type": "sync",
+      "params": [
+        {
+          "name": "target",
+          "type": "string"
+        }
+      ],
+      "group": "Keyboard"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getCustomClickTarget",
+      "type": "sync",
+      "params": [],
+      "group": "Keyboard"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "enableHoldingGestures",
+      "type": "sync",
+      "params": [
+        {
+          "name": "duration",
+          "type": "number"
+        }
+      ],
+      "group": "Keyboard"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "registerKeyEvents",
+      "type": "callback",
+      "params": [
+        {
+          "name": "additionalKeyEvents",
+          "type": "array"
+        },
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Keyboard"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setPartnerAppFailed",
+      "type": "async",
+      "params": [],
+      "group": "Partner"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setPartnerAppReady",
+      "type": "async",
+      "params": [],
+      "group": "Partner"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getSystemCapability",
+      "type": "callback",
+      "params": [
+        {
+          "name": "key",
+          "type": "string"
+        },
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Dynamic Capability",
+      "staticSamples": [
+        {
+          "parameter": "key",
+          "values": ["BT_GAMEPADS", "VIZIO_PAY_CAPABLE", "LOKI_WEBSOCKET"]
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "isFeatureEnabled",
+      "type": "sync",
+      "params": [
+        {
+          "name": "capabilityKey",
+          "type": "string"
+        }
+      ],
+      "group": "Dynamic Capability"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "isCapabilityTrue",
+      "type": "async",
+      "params": [
+        {
+          "name": "key",
+          "type": "string"
+        }
+      ],
+      "group": "Dynamic Capability",
+      "staticSamples": [
+        {
+          "parameter": "key",
+          "values": ["BT_GAMEPADS", "VIZIO_PAY_CAPABLE", "LOKI_WEBSOCKET"]
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setCapabilitiesChangeListener",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Dynamic Capability"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setTTSStatusListener",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "TTS"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getIPAddress",
+      "type": "async",
+      "params": [],
+      "group": "Identifier"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getMACAddress",
+      "type": "async",
+      "params": [],
+      "group": "Identifier"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getBuildVersion",
+      "type": "async",
+      "params": [],
+      "group": "Identifier"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setAdvertiserIDListener",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Identifier"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "stopAdvertiserIDListener",
+      "type": "sync",
+      "params": [],
+      "group": "Identifier"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "dhash",
+      "type": "callback",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Identifier"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "esn",
+      "type": "callback",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Identifier"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "dsn",
+      "type": "callback",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Identifier"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getDeviceInformation",
+      "type": "async",
+      "params": [],
+      "group": "Info"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getSystemInformation",
+      "type": "async",
+      "params": [],
+      "group": "Info"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getDeviceManifest",
+      "type": "async",
+      "params": [],
+      "group": "Info"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "displaySidebarMenu",
+      "type": "async",
+      "params": [
+        {
+          "name": "body",
+          "type": "object"
+        }
+      ],
+      "group": "Menu"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setSystemMenuListener",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Menu"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getConnectionStatus",
+      "type": "async",
+      "params": [],
+      "group": "Network"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setConnectionStatusHandler",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Network"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "connectionType",
+      "type": "async",
+      "params": [],
+      "group": "Network"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "isNetworkConfigured",
+      "type": "async",
+      "params": [],
+      "group": "Network"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getNetworkInformation",
+      "type": "async",
+      "params": [],
+      "group": "Network"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getWifiSSID",
+      "type": "async",
+      "params": [],
+      "group": "Network"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getWifiSignalStrength",
+      "type": "async",
+      "params": [],
+      "group": "Network"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getConfigProperty",
+      "type": "callback",
+      "params": [
+        {
+          "name": "key",
+          "type": "string"
+        },
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "SC-Config",
+      "staticSamples": [
+        {
+          "parameter": "key",
+          "values": [
+            "AppConfigs:CL:Account:allowUnlink",
+            "AppConfigs:CL:Logging:verbose",
+            "AppConfigs:CL:Telemetry:Override",
+            "AppConfigs:CL:Tuner:TelemetryHeartbeatMs"
+          ]
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getConfigPropertyAsync",
+      "type": "async",
+      "params": [
+        {
+          "name": "key",
+          "type": "string"
+        }
+      ],
+      "group": "SC-Config",
+      "staticSamples": [
+        {
+          "parameter": "key",
+          "values": [
+            "AppConfigs:CL:Account:allowUnlink",
+            "AppConfigs:CL:Logging:verbose",
+            "AppConfigs:CL:Telemetry:Override",
+            "AppConfigs:CL:Tuner:TelemetryHeartbeatMs"
+          ]
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getDeviceTimezone",
+      "type": "callback",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Time"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getDeviceTimezoneGMTOffset",
+      "type": "async",
+      "params": [],
+      "group": "Time"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getDSTOffset",
+      "type": "async",
+      "params": [],
+      "group": "Time"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getDaylightSavingsTime",
+      "type": "async",
+      "params": [],
+      "group": "Time"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setTimeFormatHandler",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Time"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setTimeZoneListener",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Time"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getDeviceCountry",
+      "type": "callback",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Environment"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getDeviceCountryData",
+      "type": "async",
+      "params": [],
+      "group": "Environment"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setAppConfigNewListener",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Environment"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setCastStateHandler",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Environment"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getInputUIList",
+      "type": "callback",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Input"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setInputContextChangeListener",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Input"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setInputNameListener",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Input"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setInputVisibleListener",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Input"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setInputEnabledListener",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Input"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setInputUIListUpdatedHandler",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Input"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getSystemPowerMode",
+      "type": "async",
+      "params": [],
+      "group": "Power"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setPowerModeListener",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Power"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "togglePowerMode",
+      "type": "async",
+      "params": [],
+      "group": "Power"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getCurrentPowerMode",
+      "type": "async",
+      "params": [],
+      "group": "Power"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getAvailablePowerModes",
+      "type": "async",
+      "params": [],
+      "group": "Power"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setPowerMode",
+      "type": "callback",
+      "params": [
+        {
+          "name": "mode",
+          "type": "string"
+        },
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Power"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "softPowerCycle",
+      "type": "async",
+      "params": [],
+      "group": "Power"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getStoreProperty",
+      "type": "callback",
+      "params": [
+        {
+          "name": "key",
+          "type": "string"
+        },
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "TV Store",
+      "staticSamples": [
+        {
+          "parameter": "key",
+          "values": ["ToadName", "FrogName", "NewtName", "SalamanderName"]
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getStorePropertyAsync",
+      "type": "async",
+      "params": [
+        {
+          "name": "key",
+          "type": "string"
+        }
+      ],
+      "group": "TV Store",
+      "staticSamples": [
+        {
+          "parameter": "key",
+          "values": ["ToadName", "FrogName", "NewtName", "SalamanderName"]
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getStoreProperties",
+      "type": "callback",
+      "params": [
+        {
+          "name": "keys",
+          "type": "array"
+        },
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "TV Store",
+      "staticSamples": [
+        {
+          "parameter": "keys",
+          "values": ["ToadName", "FrogName", "NewtName", "SalamanderName"]
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setStoreProperty",
+      "type": "callback",
+      "params": [
+        {
+          "name": "key",
+          "type": "string"
+        },
+        {
+          "name": "val",
+          "type": "string"
+        },
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "TV Store",
+      "staticSamples": [
+        {
+          "parameter": "key",
+          "values": ["ToadName", "FrogName", "NewtName", "SalamanderName"]
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getZoomEnabled",
+      "type": "async",
+      "params": [],
+      "group": "Zoom"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setZoomEnabledHandler",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Zoom"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setZoomFocusQuadrant",
+      "type": "async",
+      "params": [
+        {
+          "name": "quadrant",
+          "type": "number"
+        }
+      ],
+      "group": "Zoom"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getFirmwareVersion",
+      "type": "callback",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Version"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getConfigVersion",
+      "type": "callback",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Version"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getPackageVersion",
+      "type": "async",
+      "params": [],
+      "group": "Version"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getScplVersionNumbers",
+      "type": "async",
+      "params": [],
+      "group": "Version"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getScplVersionString",
+      "type": "async",
+      "params": [],
+      "group": "Version"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "isToSAccepted",
+      "type": "callback",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Consent"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setToSAcceptedHandler",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Consent"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getActivityDataPolicyAccepted",
+      "type": "async",
+      "params": [],
+      "group": "Consent"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setActivityDataPolicyAccepted",
+      "type": "callback",
+      "params": [
+        {
+          "name": "isAccepted",
+          "type": "boolean"
+        },
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Consent"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setActivityDataPolicyAcceptedListener",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Consent"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "language",
+      "type": "callback",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "User"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setDeviceLanguageHandler",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "User"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "getDeviceName",
+      "type": "callback",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "User"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setDeviceNameHandler",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "User"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setDeviceNameChangeListener",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "User"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setVolumeLevelListener",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "User"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setVolumeMuteListener",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "User"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setContentChangeHandler",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "User"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "setTunerScanPercentageListener",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "User"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "activeAppObject",
+      "type": "accessor",
+      "params": [],
+      "group": "Accessors"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "buildVersion",
+      "type": "accessor",
+      "params": [],
+      "group": "Accessors"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "deviceModel",
+      "type": "accessor",
+      "params": [],
+      "group": "Accessors"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "deviceInfo",
+      "type": "accessor",
+      "params": [],
+      "group": "Accessors"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "isDpadEnabled",
+      "type": "accessor",
+      "params": [],
+      "group": "Accessors"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "isCoreReady",
+      "type": "accessor",
+      "params": [],
+      "group": "Accessors"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "isLibraryLoaded",
+      "type": "accessor",
+      "params": [],
+      "group": "Accessors"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "isSmartCastDevice",
+      "type": "accessor",
+      "params": [],
+      "group": "Accessors"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "scplVersion",
+      "type": "accessor",
+      "params": [],
+      "group": "Accessors"
+    },
+    {
+      "namespace": ["window.VIZIO"],
+      "method": "version",
+      "type": "accessor",
+      "params": [],
+      "group": "Accessors"
+    },
+    {
+      "namespace": ["window.VIZIO.Bluetooth"],
+      "method": "getIsGamepadSupported",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO.Bluetooth"],
+      "method": "openGamepadPairingDialog",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO.Chromevox"],
+      "method": "play",
+      "type": "async",
+      "params": [
+        {
+          "name": "text",
+          "type": "string"
+        }
+      ],
+      "group": "Playback"
+    },
+    {
+      "namespace": ["window.VIZIO.Chromevox"],
+      "method": "cancel",
+      "type": "async",
+      "params": [],
+      "group": "Playback"
+    },
+    {
+      "namespace": ["window.VIZIO.Chromevox"],
+      "method": "setTtsEnabled",
+      "type": "async",
+      "params": [
+        {
+          "name": "enabled",
+          "type": "boolean"
+        }
+      ],
+      "group": "Enabled"
+    },
+    {
+      "namespace": ["window.VIZIO.Chromevox"],
+      "method": "getTextToSpeechEnabled",
+      "type": "async",
+      "params": [],
+      "group": "Enabled"
+    },
+    {
+      "namespace": ["window.VIZIO.Chromevox"],
+      "method": "ttsEnabled",
+      "type": "accessor",
+      "params": [],
+      "group": "Enabled"
+    },
+    {
+      "namespace": ["window.VIZIO.Chromevox"],
+      "method": "getInjectedChromevoxScript",
+      "type": "async",
+      "params": [],
+      "group": "Script"
+    },
+    {
+      "namespace": ["window.VIZIO.Chromevox"],
+      "method": "chromevoxLibrary",
+      "type": "accessor",
+      "params": [],
+      "group": "Script"
+    },
+    {
+      "namespace": ["window.VIZIO.Consent"],
+      "method": "isVizioTOSAccepted",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO.Consent"],
+      "method": "isGoogleTOSAccepted",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO.Consent"],
+      "method": "isActivityDataPolicyAccepted",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO.Consent"],
+      "method": "getItvConsentStatus",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO.Consent"],
+      "method": "setItvConsentStatus",
+      "type": "async",
+      "params": [
+        {
+          "name": "accepted",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO.network"],
+      "method": "getNetworkConnectionStatus",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO.network"],
+      "method": "waitForNetwork",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "namespace": ["window.VIZIO.Oobe.launch"],
+      "method": "connectWifi",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO.Oobe.launch"],
+      "method": "customLocation",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO.Oobe.launch"],
+      "method": "tunerSetup",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO.Oobe.launch"],
+      "method": "acceptTermsViewingDataOnetrust",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO.Oobe.launch"],
+      "method": "acceptTermsOnetrust",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO.Oobe.launch"],
+      "method": "acceptActivityDataOnetrust",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO.Oobe.launch"],
+      "method": "vizioAccount",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO.Oobe.launch"],
+      "method": "registerDisplay",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO.Oobe.launch"],
+      "method": "selectWifi",
+      "type": "async",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO._deviceInfoStore"],
+      "method": "isPurchaseCapable",
+      "type": "accessor",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO._deviceInfoStore"],
+      "method": "isDiscountCapable",
+      "type": "accessor",
+      "params": []
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "isAvailable",
+      "type": "async",
+      "params": [],
+      "group": "Support"
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "getDolbyAtmosSupport",
+      "type": "async",
+      "params": [],
+      "group": "Support"
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "scan",
+      "type": "async",
+      "params": [
+        {
+          "name": "includeAnalogChannels",
+          "type": "boolean"
+        }
+      ],
+      "group": "Scan"
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "cancelScan",
+      "type": "async",
+      "params": [],
+      "group": "Scan"
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "getScanProgress",
+      "type": "async",
+      "params": [],
+      "group": "Scan"
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "subscribeToScanProgress",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Scan"
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "getChannelList",
+      "type": "async",
+      "params": [],
+      "group": "Channel"
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "subscribeToChannelListChange",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Channel"
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "playChannel",
+      "type": "async",
+      "params": [
+        {
+          "name": "channelId",
+          "type": "string"
+        }
+      ],
+      "group": "Channel"
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "playChannelByMajorMinor",
+      "type": "async",
+      "params": [
+        {
+          "name": "majorId",
+          "type": "number"
+        },
+        {
+          "name": "minorId",
+          "type": "number"
+        }
+      ],
+      "group": "Channel"
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "getCurrentChannelId",
+      "type": "async",
+      "params": [],
+      "group": "Channel"
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "stopPlayback",
+      "type": "async",
+      "params": [],
+      "group": "Channel"
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "resizeTuner",
+      "type": "async",
+      "params": [
+        {
+          "name": "resizeOptions",
+          "type": "object"
+        }
+      ],
+      "group": "Display"
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "getSignalState",
+      "type": "async",
+      "params": [],
+      "group": "Signal"
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "subscribeToSignalState",
+      "type": "subscribe",
+      "params": [
+        {
+          "name": "callback",
+          "type": "function"
+        }
+      ],
+      "group": "Signal"
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "unsubscribeFromSignalState",
+      "type": "sync",
+      "params": [],
+      "group": "Signal"
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "getClosedCaptionsStatus",
+      "type": "async",
+      "params": [],
+      "group": "Captions"
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "enableClosedCaptions",
+      "type": "async",
+      "params": [],
+      "group": "Captions"
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "disableClosedCaptions",
+      "type": "async",
+      "params": [],
+      "group": "Captions"
+    },
+    {
+      "namespace": ["window.VIZIO.Tuner"],
+      "method": "toggleClosedCaptions",
+      "type": "async",
+      "params": [],
+      "group": "Captions"
+    }
+  ],
+  "extractionBoundary": "312 named definition records accepted; AST counted 314 deeplinkId properties. Two entries did not meet the name filter; no claim of full definition coverage."
+}

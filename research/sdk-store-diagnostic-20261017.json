@@ -1,0 +1,20 @@
+{
+  "available": true,
+  "receivedAt": "2026-10-18T02:38:24.434Z",
+  "report": {
+    "probe": "sdk-store-12",
+    "run": "7b9d84100d3b487794a418efe66cff67",
+    "loaded": true,
+    "ready": true,
+    "state": "resolved",
+    "methods": [
+      {
+        "scope": "System",
+        "name": "getTvStoreProperty",
+        "type": "function"
+      }
+    ],
+    "responseType": "undefined",
+    "sequence": 3
+  }
+}

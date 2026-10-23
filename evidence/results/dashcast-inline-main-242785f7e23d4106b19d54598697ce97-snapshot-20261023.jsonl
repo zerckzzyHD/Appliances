@@ -1,0 +1,7 @@
+{"run": "242785f7e23d4106b19d54598697ce97", "target": "main", "stage": "url_sent", "messages": 1, "autoStop": false, "visualResult": "unobserved"}
+{"run": "242785f7e23d4106b19d54598697ce97", "target": "main", "stage": "awaiting_owner", "commands": ["status", "stop"], "autoStop": false}
+{"run": "242785f7e23d4106b19d54598697ce97", "target": "main", "stage": "url_echo", "received": true}
+{"run": "242785f7e23d4106b19d54598697ce97", "target": "main", "stage": "status", "urlEchoReceived": true, "capturedSessionActive": true, "stopSent": false}
+{"run": "242785f7e23d4106b19d54598697ce97", "target": "main", "stage": "session_lost_before_stop", "stopSent": false}
+{"run": "242785f7e23d4106b19d54598697ce97", "target": "main", "stage": "owner_stop_requested"}
+{"run": "242785f7e23d4106b19d54598697ce97", "target": "main", "stage": "cleanup", "receiverLaunchAttempted": true, "ownedStopAttempted": false, "senderDisconnected": true, "cleanupIncomplete": false}

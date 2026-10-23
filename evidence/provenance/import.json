@@ -1,0 +1,1565 @@
+{
+  "schema": 1,
+  "sourceCommits": {
+    "forge": "cfb4e30e8741c1eaaae43f3746410eeccdcd12dc",
+    "handoff": "f453d7df6e01b055b0f94f5566a984007d5fcae7"
+  },
+  "createdUTC": "2026-10-23T21:53:28.969450+00:00",
+  "records": [
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/.gitignore",
+      "importPath": ".gitignore",
+      "bytes": 34,
+      "sha256": "0ee585aa2214b70c4ce6097927d8becb7ce4ab22ff584aa55bd168db96093560",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/CONSOLE-LIFECYCLE.md",
+      "importPath": "CONSOLE-LIFECYCLE.md",
+      "bytes": 3086,
+      "sha256": "ef47e3db298bd9f7b8d15e30d1212c6a12f56da134dde8b5b751a0beb693e8a1",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/CONTEXT.md",
+      "importPath": "CONTEXT.md",
+      "bytes": 4860,
+      "sha256": "4971642a4db0e63f6bfef47ca9dd2d5253aaebe6e59e64659861b1cf5ff9aa33",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/EXECUTION-PLAN.md",
+      "importPath": "EXECUTION-PLAN.md",
+      "bytes": 87412,
+      "sha256": "598842cf558429fdcf99b0308563a724f23722145968debf3975dd7d4a04db05",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/FIRMWARE-RESEARCH.md",
+      "importPath": "FIRMWARE-RESEARCH.md",
+      "bytes": 36551,
+      "sha256": "13a77456b86c34d43af3f20e090448491b4f1636f27a28574fe68127ae76d307",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/HANDOFF-NOTES.md",
+      "importPath": "HANDOFF-NOTES.md",
+      "bytes": 118704,
+      "sha256": "3c10e814fb2fb5801ae7c7959f3630f780a618a106dce7077d59f9f319b36805",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/HOME-LAYOUT.md",
+      "importPath": "HOME-LAYOUT.md",
+      "bytes": 9293,
+      "sha256": "1363e2bdc462ccdf907eba89ad06c7cbdecc04295807fb76567ed3ed32b4eab8",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/HOME-SPEC.md",
+      "importPath": "HOME-SPEC.md",
+      "bytes": 8447,
+      "sha256": "1d13968e53f6d60fbc2997eed8c588c05f9383d03a40af35863876f254b15b85",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/READINESS.md",
+      "importPath": "READINESS.md",
+      "bytes": 4408,
+      "sha256": "6f95a93d77c7a102c0af5daccd880910e17acbfd68a674092c46ca54a9e8d077",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/README.md",
+      "importPath": "README.md",
+      "bytes": 10624,
+      "sha256": "6bbd7bea56e7541eda22a8d0c80b759680e13b1f343774c458a97921e631a259",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/ROUTES.md",
+      "importPath": "ROUTES.md",
+      "bytes": 15484,
+      "sha256": "1819c440d373c47ac847de1250010d45679baf3bbc3c7220c35df1fb112f2d2f",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/SOFTWARE-ENTRY-REVIEW.md",
+      "importPath": "SOFTWARE-ENTRY-REVIEW.md",
+      "bytes": 57047,
+      "sha256": "6dfe35a5566362f27231b927382788f25068ec48d26178131daa43f7da01773d",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/STATUS.md",
+      "importPath": "STATUS.md",
+      "bytes": 19089,
+      "sha256": "7b152c4bdf5c93665f6f640648f4bf0827f1d0643a8dba297e7b33b5c4032854",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/TV-ATTENTION-DESIGN.md",
+      "importPath": "TV-ATTENTION-DESIGN.md",
+      "bytes": 21562,
+      "sha256": "c97597eccc058d24ec93d94e137e2ef749a3ab51777c77878a4330abeaf0edaa",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/TV-ENTRY.md",
+      "importPath": "TV-ENTRY.md",
+      "bytes": 13042,
+      "sha256": "8a75ed261b2d2c9219e1627d8abe816d4645f21bd5dc879e9a763e1e44a7642a",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/bin/check-ready.ps1",
+      "importPath": "bin/check-ready.ps1",
+      "bytes": 1800,
+      "sha256": "022ee401c548000ae5692be89422510d16bbfd029a105d310fd3d5007a61345e",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/bin/install-readiness.ps1",
+      "importPath": "bin/install-readiness.ps1",
+      "bytes": 931,
+      "sha256": "e2450b861ffcb4b3e8268566b89b03f324c8cafc13c16637cbc8d515a893a95c",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/bin/launch.ps1",
+      "importPath": "bin/launch.ps1",
+      "bytes": 1654,
+      "sha256": "04d98fe7349d443dbbaab636bd0f38efda23a35af96f5afbba8d255d17e9fe47",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/bin/process-job.ps1",
+      "importPath": "bin/process-job.ps1",
+      "bytes": 3182,
+      "sha256": "7107d9eb8eb11100f704e57a3de2e9546b3afd33b7cfeb4af557e4a7cc4f5ac6",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/bin/serve.mjs",
+      "importPath": "bin/serve.mjs",
+      "bytes": 228,
+      "sha256": "fe6a51990f02eda1ed9e803c732b33c5cf20c2d10e5b48407af09969a1352379",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/bin/start-ready.ps1",
+      "importPath": "bin/start-ready.ps1",
+      "bytes": 316,
+      "sha256": "e2d32a179b90acc7fbe121321c8eb77846dbcb95c483bd3fe4712662704df454",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/package-lock.json",
+      "importPath": "package-lock.json",
+      "bytes": 15977,
+      "sha256": "b2dc55624bdc7a9cf81bde02464088bdf8e7a52bca5bb0a6a54548e475e69a41",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/package.json",
+      "importPath": "package.json",
+      "bytes": 802,
+      "sha256": "21b1c43cf1bc1629fc5bfad87974dc46759c96ba37b78104256a2033bd4a0aac",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/analyze-sdk-memory.mjs",
+      "importPath": "research/analyze-sdk-memory.mjs",
+      "bytes": 7071,
+      "sha256": "6433dd704b022875d3331ac58b414c6bb623744bfd799f036559ba8cf5b66a9c",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/analyze-test-ui-memory.mjs",
+      "importPath": "research/analyze-test-ui-memory.mjs",
+      "bytes": 7700,
+      "sha256": "1f75472ec5a4e79fdd6d316ee6880ccffa01fa577a09975a06b5185b103e21a7",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/await-diagnostics.mjs",
+      "importPath": "research/await-diagnostics.mjs",
+      "bytes": 4200,
+      "sha256": "e50b52ed8ab3a1b14bd72d98fea138738e4b2d6b7a590ecdf33911eb428ddfa7",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/build-dependency-parser.mjs",
+      "importPath": "research/build-dependency-parser.mjs",
+      "bytes": 1503,
+      "sha256": "4ca0f67ba7192f8307487dfe19e59f94b1b14c9cf947a3e78b0f6fcc756ec7f7",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/build-document-parser.mjs",
+      "importPath": "research/build-document-parser.mjs",
+      "bytes": 1679,
+      "sha256": "5c752f1373c8c1bc8434bf4d13ba87cb7899f7f40ef5e9d026727137d83fe8af",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/cast-usb-check.py",
+      "importPath": "research/cast-usb-check.py",
+      "bytes": 5017,
+      "sha256": "93a47e956c65f6af27350136f000950ba7743ea46ad939f55a201cfc3d0385d2",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/catalog-inspection.json",
+      "importPath": "research/catalog-inspection.json",
+      "bytes": 697,
+      "sha256": "fccc2df90e754357cdcc3b1966e6321f409bab879f8c8a567da10072ae9b89a7",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/catalog-shape-browser.mjs",
+      "importPath": "research/catalog-shape-browser.mjs",
+      "bytes": 4319,
+      "sha256": "354560c107245bb1f74f0b543e1fe1d24263b557ae49049c066871df33fda9d4",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/catalog-shape-diagnostic-20261017.json",
+      "importPath": "research/catalog-shape-diagnostic-20261017.json",
+      "bytes": 8557,
+      "sha256": "aa2255217af2f4e3f329aa84596b217c2d3d671c71545c41819e6c2bb7d2c796",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/catalog-shape-plan.md",
+      "importPath": "research/catalog-shape-plan.md",
+      "bytes": 2174,
+      "sha256": "319e60c64f46af24f1468b44b10fc94f9f510372cbd5bbc934bff407ff31d6b3",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/catalog-shape.mjs",
+      "importPath": "research/catalog-shape.mjs",
+      "bytes": 6084,
+      "sha256": "718bcd3f4707f5378ea6ab2004e67e41c16d298af5886f31f0b6023335a2e9c3",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/catalog-type-diagnostic-20261017.json",
+      "importPath": "research/catalog-type-diagnostic-20261017.json",
+      "bytes": 2383,
+      "sha256": "87e60c5878e688b260e34ce3390365956d0fe26e224b3c753c7e30f629d588e0",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/conjure-route-browser.mjs",
+      "importPath": "research/conjure-route-browser.mjs",
+      "bytes": 3744,
+      "sha256": "ceda321184d2e8153ae714ec6d5e0d2be089fca5c21cf76381133bff0795c22d",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/conjure-route-diagnostic-20261017.json",
+      "importPath": "research/conjure-route-diagnostic-20261017.json",
+      "bytes": 2367,
+      "sha256": "13adc27d441d2840e9b3c5c50561237c30896b0ab90c1284053f32c88ef6dc8a",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/conjure-route-filter.mjs",
+      "importPath": "research/conjure-route-filter.mjs",
+      "bytes": 1723,
+      "sha256": "e2b3c9ca911398dd5c6c671870633915b0994b2f9009a14cd19488906b8cad8d",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/dashcast-marker-plan.md",
+      "importPath": "research/dashcast-marker-plan.md",
+      "bytes": 5034,
+      "sha256": "dab69fc6b32ddf12dfcee422f18c3924e16e93bd12aa41113d586fd51adba139",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/dashcast-marker.mjs",
+      "importPath": "research/dashcast-marker.mjs",
+      "bytes": 1085,
+      "sha256": "d6ce3ed9ef074e7e5eaceab946e931cabee940373be75ef0945cdb9882d7b3d4",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/diagnostic-browser-report.mjs",
+      "importPath": "research/diagnostic-browser-report.mjs",
+      "bytes": 2245,
+      "sha256": "e6129a140b1b5d3d0131738f77a0dc0d0e6167f9f830b65e756514d1bf28f9c8",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-coverage-browser.mjs",
+      "importPath": "research/home-coverage-browser.mjs",
+      "bytes": 7578,
+      "sha256": "66adaecc49c537939727777720d1d15d98486e012156a4d245ee4f1d3ccc46d0",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-coverage-contract.mjs",
+      "importPath": "research/home-coverage-contract.mjs",
+      "bytes": 2963,
+      "sha256": "1d9779bf818ea742d15612a40bc6fe760c33484331be185b5d461ce175610eba",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-dependencies-browser.mjs",
+      "importPath": "research/home-dependencies-browser.mjs",
+      "bytes": 27790,
+      "sha256": "417138a62c95bdd65115dbb56365701f22ecfe1b8005aa85a365e728df86fd35",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-dependencies-contract.mjs",
+      "importPath": "research/home-dependencies-contract.mjs",
+      "bytes": 18653,
+      "sha256": "4b047f3f63420e2ee9c1c85149240f1295cb6e118a195bfcfa0e852587c329f8",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-dependencies-entry.mjs",
+      "importPath": "research/home-dependencies-entry.mjs",
+      "bytes": 115,
+      "sha256": "023d5df50d2f6af5e6d4bd7394b59ef7ccfbe3515416e9b8708c0c635f317df8",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-dependencies-parser.mjs",
+      "importPath": "research/home-dependencies-parser.mjs",
+      "bytes": 40346,
+      "sha256": "e07c682b903cfb5dc0a3f3366256a1e7dac1609f2bbb3c82d8dd9731bdb875bc",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-dependencies-prepared.mjs",
+      "importPath": "research/home-dependencies-prepared.mjs",
+      "bytes": 780,
+      "sha256": "6521e345253cd6e694eaa030116649702c10a58773621f8483c93c125b34b0d3",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-dependencies-worker.mjs",
+      "importPath": "research/home-dependencies-worker.mjs",
+      "bytes": 719,
+      "sha256": "46608ed16dbfc9b01ed9c643e7f59642bc93e390b79befd16f6441289576bbc6",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-document-browser.mjs",
+      "importPath": "research/home-document-browser.mjs",
+      "bytes": 12698,
+      "sha256": "e9e7f0ad3d1bf923a58e1e962ba41aa8eba3d02169d0d1d48546daf6bc1fbba7",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-document-contract.mjs",
+      "importPath": "research/home-document-contract.mjs",
+      "bytes": 7507,
+      "sha256": "3fdf56e119ec4fc0e92fde4d1893b8e6644ba60c806dd92d4a50982155e50ea1",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-document-entry.mjs",
+      "importPath": "research/home-document-entry.mjs",
+      "bytes": 82,
+      "sha256": "b4bc2c502cdbb397d4c6e50827d07afd79eb7128ab3986bb512e4cc615917b3a",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-document-parser.mjs",
+      "importPath": "research/home-document-parser.mjs",
+      "bytes": 9874,
+      "sha256": "fa6f2ba827f9df3df2f62e96bd89bc2573dc9be6f2dfeab8466e4f2e4769058f",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-document-policy.mjs",
+      "importPath": "research/home-document-policy.mjs",
+      "bytes": 1420,
+      "sha256": "d466d272f2f03028592644cafbfbb4baeeb1a73528e3d69c70b87d32f787e78b",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-document-prepared.mjs",
+      "importPath": "research/home-document-prepared.mjs",
+      "bytes": 640,
+      "sha256": "83a2dc7e3548a1d0049f3ea0426581b4e6f4413bb5ce7c9a410cc3a4863e7080",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-document-worker.mjs",
+      "importPath": "research/home-document-worker.mjs",
+      "bytes": 607,
+      "sha256": "0786821d6ce899312265142ad5f9f14da128a72bb45afc0fbb8ea1ac81d2ac4b",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-input-diagnostic.mjs",
+      "importPath": "research/home-input-diagnostic.mjs",
+      "bytes": 4369,
+      "sha256": "540c4c090c7b9fa2cb3ab84f59fb0bceedbee1bf061ac5a97e526b09026c4aa8",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-input-plan.md",
+      "importPath": "research/home-input-plan.md",
+      "bytes": 8725,
+      "sha256": "09a36205b9fb08cd5de8f1c1ecb48356423d342b181ea0398be6ae9515c0e708",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-reference-diagnostic-20261017.json",
+      "importPath": "research/home-reference-diagnostic-20261017.json",
+      "bytes": 357,
+      "sha256": "b1a87644241412edeee9be0da08e4663ed3b635f62f481b78e4301c051c05efa",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-reference-diagnostic-20261018.json",
+      "importPath": "research/home-reference-diagnostic-20261018.json",
+      "bytes": 439,
+      "sha256": "961b7bb4931824f70595b46c0a60b3c020d8676ed1e60c67e60da39b8cfedc18",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-reference-projects.md",
+      "importPath": "research/home-reference-projects.md",
+      "bytes": 15089,
+      "sha256": "139938624916536a84b3d4f5b09bf13b5646d82ae2e300addbc22588d61c9292",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/home-source-check.mjs",
+      "importPath": "research/home-source-check.mjs",
+      "bytes": 5571,
+      "sha256": "13997cc3d2b0416988171e89da1db492cdb2b674f44c4ea8aba809e6926f2f0d",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/inspect-utv.mjs",
+      "importPath": "research/inspect-utv.mjs",
+      "bytes": 4566,
+      "sha256": "7fe3b801060fea778a1c05066bc759343438adc429a69abf44dfec94cd798cbd",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/isolated-server.mjs",
+      "importPath": "research/isolated-server.mjs",
+      "bytes": 14326,
+      "sha256": "4809eb2f2fbd68f67b7b102863a063f5b5855fd144d8ea4cfb66680291702b3f",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/launch-capability-check.ps1",
+      "importPath": "research/launch-capability-check.ps1",
+      "bytes": 1236,
+      "sha256": "1e0e0dbf4317134037b42dc133522e186c5b02dadbbc2390ba5f7919939f0a72",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/launch-catalog-shape.ps1",
+      "importPath": "research/launch-catalog-shape.ps1",
+      "bytes": 1329,
+      "sha256": "740a9db89c9a7d38c1cb0e105f0a0d4d577264f68a6bd6251a3c2808840450a3",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/launch-conjure-route-check.ps1",
+      "importPath": "research/launch-conjure-route-check.ps1",
+      "bytes": 1346,
+      "sha256": "85cc9c1fda8fae4116d9f72598b7dd24890a1a8a8d2a011eea2e886edcf5b95d",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/launch-debug-check.ps1",
+      "importPath": "research/launch-debug-check.ps1",
+      "bytes": 1631,
+      "sha256": "2b21980754a40f7db96d4a55dc1c2bb4afd7edd8c308fed6eb16e20359f500d0",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/launch-home-source-check.ps1",
+      "importPath": "research/launch-home-source-check.ps1",
+      "bytes": 1359,
+      "sha256": "664f59e8e76043937c1407ab1154a187d1dd5a88019936704375b1bd92f2911f",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/launch-sdk-app-lookup.ps1",
+      "importPath": "research/launch-sdk-app-lookup.ps1",
+      "bytes": 1344,
+      "sha256": "d1f115cb8243753a2f9aac16177d5f8fc9d48a6e06e77b988800f9d3fc138ce5",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/launch-sdk-catalog-check.ps1",
+      "importPath": "research/launch-sdk-catalog-check.ps1",
+      "bytes": 1323,
+      "sha256": "717c51c10cee516acac3754e4d7fb479f59264b9a833a06ece53be7577153ea1",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/launch-sdk-interfaces.ps1",
+      "importPath": "research/launch-sdk-interfaces.ps1",
+      "bytes": 1339,
+      "sha256": "13f452cbbeaeda31ab1154b2296b93829e1b9845462c2525bbba28e7a9d037d3",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/launch-sdk-internal-check.ps1",
+      "importPath": "research/launch-sdk-internal-check.ps1",
+      "bytes": 1348,
+      "sha256": "95814c4f591715f277e0e3d05175a317a7fb16773e37cab3f52135ccd6ca6bd4",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/launch-sdk-local-test-ui.ps1",
+      "importPath": "research/launch-sdk-local-test-ui.ps1",
+      "bytes": 1334,
+      "sha256": "d1fe87ebb5bf79cab505cc6ca243bf0c50268eebaad867f0e53a877d0aa28300",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/launch-sdk-source-capture.ps1",
+      "importPath": "research/launch-sdk-source-capture.ps1",
+      "bytes": 1314,
+      "sha256": "61264ec1e8a9492ba22acdf189312028101cc4e17e35dde0c5df13e100fc10c7",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/launch-sdk-source-read.ps1",
+      "importPath": "research/launch-sdk-source-read.ps1",
+      "bytes": 1196,
+      "sha256": "d564d89837024987d5571e70cde81939f3bad4a11c9672830c383d86c57698fa",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/launch-sdk-speech-check.ps1",
+      "importPath": "research/launch-sdk-speech-check.ps1",
+      "bytes": 1367,
+      "sha256": "c3cae5f7389fac0d5ed01cd1cde0e7bf9e65303f57928f57c521cc7e10cdcdf6",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/launch-sdk-store-check.ps1",
+      "importPath": "research/launch-sdk-store-check.ps1",
+      "bytes": 1325,
+      "sha256": "acf9390375ecc56fa78fe5eda3213d3fb25f2cf4e1592a292c7b905a9d6661a0",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/launch-source-mapping-check.ps1",
+      "importPath": "research/launch-source-mapping-check.ps1",
+      "bytes": 1333,
+      "sha256": "ead6c287cff9c0420bbdd873f312cef266c9630e2856d978785bc46196bea268",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/launch-test-ui-capture.ps1",
+      "importPath": "research/launch-test-ui-capture.ps1",
+      "bytes": 1324,
+      "sha256": "f896f4f881b8eefad59a7d8be4af3eec819d44e2b940ffe74b42a90fef3dfc53",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/launch-usb-check.ps1",
+      "importPath": "research/launch-usb-check.ps1",
+      "bytes": 1057,
+      "sha256": "5c40a49fca5b52e9ec33b1fb3459d5d564d7b99d1b535ac8cc26999d6c126e3b",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/mg302-inspection.json",
+      "importPath": "research/mg302-inspection.json",
+      "bytes": 1638,
+      "sha256": "3bd3f9a3bd95ed607d855558dcf546ff00999c120b10853eed599dc80dbff664",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/mg302-legacy-inspection.json",
+      "importPath": "research/mg302-legacy-inspection.json",
+      "bytes": 1424,
+      "sha256": "0c72db33a120a7513be0739fc4bf8115cece9384b3f0d5ed8a7ff486341545d4",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/mist-usb-check.html",
+      "importPath": "research/mist-usb-check.html",
+      "bytes": 395,
+      "sha256": "d58d8fe9f5a658199f458bd72cb3da7654df21c88453c990f665aaa18091624d",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/pairing-source-trace-20261021.json",
+      "importPath": "research/pairing-source-trace-20261021.json",
+      "bytes": 1510,
+      "sha256": "df905e5b29551b269e7ad5e4c577d42c0dd64385228fbc6d4302c1fc1d5f2a23",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/probe-bedroom-control.ps1",
+      "importPath": "research/probe-bedroom-control.ps1",
+      "bytes": 2072,
+      "sha256": "3df656dba939d6c0a551f364f98263140eccabe74391039b7be3fdbd419ee78a",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/probe-scpl-head.ps1",
+      "importPath": "research/probe-scpl-head.ps1",
+      "bytes": 1052,
+      "sha256": "042d6addee2b2bc0dcc6078a1726bcf9e83928268076c13d3e540d0b5f2b636a",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/probe-scpl-install-get-headers.ps1",
+      "importPath": "research/probe-scpl-install-get-headers.ps1",
+      "bytes": 1510,
+      "sha256": "4c2756c41053e6258f309fa57be7dc534340e92ec53c19b6ed4f04b7ac83f177",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/probe-scpl-install-head.ps1",
+      "importPath": "research/probe-scpl-install-head.ps1",
+      "bytes": 1076,
+      "sha256": "5538bfe10a23727069948786b741a4420cf5510c9dbc014295b5be0a53f2907a",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/restricted-diagnostics.mjs",
+      "importPath": "research/restricted-diagnostics.mjs",
+      "bytes": 3634,
+      "sha256": "1870cfe33f04dae39bdb93cf73c6b18d1691eaa5e14ca8a26a5e7a61a56a87d7",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/results/cast-metadata-main-20261021.json",
+      "importPath": "research/results/cast-metadata-main-20261021.json",
+      "bytes": 928,
+      "sha256": "238873d9946be3d30a74a512e783f4becace062c8d4642f2967bfc312cfbddda",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/results/dashcast-iframe-main-7dc1f5521164637549f7604fa7cf9a02.json",
+      "importPath": "research/results/dashcast-iframe-main-7dc1f5521164637549f7604fa7cf9a02.json",
+      "bytes": 1416,
+      "sha256": "c6fca5e5d0f9b0726b1bea9eb3a87b55e752e5e501b7dccdf4def9abc4041464",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/results/dashcast-inline-main-242785f7e23d4106b19d54598697ce97-observation.json",
+      "importPath": "research/results/dashcast-inline-main-242785f7e23d4106b19d54598697ce97-observation.json",
+      "bytes": 924,
+      "sha256": "8e690dcf004fe964adc69388f33a5e9629abe8ca8a15debc7b103b9069426ab5",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/results/isolated-bedroom-7756bb9da274a295a73ca21f8fdc13dc.json",
+      "importPath": "research/results/isolated-bedroom-7756bb9da274a295a73ca21f8fdc13dc.json",
+      "bytes": 33477,
+      "sha256": "ea55b82b1250acb14a377b45d0aad5f11ff1a652a15e9a248920974ea13abc2b",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/results/isolated-main-03a6541cf1e1606a683510c2a2708de1.json",
+      "importPath": "research/results/isolated-main-03a6541cf1e1606a683510c2a2708de1.json",
+      "bytes": 1865,
+      "sha256": "3f3636a8b3004c638097d69c05716cbf35a0907ef2481c2245e987a612ce66ae",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/results/isolated-main-0f1c320e874438e65a2a7970a450d2f2.json",
+      "importPath": "research/results/isolated-main-0f1c320e874438e65a2a7970a450d2f2.json",
+      "bytes": 723,
+      "sha256": "aa0516d076858b94a4a067ff0275eae89a296964db01995e4914899b7c0010b1",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/results/isolated-main-8668beae673964819195dce450d79d5e.json",
+      "importPath": "research/results/isolated-main-8668beae673964819195dce450d79d5e.json",
+      "bytes": 4042,
+      "sha256": "c50b35b094ceba929715bfc871b119863bea72a1f3dc14e25a49b833e24af288",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/results/isolated-main-version-ec73be53483e517b88247e3600997524.json",
+      "importPath": "research/results/isolated-main-version-ec73be53483e517b88247e3600997524.json",
+      "bytes": 443,
+      "sha256": "4c9892d67e0d48c927bfeee98a41e86fb31313d1b35d6c144634ed50df476592",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/run-dashcast-inline.py",
+      "importPath": "research/run-dashcast-inline.py",
+      "bytes": 6666,
+      "sha256": "1b0191be6d051f1be3a7122bd7563dd71c76e2f6cd37736300fdc22901fe5b8d",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/run-dashcast-marker.py",
+      "importPath": "research/run-dashcast-marker.py",
+      "bytes": 10592,
+      "sha256": "fb172ca2a74cfb075b3558cc83ed99e2de2b5ecb3837c487d2d08a78f5f24307",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/run-sdk-research.ps1",
+      "importPath": "research/run-sdk-research.ps1",
+      "bytes": 1223,
+      "sha256": "e41f455ad32579fe7c22433369ad6ec356a755192fd68e15121c1e20b48abb6e",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/run-target-research.ps1",
+      "importPath": "research/run-target-research.ps1",
+      "bytes": 6620,
+      "sha256": "130d38a4b024df4da09d1fd17bd52cbc4bb314bc4d4c6afc15e75fcb9a824c22",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-app-lookup.mjs",
+      "importPath": "research/sdk-app-lookup.mjs",
+      "bytes": 3737,
+      "sha256": "b9ab6523dabb309368098c80a3b76021e388da61ac1020edb4db21a818329dc8",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-bridge-probe.mjs",
+      "importPath": "research/sdk-bridge-probe.mjs",
+      "bytes": 5657,
+      "sha256": "692ed4422bccaf608495eaf188f2af643ae56837a024ddc62cbd22632707e3cc",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-call-metadata.mjs",
+      "importPath": "research/sdk-call-metadata.mjs",
+      "bytes": 2425,
+      "sha256": "a02ba3fb419fcae3e5ada60ab07afea249441674ea0873f8df411c0decea6a4c",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-catalog-check.mjs",
+      "importPath": "research/sdk-catalog-check.mjs",
+      "bytes": 3978,
+      "sha256": "16ccaea84853ca714f68970c8eee4cf54a347c6fef9cceb5daa6d3dcd98beee0",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-command-outcome.mjs",
+      "importPath": "research/sdk-command-outcome.mjs",
+      "bytes": 4252,
+      "sha256": "d7d4a5ef6144ce2aaab3cfd985c910670d6f981147d7089e8fdc7d8213c07c16",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-diagnostic-20261017.json",
+      "importPath": "research/sdk-diagnostic-20261017.json",
+      "bytes": 28227,
+      "sha256": "6bd02dd546be8b00ea0f0f6f511aa29aa036af31c9ee892599cf9e8d995cae45",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-internal-check.mjs",
+      "importPath": "research/sdk-internal-check.mjs",
+      "bytes": 3837,
+      "sha256": "6932fe4d7b8fda57ec11b34bd95918d72f3ee23b98d328d3f11acf4a441af2aa",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-internal-diagnostic-20261017.json",
+      "importPath": "research/sdk-internal-diagnostic-20261017.json",
+      "bytes": 417,
+      "sha256": "9819d82a7fa917b28f7657f96eec649693eb4f37c09d8f37e4ef5f676abf3c04",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-module-metadata.mjs",
+      "importPath": "research/sdk-module-metadata.mjs",
+      "bytes": 2085,
+      "sha256": "e64e3777985e4aaf7d5630bfdab7a1c792a0056d413f80c5b042ca827693bc01",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-source-capture-plan.md",
+      "importPath": "research/sdk-source-capture-plan.md",
+      "bytes": 2527,
+      "sha256": "976bf5ae0dbfac47af18ee272851c22c3c17fdfb7f08cf64e7ada753d4d7ef59",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-source-map-check.mjs",
+      "importPath": "research/sdk-source-map-check.mjs",
+      "bytes": 1318,
+      "sha256": "7801c9c4fe4a3cbe27e6d37dab64e55f0c0e71592f778f4ff3590c683cee1691",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-source-read-plan.md",
+      "importPath": "research/sdk-source-read-plan.md",
+      "bytes": 2835,
+      "sha256": "831c6801b9ac2c785df5d71f6ac86fb1e1dab9992bc8127ee1a53bbcea4aa29d",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-source-read.mjs",
+      "importPath": "research/sdk-source-read.mjs",
+      "bytes": 3527,
+      "sha256": "31bc36c635d2a6a9185db9f2f6192a1f2bc11fbbaff67e4888dd7761b9d4d8a8",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-source-vault.mjs",
+      "importPath": "research/sdk-source-vault.mjs",
+      "bytes": 4131,
+      "sha256": "63f50dbd996268f901c89c8e016840f45e80859533d21642330c86193f54f766",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-speech-check.mjs",
+      "importPath": "research/sdk-speech-check.mjs",
+      "bytes": 3170,
+      "sha256": "0b152c908b17e7a18a1d4b6bf4ce2cf773bbad517871fd1079c65162509ec420",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-speech-diagnostic-20261017.json",
+      "importPath": "research/sdk-speech-diagnostic-20261017.json",
+      "bytes": 1259,
+      "sha256": "b92641b69c9704aff048ca72e5a39dce8cf28eb9dd01aaa0ea04a8b64953c6e8",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-static-findings-20261017.json",
+      "importPath": "research/sdk-static-findings-20261017.json",
+      "bytes": 20535,
+      "sha256": "bb955244cab4fefe3bef1960da2444faa1bb74f9205a577e41c7abed252f873d",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-store-check.mjs",
+      "importPath": "research/sdk-store-check.mjs",
+      "bytes": 3598,
+      "sha256": "a95646d74ebd7099e0e16a6a955c9078cc8454f25cdf93a27ba2b067549b1e9e",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-store-diagnostic-20261017.json",
+      "importPath": "research/sdk-store-diagnostic-20261017.json",
+      "bytes": 410,
+      "sha256": "bd94f482813505dddc488c98622468fce2d2c411c078648abfff7bc52dd956d0",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-test-app.mjs",
+      "importPath": "research/sdk-test-app.mjs",
+      "bytes": 4288,
+      "sha256": "2db39648394fb9d13cf7e1d20e199bd34628acb0157e52ed02d5fbe1f080c378",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/sdk-version-bridge.mjs",
+      "importPath": "research/sdk-version-bridge.mjs",
+      "bytes": 6707,
+      "sha256": "4a8f6a544a8292da8cfaeeb05d8a6d76aa2a63515be9d8abfe81ffe97a073896",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/send-navigation.ps1",
+      "importPath": "research/send-navigation.ps1",
+      "bytes": 1154,
+      "sha256": "74d513164d91428c46e092ab505b052d5f095f12748b26df7e5ecf949a852611",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/source-asset-admission-20261018.json",
+      "importPath": "research/source-asset-admission-20261018.json",
+      "bytes": 3812,
+      "sha256": "9b3e618f69c86548d9513da41b2a3169a97bda619861cc76378ca8e728245caa",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/source-bundle-inspection-20261018.json",
+      "importPath": "research/source-bundle-inspection-20261018.json",
+      "bytes": 7938,
+      "sha256": "b281fe65fbb84f2b59ba1a38c709950a75a8e1b8d600fa15ef6229b6b1bc8d34",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/source-mapping-diagnostic-20261018.json",
+      "importPath": "research/source-mapping-diagnostic-20261018.json",
+      "bytes": 2376,
+      "sha256": "405a830cb46e96e568f6c09482779890dc2217ad53bed5138bd9e85523af803c",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/target-profiles.mjs",
+      "importPath": "research/target-profiles.mjs",
+      "bytes": 544,
+      "sha256": "b32c0f2129f437312b752c6e72865c144f4913936cbb6ba858436853b69e035c",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/test-ui-capture.mjs",
+      "importPath": "research/test-ui-capture.mjs",
+      "bytes": 3934,
+      "sha256": "fe14f2a3c828644f04ae25e867a9a969043a557be11788723c1812c80a38e5b3",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/test-ui-source-capture-plan.md",
+      "importPath": "research/test-ui-source-capture-plan.md",
+      "bytes": 2455,
+      "sha256": "c54ac92bc0185c842923a140642a43765094ea915896266c4f7565c92f0d9bb7",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/test-ui-static-registry-20261017.json",
+      "importPath": "research/test-ui-static-registry-20261017.json",
+      "bytes": 66465,
+      "sha256": "300e74c1d836b273f56a318a549e503a63ddf6f71dca565625ca6b23ddd8027c",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/toast-source-trace-20261020.json",
+      "importPath": "research/toast-source-trace-20261020.json",
+      "bytes": 6407,
+      "sha256": "c050d6ab04c1bef41550466c15f9bd1c8a5f308a723566e91441fc02794f8c9c",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/src/capabilities.mjs",
+      "importPath": "src/capabilities.mjs",
+      "bytes": 4971,
+      "sha256": "a65485918d8ad5e72251f845a6ced790ddf8358ad2eddee249c83c115cc34a42",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/src/page.mjs",
+      "importPath": "src/page.mjs",
+      "bytes": 2413,
+      "sha256": "0424ec5b97b73fb37e8d346145ae9f48a1cc0e31a870fe5e0e8ec3646b55ce6f",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/src/server.mjs",
+      "importPath": "src/server.mjs",
+      "bytes": 11619,
+      "sha256": "19a5d5894e2fa7e38faf6b881212574084f08ae62563a1622d586d378e6a6340",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/src/summary.mjs",
+      "importPath": "src/summary.mjs",
+      "bytes": 1543,
+      "sha256": "30e7413ddd5b1289c9691926e657d0dcd981229b4a0b12916c087501d653c205",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/src/time.mjs",
+      "importPath": "src/time.mjs",
+      "bytes": 998,
+      "sha256": "0510166d14849f6f3c581e5e070ac88a6c0edd806cdf5c4df7372b24b6d8b746",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/await-diagnostics.test.mjs",
+      "importPath": "test/await-diagnostics.test.mjs",
+      "bytes": 2435,
+      "sha256": "4973da8a2f1e453d50d16812f8b1c0690d14a5f3050ba966e171a0765c2dbb5f",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/capabilities.test.mjs",
+      "importPath": "test/capabilities.test.mjs",
+      "bytes": 2793,
+      "sha256": "7ae37967c0d4d98f6d598e52a32f8d502ac9d34f41fd3a4abee0f127009b482e",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/catalog-shape.test.mjs",
+      "importPath": "test/catalog-shape.test.mjs",
+      "bytes": 4615,
+      "sha256": "46390944f68f503673212ec538a52055302cdead0d8eb4df1c1f7d6b3aec56cd",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/cli.test.mjs",
+      "importPath": "test/cli.test.mjs",
+      "bytes": 642,
+      "sha256": "1a5fa33a8490339ba4e01a5835ab7b6c1bbbf08a1c84a7ae060f48d0e858ae56",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/conjure-route-filter.test.mjs",
+      "importPath": "test/conjure-route-filter.test.mjs",
+      "bytes": 3507,
+      "sha256": "8af53085a015ad170da2c69bad7a2670c6c800551c86f93d2de19e1001ca5f02",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/dashcast-marker-server.test.mjs",
+      "importPath": "test/dashcast-marker-server.test.mjs",
+      "bytes": 6391,
+      "sha256": "fc5873725c31a6dbafbf2d03d30419fee81d451b4ef7b963e2c2daeb288eebe8",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/dashcast-marker.test.mjs",
+      "importPath": "test/dashcast-marker.test.mjs",
+      "bytes": 3861,
+      "sha256": "2992816e094f6af727aa281ae3da8d725d3b94627ddda24cbb77186278ad5c27",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/dashcast_inline_test.py",
+      "importPath": "test/dashcast_inline_test.py",
+      "bytes": 3950,
+      "sha256": "dc1988784cdc9a9217eaf891fdfc844975368f1738c0e36fd569d530b342b051",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/dashcast_marker_launcher_test.py",
+      "importPath": "test/dashcast_marker_launcher_test.py",
+      "bytes": 9815,
+      "sha256": "795fa9a6c561863a91053e7e3bafb4d6cd5ee868e0839f123f319c28cb249e9a",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/home-coverage-browser.test.mjs",
+      "importPath": "test/home-coverage-browser.test.mjs",
+      "bytes": 7340,
+      "sha256": "498ebab4259c1d744fdb4d0eb4b23de178a592183a9d92f5b6c174b02b932084",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/home-coverage-contract.test.mjs",
+      "importPath": "test/home-coverage-contract.test.mjs",
+      "bytes": 2460,
+      "sha256": "4d0025e7c8d0f64a273671571b740c87c0ec94cce53a0b0f633fd1438125962a",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/home-dependencies-boundaries.test.mjs",
+      "importPath": "test/home-dependencies-boundaries.test.mjs",
+      "bytes": 6527,
+      "sha256": "9e65ee90ba165c37ab7542a8f718bca92496bf321974ce8c38a9753ce6d1005f",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/home-dependencies-browser.test.mjs",
+      "importPath": "test/home-dependencies-browser.test.mjs",
+      "bytes": 13308,
+      "sha256": "c0d6fea59c154ea808640902a11bc6547fd819a306ec3a5b9ee14bfc286be059",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/home-dependencies-contract.test.mjs",
+      "importPath": "test/home-dependencies-contract.test.mjs",
+      "bytes": 6784,
+      "sha256": "374d5407a8758e6103cc874520b2bf06bb343d7cdaf0b505838a0a37a40f0533",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/home-dependencies-delivery.test.mjs",
+      "importPath": "test/home-dependencies-delivery.test.mjs",
+      "bytes": 5094,
+      "sha256": "a16af987270977d3ad4ae20d75716c6bb39d0c1fbe5f4fb148ee8c0248ec6585",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/home-dependencies-hosting.test.mjs",
+      "importPath": "test/home-dependencies-hosting.test.mjs",
+      "bytes": 1574,
+      "sha256": "68cb4a54dac7f8d006233eb4d7d2458ee0655b9f487f7b99a8e56c072723f10f",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/home-dependencies-launcher.test.mjs",
+      "importPath": "test/home-dependencies-launcher.test.mjs",
+      "bytes": 1556,
+      "sha256": "13b33e05a58d62bbf9ddc4505f237ce7918900a9790a9bd370e94e097db8ca48",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/home-dependencies-parser.test.mjs",
+      "importPath": "test/home-dependencies-parser.test.mjs",
+      "bytes": 10324,
+      "sha256": "7ba4d82badbe81511a6e767aa6d56fbab9cafad0cf51478a1dbf829ad26604aa",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/home-dependencies-reasons.test.mjs",
+      "importPath": "test/home-dependencies-reasons.test.mjs",
+      "bytes": 9682,
+      "sha256": "941dec7be66fa833b1fdcf7ab42a7adce420996df4bbab719f9d4366159ec9d7",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/home-document-browser.test.mjs",
+      "importPath": "test/home-document-browser.test.mjs",
+      "bytes": 13847,
+      "sha256": "b58d5bcbd838b5f1095d5dade018425b1f3947e7feb4988bcd5fa7fa5df3ecdc",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/home-document-contract.test.mjs",
+      "importPath": "test/home-document-contract.test.mjs",
+      "bytes": 2400,
+      "sha256": "efb3cca856aeed47b5db901a4e8d60f3df0b8cce68af2b8ff65d919c4d618e88",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/home-document-launcher.test.mjs",
+      "importPath": "test/home-document-launcher.test.mjs",
+      "bytes": 1544,
+      "sha256": "63efd4374f82772b37c5092b8b18dcc9a44fc3e704a5b4206989cc0d407e1db9",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/home-document-parser.test.mjs",
+      "importPath": "test/home-document-parser.test.mjs",
+      "bytes": 4531,
+      "sha256": "8a969f9b8b829c74dd9e4b50341d5a56b6e2a37bc11a53dc52831b878c5d98ba",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/home-input-diagnostic.test.mjs",
+      "importPath": "test/home-input-diagnostic.test.mjs",
+      "bytes": 3740,
+      "sha256": "467c2cd3e3b53a7acd8aaa67416cba7af8ff46417e69d96be7b3bbaf2ad7670c",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/home-input-hosting.test.mjs",
+      "importPath": "test/home-input-hosting.test.mjs",
+      "bytes": 6474,
+      "sha256": "a15c85a8bbc12587754e7db9221220819e6127cb5cb052c7cbe7b78ee7de8ee6",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/home-source-check.test.mjs",
+      "importPath": "test/home-source-check.test.mjs",
+      "bytes": 5349,
+      "sha256": "3f629d1edb6fc72fc4945cda933376c5a3fee4ac48396810a56c8ae75f855e8d",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/isolated-research.test.mjs",
+      "importPath": "test/isolated-research.test.mjs",
+      "bytes": 20252,
+      "sha256": "8fc224d678536ed6b68e00cc7e181118782afbfe32f82629badc83cd97b2b404",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/process-job.test.mjs",
+      "importPath": "test/process-job.test.mjs",
+      "bytes": 2378,
+      "sha256": "386a0d6cb5aad8adc54432c8b53fd0272da7a8521039d04132f708f824830213",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/readiness.test.mjs",
+      "importPath": "test/readiness.test.mjs",
+      "bytes": 1793,
+      "sha256": "9f6e083c5adae347076fd780be412b6c6c5a48ecbb705cc2a147a89d9c0f97e9",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/restricted-diagnostics.test.mjs",
+      "importPath": "test/restricted-diagnostics.test.mjs",
+      "bytes": 4287,
+      "sha256": "6f31b29f38cce1153ca9d1836e539fee2c04d3a85fcc4b5440065b57f9c950c3",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/sdk-app-lookup.test.mjs",
+      "importPath": "test/sdk-app-lookup.test.mjs",
+      "bytes": 1983,
+      "sha256": "4ceede27403038496bde83302e3a315c864959879735174dda12b991ee2bd2d2",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/sdk-bridge-probe.test.mjs",
+      "importPath": "test/sdk-bridge-probe.test.mjs",
+      "bytes": 3649,
+      "sha256": "2f18bf51ed2e290269ad932d156d737a32fbda541148ba4bb7234e4a20f89ab9",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/sdk-call-metadata.test.mjs",
+      "importPath": "test/sdk-call-metadata.test.mjs",
+      "bytes": 1521,
+      "sha256": "7d43f338b3b011788fea414f2ffe8956ed0d69734584fe9ef227b7c8196cc23e",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/sdk-catalog-check.test.mjs",
+      "importPath": "test/sdk-catalog-check.test.mjs",
+      "bytes": 2023,
+      "sha256": "8e1ca4c8462f47b6aca498828e0dd4f08e0e338b304038ed6c9f3bd06a9b2896",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/sdk-command-outcome.test.mjs",
+      "importPath": "test/sdk-command-outcome.test.mjs",
+      "bytes": 2347,
+      "sha256": "f0f0a6cdf8c3b96587548149ca3fba76a37a22bb6e45ab6543ecd2b36bc56487",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/sdk-internal-check.test.mjs",
+      "importPath": "test/sdk-internal-check.test.mjs",
+      "bytes": 2096,
+      "sha256": "0604d9a4750ab5edb2c130c40f74df964baa3ae4428abeaba46425ea83541c3f",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/sdk-source-map-check.test.mjs",
+      "importPath": "test/sdk-source-map-check.test.mjs",
+      "bytes": 2166,
+      "sha256": "676b674f152ba9e1676143106051c34d1124ecca3203aa38d0d1c91f631eed5f",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/sdk-source-read.test.mjs",
+      "importPath": "test/sdk-source-read.test.mjs",
+      "bytes": 2518,
+      "sha256": "1354ec7de4b4f34a2d6f03262a2e0c661fb37b59811458a0c663a097e6dc4109",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/sdk-source-vault.test.mjs",
+      "importPath": "test/sdk-source-vault.test.mjs",
+      "bytes": 1114,
+      "sha256": "2475e48f7f12603725d6463eb9fc0679c81efb8971170c1fcc17b53ac6b37c1a",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/sdk-speech-check.test.mjs",
+      "importPath": "test/sdk-speech-check.test.mjs",
+      "bytes": 2491,
+      "sha256": "8840b221dc183f21b069acf3de77805e869cfc47cac8e3d71289ff24aac200d4",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/sdk-store-check.test.mjs",
+      "importPath": "test/sdk-store-check.test.mjs",
+      "bytes": 2004,
+      "sha256": "71ac6ad2374818d1ed3a619c5c32289515f379883b4dec49a89baadccece22d6",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/sdk-test-app.test.mjs",
+      "importPath": "test/sdk-test-app.test.mjs",
+      "bytes": 3224,
+      "sha256": "1cc5bd21a256632d49cd2f136356cb56aeff343b7d6888db545d60584636fcc8",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/sdk-version-bridge.test.mjs",
+      "importPath": "test/sdk-version-bridge.test.mjs",
+      "bytes": 2034,
+      "sha256": "7393b1fa5916e11ed956e657b1d6400c35a0a9060c4e6ff420071eb5217a2a07",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/server.test.mjs",
+      "importPath": "test/server.test.mjs",
+      "bytes": 13681,
+      "sha256": "6838a3afdc43501d5a2c957a29619dfd5f0bb2852d9269f372254cc5b75ccfa5",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/summary.test.mjs",
+      "importPath": "test/summary.test.mjs",
+      "bytes": 2647,
+      "sha256": "e681648983c9f8a7e06e8b8a76e0fc74734b6afd9511234f5c0f279386b4c2a2",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/test-ui-capture.test.mjs",
+      "importPath": "test/test-ui-capture.test.mjs",
+      "bytes": 3203,
+      "sha256": "5fe108ed95fc30d119cca2fca586528558c300c861677b4a4c20fd89d4b502d3",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/time.test.mjs",
+      "importPath": "test/time.test.mjs",
+      "bytes": 2078,
+      "sha256": "4060fd8f5711c948615140b42b61f1e619d59411991164bc87e13735980f448a",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/test/vite-lifecycle.test.mjs",
+      "importPath": "test/vite-lifecycle.test.mjs",
+      "bytes": 4067,
+      "sha256": "a8ea6afc7438e2d27484a298d270fd772d59d48a65f0625624a2577d570413eb",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/vite-plugin.mjs",
+      "importPath": "vite-plugin.mjs",
+      "bytes": 8034,
+      "sha256": "5b2b2a5238831dae4d903ff297511d936afc330aa3f5dd37ef8b8b5c045253e4",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!RobCo\\_RobCo-Agent-Handoff",
+      "sourcePath": "codex/mist-console-tv-2026-10-17/CODEX-MODEL-ROUTING-INTAKE.md",
+      "importPath": "docs/history/import-2026-10-23/handoff/CODEX-MODEL-ROUTING-INTAKE.md",
+      "bytes": 4427,
+      "sha256": "8f38099803c46361d9310be7cea33f1e700ba8f45a110389fb26a0cb678bb40e",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!RobCo\\_RobCo-Agent-Handoff",
+      "sourcePath": "codex/mist-console-tv-2026-10-17/PROGRESS.md",
+      "importPath": "docs/history/import-2026-10-23/handoff/PROGRESS.md",
+      "bytes": 40330,
+      "sha256": "4e71ef5a997e8c2ced46094b6c7632e66ecb1d1c4b92f3902d4d6fdc84e331b7",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!RobCo\\_RobCo-Agent-Handoff",
+      "sourcePath": "codex/mist-console-tv-2026-10-17/ROUTE-AUDIT-2026-10-21.md",
+      "importPath": "docs/history/import-2026-10-23/handoff/ROUTE-AUDIT-2026-10-21.md",
+      "bytes": 23399,
+      "sha256": "fa1d0ec7cc40ff4c332af84d34c88304cd5e6be1f6a33d458779b6d7fcd17f45",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!RobCo\\_RobCo-Agent-Handoff",
+      "sourcePath": "codex/mist-console-tv-2026-10-17/ROUTE-AUDIT-EVIDENCE-2026-10-21.json",
+      "importPath": "docs/history/import-2026-10-23/handoff/ROUTE-AUDIT-EVIDENCE-2026-10-21.json",
+      "bytes": 15953,
+      "sha256": "6149a1f6a54ab4c99ebda6bb7ff96f58d8b87b7a7ddba68fcbb7a1fd8ffe16cb",
+      "class": "tracked"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist",
+      "sourcePath": "TV-RESEARCH-TRACKER.md",
+      "importPath": "docs/history/import-2026-10-23/external/TV-RESEARCH-TRACKER.md",
+      "bytes": 17854,
+      "sha256": "6b885c5d6fb93305ebd8031e6ff9266016d0417d75c804412af59697b699f134",
+      "class": "external-history"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/results/dashcast-inline-main-242785f7e23d4106b19d54598697ce97.jsonl",
+      "importPath": "evidence/results/dashcast-inline-main-242785f7e23d4106b19d54598697ce97-snapshot-20261023.jsonl",
+      "bytes": 964,
+      "sha256": "98130cd77e83a0060083f05c3cbfd1d11403974afcee05ae194dac7605c1b0a2",
+      "class": "session-log-snapshot",
+      "captureUTC": "2026-10-23T21:53:28.895402+00:00",
+      "cleanupInference": "none"
+    },
+    {
+      "sourceRoot": "C:\\Dev\\!Mist\\_Mist-Forge",
+      "sourcePath": "console-tv/research/results/dashcast-inline-main-ebefa7d9f9b5477fb670f9d16d058b74.jsonl",
+      "importPath": "evidence/results/dashcast-inline-main-ebefa7d9f9b5477fb670f9d16d058b74-snapshot-20261023.jsonl",
+      "bytes": 510,
+      "sha256": "25bd867adbd1b7d752763a1dfea2c6e9ec22cca609afac859019e92660800eb7",
+      "class": "session-log-snapshot",
+      "captureUTC": "2026-10-23T21:53:28.902687+00:00",
+      "cleanupInference": "none"
+    }
+  ],
+  "exclusions": [
+    "untracked Claude TV documents pending individual review",
+    "credentials and owner-local config",
+    "node_modules and generated files",
+    "firmware archives and raw captures",
+    "unrelated repository content"
+  ]
+}

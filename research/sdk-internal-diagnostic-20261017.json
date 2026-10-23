@@ -1,0 +1,20 @@
+{
+  "available": true,
+  "receivedAt": "2026-10-18T03:02:35.556Z",
+  "report": {
+    "probe": "sdk-internal-docker-16",
+    "run": "93ff94d80ae346cd8c416e475319b9eb",
+    "loaded": true,
+    "ready": true,
+    "state": "resolved",
+    "responseType": "undefined",
+    "methods": [
+      {
+        "scope": "InternalDocker",
+        "name": "_docker",
+        "type": "function"
+      }
+    ],
+    "sequence": 1
+  }
+}

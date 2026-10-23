@@ -1,0 +1,111 @@
+{
+  "observedOn": "2026-10-18",
+  "archiveSha256": "b89f726e47ac4dae2c4370cf0748036f3a8076f7f98b2942b7b2c29d73a8ac91",
+  "vendorDigestIndependentlyVerified": false,
+  "method": "Static source reading and streamed nested tar header inventory; archive code not executed",
+  "sourceFiles": [
+    {
+      "archivePath": "rootfs/OSUpdater/osu/src/asset_installers/impl/sc_assets_installer.cpp",
+      "bytes": 11624,
+      "sha256": "98ad8095a75476dbc5b36a038a791dd1591d4c26858756c2ae3555f4b13778d5"
+    },
+    {
+      "archivePath": "rootfs/OSUpdater/osu/src/asset_installers/impl/sc_config_installer.cpp",
+      "bytes": 15701,
+      "sha256": "eaf2c856deaec0114f3572f647e09cbf994fa2968196145f8b165c34fc495021"
+    },
+    {
+      "archivePath": "rootfs/OSUpdater/osu/src/manifest/impl/manifest_parser.cpp",
+      "bytes": 2406,
+      "sha256": "f143cd20eb44f72a985d2ae89b9154f337907d9eb6da77169fca9aac6be2499c"
+    },
+    {
+      "archivePath": "rootfs/OSUpdater/osu/src/manifest/impl/manifest_manager.cpp",
+      "bytes": 9402,
+      "sha256": "204adce44f440b55e9796b4f32fd89044e94aff579a5812c54b5ae2d1a2104f4"
+    },
+    {
+      "archivePath": "rootfs/OSUpdater/osu/src/manifest/impl/http_post_manifest_provider.cpp",
+      "bytes": 10283,
+      "sha256": "7d6bd864533ca54c2a8254fb7af79e6286908c1cce0d519794f064f3d0292b8f"
+    },
+    {
+      "archivePath": "rootfs/OSUpdater/osu/src/common/common.cpp",
+      "bytes": 452,
+      "sha256": "db81ef90dc5c76027727c225a406f5fa7c166bed1de6f9b431539b59a42ed9e7"
+    },
+    {
+      "archivePath": "rootfs/OSUpdater/unpacker/src/unpacker.cpp",
+      "bytes": 16189,
+      "sha256": "6a7429fcbc226e80a7ae6135acfdf8f58b0c21a8b3a241ae5cf1119eb5d2011d"
+    },
+    {
+      "archivePath": "rootfs/OSUpdater/unpacker/src/data_flow/crypt_utils.cpp",
+      "bytes": 3190,
+      "sha256": "f1907cfad0e449b0c0ab8cc61ead098d2013ebead8e0fa484e977eb0d1d48d9b"
+    },
+    {
+      "archivePath": "rootfs/ViziOS/platform_orchestrator/src/scpladapter.cpp",
+      "bytes": 8710,
+      "sha256": "7d496342640fbf8a47f977d08caebb2666090d63af25a24a8e7d62479d06f30e"
+    },
+    {
+      "archivePath": "rootfs/ViziOS/platform_orchestrator/src/orchestrator.cpp",
+      "bytes": 51713,
+      "sha256": "d04be572c3c12ad296d6c2629bfdd8ecfdb77a0987a7d9e24223250ec8d1cad4"
+    },
+    {
+      "archivePath": "rootfs/ViziOS/platform_orchestrator/src/appsdatabase.cpp",
+      "bytes": 62317,
+      "sha256": "2e8c40c8e86ccf7246c7d0bbe390b1a4ac90033fb993a7c9492abd118d9c7539"
+    }
+  ],
+  "nestedRelease": {
+    "outerMember": "5691_OSS_FUR7.2/release-x.720.7.1-5583-5691-5695-5695s-20260312-54ff60.tar",
+    "nestedMember": "release.tar.gz",
+    "entries": 481417,
+    "declaredFileBytes": 10500715813,
+    "unsafePaths": 0,
+    "pathTermCounts": {
+      "u-boot": 1950,
+      "bootloader": 339
+    },
+    "technicalBasenameExamples": {
+      "u-boot": [
+        "u-boot",
+        "empty.S",
+        "head.S",
+        "Makefile",
+        "u-boot-2011.06",
+        "fs",
+        "reiserfs",
+        "dev.c"
+      ],
+      "bootloader": [
+        "bootloader.lds",
+        "bootloader.c",
+        "Bootloader-interface.txt",
+        "bootloader",
+        "Memory256.h",
+        "Memory512.h",
+        "loader_upgrade",
+        "loader_imghdr.h"
+      ]
+    },
+    "topPrefixCounts": {
+      "release/toolchain": 373812,
+      "release/apollo": 107602,
+      "release/docker": 2,
+      "release": 1
+    },
+    "executedArchiveCode": false,
+    "nestedContentExtracted": false
+  },
+  "limits": [
+    "No live TV configuration read or export",
+    "No installer, update, registry or firmware write",
+    "Source-family match, not exact installed-build identity",
+    "Nested path terms are filename search, not a full source-content scan",
+    "No complete recovery path or Home tile writer established"
+  ]
+}

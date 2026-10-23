@@ -1,0 +1,24 @@
+{
+  "target": "main",
+  "source": "self-contained one-second unsigned PCM silence; data URI support unverified",
+  "autoplay": false,
+  "title": "Codex needs you",
+  "requests": 1,
+  "visualResult": "owner_observed_full_screen_title_takeover",
+  "baseline": "no active non-backdrop Cast app",
+  "receiverStarted": true,
+  "mediaState": "PAUSED",
+  "titleEchoed": true,
+  "mediaSessionPresent": true,
+  "stopRequested": true,
+  "receiverAbsentAfterStop": true,
+  "evidenceCeiling": "Protocol/status plus owner visual report; no automated pixel/input measurement. Full-screen takeover and loss of prior idle YouTube view observed. Not a noninterrupting popup.",
+  "ownerObservation": {
+    "titleVisible": true,
+    "fullScreenTakeover": true,
+    "priorScreen": "YouTube idle",
+    "noticeDuration": "a couple seconds, owner estimate",
+    "afterScreen": "Vizio Home",
+    "priorAppRestored": false
+  }
+}

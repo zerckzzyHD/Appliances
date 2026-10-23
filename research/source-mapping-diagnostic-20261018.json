@@ -1,0 +1,99 @@
+{
+  "reports": [
+    {
+      "receivedAt": "2026-10-18T04:18:55.240Z",
+      "report": {
+        "probe": "sdk-source-absent-21",
+        "run": "3e6d266058c24860b119f3512c72f6f0",
+        "loaded": true,
+        "ready": true,
+        "state": "resolved",
+        "methods": [
+          {
+            "scope": "System",
+            "name": "getConfigProperty",
+            "type": "function"
+          }
+        ],
+        "responseType": "null",
+        "sequence": 2
+      }
+    },
+    {
+      "receivedAt": "2026-10-18T04:18:55.106Z",
+      "report": {
+        "probe": "sdk-source-positive-21",
+        "run": "3e6d266058c24860b119f3512c72f6f0",
+        "loaded": true,
+        "ready": true,
+        "state": "resolved",
+        "methods": [
+          {
+            "scope": "System",
+            "name": "getConfigProperty",
+            "type": "function"
+          }
+        ],
+        "responseType": "object",
+        "sequence": 2
+      }
+    },
+    {
+      "receivedAt": "2026-10-18T04:18:55.309Z",
+      "report": {
+        "probe": "sdk-source-chromium-21",
+        "run": "3e6d266058c24860b119f3512c72f6f0",
+        "loaded": true,
+        "ready": true,
+        "state": "resolved",
+        "methods": [
+          {
+            "scope": "System",
+            "name": "getConfigProperty",
+            "type": "function"
+          }
+        ],
+        "responseType": "object",
+        "sequence": 2
+      }
+    },
+    {
+      "receivedAt": "2026-10-18T04:18:55.110Z",
+      "report": {
+        "probe": "sdk-source-home-21",
+        "run": "3e6d266058c24860b119f3512c72f6f0",
+        "loaded": true,
+        "ready": true,
+        "state": "resolved",
+        "methods": [
+          {
+            "scope": "System",
+            "name": "getConfigProperty",
+            "type": "function"
+          }
+        ],
+        "responseType": "object",
+        "sequence": 2
+      }
+    },
+    {
+      "receivedAt": "2026-10-18T04:18:55.272Z",
+      "report": {
+        "probe": "sdk-source-orchestrator-21",
+        "run": "3e6d266058c24860b119f3512c72f6f0",
+        "loaded": true,
+        "ready": true,
+        "state": "resolved",
+        "methods": [
+          {
+            "scope": "System",
+            "name": "getConfigProperty",
+            "type": "function"
+          }
+        ],
+        "responseType": "null",
+        "sequence": 2
+      }
+    }
+  ]
+}

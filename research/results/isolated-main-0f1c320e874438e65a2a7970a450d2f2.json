@@ -1,0 +1,29 @@
+{
+  "target": "main",
+  "run": "0f1c320e874438e65a2a7970a450d2f2",
+  "reports": [
+    {
+      "receivedAt": "2026-10-18T10:27:54.569Z",
+      "report": {
+        "probe": "sdk-home-coverage-23",
+        "run": "0f1c320e874438e65a2a7970a450d2f2",
+        "ready": true,
+        "state": "resolved",
+        "routeRelation": "unavailable",
+        "routeClass": "localStatic",
+        "documentOutcome": "ok",
+        "mimeClass": "html",
+        "filesAttempted": 1,
+        "filesRead": 1,
+        "bytesRead": 1092,
+        "scriptsSeen": 0,
+        "scriptsEligible": 0,
+        "truncated": false,
+        "budgetExceeded": false,
+        "methods": [],
+        "loaded": true,
+        "sequence": 0
+      }
+    }
+  ]
+}

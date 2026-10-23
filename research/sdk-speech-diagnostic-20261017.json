@@ -1,0 +1,53 @@
+{
+  "ownerObservation": "No audible speech on retry",
+  "reports": [
+    {
+      "receivedAt": "2026-10-18T03:05:34.246Z",
+      "report": {
+        "probe": "sdk-speech-start-17",
+        "run": "eb246bef4e144cb1b639e24bb54bdf09",
+        "loaded": true,
+        "ready": true,
+        "state": "resolved",
+        "methods": [
+          {
+            "scope": "TextToSpeech",
+            "name": "speak",
+            "type": "function"
+          },
+          {
+            "scope": "TextToSpeech",
+            "name": "stopSpeech",
+            "type": "function"
+          }
+        ],
+        "responseType": "undefined",
+        "sequence": 2
+      }
+    },
+    {
+      "receivedAt": "2026-10-18T03:05:39.270Z",
+      "report": {
+        "probe": "sdk-speech-stop-17",
+        "run": "eb246bef4e144cb1b639e24bb54bdf09",
+        "loaded": true,
+        "ready": true,
+        "state": "resolved",
+        "methods": [
+          {
+            "scope": "TextToSpeech",
+            "name": "speak",
+            "type": "function"
+          },
+          {
+            "scope": "TextToSpeech",
+            "name": "stopSpeech",
+            "type": "function"
+          }
+        ],
+        "responseType": "undefined",
+        "sequence": 2
+      }
+    }
+  ]
+}

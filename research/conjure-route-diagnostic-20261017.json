@@ -1,0 +1,97 @@
+{
+  "reports": [
+    {
+      "receivedAt": "2026-10-18T03:22:51.373Z",
+      "report": {
+        "run": "194d6307c73f4bb1af3380b7c81c3009",
+        "target": "vizioapps-home-route",
+        "shape": {
+          "kind": "array",
+          "visited": 1,
+          "truncated": false,
+          "levels": [
+            {
+              "depth": 0,
+              "nodes": 1,
+              "objects": 0,
+              "arrays": 1,
+              "children": 0,
+              "accessorsSkipped": 0,
+              "scalarTypes": {
+                "string": 0,
+                "number": 0,
+                "boolean": 0,
+                "null": 0,
+                "undefined": 0,
+                "unsupported": 0
+              },
+              "fields": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-10-18T03:22:51.407Z",
+      "report": {
+        "run": "194d6307c73f4bb1af3380b7c81c3009",
+        "target": "vizioapps-conjure-route",
+        "shape": {
+          "kind": "array",
+          "visited": 1,
+          "truncated": false,
+          "levels": [
+            {
+              "depth": 0,
+              "nodes": 1,
+              "objects": 0,
+              "arrays": 1,
+              "children": 0,
+              "accessorsSkipped": 0,
+              "scalarTypes": {
+                "string": 0,
+                "number": 0,
+                "boolean": 0,
+                "null": 0,
+                "undefined": 0,
+                "unsupported": 0
+              },
+              "fields": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-10-18T03:22:51.449Z",
+      "report": {
+        "run": "194d6307c73f4bb1af3380b7c81c3009",
+        "target": "vizioapps-absent-route",
+        "shape": {
+          "kind": "array",
+          "visited": 1,
+          "truncated": false,
+          "levels": [
+            {
+              "depth": 0,
+              "nodes": 1,
+              "objects": 0,
+              "arrays": 1,
+              "children": 0,
+              "accessorsSkipped": 0,
+              "scalarTypes": {
+                "string": 0,
+                "number": 0,
+                "boolean": 0,
+                "null": 0,
+                "undefined": 0,
+                "unsupported": 0
+              },
+              "fields": []
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

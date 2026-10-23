@@ -1,0 +1,1296 @@
+{
+  "available": true,
+  "receivedAt": "2026-10-18T02:24:11.029Z",
+  "report": {
+    "probe": "sdk-version-10",
+    "run": "5b323317324e4581aaddbed4d41f7595",
+    "loaded": true,
+    "ready": true,
+    "state": "resolved",
+    "methods": [
+      {
+        "scope": "App",
+        "name": "exitApplication",
+        "type": "function"
+      },
+      {
+        "scope": "App",
+        "name": "getAppInfo",
+        "type": "function"
+      },
+      {
+        "scope": "App",
+        "name": "getAppVisibilityState",
+        "type": "function"
+      },
+      {
+        "scope": "App",
+        "name": "getCurrentAppInfo",
+        "type": "function"
+      },
+      {
+        "scope": "App",
+        "name": "getIsAppInBackground",
+        "type": "function"
+      },
+      {
+        "scope": "App",
+        "name": "getIsAppVisible",
+        "type": "function"
+      },
+      {
+        "scope": "App",
+        "name": "getIsCurrentVizioAppByCname",
+        "type": "function"
+      },
+      {
+        "scope": "App",
+        "name": "getVizioAppInfoByCname",
+        "type": "function"
+      },
+      {
+        "scope": "App",
+        "name": "launchAmbient",
+        "type": "function"
+      },
+      {
+        "scope": "App",
+        "name": "launchApp",
+        "type": "function"
+      },
+      {
+        "scope": "App",
+        "name": "subscribeToAppOverlayDisplayed",
+        "type": "function"
+      },
+      {
+        "scope": "App",
+        "name": "subscribeToAppVisibilityChange",
+        "type": "function"
+      },
+      {
+        "scope": "App",
+        "name": "subscribeToAppVisibilityStateChange",
+        "type": "function"
+      },
+      {
+        "scope": "App",
+        "name": "subscribeToCurrentAppChange",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "displaySystemMenu",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "enableKeyboardHoldGestures",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getAvailablePowerModes",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getBinaryNames",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getBinaryVersion",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getBuildVersion",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getCapability",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getConfigProperty",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getCountryData",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getCountryFullName",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getCustomClickTarget",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getDeviceTimezoneGMTOffset",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getDstOffset",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getFirmwareVersion",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getIPAddress",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getInputLists",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getIs12HourTimeFormat",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getIsCapabilityTrue",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getIsDolbyAtmosCapable",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getIsDpadEnabled",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getIsDstActive",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getIsNetworkConfigured",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getIsNetworkConnected",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getIsSystemMenuDisplaying",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getIsZoomEnabled",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getMACAddress",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getNetworkConnectionType",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getNetworkInformation",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getPackageVersion",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getPowerModeData",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getPowerModeTitle",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getPowerStateNumber",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getPowerStateTitle",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getScConfigVersion",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getScplVersionNumbers",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getScplVersionString",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getTimezoneData",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getTvAdId",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getTvStoreProperties",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getTvStoreProperty",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getWifiSSID",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getWifiSignalStrength",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "getZoomFocusQuadrant",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "rebootTv",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "setCustomClickTarget",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "setPartnerAppFailed",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "setPartnerAppReady",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "setPowerMode",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "setTvStoreProperty",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "setZoomFocusQuadrant",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToAppConfigChange",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToCapabilitiesChange",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToCastState",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToDolbyAtmosCapabilityChange",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToInputContextChange",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToInputEnabledChange",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToInputListChange",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToInputNameChange",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToInputVisibilityChange",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToNetworkConnected",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToNetworkConnectionTypeChange",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToPowerStateNumberChange",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToPowerStateTitleChange",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToScConfigVersionChange",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToScplVersionNumbersChange",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToScplVersionStringChange",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToSystemMenuDisplay",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToTimeFormatChange",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToTimeZoneChange",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToTvAdIdChange",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "subscribeToZoomEnabled",
+        "type": "function"
+      },
+      {
+        "scope": "System",
+        "name": "togglePowerMode",
+        "type": "function"
+      },
+      {
+        "scope": "Mojo",
+        "name": "mojoStream$",
+        "type": "object"
+      },
+      {
+        "scope": "Mojo",
+        "name": "send",
+        "type": "function"
+      },
+      {
+        "scope": "Mojo",
+        "name": "sendMojoCommand",
+        "type": "function"
+      },
+      {
+        "scope": "debug",
+        "name": "account",
+        "type": "object"
+      },
+      {
+        "scope": "debug",
+        "name": "getPartnerReport",
+        "type": "function"
+      },
+      {
+        "scope": "debug",
+        "name": "getReport",
+        "type": "function"
+      },
+      {
+        "scope": "debug",
+        "name": "getStartupReport",
+        "type": "function"
+      },
+      {
+        "scope": "debug",
+        "name": "getSummary",
+        "type": "function"
+      },
+      {
+        "scope": "debug",
+        "name": "launchApiTestApp",
+        "type": "function"
+      },
+      {
+        "scope": "debug",
+        "name": "setVerboseLogging",
+        "type": "function"
+      },
+      {
+        "scope": "debug",
+        "name": "telemetry",
+        "type": "object"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "Account",
+        "type": "object"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "Bluetooth",
+        "type": "object"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "Chromevox",
+        "type": "object"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "Consent",
+        "type": "object"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "Mojo",
+        "type": "object"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "Oobe",
+        "type": "object"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "RedWolf",
+        "type": "object"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "Tuner",
+        "type": "object"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "_debug",
+        "type": "object"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "_deviceInfoStore",
+        "type": "object"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "_esn",
+        "type": "accessor"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "activeAppObject",
+        "type": "accessor"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "airplayCommand",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "bluetoothCheckForFirmwareUpdate",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "bluetoothGetDeviceList",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "bluetoothGetFirmwareUpdateStatus",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "bluetoothRemoteInfo",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "bluetoothRemoveDevice",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "bluetoothStartFirmwareUpdate",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "bluetoothStartPairing",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "bluetoothStopPairing",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "buildVersion",
+        "type": "accessor"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "cid",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "connectionType",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "deviceInfo",
+        "type": "accessor"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "deviceModel",
+        "type": "accessor"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "dhash",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "disableClosedCaptions",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "displayNetworkSystemMenu",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "displaySidebarMenu",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "displayViewingDataPolicyMenu",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "dsn",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "enableClosedCaptions",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "enableHoldingGestures",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "enableViewingDataPolicy",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "esn",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "exitApplication",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getActivityDataPolicyAccepted",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getActivityDataPolicyUrl",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getAirPlayVersion",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getAirplayLocalization",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getAirplayProperty",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getAirplaySettings",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getAppAuthToken",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getAuthToken",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getAvailablePowerModes",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getBuildVersion",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getClosedCaptionStyles",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getClosedCaptionsStatus",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getConfigProperty",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getConfigPropertyAsync",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getConfigVersion",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getConnectionStatus",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getCurrentApp",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getCurrentAppAsync",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getCurrentPowerMode",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getCustomClickTarget",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getDSTOffset",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getDaylightSavingsTime",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getDeviceCountry",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getDeviceCountryData",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getDeviceHDRCapabilities",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getDeviceId",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getDeviceInformation",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getDeviceManifest",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getDeviceName",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getDevicePlaybackQualities",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getDeviceTimezone",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getDeviceTimezoneGMTOffset",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getDolbyAtmosSupport",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getFirmwareVersion",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getHomeKitCodePayload",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getHomeKitPairedStatus",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getHomeKitPairingState",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getHomekitReferrer",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getIPAddress",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getIndicator",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getInputUIList",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getIsDpadEnabled",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getIsSmartCastDevice",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getLatestActivityDataPolicyUrl",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getMACAddress",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getModelName",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getModelYear",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getNetworkInformation",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getPackageVersion",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getSalt",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getScplVersionNumbers",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getScplVersionString",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getSmartCastVersion",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getStoreProperties",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getStoreProperty",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getStorePropertyAsync",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getSystemCapability",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getSystemInformation",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getSystemPowerMode",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getUliDetails",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getVIZIOApp",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getVizioAppInfoByCname",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getWifiSSID",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getWifiSignalStrength",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "getZoomEnabled",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "gotoPreviousApp",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "homekitUnpair",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "is2016Model",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "is2020Model",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "isAirPlayEnabled",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "isBackgroundApp",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "isBluetoothFirmwareUpdateAvailable",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "isCapabilityTrue",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "isCoreReady",
+        "type": "accessor"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "isCurrentApp",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "isDpadEnabled",
+        "type": "accessor"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "isFeatureEnabled",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "isLibraryLoaded",
+        "type": "accessor"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "isNetworkConfigured",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "isSemaphoreCapable",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "isSmartCastDevice",
+        "type": "accessor"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "isToSAccepted",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "isVoiceBackendOnline",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "language",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "launchAmbient",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "launchApp",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "launchApplication",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "launchCastApp",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "launchCastAppWithChannel",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "launchLink",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "network",
+        "type": "object"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "registerEvents",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "registerKeyEvents",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "scplVersion",
+        "type": "accessor"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setActivityDataPolicyAccepted",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setActivityDataPolicyAcceptedListener",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setActivityDataPolicyNotAcceptedListener",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setAdvertiserIDListener",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setAirplayPasswordProperty",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setAirplayProperty",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setAppConfigNewListener",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setAppCurrentHandler",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setAppOverlayListener",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setBluetoothDongleChangeListener",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setBluetoothEventListener",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setBluetoothFirmwareUpdateAvailableListener",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setBluetoothFirmwareUpdateProgressListener",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setBluetoothIRMicPressListener",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setBluetoothNotifyEventListener",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setCapabilitiesChangeListener",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setCastStateHandler",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setClosedCaptionHandler",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setClosedCaptionStyleChangeHandler",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setConnectionStatusHandler",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setContentChangeHandler",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setCustomClickTarget",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setDeviceLanguageHandler",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setDeviceNameChangeListener",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setDeviceNameHandler",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setFWUpdateStatusListener",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setGlobalVizioWebsocketEventListener",
+        "type": "function"
+      },
+      {
+        "scope": "VIZIO",
+        "name": "setHeadphoneBatteryLevelLowListener",
+        "type": "function"
+      }
+    ],
+    "responseType": "string",
+    "version": "prod 64.37",
+    "sequence": 3
+  }
+}

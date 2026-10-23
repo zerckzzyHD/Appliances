@@ -1,0 +1,17 @@
+{
+  "reports": [
+    {
+      "receivedAt": "2026-10-18T03:33:53.604Z",
+      "report": {
+        "probe": "sdk-home-reference-20",
+        "run": "84b6b969552b49a6b8c217d524ba05f1",
+        "loaded": true,
+        "ready": true,
+        "state": "resolved",
+        "methods": [],
+        "responseType": "string",
+        "sequence": 2
+      }
+    }
+  ]
+}

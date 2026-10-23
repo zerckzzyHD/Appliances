@@ -1,0 +1,20 @@
+{
+  "complete": true,
+  "run": "6c81f362505249bb97477dfa72555ee1",
+  "attempts": 1,
+  "reports": [
+    {
+      "receivedAt": "2026-10-18T04:45:46.808Z",
+      "report": {
+        "probe": "sdk-home-reference-22",
+        "run": "6c81f362505249bb97477dfa72555ee1",
+        "loaded": true,
+        "ready": true,
+        "state": "resolved",
+        "methods": [],
+        "responseType": "string",
+        "sequence": 2
+      }
+    }
+  ]
+}

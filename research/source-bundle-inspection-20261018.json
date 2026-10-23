@@ -1,0 +1,271 @@
+{
+  "acquiredOn": "2026-10-18",
+  "origin": "Owner-supplied Google Drive file 1pSoheHhTeRIKE89LkxRlmqX9HEai9Kk-",
+  "filename": "5691_OSS_FUR7.2.zip",
+  "bytes": 7927233880,
+  "sha256": "b89f726e47ac4dae2c4370cf0748036f3a8076f7f98b2942b7b2c29d73a8ac91",
+  "vendorDigestIndependentlyVerified": false,
+  "outerInventory": {
+    "filename": "5691_OSS_FUR7.2.zip",
+    "archiveBytes": 7927233880,
+    "entries": 23,
+    "uncompressedBytes": 8000021680,
+    "encryptedEntries": 0,
+    "unsafePathCount": 0,
+    "topLevel": {
+      "5691_OSS_FUR7.2": 19,
+      "__MACOSX": 4
+    },
+    "shallowEntries": [
+      {
+        "path": "5691_OSS_FUR7.2/",
+        "bytes": 0,
+        "compressedBytes": 0
+      },
+      {
+        "path": "5691_OSS_FUR7.2/build_btsound.sh",
+        "bytes": 158,
+        "compressedBytes": 123
+      },
+      {
+        "path": "5691_OSS_FUR7.2/Btsound.zip",
+        "bytes": 49619495,
+        "compressedBytes": 49304426
+      },
+      {
+        "path": "5691_OSS_FUR7.2/build_acr.sh",
+        "bytes": 2356,
+        "compressedBytes": 889
+      },
+      {
+        "path": "5691_OSS_FUR7.2/.DS_Store",
+        "bytes": 6148,
+        "compressedBytes": 402
+      },
+      {
+        "path": "__MACOSX/5691_OSS_FUR7.2/._.DS_Store",
+        "bytes": 120,
+        "compressedBytes": 53
+      },
+      {
+        "path": "5691_OSS_FUR7.2/prepForBuild.sh",
+        "bytes": 2332,
+        "compressedBytes": 952
+      },
+      {
+        "path": "__MACOSX/5691_OSS_FUR7.2/._prepForBuild.sh",
+        "bytes": 516,
+        "compressedBytes": 356
+      },
+      {
+        "path": "5691_OSS_FUR7.2/release-x.720.7.1-5583-5691-5695-5695s-20260312-54ff60.tar",
+        "bytes": 3902863360,
+        "compressedBytes": 3857410357
+      },
+      {
+        "path": "5691_OSS_FUR7.2/ViziOS-GPL_5691_FUR7.2.tar.gz",
+        "bytes": 1618554037,
+        "compressedBytes": 1606038924
+      },
+      {
+        "path": "5691_OSS_FUR7.2/Loki.zip",
+        "bytes": 246396,
+        "compressedBytes": 245629
+      },
+      {
+        "path": "5691_OSS_FUR7.2/Fancyplayer.zip",
+        "bytes": 870228094,
+        "compressedBytes": 870480868
+      },
+      {
+        "path": "5691_OSS_FUR7.2/Readme",
+        "bytes": 4507,
+        "compressedBytes": 1704
+      },
+      {
+        "path": "__MACOSX/5691_OSS_FUR7.2/._Readme",
+        "bytes": 416,
+        "compressedBytes": 319
+      },
+      {
+        "path": "5691_OSS_FUR7.2/build_vizios.sh",
+        "bytes": 1828,
+        "compressedBytes": 799
+      },
+      {
+        "path": "__MACOSX/5691_OSS_FUR7.2/._build_vizios.sh",
+        "bytes": 532,
+        "compressedBytes": 374
+      },
+      {
+        "path": "5691_OSS_FUR7.2/Scpl.zip",
+        "bytes": 54325597,
+        "compressedBytes": 54338145
+      },
+      {
+        "path": "5691_OSS_FUR7.2/Acr.zip",
+        "bytes": 1501225258,
+        "compressedBytes": 1486482933
+      },
+      {
+        "path": "5691_OSS_FUR7.2/build_firmware.sh",
+        "bytes": 2648,
+        "compressedBytes": 1040
+      },
+      {
+        "path": "5691_OSS_FUR7.2/build_fancyplayer.sh",
+        "bytes": 1236,
+        "compressedBytes": 615
+      },
+      {
+        "path": "5691_OSS_FUR7.2/Conjure.zip",
+        "bytes": 2934603,
+        "compressedBytes": 2918807
+      },
+      {
+        "path": "5691_OSS_FUR7.2/build_scpl.sh",
+        "bytes": 1566,
+        "compressedBytes": 748
+      },
+      {
+        "path": "5691_OSS_FUR7.2/build_conjure.sh",
+        "bytes": 477,
+        "compressedBytes": 289
+      }
+    ],
+    "documentationCandidates": [
+      {
+        "path": "5691_OSS_FUR7.2/Readme",
+        "bytes": 4507
+      },
+      {
+        "path": "__MACOSX/5691_OSS_FUR7.2/._Readme",
+        "bytes": 416
+      },
+      {
+        "path": "5691_OSS_FUR7.2/Scpl.zip",
+        "bytes": 54325597
+      },
+      {
+        "path": "5691_OSS_FUR7.2/Conjure.zip",
+        "bytes": 2934603
+      },
+      {
+        "path": "5691_OSS_FUR7.2/build_scpl.sh",
+        "bytes": 1566
+      },
+      {
+        "path": "5691_OSS_FUR7.2/build_conjure.sh",
+        "bytes": 477
+      }
+    ]
+  },
+  "focusedBundles": [
+    {
+      "member": "Conjure.zip",
+      "bytes": 2934603,
+      "sha256": "880e980a65e85bd6b7d30a6ac4d4e7d34215d797eb7d6bad0b1559e85cd233a6",
+      "entries": 9,
+      "sourceTarballs": 0,
+      "applicationManageBinaryPresent": false,
+      "readmeSummary": "FFmpeg dependencies only; produces libffmpeg.so"
+    },
+    {
+      "member": "Scpl.zip",
+      "bytes": 54325597,
+      "sha256": "2c3ba75133e9f6b08e5fdeb6faecaab2b84101206fdbdf4866a4ee49d56631ae",
+      "entries": 47,
+      "sourceTarballs": 36,
+      "applicationManageBinaryPresent": false,
+      "readmeSummary": "Third-party Python dependencies; embedded label FUR7.2 Build5583; no SCPL route implementation in this ZIP"
+    }
+  ],
+  "tarInventorySummary": [
+    {
+      "member": "5691_OSS_FUR7.2/release-x.720.7.1-5583-5691-5695-5695s-20260312-54ff60.tar",
+      "entries": 2,
+      "memberBytes": 3902852835,
+      "unsafePathCount": 0,
+      "outerMemberCRCReadPassed": true
+    },
+    {
+      "member": "5691_OSS_FUR7.2/ViziOS-GPL_5691_FUR7.2.tar.gz",
+      "entries": 177009,
+      "memberBytes": 5247360335,
+      "unsafePathCount": 0,
+      "outerMemberCRCReadPassed": true
+    }
+  ],
+  "boundedSourceScan": {
+    "targetPrefixes": ["rootfs/ViziOS/", "rootfs/OSUpdater/", "rootfs/tools/"],
+    "scannedFiles": 1490,
+    "scannedBytes": 6131365,
+    "selectedPathCount": 1656,
+    "termCounts": {
+      "scpl": 695,
+      "conjure": 910,
+      "HtmlAppURI": 4,
+      "sc-config.json": 45,
+      "signature": 286,
+      "sideload": 1,
+      "rollback": 196
+    }
+  },
+  "executedVendorCode": false,
+  "deviceWritePerformed": false,
+  "limitations": "All23 outer ZIP entry CRCs passed. Nested archive integrity not fully tested; only bounded source subsets inspected. Owner-supplied archive hash has no independently obtained vendor digest. No exact installed-build equivalence, reachable installer, writable Home mapping, firmware decryption, signing or recovery proof.",
+  "outerIntegrity": {
+    "outerZipEntriesChecked": 23,
+    "allOuterEntryCRCsPassed": true,
+    "elapsedSeconds": 16,
+    "nestedArchiveIntegrityNotFullyTested": true
+  },
+  "focusSourceFiles": [
+    {
+      "member": "rootfs/ViziOS/feature-manager/doc/features.md",
+      "bytes": 17741,
+      "sha256": "8497432bfacafe01cfc604fa18a0378e87ef5648cf9f98aec9e6583ff2359e07"
+    },
+    {
+      "member": "rootfs/ViziOS/feature-manager/src/main.cpp",
+      "bytes": 39584,
+      "sha256": "33e671b7601a337d20f19cb1f0911e0e682c2de9d53d8b572b41a878d7dd9fa0"
+    },
+    {
+      "member": "rootfs/ViziOS/platform_orchestrator/src/appsdatabase.cpp",
+      "bytes": 62317,
+      "sha256": "2e8c40c8e86ccf7246c7d0bbe390b1a4ac90033fb993a7c9492abd118d9c7539"
+    },
+    {
+      "member": "rootfs/ViziOS/platform_orchestrator/src/include/appsdatabase.h",
+      "bytes": 7332,
+      "sha256": "d2b3b5cfe536c250a8bdde3ef65a834441a5760cad974777a7134c2122ab05ef"
+    },
+    {
+      "member": "rootfs/OSUpdater/README.md",
+      "bytes": 3088,
+      "sha256": "2f004757a9dccd116a683ceb55a91e41ec42c36e8a54f26048e963870ec82cda"
+    },
+    {
+      "member": "rootfs/OSUpdater/osu/src/asset_installers/impl/sc_config_installer.cpp",
+      "bytes": 15701,
+      "sha256": "eaf2c856deaec0114f3572f647e09cbf994fa2968196145f8b165c34fc495021"
+    },
+    {
+      "member": "rootfs/OSUpdater/osu/src/commands/scpl_command_handler.cpp",
+      "bytes": 8704,
+      "sha256": "57d43cb9322e7b1ccd685953ee5954fa40f2fbda1c5b1d9c2addf8e84ca82db6"
+    },
+    {
+      "member": "rootfs/OSUpdater/osu/src/manifest/impl/manifest_parser.cpp",
+      "bytes": 2406,
+      "sha256": "f143cd20eb44f72a985d2ae89b9154f337907d9eb6da77169fca9aac6be2499c"
+    }
+  ],
+  "unpackerSourceSummary": {
+    "filesCopiedForStaticReading": 60,
+    "bytes": 155320,
+    "sourceOrBinaryExecuted": false,
+    "privateKeyFilesExtracted": false
+  }
+}

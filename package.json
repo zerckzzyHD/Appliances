@@ -1,0 +1,22 @@
+{
+  "name": "mist-console-tv-client",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Approved LAN presentation client for the existing private Mist Console summary",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build:document": "node research/build-document-parser.mjs",
+    "pretest": "npm run build:document && npm run build:dependencies",
+    "check": "node --check vite-plugin.mjs && node --check src/time.mjs && node --check src/summary.mjs && node --check src/server.mjs && node --check src/page.mjs && node --check bin/serve.mjs",
+    "test": "node --test test/*.test.mjs",
+    "build:dependencies": "node research/build-dependency-parser.mjs"
+  },
+  "devDependencies": {
+    "acorn": "8.17.0",
+    "esbuild": "0.25.12",
+    "parse5": "7.3.0"
+  }
+}

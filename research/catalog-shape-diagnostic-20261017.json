@@ -1,0 +1,332 @@
+{
+  "reports": [
+    {
+      "receivedAt": "2026-10-18T02:58:28.899Z",
+      "report": {
+        "run": "c9519d6a14ee4e38919702fea5bcdceb",
+        "target": "vizioapps",
+        "shape": {
+          "kind": "array",
+          "visited": 37,
+          "truncated": false,
+          "levels": [
+            {
+              "depth": 0,
+              "nodes": 1,
+              "objects": 0,
+              "arrays": 1,
+              "children": 18,
+              "accessorsSkipped": 0,
+              "scalarTypes": {
+                "string": 0,
+                "number": 0,
+                "boolean": 0,
+                "null": 0,
+                "undefined": 0,
+                "unsupported": 0
+              },
+              "fields": []
+            },
+            {
+              "depth": 1,
+              "nodes": 18,
+              "objects": 18,
+              "arrays": 0,
+              "children": 36,
+              "accessorsSkipped": 0,
+              "scalarTypes": {
+                "string": 18,
+                "number": 0,
+                "boolean": 0,
+                "null": 0,
+                "undefined": 0,
+                "unsupported": 0
+              },
+              "fields": [
+                {
+                  "field": "CNAME",
+                  "types": [
+                    "string"
+                  ],
+                  "occurrences": 18
+                }
+              ]
+            },
+            {
+              "depth": 2,
+              "nodes": 18,
+              "objects": 18,
+              "arrays": 0,
+              "children": 54,
+              "accessorsSkipped": 0,
+              "scalarTypes": {
+                "string": 34,
+                "number": 18,
+                "boolean": 0,
+                "null": 2,
+                "undefined": 0,
+                "unsupported": 0
+              },
+              "fields": [
+                {
+                  "field": "NAME_SPACE",
+                  "types": [
+                    "number"
+                  ],
+                  "occurrences": 18
+                },
+                {
+                  "field": "APP_ID",
+                  "types": [
+                    "string"
+                  ],
+                  "occurrences": 18
+                },
+                {
+                  "field": "MESSAGE",
+                  "types": [
+                    "string",
+                    "null"
+                  ],
+                  "occurrences": 18
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-10-18T02:58:29.011Z",
+      "report": {
+        "run": "c9519d6a14ee4e38919702fea5bcdceb",
+        "target": "virtualinputs",
+        "shape": {
+          "kind": "array",
+          "visited": 8,
+          "truncated": true,
+          "levels": [
+            {
+              "depth": 0,
+              "nodes": 1,
+              "objects": 0,
+              "arrays": 1,
+              "children": 2,
+              "accessorsSkipped": 0,
+              "scalarTypes": {
+                "string": 0,
+                "number": 0,
+                "boolean": 0,
+                "null": 0,
+                "undefined": 0,
+                "unsupported": 0
+              },
+              "fields": []
+            },
+            {
+              "depth": 1,
+              "nodes": 2,
+              "objects": 2,
+              "arrays": 0,
+              "children": 11,
+              "accessorsSkipped": 0,
+              "scalarTypes": {
+                "string": 4,
+                "number": 0,
+                "boolean": 2,
+                "null": 0,
+                "undefined": 0,
+                "unsupported": 0
+              },
+              "fields": [
+                {
+                  "field": "APP_ID",
+                  "types": [
+                    "object"
+                  ],
+                  "occurrences": 2
+                },
+                {
+                  "field": "CNAME",
+                  "types": [
+                    "string"
+                  ],
+                  "occurrences": 2
+                }
+              ]
+            },
+            {
+              "depth": 2,
+              "nodes": 5,
+              "objects": 4,
+              "arrays": 1,
+              "children": 14,
+              "accessorsSkipped": 0,
+              "scalarTypes": {
+                "string": 8,
+                "number": 2,
+                "boolean": 0,
+                "null": 2,
+                "undefined": 0,
+                "unsupported": 0
+              },
+              "fields": [
+                {
+                  "field": "NAME_SPACE",
+                  "types": [
+                    "number"
+                  ],
+                  "occurrences": 2
+                },
+                {
+                  "field": "APP_ID",
+                  "types": [
+                    "string"
+                  ],
+                  "occurrences": 2
+                },
+                {
+                  "field": "MESSAGE",
+                  "types": [
+                    "null"
+                  ],
+                  "occurrences": 2
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-10-18T02:58:29.060Z",
+      "report": {
+        "run": "c9519d6a14ee4e38919702fea5bcdceb",
+        "target": "appmigration",
+        "shape": {
+          "kind": "object",
+          "visited": 128,
+          "truncated": true,
+          "levels": [
+            {
+              "depth": 0,
+              "nodes": 1,
+              "objects": 1,
+              "arrays": 0,
+              "children": 654,
+              "accessorsSkipped": 0,
+              "scalarTypes": {
+                "string": 0,
+                "number": 0,
+                "boolean": 0,
+                "null": 0,
+                "undefined": 0,
+                "unsupported": 0
+              },
+              "fields": []
+            },
+            {
+              "depth": 1,
+              "nodes": 127,
+              "objects": 127,
+              "arrays": 0,
+              "children": 381,
+              "accessorsSkipped": 0,
+              "scalarTypes": {
+                "string": 127,
+                "number": 127,
+                "boolean": 0,
+                "null": 127,
+                "undefined": 0,
+                "unsupported": 0
+              },
+              "fields": [
+                {
+                  "field": "NAME_SPACE",
+                  "types": [
+                    "number"
+                  ],
+                  "occurrences": 127
+                },
+                {
+                  "field": "APP_ID",
+                  "types": [
+                    "string"
+                  ],
+                  "occurrences": 127
+                },
+                {
+                  "field": "MESSAGE",
+                  "types": [
+                    "null"
+                  ],
+                  "occurrences": 127
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "receivedAt": "2026-10-18T02:58:29.103Z",
+      "report": {
+        "run": "c9519d6a14ee4e38919702fea5bcdceb",
+        "target": "sctv",
+        "shape": {
+          "kind": "object",
+          "visited": 1,
+          "truncated": false,
+          "levels": [
+            {
+              "depth": 0,
+              "nodes": 1,
+              "objects": 1,
+              "arrays": 0,
+              "children": 4,
+              "accessorsSkipped": 0,
+              "scalarTypes": {
+                "string": 3,
+                "number": 1,
+                "boolean": 0,
+                "null": 0,
+                "undefined": 0,
+                "unsupported": 0
+              },
+              "fields": [
+                {
+                  "field": "NAME_SPACE",
+                  "types": [
+                    "number"
+                  ],
+                  "occurrences": 1
+                },
+                {
+                  "field": "APP_ID",
+                  "types": [
+                    "string"
+                  ],
+                  "occurrences": 1
+                },
+                {
+                  "field": "MESSAGE",
+                  "types": [
+                    "string"
+                  ],
+                  "occurrences": 1
+                },
+                {
+                  "field": "CNAME",
+                  "types": [
+                    "string"
+                  ],
+                  "occurrences": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

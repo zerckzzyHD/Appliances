@@ -1,0 +1,99 @@
+{
+  "reports": [
+    {
+      "receivedAt": "2026-10-18T02:52:39.260Z",
+      "report": {
+        "probe": "sdk-config-absent-14",
+        "run": "aa082a85b0854a6ca3a2d396de697581",
+        "loaded": true,
+        "ready": true,
+        "state": "resolved",
+        "methods": [
+          {
+            "scope": "System",
+            "name": "getConfigProperty",
+            "type": "function"
+          }
+        ],
+        "responseType": "null",
+        "sequence": 2
+      }
+    },
+    {
+      "receivedAt": "2026-10-18T02:52:39.134Z",
+      "report": {
+        "probe": "sdk-config-vizioapps-14",
+        "run": "aa082a85b0854a6ca3a2d396de697581",
+        "loaded": true,
+        "ready": true,
+        "state": "resolved",
+        "methods": [
+          {
+            "scope": "System",
+            "name": "getConfigProperty",
+            "type": "function"
+          }
+        ],
+        "responseType": "object",
+        "sequence": 2
+      }
+    },
+    {
+      "receivedAt": "2026-10-18T02:52:39.278Z",
+      "report": {
+        "probe": "sdk-config-virtualinputs-14",
+        "run": "aa082a85b0854a6ca3a2d396de697581",
+        "loaded": true,
+        "ready": true,
+        "state": "resolved",
+        "methods": [
+          {
+            "scope": "System",
+            "name": "getConfigProperty",
+            "type": "function"
+          }
+        ],
+        "responseType": "object",
+        "sequence": 2
+      }
+    },
+    {
+      "receivedAt": "2026-10-18T02:52:39.135Z",
+      "report": {
+        "probe": "sdk-config-appmigration-14",
+        "run": "aa082a85b0854a6ca3a2d396de697581",
+        "loaded": true,
+        "ready": true,
+        "state": "resolved",
+        "methods": [
+          {
+            "scope": "System",
+            "name": "getConfigProperty",
+            "type": "function"
+          }
+        ],
+        "responseType": "object",
+        "sequence": 2
+      }
+    },
+    {
+      "receivedAt": "2026-10-18T02:52:39.112Z",
+      "report": {
+        "probe": "sdk-app-sctv-14",
+        "run": "aa082a85b0854a6ca3a2d396de697581",
+        "loaded": true,
+        "ready": true,
+        "state": "resolved",
+        "methods": [
+          {
+            "scope": "App",
+            "name": "getVizioAppInfoByCname",
+            "type": "function"
+          }
+        ],
+        "responseType": "object",
+        "sequence": 2
+      }
+    }
+  ]
+}

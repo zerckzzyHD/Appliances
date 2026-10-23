@@ -1,0 +1,70 @@
+{
+  "target": "main",
+  "run": "03a6541cf1e1606a683510c2a2708de1",
+  "reports": [
+    {
+      "receivedAt": "2026-10-18T11:04:33.989Z",
+      "report": {
+        "probe": "sdk-home-document-24",
+        "run": "03a6541cf1e1606a683510c2a2708de1",
+        "sequence": 0,
+        "loaded": true,
+        "ready": true,
+        "state": "resolved",
+        "control": "passed",
+        "truncated": false,
+        "budgetExceeded": false,
+        "methods": [],
+        "root": {
+          "outcome": "ok",
+          "mime": "html",
+          "bytes": 1092,
+          "parse": "parsed",
+          "shape": {
+            "scripts": 3,
+            "inlineScripts": 1,
+            "dataScripts": 0,
+            "srcScripts": 2,
+            "unquotedSrcScripts": 2,
+            "frames": 0,
+            "bases": 0,
+            "metaRefresh": 0,
+            "jsParse": "parsed",
+            "navigation": "none",
+            "literalTargetClass": "none",
+            "navigationContext": "none"
+          }
+        },
+        "continuation": {
+          "outcome": "notAttempted",
+          "mime": "missing",
+          "bytes": 0,
+          "parse": "notAttempted",
+          "shape": {
+            "scripts": 0,
+            "inlineScripts": 0,
+            "dataScripts": 0,
+            "srcScripts": 0,
+            "unquotedSrcScripts": 0,
+            "frames": 0,
+            "bases": 0,
+            "metaRefresh": 0,
+            "jsParse": "notAttempted",
+            "navigation": "none",
+            "literalTargetClass": "none",
+            "navigationContext": "none"
+          }
+        },
+        "negative": {
+          "outcome": "httpError",
+          "bytes": 341,
+          "comparison": "different"
+        },
+        "continuationReason": "none",
+        "stopReason": "ambiguous",
+        "filesAttempted": 2,
+        "bytesRead": 1433
+      }
+    }
+  ]
+}

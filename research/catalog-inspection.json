@@ -1,0 +1,25 @@
+{
+  "appCount": 345,
+  "availabilityCount": 345,
+  "selectedPlatform": "MT5691 inferred from version/package, not hardware inspection",
+  "entriesWithPlatformOrWildcard": 344,
+  "payloadVariantCount": 344,
+  "namespaceVariantCounts": {
+    "5": 2,
+    "2": 335,
+    "4": 1,
+    "0": 2,
+    "3": 4
+  },
+  "payloadParseFailures": 0,
+  "namespace4OrApp17Matches": [
+    {
+      "catalogId": null,
+      "catalogName": "VIZIO Bundles",
+      "namespace": 4,
+      "appId": "3016"
+    }
+  ],
+  "registrationEndpointObserved": false,
+  "limitation": "Public feed schema inspection only; not an exhaustive private API census or firmware-eligibility evaluation. Some variants have version constraints."
+}

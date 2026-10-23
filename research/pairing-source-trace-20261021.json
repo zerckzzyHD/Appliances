@@ -1,0 +1,63 @@
+{
+  "scope": "regular selected text files under rootfs/ViziOS and rootfs/tools; <=2MiB/file,16MiB total,55sec; no symlink following or execution",
+  "entriesVisited": 177009,
+  "scannedFiles": 1014,
+  "scannedBytes": 4759864,
+  "finished": true,
+  "elapsedSeconds": 19.8,
+  "hits": [
+    {
+      "path": "rootfs/ViziOS/vizios-inspector/include/emmc_checker.h",
+      "termLineNumbers": {
+        "DEVICE_NAME": [
+          58
+        ]
+      }
+    },
+    {
+      "path": "rootfs/ViziOS/vizios-inspector/src/emmc_checker.cpp",
+      "termLineNumbers": {
+        "DEVICE_NAME": [
+          455,
+          477,
+          516
+        ]
+      }
+    },
+    {
+      "path": "rootfs/ViziOS/platform_orchestrator/src/sysregmultiplexer.cpp",
+      "termLineNumbers": {
+        "/pairing/start": [
+          237
+        ],
+        "/pairing/stop": [
+          253
+        ],
+        "/pairing/pincode": [
+          110,
+          247,
+          262
+        ],
+        "DEVICE_NAME": [
+          116,
+          408,
+          1000
+        ]
+      }
+    },
+    {
+      "path": "rootfs/ViziOS/systemregistry-provisioner/vendor/nvt/DeviceInfoProvisioner.cpp",
+      "termLineNumbers": {
+        "DEVICE_NAME": [
+          270
+        ]
+      }
+    }
+  ],
+  "conclusions": {
+    "externalPairCompletionHandlerIdentified": false,
+    "successToastRendererIdentified": false,
+    "arbitraryTextEstablished": false,
+    "sourceBuildIdentityEstablished": false
+  }
+}

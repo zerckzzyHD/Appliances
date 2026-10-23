@@ -1,0 +1,23 @@
+{
+  "run": "242785f7e23d4106b19d54598697ce97",
+  "target": "main",
+  "route": "DashCast iframe with fixed inert data:text/html URI",
+  "urlEchoReceived": true,
+  "ownerVisualConfirmation": {
+    "photo": "image-1792631250309.jpg",
+    "photoSHA256": "f21f957cfcb7c0bd0394e5accce45cf984bf688328fbac165d56a0be21e5d428",
+    "heading": "MIST INLINE CONTROL",
+    "subtitle": "Self-contained page",
+    "customHtmlVisible": true
+  },
+  "autoStop": false,
+  "ownerStopRequested": false,
+  "cleanupStatus": "pending_owner_request",
+  "limits": [
+    "No live LAN page retrieval established",
+    "No script execution or SDK access tested in this document",
+    "Full-screen receiver, not native quiet overlay",
+    "No persistent Home tile or prior-app restoration established"
+  ],
+  "senderSessionNote": "Sender remains attached under owner instruction; active JSONL log is not final cleanup evidence."
+}

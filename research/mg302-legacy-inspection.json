@@ -1,0 +1,53 @@
+{
+  "image": "work/firmware/mg302-1.10.15.5-4.utv",
+  "bytes": 522219952,
+  "sha256": "bdd999e80a22bdfa31e3c0f348150309905d842cc78affca20d11c61295a2b66",
+  "envelopeBytes": 7472,
+  "algorithm": "RS512",
+  "version": "1.10.15.5-4",
+  "declaredInnerFilename": "mt5691_MstarUpgrade_OTA.pkg",
+  "productCode": "00199D0302",
+  "audience": [
+    "1.0.5.3",
+    "1.0.7.1",
+    "1.1.15.2-1",
+    "1.1.14.6-1",
+    "1.1.14.6-3",
+    "1.1.19.1-1",
+    "1.1.18.2-3",
+    "1.1.20.1-1",
+    "1.1.18.3-1",
+    "1.1.24.2-1",
+    "1.1.25.1-1",
+    "1.10.10.1-1",
+    "1.10.11.1-1",
+    "1.10.15.1-2",
+    "1.10.15.3-1"
+  ],
+  "payloadBytes": 522210880,
+  "blockBytes": 5242880,
+  "blockCount": 100,
+  "framedSizeMatches": true,
+  "jwtSignatureMatchesEmbeddedLeaf": true,
+  "leafSignatureMatchesEmbeddedIntermediate": true,
+  "independentTrustAnchorVerified": false,
+  "payloadAuthenticatedOrDecrypted": false,
+  "candidates": [
+    {
+      "name": "mg435",
+      "unwrapSucceeded": false,
+      "firstBlockAuthenticated": false
+    },
+    {
+      "name": "mg436",
+      "unwrapSucceeded": false,
+      "firstBlockAuthenticated": false
+    },
+    {
+      "name": "mg438",
+      "unwrapSucceeded": false,
+      "firstBlockAuthenticated": false
+    }
+  ],
+  "limitations": "Embedded signature consistency is not independent vendor trust. Public candidate-key checks cover only this catalog. No device writes or extracted program execution."
+}

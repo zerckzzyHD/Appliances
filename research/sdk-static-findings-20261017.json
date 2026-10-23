@@ -1,0 +1,953 @@
+{
+  "keywordCounts": {
+    "install": 0,
+    "register": 20,
+    "tile": 0,
+    "favorite": 0,
+    "VirtualInputs": 0,
+    "HtmlAppURI": 0,
+    "DashCast": 0
+  },
+  "configKeys": ["AppMigration", "VIZIOApps"],
+  "entryNames": [
+    "CONJURE",
+    "CONJURE_SYSTEM_UI",
+    "VIZIOAPPS_IN_CONJURE",
+    "AUTH_REGISTER_NEW_USER_EXISTS",
+    "NONCE_ALREADY_REGISTERED",
+    "REGISTER_SESSION_PROVIDER",
+    "REGISTER_DISPLAY",
+    "launchRegisterDisplay",
+    "registerKeyEvents",
+    "conjure"
+  ],
+  "rpcPaths": [
+    "app/get_auth_token",
+    "app/init",
+    "app/config/new",
+    "state/device/deviceinfo",
+    "app/config/get_properties",
+    "app/config/get_property",
+    "system/capabilities",
+    "system/capabilities_change",
+    "system/country",
+    "app/launch",
+    "app/exit",
+    "app/current",
+    "system/dynamic/iptolocation",
+    "system/time/timezone",
+    "app/store/get",
+    "app/store/set",
+    "app/key/register",
+    "system/tvad_id",
+    "system/tvad_id/limit_ad_tracking",
+    "system/context_change",
+    "system/input/enable",
+    "system/input/ui_list",
+    "system/input/name",
+    "system/input/visible",
+    "app/menu/show",
+    "state/device/power_mode",
+    "app/zoom/enabled",
+    "app/zoom/focus",
+    "app/tts/enabled",
+    "app/tts/play",
+    "app/overlay",
+    "system/consent/adp",
+    "system/policy/adp",
+    "system/consent/google_tos_and_privacy_policy",
+    "system/consent/vizio_tos_and_privacy_policy",
+    "system/consent/itv",
+    "app/supports_content_change"
+  ],
+  "parser": "acorn",
+  "utf8Bytes": 299586,
+  "characters": 299500,
+  "findings": [
+    {
+      "name": "ta",
+      "control": [
+        {
+          "binding": "ta",
+          "value": {
+            "call": "I",
+            "args": ["ObjectExpression"]
+          }
+        }
+      ],
+      "type": "VariableDeclarator",
+      "characters": 85,
+      "calls": ["I(ObjectExpression)"],
+      "identifiers": [
+        "ta",
+        "I",
+        "name",
+        "N",
+        "scConfigVersion",
+        "source",
+        "ea",
+        "derive",
+        "e",
+        "SC_INFO"
+      ],
+      "keys": ["name", "source", "derive"],
+      "paths": [],
+      "literals": []
+    },
+    {
+      "name": "oa",
+      "control": [
+        {
+          "binding": "oa",
+          "value": "ObjectExpression"
+        }
+      ],
+      "type": "VariableDeclarator",
+      "characters": 80,
+      "calls": [],
+      "identifiers": ["oa", "uriMultiple", "uriSingle"],
+      "keys": ["uriMultiple", "uriSingle"],
+      "paths": ["app/config/get_properties", "app/config/get_property"],
+      "literals": []
+    },
+    {
+      "name": "cl",
+      "control": [
+        {
+          "binding": "cl",
+          "value": "ObjectExpression"
+        }
+      ],
+      "type": "VariableDeclarator",
+      "characters": 46,
+      "calls": [],
+      "identifiers": ["cl", "uriLaunch", "uriExit"],
+      "keys": ["uriLaunch", "uriExit"],
+      "paths": ["app/launch", "app/exit"],
+      "literals": []
+    },
+    {
+      "name": "ll",
+      "control": [
+        {
+          "binding": "ll",
+          "value": "ObjectExpression"
+        },
+        {
+          "binding": "r",
+          "value": null
+        },
+        {
+          "binding": "ArrayPattern",
+          "value": "AwaitExpression"
+        },
+        {
+          "condition": {
+            "operator": "!",
+            "arg": "e"
+          },
+          "consequent": "ThrowStatement"
+        },
+        {
+          "binding": "n",
+          "value": {
+            "templateLengths": [53, 0],
+            "expressions": ["e"]
+          }
+        },
+        {
+          "binding": "r",
+          "value": "ObjectExpression"
+        }
+      ],
+      "type": "VariableDeclarator",
+      "characters": 1606,
+      "calls": [
+        "M.toAppInfo(e)",
+        "mn(AwaitExpression)",
+        "CallExpression.json()",
+        "AwaitExpression.clone()",
+        "Jr.request(ObjectExpression)",
+        "j.error(TemplateLiteral,ObjectExpression)",
+        "x(t)",
+        "ThisExpression.launchCastAppWithChannel(ObjectExpression)",
+        "JSON.stringify(ObjectExpression)",
+        "ThisExpression.launchApp(ObjectExpression)",
+        "String(e)",
+        "Promise.all(ArrayExpression)",
+        "sl.get()",
+        "ba.getProperty(TemplateLiteral)",
+        "ThisExpression.launchCastApp(ObjectExpression)",
+        "j.error(TemplateLiteral)",
+        "Error(TemplateLiteral)",
+        "ThisExpression.launchApp(r)",
+        "x(e)"
+      ],
+      "identifiers": [
+        "ll",
+        "launchApp",
+        "e",
+        "M",
+        "toAppInfo",
+        "mn",
+        "Jr",
+        "request",
+        "throwOnError",
+        "requestOptions",
+        "path",
+        "cl",
+        "uriLaunch",
+        "method",
+        "params",
+        "VALUE",
+        "clone",
+        "json",
+        "t",
+        "j",
+        "error",
+        "x",
+        "appInfo",
+        "launchCastApp",
+        "appId",
+        "mediaInfo",
+        "autoPlay",
+        "n",
+        "playPosition",
+        "r",
+        "customData",
+        "i",
+        "launchCastAppWithChannel",
+        "channel",
+        "messageObject",
+        "type",
+        "media",
+        "autoplay",
+        "currentTime",
+        "JSON",
+        "stringify",
+        "CAST_NAMESPACE",
+        "CAST_MESSAGE",
+        "APP_ID",
+        "String",
+        "NAME_SPACE",
+        "MESSAGE",
+        "launchAmbient",
+        "Promise",
+        "all",
+        "sl",
+        "get",
+        "ba",
+        "getProperty",
+        "launchOobeDeeplink",
+        "stateName",
+        "stateParam",
+        "Error",
+        "exitCurrentApp",
+        "uriExit"
+      ],
+      "keys": [
+        "launchApp",
+        "throwOnError",
+        "requestOptions",
+        "path",
+        "method",
+        "params",
+        "VALUE",
+        "error",
+        "appInfo",
+        "launchCastApp",
+        "appId",
+        "mediaInfo",
+        "autoPlay",
+        "playPosition",
+        "customData",
+        "channel",
+        "messageObject",
+        "type",
+        "media",
+        "autoplay",
+        "currentTime",
+        "launchCastAppWithChannel",
+        "CAST_NAMESPACE",
+        "CAST_MESSAGE",
+        "APP_ID",
+        "NAME_SPACE",
+        "MESSAGE",
+        "launchAmbient",
+        "launchOobeDeeplink",
+        "stateName",
+        "stateParam",
+        "exitCurrentApp"
+      ],
+      "paths": [
+        "appLaunchClient::launchApp::failed",
+        "appLaunchClient::launchCastAppWithChannel::bad-json",
+        "appLaunchClient::launchAmbient::missing-ambient-app-id",
+        "appLaunchClient::launchAmbient::not-supported"
+      ],
+      "literals": [
+        {
+          "type": "template",
+          "length": 3
+        },
+        {
+          "type": "template",
+          "length": 32
+        },
+        {
+          "type": "template",
+          "length": 4
+        },
+        {
+          "type": "template",
+          "length": 26
+        },
+        {
+          "type": "template",
+          "length": 26
+        },
+        {
+          "type": "template",
+          "length": 53
+        },
+        {
+          "type": "template",
+          "length": 0
+        },
+        {
+          "type": "template",
+          "length": 1
+        },
+        {
+          "type": "template",
+          "length": 3
+        },
+        {
+          "type": "template",
+          "length": 22
+        }
+      ]
+    },
+    {
+      "name": "tm",
+      "control": [
+        {
+          "binding": "tm",
+          "value": "ObjectExpression"
+        }
+      ],
+      "type": "VariableDeclarator",
+      "characters": 50,
+      "calls": [],
+      "identifiers": ["tm", "uriGet", "uriSet"],
+      "keys": ["uriGet", "uriSet"],
+      "paths": ["app/store/get", "app/store/set"],
+      "literals": []
+    },
+    {
+      "name": "rm",
+      "control": [
+        {
+          "binding": "rm",
+          "value": "NewExpression"
+        },
+        {
+          "binding": "t",
+          "value": {
+            "call": "Array.isArray",
+            "args": ["e"]
+          }
+        },
+        {
+          "binding": "n",
+          "value": {
+            "condition": "t",
+            "yes": {
+              "call": "e.join",
+              "args": [
+                {
+                  "templateLengths": [1],
+                  "expressions": []
+                }
+              ]
+            },
+            "no": "e"
+          }
+        },
+        {
+          "binding": "r",
+          "value": {
+            "condition": "t",
+            "yes": "ObjectExpression",
+            "no": {
+              "operator": "void",
+              "arg": 0
+            }
+          }
+        },
+        {
+          "binding": "i",
+          "value": {
+            "condition": "t",
+            "yes": "e",
+            "no": "ArrayExpression"
+          }
+        },
+        {
+          "binding": "a",
+          "value": "ArrayExpression"
+        },
+        {
+          "condition": "SequenceExpression",
+          "consequent": "ReturnStatement"
+        },
+        {
+          "binding": "n",
+          "value": {
+            "call": "ri",
+            "args": ["e", "ObjectExpression"]
+          }
+        },
+        {
+          "binding": "o",
+          "value": null
+        },
+        {
+          "binding": "s",
+          "value": null
+        },
+        {
+          "binding": "a",
+          "value": "AwaitExpression"
+        },
+        {
+          "binding": "c",
+          "value": {
+            "condition": {
+              "operator": "||",
+              "left": {
+                "operator": "==",
+                "left": "a",
+                "right": "<literal>"
+              },
+              "right": {
+                "operator": "==",
+                "left": {
+                  "assign": "o",
+                  "value": "a.STATUS"
+                },
+                "right": "<literal>"
+              }
+            },
+            "yes": {
+              "operator": "void",
+              "arg": 0
+            },
+            "no": "o.RESULT"
+          }
+        },
+        {
+          "binding": "l",
+          "value": {
+            "condition": {
+              "operator": "||",
+              "left": {
+                "operator": "==",
+                "left": "a",
+                "right": "<literal>"
+              },
+              "right": {
+                "operator": "==",
+                "left": {
+                  "assign": "s",
+                  "value": "a.ITEM"
+                },
+                "right": "<literal>"
+              }
+            },
+            "yes": {
+              "operator": "void",
+              "arg": 0
+            },
+            "no": "s.VALUE"
+          }
+        }
+      ],
+      "type": "VariableDeclarator",
+      "characters": 1100,
+      "calls": [
+        "ClassExpression()",
+        "Array.isArray(e)",
+        "e.join(TemplateLiteral)",
+        "CallExpression.filter(ArrowFunctionExpression)",
+        "i.map(ArrowFunctionExpression)",
+        "ri(e,ObjectExpression)",
+        "a.push(t)",
+        "j.warn(TemplateLiteral,ObjectExpression)",
+        "CallExpression.json()",
+        "AwaitExpression.clone()",
+        "Jr.request(ObjectExpression)",
+        "j.error(TemplateLiteral,ObjectExpression)",
+        "x(e)",
+        "mn(AwaitExpression)",
+        "x(n)"
+      ],
+      "identifiers": [
+        "rm",
+        "getProperty",
+        "e",
+        "t",
+        "Array",
+        "isArray",
+        "n",
+        "join",
+        "r",
+        "i",
+        "a",
+        "map",
+        "ri",
+        "caller",
+        "limit",
+        "nm",
+        "warn",
+        "push",
+        "filter",
+        "length",
+        "j",
+        "badIndexes",
+        "o",
+        "s",
+        "Jr",
+        "request",
+        "throwOnError",
+        "requestOptions",
+        "path",
+        "tm",
+        "uriGet",
+        "method",
+        "params",
+        "VALUE",
+        "memoName",
+        "clone",
+        "json",
+        "c",
+        "STATUS",
+        "RESULT",
+        "l",
+        "ITEM",
+        "error",
+        "multiple",
+        "keys",
+        "x",
+        "setProperty",
+        "mn",
+        "uriSet",
+        "key",
+        "value"
+      ],
+      "keys": [
+        "caller",
+        "limit",
+        "warn",
+        "badIndexes",
+        "throwOnError",
+        "requestOptions",
+        "path",
+        "method",
+        "params",
+        "VALUE",
+        "memoName",
+        "multiple",
+        "keys",
+        "error",
+        "key",
+        "value"
+      ],
+      "paths": ["getTvStoreProperties::key", "getProperty:"],
+      "literals": [
+        {
+          "type": "template",
+          "length": 1
+        },
+        {
+          "type": "template",
+          "length": 40
+        },
+        {
+          "type": "template",
+          "length": 3
+        },
+        {
+          "type": "template",
+          "length": 0
+        },
+        {
+          "type": "template",
+          "length": 7
+        },
+        {
+          "type": "template",
+          "length": 7
+        },
+        {
+          "type": "template",
+          "length": 38
+        },
+        {
+          "type": "template",
+          "length": 37
+        },
+        {
+          "type": "template",
+          "length": 3
+        },
+        {
+          "type": "template",
+          "length": 37
+        }
+      ]
+    },
+    {
+      "name": "R_",
+      "control": [
+        {
+          "binding": "R_",
+          "value": "ArrowFunctionExpression"
+        }
+      ],
+      "type": "VariableDeclarator",
+      "characters": 29,
+      "calls": ["ba.getProperty(e)"],
+      "identifiers": ["R_", "e", "ba", "getProperty"],
+      "keys": [],
+      "paths": [],
+      "literals": []
+    },
+    {
+      "name": "Q_",
+      "control": [
+        {
+          "binding": "Q_",
+          "value": "ArrowFunctionExpression"
+        }
+      ],
+      "type": "VariableDeclarator",
+      "characters": 29,
+      "calls": ["rm.getProperty(e)"],
+      "identifiers": ["Q_", "e", "rm", "getProperty"],
+      "keys": [],
+      "paths": [],
+      "literals": []
+    },
+    {
+      "name": "$_",
+      "control": [
+        {
+          "binding": "$_",
+          "value": "ArrowFunctionExpression"
+        }
+      ],
+      "type": "VariableDeclarator",
+      "characters": 124,
+      "calls": [
+        "Array.isArray(e)",
+        "j.error(TemplateLiteral,ObjectExpression)",
+        "rm.getProperty(e)"
+      ],
+      "identifiers": [
+        "$_",
+        "e",
+        "Array",
+        "isArray",
+        "length",
+        "j",
+        "error",
+        "keys",
+        "rm",
+        "getProperty"
+      ],
+      "keys": ["keys"],
+      "paths": ["getTvStoreProperties::invalid-keys-param"],
+      "literals": []
+    },
+    {
+      "name": "ev",
+      "control": [
+        {
+          "binding": "ev",
+          "value": "ArrowFunctionExpression"
+        }
+      ],
+      "type": "VariableDeclarator",
+      "characters": 34,
+      "calls": ["rm.setProperty(e,t)"],
+      "identifiers": ["ev", "e", "t", "rm", "setProperty"],
+      "keys": [],
+      "paths": [],
+      "literals": []
+    },
+    {
+      "name": "pv",
+      "control": [
+        {
+          "binding": "pv",
+          "value": "ArrowFunctionExpression"
+        }
+      ],
+      "type": "VariableDeclarator",
+      "characters": 20,
+      "calls": ["ta.get()"],
+      "identifiers": ["pv", "ta", "get"],
+      "keys": [],
+      "paths": [],
+      "literals": []
+    },
+    {
+      "name": "cl",
+      "control": [],
+      "type": "Property",
+      "characters": 4,
+      "calls": [],
+      "identifiers": ["cl", "e"],
+      "keys": ["cl"],
+      "paths": [],
+      "literals": []
+    },
+    {
+      "name": "sw",
+      "control": [
+        {
+          "binding": "sw",
+          "value": {
+            "call": "F",
+            "args": ["ObjectExpression"]
+          }
+        },
+        {
+          "binding": "e",
+          "value": "AwaitExpression"
+        },
+        {
+          "binding": "t",
+          "value": {
+            "call": "M.toBoolean",
+            "args": ["e"]
+          }
+        }
+      ],
+      "type": "VariableDeclarator",
+      "characters": 204,
+      "calls": [
+        "F(ObjectExpression)",
+        "ba.getProperty(TemplateLiteral)",
+        "M.toBoolean(e)",
+        "G(ArrowFunctionExpression)",
+        "j.log(TemplateLiteral)"
+      ],
+      "identifiers": [
+        "sw",
+        "F",
+        "name",
+        "N",
+        "debugEnabled",
+        "fallback",
+        "getter",
+        "e",
+        "ba",
+        "getProperty",
+        "t",
+        "M",
+        "toBoolean",
+        "G",
+        "j",
+        "log"
+      ],
+      "keys": ["name", "fallback", "getter"],
+      "paths": ["debugEnabledSetting::"],
+      "literals": [
+        {
+          "type": "template",
+          "length": 50
+        },
+        {
+          "type": "template",
+          "length": 0
+        }
+      ]
+    },
+    {
+      "name": "hw",
+      "control": [
+        {
+          "binding": "hw",
+          "value": "ArrowFunctionExpression"
+        },
+        {
+          "binding": "ArrayPattern",
+          "value": "AwaitExpression"
+        },
+        {
+          "binding": "ObjectPattern",
+          "value": {
+            "operator": "||",
+            "left": "i",
+            "right": "ObjectExpression"
+          }
+        },
+        {
+          "binding": "s",
+          "value": "NewExpression"
+        },
+        {
+          "condition": "SequenceExpression",
+          "consequent": "IfStatement"
+        },
+        {
+          "condition": "AwaitExpression",
+          "consequent": "ExpressionStatement",
+          "alternate": "ReturnStatement"
+        },
+        {
+          "binding": "c",
+          "value": {
+            "call": "s.toString",
+            "args": []
+          }
+        },
+        {
+          "binding": "l",
+          "value": {
+            "templateLengths": [29, 0],
+            "expressions": ["cw"]
+          }
+        }
+      ],
+      "type": "VariableDeclarator",
+      "characters": 592,
+      "calls": [
+        "Promise.all(ArrayExpression)",
+        "sw.get()",
+        "tv.util.getBinaryVersion(ObjectExpression)",
+        "ta.get()",
+        "tf.get()",
+        "URLSearchParams(TemplateLiteral)",
+        "s.append(TemplateLiteral,n)",
+        "s.append(TemplateLiteral,r)",
+        "s.append(TemplateLiteral,CallExpression)",
+        "String(o)",
+        "s.append(TemplateLiteral,a)",
+        "ba.getProperty(TemplateLiteral)",
+        "s.append(TemplateLiteral,TemplateLiteral)",
+        "s.toString()",
+        "Gv()",
+        "j.warn(TemplateLiteral)",
+        "window.location.replace(TemplateLiteral)"
+      ],
+      "identifiers": [
+        "hw",
+        "e",
+        "t",
+        "n",
+        "r",
+        "i",
+        "Promise",
+        "all",
+        "sw",
+        "get",
+        "tv",
+        "util",
+        "getBinaryVersion",
+        "name",
+        "ta",
+        "tf",
+        "APP_ID",
+        "a",
+        "NAME_SPACE",
+        "o",
+        "s",
+        "URLSearchParams",
+        "append",
+        "String",
+        "ba",
+        "getProperty",
+        "c",
+        "toString",
+        "l",
+        "cw",
+        "Gv",
+        "j",
+        "warn",
+        "window",
+        "location",
+        "replace"
+      ],
+      "keys": ["name", "APP_ID", "NAME_SPACE"],
+      "paths": [
+        "http://127.0.0.1:12345/scfs/cl/js/",
+        "launchApiTestApp::debug-not-enabled-in-config"
+      ],
+      "literals": [
+        {
+          "type": "template",
+          "length": 2
+        },
+        {
+          "type": "template",
+          "length": 0
+        },
+        {
+          "type": "template",
+          "length": 9
+        },
+        {
+          "type": "template",
+          "length": 13
+        },
+        {
+          "type": "template",
+          "length": 10
+        },
+        {
+          "type": "template",
+          "length": 6
+        },
+        {
+          "type": "template",
+          "length": 42
+        },
+        {
+          "type": "template",
+          "length": 2
+        },
+        {
+          "type": "template",
+          "length": 4
+        },
+        {
+          "type": "template",
+          "length": 29
+        },
+        {
+          "type": "template",
+          "length": 0
+        },
+        {
+          "type": "template",
+          "length": 0
+        },
+        {
+          "type": "template",
+          "length": 0
+        },
+        {
+          "type": "template",
+          "length": 1
+        },
+        {
+          "type": "template",
+          "length": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-20",
+  "purpose": "Native nonblocking TV toast: production transport/dispatcher source trace",
+  "archive": "5691_OSS_FUR7.2.zip",
+  "viziosGpl": {
+    "member": "5691_OSS_FUR7.2/ViziOS-GPL_5691_FUR7.2.tar.gz",
+    "entriesVisited": 177009,
+    "matchScope": "Regular files only: exact loki.hpp/loki.h/loki.cpp/libloki.cpp basenames, ViziOS notification/toast filenames and orchestrator build manifests",
+    "matches": [
+      {
+        "path": "rootfs/ViziOS/eventanalyzer/test/mock/include/loki.hpp",
+        "bytes": 516,
+        "exactLibrary": true
+      },
+      {
+        "path": "rootfs/ViziOS/platform_orchestrator/CMakeLists.txt",
+        "bytes": 12342,
+        "exactLibrary": false
+      },
+      {
+        "path": "rootfs/ViziOS/platform_orchestrator/mock/loki-ipc/loki.hpp",
+        "bytes": 1992,
+        "exactLibrary": true
+      },
+      {
+        "path": "rootfs/ViziOS/platform_orchestrator/nullapp/CMakeLists.txt",
+        "bytes": 3889,
+        "exactLibrary": false
+      },
+      {
+        "path": "rootfs/ViziOS/platform_orchestrator/src/globalnotificationhandler.cpp",
+        "bytes": 6351,
+        "exactLibrary": false
+      },
+      {
+        "path": "rootfs/ViziOS/platform_orchestrator/src/include/globalnotificationhandler.h",
+        "bytes": 1736,
+        "exactLibrary": false
+      },
+      {
+        "path": "rootfs/ViziOS/platform_orchestrator/test/host/CMakeLists.txt",
+        "bytes": 16887,
+        "exactLibrary": false
+      },
+      {
+        "path": "rootfs/ViziOS/platform_orchestrator/test/target/webdelegate/CMakeLists.txt",
+        "bytes": 477,
+        "exactLibrary": false
+      }
+    ],
+    "savedFiles": [
+      {
+        "path": "rootfs/ViziOS/eventanalyzer/test/mock/include/loki.hpp",
+        "bytes": 516,
+        "sha256": "25098640200e9d675d0cb531567e73b49f19c52c611913150445d44c467353ff"
+      },
+      {
+        "path": "rootfs/ViziOS/platform_orchestrator/CMakeLists.txt",
+        "bytes": 12342,
+        "sha256": "376eaf0f6e43c09dcc535c2d4c351d80800e66afa63632db11d109a60b238607"
+      },
+      {
+        "path": "rootfs/ViziOS/platform_orchestrator/mock/loki-ipc/loki.hpp",
+        "bytes": 1992,
+        "sha256": "4fdedcb3d3952edcb40ea9fb7544d21954fef6ebd394e073b991016464f3f9d8"
+      },
+      {
+        "path": "rootfs/ViziOS/platform_orchestrator/nullapp/CMakeLists.txt",
+        "bytes": 3889,
+        "sha256": "c7903f0b8f898b0742c4898136cefc37879f2ffa3ebbe98b21153996360e4902"
+      },
+      {
+        "path": "rootfs/ViziOS/platform_orchestrator/src/globalnotificationhandler.cpp",
+        "bytes": 6351,
+        "sha256": "58f47c6947b58237b3f9a2a1ef88a40258e37d2b7d6743603175452abfce88ff"
+      },
+      {
+        "path": "rootfs/ViziOS/platform_orchestrator/src/include/globalnotificationhandler.h",
+        "bytes": 1736,
+        "sha256": "02d7161a1815a24e7d7ee1c73f980da1e55a2069b7ca930670aa19b707823d6e"
+      },
+      {
+        "path": "rootfs/ViziOS/platform_orchestrator/test/host/CMakeLists.txt",
+        "bytes": 16887,
+        "sha256": "93c27296fe821861d9320c54e552a116abd7f04fa019b305bea0c1e08cd7a40d"
+      },
+      {
+        "path": "rootfs/ViziOS/platform_orchestrator/test/target/webdelegate/CMakeLists.txt",
+        "bytes": 477,
+        "sha256": "d01d8af8efdae0b15f27af20126593079f5a6d2809e6039b27dec2a5d95b6a67"
+      }
+    ],
+    "savedBytes": 44190,
+    "sourceCopiesOutsideGit": true,
+    "productionHeaderIdentified": false,
+    "limit": "Does not cover alternate filenames or nonregular-file targets"
+  },
+  "lokiZip": {
+    "date": "2026-10-20",
+    "outerMember": "5691_OSS_FUR7.2/Loki.zip",
+    "nestedArchiveBytes": 246396,
+    "nestedSha256": "d650a65d6958b7224862e1891a320263a5bc56145b1206c311b774463fe039fd",
+    "entries": [
+      {
+        "path": "Loki/",
+        "bytes": 0,
+        "directory": true
+      },
+      {
+        "path": "Loki/license-files-loki/",
+        "bytes": 0,
+        "directory": true
+      },
+      {
+        "path": "Loki/license-files-loki/IndieFlower.otf",
+        "bytes": 275044,
+        "directory": false
+      },
+      {
+        "path": "Loki/license-files-loki/Aftaserif.otf",
+        "bytes": 40312,
+        "directory": false
+      },
+      {
+        "path": "Loki/license-files-loki/NotCourierSans.otf",
+        "bytes": 66644,
+        "directory": false
+      },
+      {
+        "path": "Loki/license-files-loki/README.txt",
+        "bytes": 90,
+        "directory": false
+      },
+      {
+        "path": "Loki/license-files-loki/TitilliumText22L003.otf",
+        "bytes": 46208,
+        "directory": false
+      },
+      {
+        "path": "Loki/license-files-loki/DancingScript.otf",
+        "bytes": 43884,
+        "directory": false
+      }
+    ],
+    "unsafeOrEncrypted": 0,
+    "readTextFiles": ["Loki/license-files-loki/README.txt"],
+    "readTextBytes": 90,
+    "executedSource": false,
+    "fontsExtracted": false,
+    "sourceFileNamesPresent": false,
+    "fontContentsInspected": false
+  },
+  "nestedRelease": {
+    "date": "2026-10-20",
+    "outerMember": "5691_OSS_FUR7.2/release-x.720.7.1-5583-5691-5695-5695s-20260312-54ff60.tar",
+    "nestedMember": "release.tar.gz",
+    "entriesVisited": 481417,
+    "matchedEntries": 0,
+    "matches": [],
+    "matchOverflow": false,
+    "finished": true,
+    "stopReason": "complete",
+    "elapsedSeconds": 52.59,
+    "limits": {
+      "seconds": 60,
+      "entries": 500000,
+      "savedMatches": 64
+    },
+    "linksFollowed": false,
+    "bodiesExtracted": 0,
+    "executedSource": false
+  },
+  "conclusions": {
+    "internalFixedTemplateSenders": "observed in supplied source",
+    "productionIpcImplementation": "unestablished",
+    "notificationDispatcherAndTemplates": "unestablished",
+    "arbitraryTextSupport": "unestablished",
+    "authenticatedLanIngress": "unestablished",
+    "mainTvFirmwareCorrespondence": "unestablished",
+    "noninterruptingBehavior": "unestablished"
+  },
+  "publicSpecCheck": {
+    "url": "https://api.developer.external.plat.vizio.com/apis/63ea675e8c0bfb0001159b04/documentation/raw",
+    "title": "Notification System API",
+    "version": "0.2-oas3",
+    "observedScope": "partner webhooks and transaction-event notification histories",
+    "nativeTvToastContractEstablished": false,
+    "onlyPublicDocumentationRead": true,
+    "apiOperationsInvoked": false
+  },
+  "liveTvRequests": 0,
+  "sourceExecuted": false,
+  "settingsChanged": false
+}

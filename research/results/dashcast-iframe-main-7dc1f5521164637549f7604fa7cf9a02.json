@@ -1,0 +1,38 @@
+{
+  "target": "main",
+  "messages": 1,
+  "visualResult": "owner_observed_dashcast_loading_status_with_exact_marker_url_no_marker",
+  "receiverLaunchAttempted": true,
+  "urlEchoReceived": true,
+  "marker": {
+    "responsesIssued": 0,
+    "lastRejection": "none"
+  },
+  "outcome": "observed_protocol_only",
+  "ownedStopAttempted": true,
+  "stopSendConfirmed": true,
+  "stopResponseReceived": true,
+  "capturedSessionAbsent": true,
+  "senderDisconnected": true,
+  "leaseReleased": true,
+  "cleanupIncomplete": false,
+  "ownerObservation": {
+    "photo": "6862.jpg",
+    "photoSHA256": "daf9daefe2d962a32992476a2088b8dacc7ae8300fc11a5b6ee42025d8e9ae15",
+    "dashcastScreen": true,
+    "bottomStatus": "Loading: exact test marker URL",
+    "markerVisible": false,
+    "endingScreen": "Vizio Home"
+  },
+  "cleanupVerification": {
+    "optionsRestoredByteForByte": true,
+    "consoleRestartedNoProxy": true,
+    "markerEnabled": false,
+    "document24": false,
+    "dependencies25": false,
+    "disabledMarkerAdmissionHTTP": 400,
+    "oldLeaseHTTP": 404,
+    "summaryEdge": "running"
+  },
+  "evidenceCeiling": "URL handling/loading status confirmed, not document display. Zero admitted marker responses is not proof of no network traffic: earlier peer/Host rejection is not counted. Return Home followed planned pinned STOP; no autonomous crash or precise exit timing established."
+}

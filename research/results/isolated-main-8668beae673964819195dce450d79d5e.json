@@ -1,0 +1,160 @@
+{
+  "target": "main",
+  "run": "8668beae673964819195dce450d79d5e",
+  "reports": [
+    {
+      "receivedAt": "2026-10-18T16:13:29.535Z",
+      "report": {
+        "probe": "sdk-home-dependencies-25",
+        "run": "8668beae673964819195dce450d79d5e",
+        "sequence": 0,
+        "loaded": true,
+        "ready": true,
+        "state": "resolved",
+        "control": "passed",
+        "truncated": true,
+        "budgetExceeded": false,
+        "sourceTruncated": false,
+        "parseIncomplete": true,
+        "saturated": false,
+        "methods": [],
+        "root": {
+          "outcome": "ok",
+          "mime": "html",
+          "bytes": 1092,
+          "parse": "parsed",
+          "shape": {
+            "scripts": 3,
+            "inlineScripts": 1,
+            "dataScripts": 0,
+            "srcScripts": 2,
+            "uniqueDirectScripts": 2,
+            "frames": 0,
+            "navigation": 0,
+            "eventHandlers": 0,
+            "bases": 0,
+            "baseState": "none",
+            "navigationState": "none",
+            "jsParse": "parsed"
+          }
+        },
+        "negative": {
+          "outcome": "httpError",
+          "bytes": 341,
+          "comparison": "different"
+        },
+        "dependencies": [
+          {
+            "mode": "classic",
+            "outcome": "ok",
+            "mime": "javascript",
+            "bytes": 150219,
+            "parse": "limit",
+            "shape": {
+              "scripts": 0,
+              "inlineScripts": 0,
+              "dataScripts": 0,
+              "srcScripts": 0,
+              "uniqueDirectScripts": 0,
+              "frames": 0,
+              "navigation": 0,
+              "eventHandlers": 0,
+              "bases": 0,
+              "baseState": "none",
+              "navigationState": "none",
+              "jsParse": "limit"
+            }
+          }
+        ],
+        "graph": {
+          "nodes": [
+            {
+              "id": 0,
+              "resource": "root",
+              "kind": "function"
+            },
+            {
+              "id": 1,
+              "resource": "root",
+              "kind": "function"
+            },
+            {
+              "id": 2,
+              "resource": "root",
+              "kind": "call"
+            },
+            {
+              "id": 3,
+              "resource": "root",
+              "kind": "domCreate"
+            },
+            {
+              "id": 4,
+              "resource": "root",
+              "kind": "eventRegistration"
+            },
+            {
+              "id": 5,
+              "resource": "root",
+              "kind": "call"
+            },
+            {
+              "id": 6,
+              "resource": "root",
+              "kind": "call"
+            },
+            {
+              "id": 7,
+              "resource": "root",
+              "kind": "call"
+            },
+            {
+              "id": 8,
+              "resource": "root",
+              "kind": "call"
+            }
+          ],
+          "edges": [
+            {
+              "from": 4,
+              "to": 0,
+              "relationship": "registersCallback"
+            },
+            {
+              "from": 0,
+              "to": 5,
+              "relationship": "contains"
+            },
+            {
+              "from": 0,
+              "to": 1,
+              "relationship": "contains"
+            },
+            {
+              "from": 1,
+              "to": 6,
+              "relationship": "contains"
+            },
+            {
+              "from": 1,
+              "to": 7,
+              "relationship": "contains"
+            }
+          ]
+        },
+        "unsupportedCount": 0,
+        "partialCoverage": true,
+        "conclusions": {
+          "catalogMembership": "unestablished",
+          "favoritesOrder": "unestablished",
+          "launchRouting": "unestablished",
+          "signedDelivery": "unestablished"
+        },
+        "stopReason": "parseIncomplete",
+        "filesAttempted": 3,
+        "filesRead": 3,
+        "bytesRead": 151652
+      }
+    }
+  ]
+}

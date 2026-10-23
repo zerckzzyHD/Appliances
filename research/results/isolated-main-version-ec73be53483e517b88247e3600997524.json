@@ -1,0 +1,14 @@
+{
+  "target": "main",
+  "run": "ec73be53483e517b88247e3600997524",
+  "recordKind": "selected fields transcribed from observed launcher output; full method list was not saved",
+  "receivedAt": "2026-10-18T04:53:48.781Z",
+  "probe": "sdk-version-10",
+  "loaded": true,
+  "ready": true,
+  "state": "resolved",
+  "responseType": "string",
+  "version": "prod 64.37",
+  "sequence": 3,
+  "restore": "summary_launch_requested_after_ownership_check"
+}
