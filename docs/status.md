@@ -24,6 +24,15 @@ their original dates; no fresh device or running-host health claim is implied. T
   privacy verification and upload remain dated facts. This pass makes local
   documentation changes only.
 
+## Vizio prior-art finding: source-only review2026-10-25
+
+[The firmware research note](research/firmware.md) now records historical ViziOwn
+and two newer Vizio/onn research leads with pinned Git revisions. Their reported
+results do not demonstrate access, Home replacement or flashing on either local
+TV. A source/build compatibility audit is the next research batch. No toolkit,
+REA analysis, TV request or firmware/config write occurred. G1 remains the next
+live experiment while that source-only audit proceeds independently.
+
 ## Dated checkpoint records
 
 These preserve prior measurements and decisions. The current handover in

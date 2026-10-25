@@ -142,7 +142,14 @@ host REST, input listing, store and Home-routing evidence. Exact destination,
 SDK normalization/context and Home consumer remain unresolved. Nine synthetic
 failure-reason tests passed; no new device evidence was added.
 
-**Next without the owner:** formulate one exact missing-evidence question for
+**Next source-only batch:** audit the newly identified
+[Vizio-specific prior art](research/firmware.md) for target/build compatibility,
+implementation support and Home/store ownership before choosing a device test.
+This is G3/TV-P04 evidence work, not permission to execute a toolkit, change
+settings or flash firmware. Keep current-model compatibility unknown until
+measured. A Home-layer route and a firmware replacement are separate options.
+
+**Remaining evidence question:** formulate one exact missing-evidence question for
 G2 normalization/page context or G3 consumer/coverage, using the existing ledger
 to avoid repeating completed inspection. The reviewed retained records do not
 preserve enough to settle the exact G2 normalization field; this does not prove
