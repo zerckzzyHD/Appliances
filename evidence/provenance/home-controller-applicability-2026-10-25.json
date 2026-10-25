@@ -1,0 +1,185 @@
+{
+  "schema": 1,
+  "date": "2026-10-25",
+  "sourceHead": "a9a82994c43fee57a0ed62a1a4955a05d3531b75",
+  "initialWorktree": "clean main",
+  "scope": "Existing OSS factory/selector and sanitized-evidence check; planning-only controller metadata contract; no live TV request",
+  "sourceIdentity": {
+    "referenceLocator": "original TV workspace work/reference/vizio5691-focus and vizio5691-routing",
+    "recordedArchiveSha256": "b89f726e47ac4dae2c4370cf0748036f3a8076f7f98b2942b7b2c29d73a8ac91",
+    "archiveRehashed": false,
+    "vendorDigestIndependentlyVerified": false,
+    "exactRetailBuildMatch": false
+  },
+  "sources": [
+    {
+      "referenceFolder": "vizio5691-focus",
+      "archiveMember": "rootfs/ViziOS/feature-manager/src/main.cpp",
+      "bytes": 39584,
+      "sha256": "33e671b7601a337d20f19cb1f0911e0e682c2de9d53d8b572b41a878d7dd9fa0",
+      "lineRanges": [
+        [61, 61],
+        [960, 981],
+        [1060, 1074]
+      ],
+      "extractionHashMatched": true
+    },
+    {
+      "referenceFolder": "vizio5691-routing",
+      "archiveMember": "rootfs/ViziOS/platform_orchestrator/src/orchestrator.cpp",
+      "bytes": 51713,
+      "sha256": "d04be572c3c12ad296d6c2629bfdd8ecfdb77a0987a7d9e24223250ec8d1cad4",
+      "lineRanges": [
+        [265, 295],
+        [589, 706],
+        [1221, 1238]
+      ],
+      "extractionHashMatched": true
+    },
+    {
+      "referenceFolder": "vizio5691-routing",
+      "archiveMember": "rootfs/ViziOS/platform_orchestrator/src/platformadapter.cpp",
+      "bytes": 833,
+      "sha256": "62243ef09eae542288e661b3dd4a973d2868ea9adbd6a9f75b75dd86b4a34aba",
+      "lineRanges": [[10, 27]],
+      "extractionHashMatched": true
+    },
+    {
+      "referenceFolder": "vizio5691-routing",
+      "archiveMember": "rootfs/ViziOS/platform_orchestrator/src/platform/mtk/platformadapter_mtk202X.cpp",
+      "bytes": 46691,
+      "sha256": "5f4b4a48fc12ff32f26ad73b2037e32d99d776e9fd7e6e352ab5c866b348cdc6",
+      "lineRanges": [[729, 762]],
+      "extractionHashMatched": true
+    },
+    {
+      "referenceFolder": "vizio5691-routing",
+      "archiveMember": "rootfs/ViziOS/platform_orchestrator/src/spock/browserappcontrollerfactory.cpp",
+      "bytes": 1269,
+      "sha256": "e8a9fe93038446b708e2a750db6c9259195368a38590afcf03fa38541463f348",
+      "lineRanges": [[11, 30]],
+      "extractionHashMatched": true
+    },
+    {
+      "referenceFolder": "vizio5691-routing",
+      "archiveMember": "rootfs/ViziOS/platform_orchestrator/src/appmanager.cpp",
+      "bytes": 39769,
+      "sha256": "57a9bcf3635a2e405529bc28167205797b30088b81d75ab4a085d1f866e32e0d",
+      "lineRanges": [[390, 417]],
+      "extractionHashMatched": true
+    },
+    {
+      "referenceFolder": "vizio5691-routing",
+      "archiveMember": "rootfs/ViziOS/platform_orchestrator/src/utils.cpp",
+      "bytes": 15620,
+      "sha256": "d195413c28e8a9f6ab2635b3fe736c9e2b911ab6d92a66ec4a4a1d32b39348bd",
+      "lineRanges": [[216, 236]],
+      "extractionHashMatched": true
+    },
+    {
+      "referenceFolder": "vizio5691-routing",
+      "archiveMember": "rootfs/ViziOS/platform_orchestrator/src/apibuilder.cpp",
+      "bytes": 25061,
+      "sha256": "a6906ed37cad347c5cf68e76414c675f1ec266d3775a26a788f27b137bffc5ee",
+      "lineRanges": [[130, 143]],
+      "extractionHashMatched": true
+    },
+    {
+      "referenceFolder": "vizio5691-routing",
+      "archiveMember": "rootfs/ViziOS/platform_orchestrator/src/include/priv_common.h",
+      "bytes": 19571,
+      "sha256": "d5269d2b3da634598aa67de50e1793ced1c527713c3d0dcfaa36e348685080fd",
+      "lineRanges": [
+        [32, 36],
+        [232, 248]
+      ],
+      "extractionHashMatched": true
+    },
+    {
+      "referenceFolder": "vizio5691-routing",
+      "archiveMember": "rootfs/ViziOS/platform_orchestrator/src/appsdatabase.cpp",
+      "bytes": 62317,
+      "sha256": "2e8c40c8e86ccf7246c7d0bbe390b1a4ac90033fb993a7c9492abd118d9c7539",
+      "lineRanges": [
+        [33, 34],
+        [435, 444],
+        [1306, 1345]
+      ],
+      "extractionHashMatched": true
+    }
+  ],
+  "inputs": {
+    "docs/plan.md": "71b863a300c3aaee1ebc9ede8a7e0e3c455014732a0b9f2d02bc876a6b727775",
+    "docs/status.md": "0945422f6195e2be92d2558edf02513ed0262bc07e34780be1b719dbe89ac575",
+    "docs/research/firmware.md": "511a246924f5db2b54ba54f6cdf0a1f70d66561ea92518bd96a3dad2af2282b9",
+    "docs/experiments/home-actions.md": "bbb4f565c59d49a754dabc3f5caf2b0eea40c8559115e6ab774076427d68d219",
+    "evidence/analysis/source-mapping-diagnostic-20261018.json": "405a830cb46e96e568f6c09482779890dc2217ad53bed5138bd9e85523af803c",
+    "evidence/analysis/home-reference-diagnostic-20261018.json": "961b7bb4931824f70595b46c0a60b3c020d8676ed1e60c67e60da39b8cfedc18",
+    "evidence/analysis/home-reference-diagnostic-20261017.json": "b1a87644241412edeee9be0da08e4663ed3b635f62f481b78e4301c051c05efa",
+    "evidence/results/isolated-main-version-ec73be53483e517b88247e3600997524.json": "4c9892d67e0d48c927bfeee98a41e86fb31313d1b35d6c144634ed50df476592",
+    "docs/history/import-2026-10-23/forge/SOFTWARE-ENTRY-REVIEW.md": "6dfe35a5566362f27231b927382788f25068ec48d26178131daa43f7da01773d"
+  },
+  "searchBoundary": "Selected factory predicates, fallback producer, vendor/config-path selectors, legacy current-app reply and sanitized evidence/diagnostic records. Not every native API, registry writer or source family audited.",
+  "findings": {
+    "ownerRecollection": "Loki, supplied this turn; lead, not current-state observation",
+    "sourceDefault": "Loki",
+    "factoryAvailability": "Loki and browser supported; availability is not effective alias selection",
+    "fallbackProducer": "VIZIOS_CONJURE_HOME_FALLBACK from capabilities file default false -> updateRegistry; helper boolean serialization not in inspected subset",
+    "legacyIdentity": "APP_ID/namespace alone insufficient; current-app reply lacks native controller",
+    "retainedEvidence": "No effective-controller field found; Orchestrator null and Home-reference string type cannot identify current branch",
+    "retailController": "UNVERIFIED",
+    "lookupReadInterface": "not established"
+  },
+  "proposal": {
+    "state": "not runnable: effective Home controller lookup unavailable",
+    "question": "Resolve native Home alias to effective application and controller on exact separately approved target",
+    "prerequisite": "Exact allowed read method/transport and response schema exposing effective Home owner/controller",
+    "retainedOutput": [
+      "allowlisted model/build",
+      "effective Home application identifier",
+      "controller enum loki/loki_v1/browser/other/unknown",
+      "provenance and fixed result category"
+    ],
+    "exclude": [
+      "raw app/config objects",
+      "URI/query values",
+      "credentials",
+      "unrelated settings"
+    ],
+    "stop": "Missing or ambiguous fields; no widening, token bootstrap, launch, retry or write",
+    "nextSourceQuestion": "Identify a bounded owner-accessible read interface for the native Home alias/controller record; publication in system registry alone is not access proof"
+  },
+  "review": {
+    "role": "Astra read-only planning advisor",
+    "result": "Preserve factory availability versus selection; prefer effective alias lookup to current-app getter; no executable request without schema and access evidence"
+  },
+  "boundaries": {
+    "tvRequests": 0,
+    "configChanges": 0,
+    "storeWrites": 0,
+    "installs": 0,
+    "newFixtures": 0,
+    "sourceExtractions": 0,
+    "newPrivateCaptures": 0,
+    "thirdPartyProgramsExecuted": 0,
+    "sourceCopiesAddedToGit": 0,
+    "pushes": 0
+  },
+  "validation": {
+    "sourceHashesMatched": 10,
+    "commands": {
+      "npm run check": { "exitCode": 0 },
+      "npm test": { "exitCode": 0, "passed": 190, "failed": 0, "skipped": 0 },
+      "npm run test:python": { "exitCode": 0, "passed": 18, "failed": 0 },
+      "npm run check:repo": {
+        "exitCode": 0,
+        "importRecords": 193,
+        "forgeMembers": 186
+      },
+      "npm run format:check": { "exitCode": 0 },
+      "git diff --check": { "exitCode": 0 }
+    },
+    "advisorFinalReview": "Astra returned no material issue; consistency advice, not runtime certification",
+    "ceiling": "Local source/synthetic validation only; no TV/controller/persistence test"
+  }
+}

@@ -218,6 +218,36 @@ if that entry behavior is selected. Stop this batch at the immediate producer,
 alias/fallback and return consumer rather than widening into every registry
 writer. G1 remains paused and independent. REA adds no missing runtime evidence.
 
+## Controller applicability check: 2026-10-25
+
+**Outcome: Loki is consistent with the source default and the owner's current
+recollection; the living-room TV's effective controller is not confirmed.**
+This pass inspected retained factory/build selectors and sanitized records, not
+the TV. The [receipt](../../evidence/provenance/home-controller-applicability-2026-10-25.json)
+records source hashes and bounded inputs. No build-identified retail config or
+saved effective Home-provider/controller value was established in that scope.
+
+| Discriminator                    | Inspected evidence                                                                                                                                                                                                                                                                                                                                         | Consequence                                                                                                                                                                                                                            |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Factory support versus selection | `platform_orchestrator/src/orchestrator.cpp:265-295` registers common Loki factory; `src/platform/mtk/platformadapter_mtk202X.cpp:729-762` registers browser factory. `src/spock/browserappcontrollerfactory.cpp:11-16` accepts controller `browser`; `src/appmanager.cpp:390-417` takes the first accepting factory only when no instance already exists. | Both available is not evidence of which owns Home. Effective app description and instance lifecycle matter. Existing Loki acceptance/default behavior remains in the preceding trace.                                                  |
+| Fallback producer                | `feature-manager/src/main.cpp:61,960-981,1060-1074` reads the capabilities file and `VIZIOS_CONJURE_HOME_FALLBACK` (default false), then calls `updateRegistry` for `conjure_home_fallback`.                                                                                                                                                               | This is a concrete producer lead. The helper definition was not located in the retained feature-manager subset; boolean serialization to the consumer's literal `on` remains untraced. The retail file/value is not retained evidence. |
+| Build/config selection           | `platform_orchestrator/src/platformadapter.cpp:10-27` selects vendor adapter; `src/utils.cpp:216-236` selects MTK config path by vendor and file existence.                                                                                                                                                                                                | No exact V435-J01 installed-build binding. Mutable-file precedence is not proof of which file exists or its values on the TV.                                                                                                          |
+| Current-app interface            | `src/orchestrator.cpp:1221-1238` returns legacy identity; `src/apibuilder.cpp:130-143` serializes APP_ID, namespace and MESSAGE, not native controller. Prior fallback swaps preserve legacy identity.                                                                                                                                                     | Historical namespace 4/app 1 cannot discriminate Loki/browser. Current app need not be the configured Home provider. Do not repeat this getter alone as a controller test.                                                             |
+| Retained live-derived records    | Source-mapping probe reports Orchestrator `null`; Home/Chromium sections object types. Home-reference probes retain only string types. Version sample is dated `prod 64.37`. No effective-controller field was found in the inspected sanitized evidence.                                                                                                  | Null does not distinguish absence, access failure or contract differences. String/object type and version do not identify Home's destination/controller.                                                                               |
+
+The owner recollection is retained as a lead, not upgraded to an observation of
+the current controller. The inspected source still favors Loki as the default
+candidate; no new evidence selects browser or proves the fallback's runtime value.
+No raw/private config, retired SDK capture or unrelated machine state was read.
+
+**Next exact gap:** a bounded read interface that resolves native Home alias ->
+effective application -> controller, on the exact retail build. Native registry
+publication is known, but its availability through an owner-accessible read API
+is not established. The [metadata contract](../experiments/home-actions.md#home-controller-identification-proposal-not-runnable)
+is prepared with that prerequisite explicit. Do not substitute a flag write,
+generic config dump, token bootstrap, launch or a guessed registry endpoint.
+No executable controller probe is ready or run. G1 remains paused independently.
+
 Evidence homes:
 
 - [Firmware source trace](../history/import-2026-10-23/forge/FIRMWARE-RESEARCH.md).

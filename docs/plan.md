@@ -158,14 +158,18 @@ retains controller-specific parameters. This advances a source-family native
 return candidate, not stock-grid control or a retail replacement procedure.
 It closes the prior unlocated-OSS gap, not the exact-build or Home-grid gaps.
 
-**Next applicability decision:** identify the living-room build's effective Home
-provider/controller and allowed read surface for this specific config contract
-before designing a mutation. Prefer eligible build-identified configuration or
-factory-selection evidence first; if absent, prepare a separate bounded metadata-only
-proposal and do not run it under the present device hold. Current versions alone cannot prove
-controller identity or access. Physical Home-key routing is a separate unresolved
-source question if selected. No marker write, fallback-flag change, capture,
-tool installation or firmware work follows. G1 remains paused and independent.
+**Applicability check recorded:** [factory/build comparison](research/firmware.md#controller-applicability-check-2026-10-25)
+supports Loki as the source default and finds the fallback-capabilities producer.
+Both Loki and browser factories exist; retained type/version/legacy-ID records do
+not select the running controller. The owner's Loki recollection is a lead.
+
+**Next exact evidence gap:** identify a source-backed, bounded read interface for
+effective Home alias owner/controller on the retail build. The [metadata-only
+proposal](experiments/home-actions.md#home-controller-identification-proposal-not-runnable)
+is prepared but not runnable: exact lookup method/transport/schema is unavailable
+in inspected evidence. Do not guess an endpoint or repeat app/current alone.
+This is not a failed TV read. No write, launch, capture or installation follows;
+physical Home-key routing stays separate and G1 remains paused independently.
 
 **Remaining evidence question:** formulate one exact missing-evidence question for
 G2 normalization/page context or G3 consumer/coverage, using the existing ledger

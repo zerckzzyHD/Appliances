@@ -26,6 +26,29 @@ their original dates; no fresh device or running-host health claim is implied. T
   confirmed private. This pass changes documentation and a provenance receipt
   locally; no push or new device result.
 
+## Controller applicability check: 2026-10-25
+
+- Clean starting point was `main` at `a9a8299`. Inspected retained source and
+  sanitized evidence only; no new device observation.
+- [Factory/selector comparison](research/firmware.md#controller-applicability-check-2026-10-25)
+  supports Loki as source default, consistent with the owner's recollection.
+  Both controller factories are registered; no retained effective Home-controller
+  value or exact retail build binding confirms which is running now.
+- Located the fallback-capabilities producer. Its helper serialization and retail
+  value remain untraced. The known current-app reply carries legacy fields, not
+  native controller; namespace 4/app 1 and old type-only probes are insufficient.
+- [Metadata-only identification contract](experiments/home-actions.md#home-controller-identification-proposal-not-runnable)
+  is prepared but not runnable: effective-controller lookup method/transport/schema
+  is not established. No TV read failed because no TV request was attempted.
+  G1 remains paused; no write, launch, config change, installation or new capture.
+- [Receipt](../evidence/provenance/home-controller-applicability-2026-10-25.json)
+  records source identity, evidence ceilings and local checks. Bulb notes remain
+  in their separate project and were not imported into TV planning.
+- Ten inspected source files matched extraction hashes. Local syntax, 190 Node
+  tests, 18 Python tests, provenance/link and format/whitespace checks passed.
+  Astra's read-only consistency review returned no material issue. These checks
+  do not establish the TV's effective controller.
+
 ## Native Home-consumer trace: 2026-10-25 follow-up
 
 - Clean source baseline was `main` at `8d97c8d`; remote main again read `973151f`.

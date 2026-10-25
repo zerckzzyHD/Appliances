@@ -81,6 +81,36 @@ categories without credentials or raw config export. No such live run is approve
 here. Retired capture permissions stay retired; physical Home-key routing, grid
 control, durability and reversal remain separate. G1 remains paused and unchanged.
 
+## Home controller identification proposal: not runnable
+
+The [source/factory applicability check](../research/firmware.md#controller-applicability-check-2026-10-25)
+supports Loki as the source-default candidate, not current TV proof. The owner's
+recollection is a lead. Exact build/controller values are not in retained outputs.
+
+Question: on the separately approved living-room target, which native application
+is bound to Home, and what controller discriminator does it use? Resolve effective
+Home ownership rather than assuming the current app is Home.
+
+- Prerequisite: identify the exact read method/transport, request and response
+  schema that expose the effective alias owner/controller on this build. A native
+  registry key's existence in source does not establish a network getter. No such
+  eligible interface was established in this bounded pass; no runner is prepared.
+- Proposed retained output only: exact allowlisted model/build, effective Home
+  application identifier, controller enum `loki` / `loki_v1` / `browser` / `other`
+  / `unknown`, evidence provenance and fixed result category. No full app/config
+  object, URI/query strings, tokens, device identifiers or unrelated settings.
+- Once the interface and approval exist, specify a single finite read batch,
+  fixed byte/time limits, missing-field/control handling and privacy projection
+  before execution. No guessed endpoint, pairing/token bootstrap, settings or
+  fallback-flag write, app launch, STOP, retry, reboot or automatic restoration.
+- Effective Loki -> retain Loki URI constraint; browser -> separate candidate,
+  with no writability/integration proof; other/missing/ambiguous -> unknown and
+  stop. A capabilities flag alone or namespace 4/app 1 does not establish the
+  effective controller. Do not widen to enumeration when a field is absent.
+
+Current blocker is **effective Home controller lookup unavailable**, not a failed
+TV read. Live scope remains held. G1 and any future adoption of REA are independent.
+
 ## G2: minimum future replacement-page action experiment
 
 Not runnable yet. Close these prerequisites before preparing a runner:
