@@ -126,16 +126,23 @@ resolution. Neither justifies duplicating current plans or holding G1 research.
 
 ## Current batch and handover
 
-**This pass:** planning synthesis only. No device requests, live run, research
-activation, host restart, config repair, new build or remote operation. Input
+**Synthesis baseline:** no device requests, live run, research activation, host
+restart, config repair, new build or remote operation. Input
 hashes and bounded restore observations are in
 [the synthesis receipt](../evidence/provenance/plan-synthesis-2026-10-25.json).
 The checkpoint skill was read as a reference, not invoked or copied; no RobCo
 queue/lease/checkpoint/deployment tools ran. Existing repo Git history preserves
 the before-state; no imported historical evidence was rewritten.
 
-**Next without the owner:** organize existing static destination/Home-contract
-references for G2/G3 and prepare the minimum next proposal. Do not rerun the
+**Static G2/G3 preparation now recorded:** [contract ledger and action/Home
+proposals](experiments/home-actions.md) separate object SDK, legacy callback,
+host REST, input listing, store and Home-routing evidence. Exact destination,
+SDK normalization/context and Home consumer remain unresolved. Nine synthetic
+failure-reason tests passed; no new device evidence was added.
+
+**Next without the owner:** use that ledger to resolve retained source references
+for the exact missing G2 argument/context contract, or prepare one bounded G3
+coverage question. Do not rerun the
 incomplete Home collector without a new hypothesis, parser reason distinction,
 coverage/control budget and exact approval. Retired raw-source exceptions stay
 retired. No website/repository claims were refreshed by this synthesis.

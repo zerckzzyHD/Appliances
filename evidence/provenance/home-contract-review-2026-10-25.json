@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "measuredUTC": "2026-10-25T17:42:27.756122+00:00",
+  "sourceHead": "280a20ef1b580fce65c0f6eec79ba9e4357b4eea",
+  "scope": "retained local contract evidence organization; no new capture or device operations",
+  "inputs": {
+    "evidence/analysis/test-ui-static-registry-20261017.json": "300e74c1d836b273f56a318a549e503a63ddf6f71dca565625ca6b23ddd8027c",
+    "evidence/analysis/sdk-static-findings-20261017.json": "bb955244cab4fefe3bef1960da2444faa1bb74f9205a577e41c7abed252f873d",
+    "evidence/analysis/catalog-inspection.json": "fccc2df90e754357cdcc3b1966e6321f409bab879f8c8a567da10072ae9b89a7",
+    "evidence/analysis/sdk-store-diagnostic-20261017.json": "bd94f482813505dddc488c98622468fce2d2c411c078648abfff7bc52dd956d0",
+    "evidence/results/isolated-main-8668beae673964819195dce450d79d5e.json": "c50b35b094ceba929715bfc871b119863bea72a1f3dc14e25a49b833e24af288",
+    "docs/history/import-2026-10-23/forge/SOFTWARE-ENTRY-REVIEW.md": "6dfe35a5566362f27231b927382788f25068ec48d26178131daa43f7da01773d",
+    "docs/history/import-2026-10-23/forge/FIRMWARE-RESEARCH.md": "13a77456b86c34d43af3f20e090448491b4f1636f27a28574fe68127ae76d307",
+    "scripts/launch/launch.ps1": "04d98fe7349d443dbbaab636bd0f38efda23a35af96f5afbba8d255d17e9fe47"
+  },
+  "registryEntries": [
+    0,
+    1,
+    5,
+    147,
+    216
+  ],
+  "review": "Astra read-only contract review returned; candidate schema/context unresolved",
+  "tests": {
+    "command": "node --test test/research/home-dependencies-reasons.test.mjs",
+    "passed": 9,
+    "failed": 0,
+    "skipped": 0,
+    "ceiling": "synthetic reasons only; no historical root-cause or device evidence"
+  },
+  "deviceRequests": false,
+  "runtimeChanges": false,
+  "newRawSource": false,
+  "destinationSelected": false,
+  "nextLiveGate": "G1 owner-present input test",
+  "finalReview": "Astra read-only document review returned no material issue; source/test evidence verified by executor only",
+  "validation": {
+    "inputHashes": "8 of 8 match recorded source commit",
+    "repositoryAccounting": "passed:193 originals,186 mapped members, hashes/imports/links",
+    "whitespace": "passed",
+    "format": "changed Markdown formatted and checked"
+  }
+}

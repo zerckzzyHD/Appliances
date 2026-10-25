@@ -20,6 +20,10 @@ launched on a TV; its local config flag was off. Running listener/device state
 was not queried. G1 in the [strategy](plan.md) is the next proposed live test. The prepared local code and synthetic tests are not a
 demonstrated TV route.
 
+The2026-10-25 [contract review](experiments/home-actions.md) organizes existing
+static launch/Home leads only; it adds no demonstrated route or live observation.
+Object SDK calls, legacy callbacks and host-authenticated REST remain separate.
+
 ## Explicitly unestablished
 
 - Genuine stock-Home customization or ownership by a replacement Home.

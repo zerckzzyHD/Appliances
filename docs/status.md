@@ -26,6 +26,22 @@ their original dates; no fresh device or running-host health claim is implied. T
 - [Synthesis receipt](../evidence/provenance/plan-synthesis-2026-10-25.json)
   preserves pre-edit source hashes, review scope and the bounded restore check.
 
+## Static contract review: 2026-10-25
+
+- [G2/G3 preparation](experiments/home-actions.md) now links the retained SDK,
+  catalog, store, host-launch and Home-routing evidence to exact missing proof.
+  Modular App.launchApp takes an object; legacy VIZIO.launchApp is a distinct
+  callback interface. No new app destination or object normalization was inferred.
+- Generic app/store/set is not an established Home writer. The bounded Home read
+  stopped on incomplete first-script analysis; the second script remained unread.
+  New reason reporting cannot diagnose the old result retroactively.
+- Ran nine targeted synthetic dependency-failure-reason tests: nine passed, zero
+  failed/skipped. No SDK, archive code, launch helper or new source capture ran.
+  TVs, credentials, host configuration and runtime remained untouched.
+- [Review receipt](../evidence/provenance/home-contract-review-2026-10-25.json)
+  identifies inputs/hashes and test scope. Next live action remains G1, held for
+  owner presence and exact approval. G2/G3 proposals are not live authorizations.
+
 ## Earlier verified project state: migration checkpoint2026-10-23
 
 - This local repository was created from the TV snapshot identified in
