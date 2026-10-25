@@ -120,7 +120,9 @@ restoration and remaining unknowns. No row below has been run for this product.
 | TV-P05 | Held: attention feature design.                 | Separate owner request; OFF by default, quiet rules and no takeover fallback. [Design](experiments/attention.md). Activity detection is not needed for a manually invoked Home.                                                                           |
 | TV-P06 | Carry-forward outside this product.             | Preserve LAN/Vite/Tailscale extraction, in-Mist Tailscale configuration, scheduled-task AND Startup-folder inventory and read-only Console/Input Lab with owning Mist/RobCo work. Do not edit their queues here.                                          |
 
-Repository housekeeping is not a product gate: no remote is configured, and the
+Repository housekeeping is not a product gate: the
+[private remote](https://github.com/zerckzzyHD/tv-workbench) was created and the
+checked source history uploaded under explicit owner approval on2026-10-25. The
 two untracked Claude TV documents remain outside this repo pending ownership
 resolution. Neither justifies duplicating current plans or holding G1 research.
 

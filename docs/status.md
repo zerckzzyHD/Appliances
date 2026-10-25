@@ -4,6 +4,17 @@ Planning checkpoint: 2026-10-25. Device and migration observations below retain
 their original dates; no fresh device or running-host health claim is implied. This page owns the concise current state; see
 [the plan](plan.md) for priorities and [routes](routes.md) for evidence claims.
 
+## Private repository publication: 2026-10-25
+
+The owner explicitly authorized creating and uploading this repository. GitHub
+reported [zerckzzyHD/tv-workbench](https://github.com/zerckzzyHD/tv-workbench) as
+private; origin now points there. Initial main upload included03afda3 and its
+preserved history. Local checks before upload passed:190 Node tests,18 Python
+tests, syntax, formatting, provenance/links, whitespace and29 PowerShell parses.
+No TV/runtime operations occurred. The final documentation commit is verified
+against the remote after upload; these earlier checkpoint paragraphs remain
+dated observations, not assertions that no remote exists today.
+
 ## Synthesis and restore preflight: 2026-10-25
 
 - [Plan](plan.md) now connects both architecture candidates, gates G0–G5,
@@ -53,7 +64,8 @@ their original dates; no fresh device or running-host health claim is implied. T
   snapshots). Original archived documents and evidence are hash-checked.
 - The code is organized under `src/console/`, `src/hosting/` and
   `src/research/`, with scripts and tests grouped by purpose. This repository
-  has no configured remote in the current migration scope.
+  had no configured remote at that migration checkpoint; publication is recorded
+  above.
 - An input-only Conjure page is prepared in
   [`src/research/home-input-diagnostic.mjs`](../src/research/home-input-diagnostic.mjs).
   Existing hosting integration in

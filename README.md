@@ -32,7 +32,9 @@ maps source files to this repository. The local import began at `534557e`;
 `2f6ca02` preserves exact original bytes after initial Git line-ending normalization.
 No earlier commit was rewritten. The [path map](evidence/provenance/path-map.json)
 locates reorganized files and historical citations;
-the repository has no configured remote in this migration scope.
+the private GitHub home is [tv-workbench](https://github.com/zerckzzyHD/tv-workbench).
+The owner explicitly authorized its creation/upload on2026-10-25; routine future
+publication remains owner-controlled.
 
 ## Repository map
 

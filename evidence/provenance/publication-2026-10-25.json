@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "measuredUTC": "2026-10-25T17:55:59.323507+00:00",
+  "authorization": "explicit owner request to upload TV repository",
+  "repository": "zerckzzyHD/tv-workbench",
+  "url": "https://github.com/zerckzzyHD/tv-workbench",
+  "visibilityReadback": {
+    "isPrivate": true
+  },
+  "initialUploadedHead": "03afda36e732bddbe4018ab1c96cb78ca635fad8",
+  "initialRemoteHeadVerified": true,
+  "checks": {
+    "nodePassed": 190,
+    "pythonPassed": 18,
+    "powerShellParsed": 29,
+    "syntax": "passed",
+    "format": "passed",
+    "provenanceLinks": "passed",
+    "whitespace": "passed"
+  },
+  "scope": "only standalone TV repository; no TV, runtime, config, other-repo push or history rewrite",
+  "finalVerification": "after uploading this documentation commit, compare local HEAD and GitHub refs/heads/main; commit cannot embed its own hash"
+}

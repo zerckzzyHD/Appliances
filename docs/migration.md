@@ -5,8 +5,10 @@ the finite migration receipt and cleanup limits. It is not another TV roadmap.
 
 ## Transferred and checked
 
-- New local home: TV Workbench. No remote configured; PRIVATE is the required
-  future remote setting, not a verified remote property.
+- New local home: TV Workbench. Initially local-only. On2026-10-25 the owner
+  explicitly authorized creation/upload of the
+  [GitHub repository](https://github.com/zerckzzyHD/tv-workbench); GitHub returned
+  isPrivate:true before upload. Initial main upload included03afda3 and its history.
 - [Import receipt](../evidence/provenance/import.json):193 records:186 tracked
   Forge TV files,4 tracked Codex handoff records,1 external tracker,2 session-log
   snapshots. [Path map](../evidence/provenance/path-map.json) accounts for every
@@ -73,7 +75,8 @@ separate final log snapshots remain preserved in this repository and Git history
 
 The two untracked Claude TV brief/review files were neither imported nor removed.
 Their ownership/content needs individual resolution. Unrelated handoff work is
-untouched. No remote is configured here and nothing was pushed or uploaded.
+untouched. This was local-only at migration; the later owner-authorized private
+publication is recorded above. No historical import receipt was rewritten.
 
 ## Validation ceiling
 
