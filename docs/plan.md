@@ -139,20 +139,30 @@ the before-state; no imported historical evidence was rewritten.
 **Static G2/G3 preparation now recorded:** [contract ledger and action/Home
 proposals](experiments/home-actions.md) separate object SDK, legacy callback,
 host REST, input listing, store and Home-routing evidence. Exact destination,
-SDK normalization/context and Home consumer remain unresolved. Nine synthetic
+local SDK normalization/context and Home consumer remain unresolved. Nine synthetic
 failure-reason tests passed; no new device evidence was added.
 
-**Next source-only batch:** audit the newly identified
-[Vizio-specific prior art](research/firmware.md) for target/build compatibility,
-implementation support and Home/store ownership before choosing a device test.
-This is G3/TV-P04 evidence work, not permission to execute a toolkit, change
-settings or flash firmware. Keep current-model compatibility unknown until
-measured. A Home-layer route and a firmware replacement are separate options.
+**Source compatibility audit recorded:** the pinned
+[implementation matrix](research/firmware.md#pinned-implementation-compatibility-audit-2026-10-25)
+traces paired modal launch, SDK normalization, separate config/store consumers,
+response-shape conflict, default writes and automatic Home return. It supplies
+no local compatibility, Home ownership, reboot persistence or recovery proof.
+External normalization is now source-known; local parity/context remains open.
+
+**Next source-only experiment:** one named Home consumer trace, starting at the
+historically identified default-Home registry consumer or a build-identified Home
+loader. Record setting/registration -> reader -> consumer -> reload/behavior,
+with any writer/reversal contract. The inspected toolkit lacks that implementation;
+identify an eligible artifact/revision before proceeding. Existing coordinates
+and summaries cannot substitute for the program. No repeat marker/SDK scan,
+retired capture, toolkit execution or store write follows. This is G3/TV-P04
+research independent of paused G1, with stock grid and replacement entry treated
+separately. A Home-layer route and firmware replacement remain separate options.
 
 **Remaining evidence question:** formulate one exact missing-evidence question for
 G2 normalization/page context or G3 consumer/coverage, using the existing ledger
 to avoid repeating completed inspection. The reviewed retained records do not
-preserve enough to settle the exact G2 normalization field; this does not prove
+preserve enough to settle the exact local G2 normalization field; this does not prove
 that all permissible sources lack it. Identify a specific eligible source or
 propose a bounded acquisition before analysis. Missing artifact access is not an
 analysis-tool problem and does not justify a REA installation. Do not rerun the
@@ -186,13 +196,13 @@ reference, not a replacement engine or a skill we have installed. No imported
 benchmark predicts this Ally's cost, speed or semantic accuracy. Learning
 resources and a fixed agent count are not product dependencies.
 
-| Selection gate         | Evidence to advance                                                                                                                                                          | Current state / branch                                                                                                                                    |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Question/artifact      | Exact G2/G3 question, eligible artifact, useful decision, privacy/output bounds and direct baseline.                                                                         | Plan prepared. Real appInfo normalization/source context and Home consumer remain unresolved. If direct inspection answers the question, stop tool setup. |
-| Trial footprint        | Pinned6.8.0 acquisition/dependencies, isolated .local/rea write/network footprint and cleanup reviewed and approved.                                                         | Not installed or approved by this checkpoint. No global config, skill, engine or Linux installation implied.                                              |
-| Capability and utility | Actual selected-lane Windows/schema checks; same known-truth input/questions for direct baseline and REA; source locations, missed edges and decoy false positives recorded. | No fixture or run exists. Useful additional evidence -> consider real artifact; unsupported/misleading/no added value -> stay direct.                     |
-| Real artifact          | Provenance/version, acquisition, processing, retention and output scope; no implied target execution or endpoint access.                                                     | Existing sanitized metadata is not source. Retired captures cannot be reused. New eligibility is a separate boundary.                                     |
-| MCP integration        | Useful CLI result, reason retained agent access helps, selected-client diff/backup/tool scope/lifecycle/rollback.                                                            | Deferred, separately approved change. No automatic registration, HTTP listener or blanket tools.                                                          |
+| Selection gate         | Evidence to advance                                                                                                                                                          | Current state / branch                                                                                                                                     |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Question/artifact      | Exact G2/G3 question, eligible artifact, useful decision, privacy/output bounds and direct baseline.                                                                         | Plan prepared. Local appInfo normalization/source context and Home consumer remain unresolved. If direct inspection answers the question, stop tool setup. |
+| Trial footprint        | Pinned6.8.0 acquisition/dependencies, isolated .local/rea write/network footprint and cleanup reviewed and approved.                                                         | Not installed or approved by this checkpoint. No global config, skill, engine or Linux installation implied.                                               |
+| Capability and utility | Actual selected-lane Windows/schema checks; same known-truth input/questions for direct baseline and REA; source locations, missed edges and decoy false positives recorded. | No fixture or run exists. Useful additional evidence -> consider real artifact; unsupported/misleading/no added value -> stay direct.                      |
+| Real artifact          | Provenance/version, acquisition, processing, retention and output scope; no implied target execution or endpoint access.                                                     | Existing sanitized metadata is not source. Retired captures cannot be reused. New eligibility is a separate boundary.                                      |
+| MCP integration        | Useful CLI result, reason retained agent access helps, selected-client diff/backup/tool scope/lifecycle/rollback.                                                            | Deferred, separately approved change. No automatic registration, HTTP listener or blanket tools.                                                           |
 
 Priority within tooling: JS launch/Home tracing first if it answers a real gap;
 identified Vizio APK and eligible version comparison next; compatible capture,

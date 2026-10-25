@@ -13,25 +13,54 @@ their original dates; no fresh device or running-host health claim is implied. T
   live testing. Next live action is that input test after fresh preflight and
   owner readiness; no tool installation is required to resume it.
 - Existing G2/G3 contract organization is recorded. The inspected retained
-  records do not settle the exact SDK normalization field or actual Home
-  consumer. No newly acquired source or additional app privileges are established.
+  records do not settle local SDK normalization parity or actual Home consumer.
+  The public SDK contract is now traced below; no new local privileges are established.
 - Direct inspection is the default. REA/LeanREA adoption, a synthetic fixture and
   MCP integration remain unimplemented. Tool approval is conditional on a named
   analysis need and eligible artifact, not the mandatory next owner decision.
 - Config-restore concerns, host health and TV state have not been refreshed in
   this reconciliation. Earlier readings below retain their measurement scope.
-- Local baseline for this pass was clean ee92cdb. Remote main read973151f; prior
-  privacy verification and upload remain dated facts. This pass makes local
-  documentation changes only.
+- Source-audit baseline was clean `main` at `e73b459`. Read-only remote inspection
+  returned `973151fc6dfa4d4bce09449f353713a8e05e0d00` for main; GitHub metadata
+  confirmed private. This pass changes documentation and a provenance receipt
+  locally; no push or new device result.
+
+## Pinned implementation audit: 2026-10-25
+
+- [Claim/evidence/target/unknown matrix](research/firmware.md#pinned-implementation-compatibility-audit-2026-10-25)
+  records the smartcast-backdoor implementation at `aea6dec77bf3c6613c46b2ef45de5444e5f3dccc`.
+  External SDK app-object normalization is now source-known; the different local
+  artifact, page context and installed destination remain unverified.
+- Store REST examples and SDK reader disagree on response envelope. Retained
+  `undefined` does not distinguish a missing key, shape mismatch or failure.
+  Separate config/store clients and manual/D-pad/test-UI consumers do not bridge
+  a generic write to Home grid/order/promotions or integrated entry/return.
+- The helper writes a marker, transmits token/values and automatically launches
+  Home. It neither reverses its write nor checks TV restoration. No helper ran.
+  Author-reported webview lifecycle survival is not reboot persistence; no root,
+  modified-image acceptance or recovery is established for either local TV.
+- Astra supplied read-only planning challenge from the executor's external
+  findings and local documents; it did not independently reproduce those findings.
+  Next source-only experiment is a single Home-consumer trace, pending an eligible
+  native registry/Home implementation identified by path and revision. The pinned
+  toolkit does not contain that missing consumer. Do not repeat metadata scans
+  or reactivate captures to fill the gap. G1 remains paused and independent.
+- No installs, fixtures, agent/config changes, TV operations, store/firmware
+  writes or new private source captures. [Receipt](../evidence/provenance/smartcast-compatibility-2026-10-25.json)
+  records provenance, bounded validation and evidence limits.
+- Local checks ran for this audit: syntax check, 190 Node tests, 18 Python tests,
+  repository provenance/import/link checks and formatting passed. Ten recorded
+  input hashes matched the source commit; retained evidence was unchanged.
+  These are local checks, not TV or third-party reproduction results.
 
 ## Vizio prior-art finding: source-only review2026-10-25
 
 [The firmware research note](research/firmware.md) now records historical ViziOwn
 and two newer Vizio/onn research leads with pinned Git revisions. Their reported
 results do not demonstrate access, Home replacement or flashing on either local
-TV. A source/build compatibility audit is the next research batch. No toolkit,
+TV. That intake led to the implementation audit above. No toolkit,
 REA analysis, TV request or firmware/config write occurred. G1 remains the next
-live experiment while that source-only audit proceeds independently.
+live experiment, held independently of the source-only lane.
 
 ## Dated checkpoint records
 

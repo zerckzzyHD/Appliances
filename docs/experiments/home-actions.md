@@ -5,7 +5,7 @@ preparation under [the strategy](../plan.md), not a second roadmap. No destinati
 has been selected, no live action is approved here and no runner was built.
 Astra reviewed the distinction between candidate contracts and executable scope.
 
-## Static contract ledger
+## Retained local static contract ledger
 
 | Contract / source                   | What the record supports                                                                                                                                                             | Missing proof / consequence                                                                                                                                                                          |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -38,6 +38,29 @@ Evidence locators:
   platform_orchestrator/src/appsdatabase.cpp949–980,1282–1303,1399–1414.
   These are historical source coordinates, not newly inspected production code.
 - [Partial Home report](../../evidence/results/isolated-main-8668beae673964819195dce450d79d5e.json).
+
+## External implementation delta: 2026-10-25
+
+The [pinned compatibility matrix](../research/firmware.md#pinned-implementation-compatibility-audit-2026-10-25)
+narrows the ledger's earlier uncertainty. In that external SDK, modular launch
+normalizes an object/JSON object string to numeric `NAME_SPACE`, nonempty string
+`APP_ID`, retaining other fields, before PUT `app/launch` with `VALUE`. Legacy
+positional launch constructs this object. This is not verified equivalence with
+our retained local artifact, nor evidence our page can initialize/use it. Local
+normalization parity, permitted context and destination selection remain open.
+
+The external SDK store reader expects `ITEM.VALUE`; the report's REST example
+shows `ITEMS` key/value entries. Our retained resolved `undefined` cannot settle
+missing-key versus envelope/failure behavior. Config and KV-store readers are
+separate clients. Manual URL, D-pad and test-UI consumers do not establish Home
+grid or entry ownership. No generic store-write probe follows from this delta.
+
+The smallest next source-only experiment is the named Home-consumer trace in
+that matrix. It needs an eligible implementation of the native default-Home
+registry consumer or actual Home loader/grid; the inspected toolkit does not
+supply it. Existing historical coordinates are leads, not a substitute program.
+This source lane is independent of G1. Its result may support stock customization
+or replacement entry separately; neither is selected by a modal launch.
 
 ## G2: minimum future replacement-page action experiment
 
@@ -108,8 +131,9 @@ No new raw-source capture or replay follows from this proposal.
 
 The next live experiment is still the prepared [G1 input test](home-input.md).
 There is enough static evidence to propose a native page launch path, but not to
-choose an installed destination or manufacture its argument schema. For that exact
-normalization field, the inspected retained artifacts are insufficient. Do not
+choose an installed destination or manufacture its argument schema. For exact local
+normalization parity, the inspected retained artifacts are insufficient; the
+external artifact now supplies its own contract as recorded above. Do not
 repeat an identical metadata search or infer that all external sources lack it;
 name the additional evidence needed and its eligible acquisition/processing scope. No extra SDK
 capture, Home read, app launch or settings write is requested by this document.

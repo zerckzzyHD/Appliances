@@ -1,0 +1,241 @@
+{
+  "schema": 1,
+  "date": "2026-10-25",
+  "sourceHead": "e73b459f37d31062abd46c6a69c07804342a51a6",
+  "scope": "Pinned public-source compatibility audit; selected JS definition/call-site slices, not full SDK audit. No third-party execution or source copy saved.",
+  "git": {
+    "initialWorktree": "clean",
+    "branch": "main",
+    "remote": "https://github.com/zerckzzyHD/tv-workbench.git",
+    "visibility": "private confirmed via GitHub metadata",
+    "remoteMain": "973151fc6dfa4d4bce09449f353713a8e05e0d00",
+    "remoteRead": "git ls-remote origin refs/heads/main; no fetch/ref update or push"
+  },
+  "upstream": {
+    "repository": "vindeckyy/smartcast-backdoor",
+    "revision": "aea6dec77bf3c6613c46b2ef45de5444e5f3dccc",
+    "treeTruncated": false,
+    "files": [
+      {
+        "path": "pwn.py",
+        "gitBlob": "760a656ddde13dd4dfcd37293f6144c0ac1a5fda",
+        "coverage": "full text"
+      },
+      {
+        "path": "recon.py",
+        "gitBlob": "4a908b42f4f2eaf8167cf46ed2f818e699ae9e9e",
+        "coverage": "full text"
+      },
+      {
+        "path": "tvapi.sh",
+        "gitBlob": "db476fcebaffe32ec72e11ee8aeb54b057475e04",
+        "coverage": "full text"
+      },
+      {
+        "path": "viziown.sh",
+        "gitBlob": "4cfb30d76d751a79dc20d4ababe1462d3941f056",
+        "coverage": "full text"
+      },
+      {
+        "path": "cast_probe.py",
+        "gitBlob": "40a3c7e48ef48347157de95b397a52a8df08d0f6",
+        "coverage": "full text"
+      },
+      {
+        "path": "castv2_enum.py",
+        "gitBlob": "bf2deaf6f4094cfd8072e178afd07a31deffef0f",
+        "coverage": "full text"
+      },
+      {
+        "path": "findings.md",
+        "gitBlob": "b6b9d461fdd9be179bc03d3b21373defbff83b09",
+        "coverage": "full text"
+      },
+      {
+        "path": "README.md",
+        "gitBlob": "d564de890496caef6eeb23d13b056be6202ebbfc",
+        "coverage": "target/prerequisites/contracts/lifecycle/firmware/limits sections"
+      },
+      {
+        "path": "payloads/README.md",
+        "gitBlob": "61e68b81f2dddaadb2cd0d41e954037581693e2c",
+        "coverage": "full text"
+      },
+      {
+        "path": "extracted/companion-lib.js",
+        "gitBlob": "cd996a4e453749954191e6095572029d9e366130",
+        "coverage": "selected contract slices"
+      },
+      {
+        "path": "extracted/apiTestApp.js",
+        "gitBlob": "7f854409b9419dc7142636a122e0beb864c33aab",
+        "coverage": "selected contract slices"
+      },
+      {
+        "path": "extracted/uml-bundle.js",
+        "gitBlob": "bfbb877cb3e2158cde9de4aad2aefa73f97798fe",
+        "coverage": "selected contract slices"
+      }
+    ]
+  },
+  "locators": {
+    "offsetConvention": "0-based UTF-16 character offsets in GitHub decoded content; not byte offsets",
+    "companion": [
+      {
+        "symbol": "toAppInfo",
+        "line": 1,
+        "offset": 20796
+      },
+      {
+        "symbol": "pa / config reader",
+        "line": 1,
+        "offset": 75800
+      },
+      {
+        "symbol": "ba instance",
+        "line": 1,
+        "offset": 78531
+      },
+      {
+        "symbol": "fl.launchApp",
+        "line": 3,
+        "offset": 122884
+      },
+      {
+        "symbol": "om store client",
+        "line": 3,
+        "offset": 189448
+      },
+      {
+        "symbol": "sm dpad store consumer",
+        "line": 3,
+        "offset": 190693
+      },
+      {
+        "symbol": "lb modular launch export",
+        "line": 3,
+        "offset": 252121
+      },
+      {
+        "symbol": "legacy launchApp wrapper",
+        "line": 3,
+        "offset": 269273
+      },
+      {
+        "symbol": "debug config consumer uw",
+        "line": 3,
+        "offset": 290669
+      },
+      {
+        "symbol": "vw allowInternalMode config check",
+        "line": 3,
+        "offset": 291585
+      }
+    ],
+    "testUi": [
+      {
+        "symbol": "modular launch descriptor",
+        "line": 12,
+        "offset": 196889
+      },
+      {
+        "symbol": "legacy launch descriptor",
+        "line": 12,
+        "offset": 229800
+      },
+      {
+        "symbol": "store getter descriptor",
+        "line": 12,
+        "offset": 250191
+      },
+      {
+        "symbol": "store setter descriptor",
+        "line": 12,
+        "offset": 251132
+      },
+      {
+        "symbol": "bd presence gate",
+        "line": 12,
+        "offset": 319680
+      }
+    ],
+    "uml": {
+      "line": 1,
+      "symbols": ["i", "c", "f", "p", "startup VIZIO_LIBRARY_DID_LOAD handler"]
+    }
+  },
+  "inputs": {
+    "docs/plan.md": "86eb5716cdc7dd7ed84ad3b5d4ac9fa42eba52d4d2d23ed97ac46c6b8e7549c8",
+    "docs/status.md": "a518101db67604f9a4688c16d1e49dc8bc20eb632ec5ad8f859b8d26d8691872",
+    "docs/research/firmware.md": "5531069150d23b5abe744cc8c7ff5f4604e35268b39522b530fe4b5fb348d548",
+    "docs/experiments/home-actions.md": "c18bd7d44eaf95d934a521cd2accb18a49f390bda23a7436b1907f0894566fa3",
+    "evidence/analysis/sdk-static-findings-20261017.json": "bb955244cab4fefe3bef1960da2444faa1bb74f9205a577e41c7abed252f873d",
+    "evidence/analysis/sdk-store-diagnostic-20261017.json": "bd94f482813505dddc488c98622468fce2d2c411c078648abfff7bc52dd956d0",
+    "evidence/analysis/test-ui-static-registry-20261017.json": "300e74c1d836b273f56a318a549e503a63ddf6f71dca565625ca6b23ddd8027c",
+    "evidence/results/isolated-main-8668beae673964819195dce450d79d5e.json": "c50b35b094ceba929715bfc871b119863bea72a1f3dc14e25a49b833e24af288",
+    "docs/history/import-2026-10-23/forge/FIRMWARE-RESEARCH.md": "13a77456b86c34d43af3f20e090448491b4f1636f27a28574fe68127ae76d307",
+    "docs/history/import-2026-10-23/forge/SOFTWARE-ENTRY-REVIEW.md": "6dfe35a5566362f27231b927382788f25068ec48d26178131daa43f7da01773d"
+  },
+  "review": {
+    "role": "Astra",
+    "mode": "read-only planning boundary",
+    "externalEvidence": "executor-supplied findings; advisor did not independently fetch/reproduce external implementation",
+    "decision": "one source-only Home-consumer trace needs eligible native registry/Home artifact; no generic write experiment",
+    "finalDocumentReview": "Astra returned no material scope/evidence-ceiling contradiction; document consistency advice, not independent external reproduction or certification"
+  },
+  "outcomes": {
+    "externalNormalization": "source-known; local parity/context unverified",
+    "storeEnvelope": "SDK ITEM.VALUE vs narrative ITEMS unresolved",
+    "homeBridge": "not established",
+    "rebootPersistence": "not verified",
+    "root": "not obtained by report",
+    "modifiedImageAcceptance": "not established",
+    "recovery": "not established",
+    "nextSourceArtifact": "build/revision-identified platform_orchestrator/src/appsdatabase.cpp default Home URI consumer, or production Home loader/grid implementation; not supplied by audited toolkit",
+    "nextLive": "G1 remains paused for readiness"
+  },
+  "boundaries": {
+    "deviceRequests": 0,
+    "thirdPartyScriptsExecuted": 0,
+    "installs": 0,
+    "newFixtures": 0,
+    "configChanges": 0,
+    "storeWrites": 0,
+    "firmwareWrites": 0,
+    "privateSourceCaptures": 0,
+    "upstreamSourceCopiesSaved": 0,
+    "pushes": 0
+  },
+  "validation": {
+    "commands": {
+      "npm run check": {
+        "exitCode": 0
+      },
+      "npm test": {
+        "exitCode": 0,
+        "passed": 190,
+        "failed": 0,
+        "skipped": 0
+      },
+      "npm run test:python": {
+        "exitCode": 0,
+        "passed": 18,
+        "failed": 0
+      },
+      "npm run check:repo": {
+        "exitCode": 0,
+        "importRecords": 193,
+        "forgeMembers": 186,
+        "ceiling": "bounded provenance/link/member/private-key-marker checks; not comprehensive secret audit"
+      },
+      "npm run format:check": {
+        "exitCode": 0
+      },
+      "git diff --check": {
+        "exitCode": 0
+      }
+    },
+    "ceiling": "Existing local synthetic/source tests only; no TV compatibility, external toolkit execution, Home integration or persistence validation.",
+    "finalDocumentChecks": "repository/link checks, Markdown and receipt formatting, JSON parse and whitespace checks passed; 10 of 10 source-commit input hashes matched, retained evidence unchanged; source locators checked against decoded public text"
+  }
+}
