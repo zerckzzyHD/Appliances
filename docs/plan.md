@@ -149,15 +149,23 @@ response-shape conflict, default writes and automatic Home return. It supplies
 no local compatibility, Home ownership, reboot persistence or recovery proof.
 External normalization is now source-known; local parity/context remains open.
 
-**Next source-only experiment:** one named Home consumer trace, starting at the
-historically identified default-Home registry consumer or a build-identified Home
-loader. Record setting/registration -> reader -> consumer -> reload/behavior,
-with any writer/reversal contract. The inspected toolkit lacks that implementation;
-identify an eligible artifact/revision before proceeding. Existing coordinates
-and summaries cannot substitute for the program. No repeat marker/SDK scan,
-retired capture, toolkit execution or store write follows. This is G3/TV-P04
-research independent of paused G1, with stock grid and replacement entry treated
-separately. A Home-layer route and firmware replacement remain separate options.
+**Native consumer trace recorded:** [direct OSS trace](research/firmware.md#native-home-consumer-trace-2026-10-25-follow-up)
+located nine hash-matched existing source files. Top-level `Orchestrator.HomePage`
+projects to registry, updates the Home alias's controller parameters and feeds a
+conditional app-return path. The default Loki controller removes `uri`; browser
+and legacy Loki branches differ. Fallback swapping occurs after URI update and
+retains controller-specific parameters. This advances a source-family native
+return candidate, not stock-grid control or a retail replacement procedure.
+It closes the prior unlocated-OSS gap, not the exact-build or Home-grid gaps.
+
+**Next applicability decision:** identify the living-room build's effective Home
+provider/controller and allowed read surface for this specific config contract
+before designing a mutation. Prefer eligible build-identified configuration or
+factory-selection evidence first; if absent, prepare a separate bounded metadata-only
+proposal and do not run it under the present device hold. Current versions alone cannot prove
+controller identity or access. Physical Home-key routing is a separate unresolved
+source question if selected. No marker write, fallback-flag change, capture,
+tool installation or firmware work follows. G1 remains paused and independent.
 
 **Remaining evidence question:** formulate one exact missing-evidence question for
 G2 normalization/page context or G3 consumer/coverage, using the existing ledger

@@ -157,6 +157,67 @@ Pinned source locators (all at the audited revision):
 - [Author's target, lifecycle and limits](https://github.com/vindeckyy/smartcast-backdoor/blob/aea6dec77bf3c6613c46b2ef45de5444e5f3dccc/README.md): lines 101-137, 318, 459-518, 683, 1054-1062; [session account](https://github.com/vindeckyy/smartcast-backdoor/blob/aea6dec77bf3c6613c46b2ef45de5444e5f3dccc/findings.md#L155-L181). Narrative success is not a published raw response/control corpus.
 - Retained comparison: [G2/G3 ledger](../experiments/home-actions.md), [SDK findings](../../evidence/analysis/sdk-static-findings-20261017.json), [store diagnostic](../../evidence/analysis/sdk-store-diagnostic-20261017.json), [partial Home read](../../evidence/results/isolated-main-8668beae673964819195dce450d79d5e.json), historical firmware/source traces below. ViziOwn/VizioRemote remain supporting leads; no new reproduction is implied.
 
+## Native Home-consumer trace: 2026-10-25 follow-up
+
+**Result:** direct inspection establishes a source-level config -> registry ->
+Home-alias -> app-return chain in the supplied 5691 OSS family. It also finds a
+controller constraint: the default Loki Home removes `uri` from launch data.
+This is a replacement-entry research candidate, not a working replacement,
+stock-grid editor or writable retail contract.
+
+**Artifact-location correction:** the previous audit left the native source
+unlocated. Existing extracted OSS copies were found under the original TV
+workspace's `work/reference/vizio5691-focus/` and `vizio5691-routing/`.
+Nine implementation files matched their recorded extraction SHA-256 values;
+`appsdatabase.cpp` also matches the committed asset-admission receipt. No new
+extraction, source capture or raw SDK access was needed. This supersedes the
+artifact gap for this historical consumer only. Production Home-grid source and
+exact retail-build identity remain missing. The prior audit/receipt stays dated.
+The [trace receipt](../../evidence/provenance/home-consumer-trace-2026-10-25.json)
+records hashes, source coordinates, search limits and validation.
+
+Coordinates below are relative to `rootfs/ViziOS/` in the supplied archive, not
+Git source revisions or newly acquired device files. The archive's recorded
+SHA-256 is `b89f726e47ac4dae2c4370cf0748036f3a8076f7f98b2942b7b2c29d73a8ac91`;
+the whole archive was not rehashed this turn and its vendor digest remains
+independently unverified. Matching extracted files does not identify installed
+firmware on either local TV.
+
+| Link / branch                | Direct source evidence                                                                                                                                                                                                                                         | Limit / implication                                                                                                                                                                                                 |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Setting producer             | `feature-manager/src/main.cpp:375-415`: top-level `Orchestrator.HomePage` string -> `/app/platformorchestrator/settings/homePage`; then parent settings value `reload`.                                                                                        | This input is not `SmartCastHome` and not the generic TV KV store. No reachable setter follows.                                                                                                                     |
+| Registry storage             | Same file `131-140`: update existing node, otherwise create with `SYSREG_FLAG_TMP_STORAGE`.                                                                                                                                                                    | Newly created projection requests temporary storage. Existing-node persistence semantics and reboot survival are not established here.                                                                              |
+| Config lifecycle             | Same file `884-901`, `1036-1057`, `1077-1095`: parse config file, call producer on initialization; close-write/create/moved-to notifications on selected path call config handler.                                                                             | Selected-path resolver is called but not defined in this retained main file. File/config acquisition and admission are not equivalent to writable access. No lifecycle test ran.                                    |
+| Registry consumer            | `platform_orchestrator/src/include/priv_common.h:22`; `src/appsdatabase.cpp:1282-1303`: resolve `spock://homePage`, merge `uri` into its controller parameters, `addOrUpdate`.                                                                                 | Changes an app description; does not select a controller or edit a visible grid.                                                                                                                                    |
+| Publication / refresh        | `src/include/priv_common.h:396-399`; `src/appsdatabase.cpp:949-980,1020-1038,1390-1434`: merge patch, in-memory map update, registry publication; settings/fallback subscriptions rerun default updates; initialization does too.                              | No disk save or direct navigation in these update methods. A registry callback is not proof that the displayed page reloads.                                                                                        |
+| Fallback precedence          | `src/appsdatabase.cpp:435-444,1306-1345,1390-1392`: default Home is `vizios-home`/`loki`; SCTV is `browser`. URI update runs before fallback alias/input/legacy swap.                                                                                          | A swap retains each app's controller/parameters. A URI applied to the old alias owner does not automatically transfer to the new owner. Subsequent updates resolve the then-current owner. No flag change proposed. |
+| Controller effect            | `src/spock/browserappcontroller.cpp:23-31,98-100,161-169`: browser consumes URI, rejects a changed URI as an in-place context update. `src/spock/lokiappcontroller.cpp:294-308,448-463`: default Loki launch removes URI; only `loki_v1` takes the URI branch. | `Orchestrator.HomePage` is not a universal HTTP replacement knob. Default Loki continues using bundle/app parameters. Active branch, launch validation and recreation must be established separately.               |
+| App-return entry             | `src/appsdatabase.cpp:1130-1133,1519-1525`; `src/appmanager.cpp:658-679`: target-app-close handler resolves Home alias and chooses it by default, with previous-app-exited metadata.                                                                           | An on-close target or app-switch filter can redirect. This is static return routing, not a local observed app exit.                                                                                                 |
+| Boot / physical Home ceiling | `src/orchestrator.cpp:968-980`: boot module chooses first app when present; otherwise Home alias. `src/keymanager.cpp:192-197`: Home goes to hotkey callback; inspected binding `src/nextgenmtkinterfacelayer.cpp:85-98` records wake-key information.         | Do not generalize the fallback boot branch to every cold boot. Physical Home-key -> alias routing was not established by this bounded trace.                                                                        |
+
+**Writer, durability and reversal:** source identifies feature-manager as a
+registry producer, not an owner-accessible save API. Neither generic store writes
+nor a `SmartCastHome` prefix bridge to this `Orchestrator` input in the inspected
+chain. No original settings were read or changed. Reapplying a prior URI cannot
+be promised as reversal: alias/controller selection, config precedence and
+refresh behavior matter, and removing a missing field does not execute a restore
+branch in `handleOrchestratorConfigUpdate`. A known baseline and a tested stock
+fallback are still prerequisites to any future persistent experiment. Access,
+grid/promotional control, standby/reboot persistence, image acceptance and
+firmware recovery remain separate and unestablished.
+
+**Next decision:** resolve applicability of the concrete controller branch on
+the living-room target before designing a write. First prefer an already eligible,
+build-identified configuration or factory-selection artifact; the traced source
+defaults alone do not identify the retail branch. If that artifact is unavailable,
+a later bounded read-only proposal should answer current build, effective Home provider/controller and
+whether that build exposes the named config through an allowed read interface;
+version agreement alone is insufficient. No such device request is authorized
+or run here. Physical Home-key routing remains a separate exact source question
+if that entry behavior is selected. Stop this batch at the immediate producer,
+alias/fallback and return consumer rather than widening into every registry
+writer. G1 remains paused and independent. REA adds no missing runtime evidence.
+
 Evidence homes:
 
 - [Firmware source trace](../history/import-2026-10-23/forge/FIRMWARE-RESEARCH.md).

@@ -13,8 +13,9 @@ their original dates; no fresh device or running-host health claim is implied. T
   live testing. Next live action is that input test after fresh preflight and
   owner readiness; no tool installation is required to resume it.
 - Existing G2/G3 contract organization is recorded. The inspected retained
-  records do not settle local SDK normalization parity or actual Home consumer.
-  The public SDK contract is now traced below; no new local privileges are established.
+  records do not settle local SDK parity or the running TV's Home consumer.
+  External SDK and historical native return contracts are traced below; no new
+  local privileges or integrated Home behavior are established.
 - Direct inspection is the default. REA/LeanREA adoption, a synthetic fixture and
   MCP integration remain unimplemented. Tool approval is conditional on a named
   analysis need and eligible artifact, not the mandatory next owner decision.
@@ -25,7 +26,30 @@ their original dates; no fresh device or running-host health claim is implied. T
   confirmed private. This pass changes documentation and a provenance receipt
   locally; no push or new device result.
 
-## Pinned implementation audit: 2026-10-25
+## Native Home-consumer trace: 2026-10-25 follow-up
+
+- Clean source baseline was `main` at `8d97c8d`; remote main again read `973151f`.
+  Remote privacy was confirmed in the preceding audit, not refreshed this turn.
+- [Direct trace](research/firmware.md#native-home-consumer-trace-2026-10-25-follow-up)
+  found existing extracted OSS in the original workspace; nine implementation
+  hashes matched extraction provenance. The prior unlocated-artifact gap is closed
+  for this historical native consumer. No raw TV capture was reopened or acquired.
+- `Orchestrator.HomePage` -> temporary-node creation/update in system registry ->
+  Home alias controller-URI update -> conditional app-return selection is traced.
+  This is not `SmartCastHome` or a generic store-write contract. Default Loki strips
+  URI from launch parameters; browser/legacy Loki and fallback branches differ.
+- No stock-grid/promotion consumer, retail writable surface, physical Home-key
+  ownership, persistence or reversal was established. Next decision is exact
+  retail controller/build applicability; prepare a bounded read-only proposal
+  before any future device request. G1 remains independently paused.
+- No TV operations, config/store writes, installations, new fixtures, extraction,
+  third-party execution, REA adoption or push. [Trace receipt](../evidence/provenance/home-consumer-trace-2026-10-25.json)
+  preserves file hashes, source coordinates and check outcomes.
+- Local syntax, formatting, repository provenance/link checks, 190 Node tests
+  and 18 Python tests passed this turn. Nine source-file hashes matched existing
+  extraction records. The OSS was not compiled or executed; no device result follows.
+
+## Pinned implementation audit: 2026-10-25 (preceding checkpoint)
 
 - [Claim/evidence/target/unknown matrix](research/firmware.md#pinned-implementation-compatibility-audit-2026-10-25)
   records the smartcast-backdoor implementation at `aea6dec77bf3c6613c46b2ef45de5444e5f3dccc`.
@@ -41,10 +65,11 @@ their original dates; no fresh device or running-host health claim is implied. T
   modified-image acceptance or recovery is established for either local TV.
 - Astra supplied read-only planning challenge from the executor's external
   findings and local documents; it did not independently reproduce those findings.
-  Next source-only experiment is a single Home-consumer trace, pending an eligible
+  At that checkpoint, the next experiment was a Home-consumer trace, pending an eligible
   native registry/Home implementation identified by path and revision. The pinned
   toolkit does not contain that missing consumer. Do not repeat metadata scans
-  or reactivate captures to fill the gap. G1 remains paused and independent.
+  or reactivate captures to fill the gap. The follow-up above supersedes the
+  unlocated-source prerequisite; G1 remains paused and independent.
 - No installs, fixtures, agent/config changes, TV operations, store/firmware
   writes or new private source captures. [Receipt](../evidence/provenance/smartcast-compatibility-2026-10-25.json)
   records provenance, bounded validation and evidence limits.

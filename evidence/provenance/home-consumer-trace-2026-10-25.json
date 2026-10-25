@@ -1,0 +1,195 @@
+{
+  "schema": 1,
+  "date": "2026-10-25",
+  "sourceHead": "8d97c8d09e35d39b79a5389552ea894f25d58582",
+  "initialWorktree": "clean main",
+  "remoteMain": "973151fc6dfa4d4bce09449f353713a8e05e0d00",
+  "remoteVisibility": "private confirmed in preceding turn; not refreshed here",
+  "scope": "Static reading of existing extracted OSS, immediate producer/alias/fallback/return/controller consumers; no archive or third-party code executed",
+  "sourceLocator": "Original TV workspace work/reference/vizio5691-focus and vizio5691-routing; extraction records under work/firmware",
+  "archive": {
+    "filename": "5691_OSS_FUR7.2.zip",
+    "recordedBytes": 7927233880,
+    "recordedSha256": "b89f726e47ac4dae2c4370cf0748036f3a8076f7f98b2942b7b2c29d73a8ac91",
+    "wholeArchiveRehashedThisTurn": false,
+    "vendorDigestIndependentlyVerified": false,
+    "installedBuildMatch": false
+  },
+  "artifactLocationCorrection": "Prior audit left historical consumer source unlocated; existing hash-matched OSS copies now found. Retired live-TV source capture access was not reopened.",
+  "sources": [
+    {
+      "referenceFolder": "vizio5691-focus",
+      "archiveMember": "rootfs/ViziOS/feature-manager/src/main.cpp",
+      "bytes": 39584,
+      "sha256": "33e671b7601a337d20f19cb1f0911e0e682c2de9d53d8b572b41a878d7dd9fa0",
+      "lineRanges": [
+        [131, 140],
+        [375, 415],
+        [884, 901],
+        [1036, 1057],
+        [1077, 1095]
+      ],
+      "extractionHashMatched": true
+    },
+    {
+      "referenceFolder": "vizio5691-routing",
+      "archiveMember": "rootfs/ViziOS/platform_orchestrator/src/appsdatabase.cpp",
+      "bytes": 62317,
+      "sha256": "2e8c40c8e86ccf7246c7d0bbe390b1a4ac90033fb993a7c9492abd118d9c7539",
+      "lineRanges": [
+        [435, 444],
+        [949, 980],
+        [1020, 1038],
+        [1130, 1133],
+        [1282, 1434],
+        [1519, 1525]
+      ],
+      "extractionHashMatched": true
+    },
+    {
+      "referenceFolder": "vizio5691-routing",
+      "archiveMember": "rootfs/ViziOS/platform_orchestrator/src/include/priv_common.h",
+      "bytes": 19571,
+      "sha256": "d5269d2b3da634598aa67de50e1793ced1c527713c3d0dcfaa36e348685080fd",
+      "lineRanges": [
+        [22, 32],
+        [396, 399]
+      ],
+      "extractionHashMatched": true
+    },
+    {
+      "referenceFolder": "vizio5691-routing",
+      "archiveMember": "rootfs/ViziOS/platform_orchestrator/src/appmanager.cpp",
+      "bytes": 39769,
+      "sha256": "57a9bcf3635a2e405529bc28167205797b30088b81d75ab4a085d1f866e32e0d",
+      "lineRanges": [
+        [361, 385],
+        [658, 679],
+        [974, 979],
+        [1097, 1107]
+      ],
+      "extractionHashMatched": true
+    },
+    {
+      "referenceFolder": "vizio5691-routing",
+      "archiveMember": "rootfs/ViziOS/platform_orchestrator/src/spock/browserappcontroller.cpp",
+      "bytes": 6882,
+      "sha256": "244bc33d6f540c081a9d37501ed2ea067e31accd5e295ae2725b5d6be014e190",
+      "lineRanges": [
+        [23, 31],
+        [98, 100],
+        [161, 180]
+      ],
+      "extractionHashMatched": true
+    },
+    {
+      "referenceFolder": "vizio5691-routing",
+      "archiveMember": "rootfs/ViziOS/platform_orchestrator/src/spock/lokiappcontroller.cpp",
+      "bytes": 16379,
+      "sha256": "9de473f09738df880baf77f019c00af58a7dfab87463ade21b5d6e36123c9b36",
+      "lineRanges": [
+        [142, 158],
+        [294, 308],
+        [448, 464]
+      ],
+      "extractionHashMatched": true
+    },
+    {
+      "referenceFolder": "vizio5691-routing",
+      "archiveMember": "rootfs/ViziOS/platform_orchestrator/src/keymanager.cpp",
+      "bytes": 10300,
+      "sha256": "a9cd7088ec3a0f2576dcc7ecbd780850edeaf148c108a3324afac9e3d460a4ff",
+      "lineRanges": [
+        [113, 115],
+        [180, 199]
+      ],
+      "extractionHashMatched": true
+    },
+    {
+      "referenceFolder": "vizio5691-routing",
+      "archiveMember": "rootfs/ViziOS/platform_orchestrator/src/nextgenmtkinterfacelayer.cpp",
+      "bytes": 15731,
+      "sha256": "cb800ee5bd457815c2a454c459dc91871ce6e55db19bb9ee75eb676c6e65de91",
+      "lineRanges": [[85, 98]],
+      "extractionHashMatched": true
+    },
+    {
+      "referenceFolder": "vizio5691-routing",
+      "archiveMember": "rootfs/ViziOS/platform_orchestrator/src/orchestrator.cpp",
+      "bytes": 51713,
+      "sha256": "d04be572c3c12ad296d6c2629bfdd8ecfdb77a0987a7d9e24223250ec8d1cad4",
+      "lineRanges": [[968, 980]],
+      "extractionHashMatched": true
+    }
+  ],
+  "supportingDocument": {
+    "referenceFolder": "vizio5691-focus",
+    "archiveMember": "rootfs/ViziOS/feature-manager/doc/features.md",
+    "coverage": "targeted keyword locations, not new installed-state evidence"
+  },
+  "inputs": {
+    "docs/plan.md": "888bcfbdb3122806966897f9555c8d7114a4ddfaaee64a65b64abb6e96134890",
+    "docs/status.md": "a4f906910564220c350a99e66fca110d274c5c91315cab694e0680d2f9c4d5d9",
+    "docs/research/firmware.md": "6b00f92ad427e57d8f013d93d7b440150d8ee89aaa7ec4bb496d0785612ee739",
+    "docs/experiments/home-actions.md": "13b600513b76d0469733eb25b30d25b622b7ce9550043716cd3fa61beb1823de",
+    "evidence/analysis/source-asset-admission-20261018.json": "9b3e618f69c86548d9513da41b2a3169a97bda619861cc76378ca8e728245caa",
+    "evidence/analysis/source-bundle-inspection-20261018.json": "b281fe65fbb84f2b59ba1a38c709950a75a8e1b8d600fa15ef6229b6b1bc8d34"
+  },
+  "chain": [
+    "Parsed source config top-level Orchestrator.HomePage",
+    "feature-manager registry update or TMP_STORAGE creation and parent reload",
+    "Home alias controller-parameter URI merge",
+    "conditional fallback alias/input/legacy swap after URI update",
+    "in-memory map update and registry publication",
+    "conditional Home alias choice on target app close or boot fallback",
+    "controller-specific interpretation: browser URI versus default Loki bundle/app and URI removal"
+  ],
+  "findings": {
+    "sourceConsumer": "established for historical source family",
+    "genericStoreToRegistryBridge": "not established",
+    "defaultLoki": "removes URI from launch payload; HomePage string alone does not select browser",
+    "fallbackOrdering": "URI can remain on former alias owner; later update not guaranteed",
+    "databaseRefresh": "does not establish displayed-page navigation",
+    "physicalHomeKey": "missing action-dispatch edge",
+    "retailApplicability": "unverified for both local targets",
+    "runningInstanceAdoption": "not established; changed browser URI rejects in-place context update",
+    "gridAndPromotions": "no consumer established",
+    "durability": "temporary-node creation and source reload mechanisms, not reboot persistence",
+    "reversal": "not demonstrated; field absence is not restore logic",
+    "imageAcceptanceAndRecovery": "not established"
+  },
+  "nextDecision": "Prefer existing eligible build-identified configuration/factory-selection evidence for retail Home controller and fallback branch; if absent, prepare separately scoped metadata-only read, do not run under hold",
+  "review": {
+    "role": "Astra read-only advisor",
+    "result": "Historical return chain supported; no arbitrary-URL replacement recipe; preserve producer identity, fallback sequencing and refresh-versus-navigation caveats",
+    "authority": "advice only; no device or scope approval"
+  },
+  "boundaries": {
+    "tvRequests": 0,
+    "configChanges": 0,
+    "storeWrites": 0,
+    "installs": 0,
+    "newFixtures": 0,
+    "extractions": 0,
+    "newPrivateCaptures": 0,
+    "thirdPartyProgramsExecuted": 0,
+    "sourceCopiesAddedToGit": 0,
+    "pushes": 0
+  },
+  "validation": {
+    "sourceHashesMatched": 9,
+    "commands": {
+      "npm run check": { "exitCode": 0 },
+      "npm test": { "exitCode": 0, "passed": 190, "failed": 0, "skipped": 0 },
+      "npm run test:python": { "exitCode": 0, "passed": 18, "failed": 0 },
+      "npm run check:repo": {
+        "exitCode": 0,
+        "importRecords": 193,
+        "forgeMembers": 186
+      },
+      "npm run format:check": { "exitCode": 0 },
+      "git diff --check": { "exitCode": 0 }
+    },
+    "ceiling": "Local source/synthetic checks; no compiled OSS, TV compatibility, runtime navigation, persistence or recovery test"
+  }
+}

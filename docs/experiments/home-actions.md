@@ -55,12 +55,31 @@ missing-key versus envelope/failure behavior. Config and KV-store readers are
 separate clients. Manual URL, D-pad and test-UI consumers do not establish Home
 grid or entry ownership. No generic store-write probe follows from this delta.
 
-The smallest next source-only experiment is the named Home-consumer trace in
+At that checkpoint the next source-only experiment was the Home-consumer trace in
 that matrix. It needs an eligible implementation of the native default-Home
 registry consumer or actual Home loader/grid; the inspected toolkit does not
 supply it. Existing historical coordinates are leads, not a substitute program.
 This source lane is independent of G1. Its result may support stock customization
 or replacement entry separately; neither is selected by a modal launch.
+
+## Native consumer trace delta: 2026-10-25 follow-up
+
+The [direct OSS trace](../research/firmware.md#native-home-consumer-trace-2026-10-25-follow-up)
+now locates and hashes the existing implementation. Top-level `Orchestrator.HomePage`
+projects to a native registry setting; the Home alias is updated and selected by
+conditional app-return code. This is separate from generic store and stock-grid
+editing. The default Loki controller discards `uri`; fallback swaps can change
+the alias owner after the URI update. A string value alone cannot select an
+arbitrary browser Home. Subscriptions update the database, not directly navigate.
+
+Before any mutation proposal, establish exact retail provider/controller and the
+allowed read surface for this config. Prefer eligible build-identified config or
+factory-selection source first; the historical defaults are insufficient. If
+that evidence is unavailable, a future metadata-only compatibility scope
+would record build, effective Home owner/controller and fixed shape/availability
+categories without credentials or raw config export. No such live run is approved
+here. Retired capture permissions stay retired; physical Home-key routing, grid
+control, durability and reversal remain separate. G1 remains paused and unchanged.
 
 ## G2: minimum future replacement-page action experiment
 
