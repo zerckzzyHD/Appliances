@@ -160,3 +160,12 @@ After each result, update status with evidence, routes only with demonstrated
 behavior, this plan with the next decision, and the affected protocol. Record
 partial/unknown cases and remaining acceptance before advancing. This is manual
 planning reconciliation, not a newly installed checkpoint mechanism or gate.
+
+## Tooling assessment: REA6.8.0
+
+[Release review](research/rea.md) now distinguishes the useful static JavaScript
+and offline-evidence lanes from the still-constrained firmware lane. Optional
+next step is a pinned CLI-only synthetic positive/decoy trial after exact package
+and local-write scope review. No installation, setup or real-source capture is
+approved by this entry. REA adoption is not a prerequisite for G1. The current
+input test was paused at owner request before flags changed or any TV launch.

@@ -29,3 +29,8 @@ Evidence homes:
 
 Original paths in historical citations are preserved; use the [path map](../../evidence/provenance/path-map.json)
 and [import receipt](../../evidence/provenance/import.json) to resolve their origin.
+
+The [REA6.8.0 review](rea.md) separates JavaScript/offline-evidence opportunities
+from firmware constraints. The previous firmware-focused tool assessment does
+not rule out a static JS trial; no real artifact, recovery or TV privilege was
+established by the release review.

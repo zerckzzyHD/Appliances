@@ -4,6 +4,19 @@ Planning checkpoint: 2026-10-25. Device and migration observations below retain
 their original dates; no fresh device or running-host health claim is implied. This page owns the concise current state; see
 [the plan](plan.md) for priorities and [routes](routes.md) for evidence claims.
 
+## REA review and test pause: 2026-10-25
+
+- [Pinned6.8.0 applicability](research/rea.md) was reviewed from official release
+  documents. Static JavaScript tracing and compatible offline captures may help
+  G2/G3; no REA installation or analysis ran, and no new device claim follows.
+- During input-test preparation, Ally Wi-Fi was192.168.4.26; Vite and existing
+  summary/main research LAN health returned HTTP200, all four research flags
+  false. No config write, restart, credential read or TV launch occurred.
+- The owner paused testing to request this review. Await owner readiness before
+  the input experiment; no second test or automatic takeover is scheduled.
+- Optional REA tooling trial remains proposed, not built or executed. The global
+  config restore discrepancy recorded below was not changed by this review.
+
 ## Private repository publication: 2026-10-25
 
 The owner explicitly authorized creating and uploading this repository. GitHub
