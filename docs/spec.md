@@ -49,6 +49,13 @@ selected source findings.
 
 ## Lifecycle and acceptance
 
+The [implementation strategy](plan.md) maps these requirements to gates G0–G5.
+Those gates are implementation decisions, not additional acceptance criteria.
+Stock modification and replacement remain separate candidates. The next Conjure
+input test does not select either one. Manual launch can establish an interim
+capability; it does not discharge integrated-Home acceptance. Reversibility is a
+prerequisite to persistent handover as well as a final result to demonstrate.
+
 The original Home and ordinary apps/inputs must remain reachable during
 prototype work. A Home hosted on the Console machine depends on that host and
 network; its outage behavior must be visible and must not be handled by a
@@ -80,6 +87,6 @@ read current preferences before editing; preserve unknown fields; and stop if
 rollback is unconfirmed. Firmware/build drift requires review. These are
 acceptance requirements, not permission to change a TV.
 
-The current first experiment is the input-only protocol in
+The next live experiment remains the input-only protocol in
 [docs/experiments/home-input.md](experiments/home-input.md). Its preparation
 does not approve activation or a live run.

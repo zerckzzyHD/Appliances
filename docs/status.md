@@ -1,9 +1,32 @@
 # Current status
 
-Checkpoint: 2026-10-23. This page owns the concise current state; see
+Planning checkpoint: 2026-10-25. Device and migration observations below retain
+their original dates; no fresh device or running-host health claim is implied. This page owns the concise current state; see
 [the plan](plan.md) for priorities and [routes](routes.md) for evidence claims.
 
-## Verified project state
+## Synthesis and restore preflight: 2026-10-25
+
+- [Plan](plan.md) now connects both architecture candidates, gates G0–G5,
+  requirement coverage, outcome branches and a finite future lifecycle matrix.
+  Astra returned read-only planning advice; this is a strategy proposal recorded
+  locally, not TV acceptance or an architecture selection.
+- Local Git before-state was clean at9b583ed with no configured remote. The old
+  Forge TV folder was absent. Ignored Console config still references this repo
+  and none of its four research options was enabled. These are file checks; no
+  listener health, dock, LAN reachability or TV state was tested today.
+- Global Codex TOML parsed. Advisor/worker definition files still name Astra
+  medium and Luna max, but explicit agents.astra_advisor / agents.luna_worker
+  registrations and features.multi_agent were absent from the global config.
+  Session role dispatch did return Astra advice. That mismatch does not establish
+  a broken setup or the cause of corruption; no backup comparison or config
+  repair was performed. Future sessions need their available roles checked.
+- No TV test, runtime change or build occurred in this synthesis. The next live
+  experiment remains G1 after fresh preflight and owner go-ahead. Static G2/G3
+  evidence organization need not wait for physical remote testing.
+- [Synthesis receipt](../evidence/provenance/plan-synthesis-2026-10-25.json)
+  preserves pre-edit source hashes, review scope and the bounded restore check.
+
+## Earlier verified project state: migration checkpoint2026-10-23
 
 - This local repository was created from the TV snapshot identified in
   [`evidence/provenance/import.json`](../evidence/provenance/import.json); its
@@ -25,7 +48,8 @@ Checkpoint: 2026-10-23. This page owns the concise current state; see
 - The approved machine-local module-only change points Console at this repository.
   Canonical stop/start with --no-proxy succeeded. Vite returned HTTP 200; LAN
   summary and main research health returned HTTP 200. All four research flags
-  were false. Loopback research refused connection, consistent with its LAN bind.
+  were false at that migration checkpoint; running health was not refreshed
+  for the2026-10-25 synthesis. Loopback research refused connection, consistent with its LAN bind.
 - Old sender session73923 exited with KeyboardInterrupt (exit1). No TV STOP was
   sent. Its final log snapshot records earlier session loss; TV screen state
   and restoration were not checked.

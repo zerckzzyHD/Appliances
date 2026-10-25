@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "measuredUTC": "2026-10-25T17:34:54.098628+00:00",
+  "sourceHead": "9b583ed7181f000b7a673ba865d3ac3ce81406e7",
+  "scope": "planning synthesis; local files only; no device requests, runtime writes or config edits",
+  "inputHashes": {
+    "AGENTS.md": "ebdcd521d052f3aefd8efd5474e46d64551b6ed21d8a11805986f048f4d7fd6a",
+    "README.md": "1a87557fe7bf6ceaf780836641e49a74cfb03e5e01d321b3be978cf0324bb57a",
+    "docs/plan.md": "04a0d53aa1cbe2235a961322f379fc5bfd41d59a4b31956c76830119a4203f96",
+    "docs/spec.md": "4bb7a49666685834af7f5a9d303ef2750eaffd87c39f87262597d44fb88db38c",
+    "docs/status.md": "12ef99b4bd3128d5a548b38b69473f929a31336b2f99f9b21226ec5616317f84",
+    "docs/routes.md": "f58ccf6e4e5d43d9c027d090b6e06b74189994bc7245dac6dc0c6f9ff6bf3021",
+    "docs/operations.md": "f54522e1947eb9dedc19fcc9ccd462ca2c25d5c1dba350c869731bc5cd3fb67a",
+    "docs/models.md": "2af1ae7cfbb85645b0eb99eb9f13f6f898052e93aa6a3fe1b48ac56be8e0ec4b",
+    "docs/experiments/home-input.md": "f141de9bd200e2d8f0b764d760dbaff673e56dbad22551600d2dd8d956fb26c8",
+    "docs/experiments/attention.md": "1ae203ab1b2eb6d22c2d20b743974fba2e9e370959afde8fca64669ae4c06ffe",
+    "docs/research/firmware.md": "dcb6442e9560f53dbfdf5ba8937fb2068317e59666be57bc4c336df942cd3e18",
+    "docs/research/references.md": "713ce146fab65c87d53eea25c796f35f0a558e26652863605800c4356a5d4526"
+  },
+  "observations": {
+    "initialWorkingTree": "clean",
+    "remoteConfigured": false,
+    "oldForgeFolderExists": false,
+    "consoleModuleMatchesNewRepository": true,
+    "configResearchFlagsEnabled": false,
+    "runtimeHealthRefreshed": false,
+    "advisorAndWorkerRoleFilesExist": true,
+    "globalExplicitRoleRegistrations": "absent at agents.astra_advisor and agents.luna_worker",
+    "globalFeaturesMultiAgent": "absent",
+    "sessionAdvisorRoleDispatch": "Astra read-only planning advice returned",
+    "configRestoreCausality": "unknown; no before-backup config comparison"
+  },
+  "limits": [
+    "Input file hashes are a before-edit sample, not a freshness gate.",
+    "Current file/config observations do not establish running listener, dock, LAN reachability or TV state.",
+    "No RobCo checkpoint preamble, hooks, queue, deployment, push or memory writes invoked."
+  ],
+  "review": {
+    "role": "astra_advisor",
+    "task": "astra_plan_synthesis",
+    "scope": "read-only current document review",
+    "applied": [
+      "separate execution order from logical dependencies",
+      "retain both architectures until integration decision",
+      "prove page-driven action separately from Ally REST",
+      "surface settings/promotions/lifecycle/reversal coverage",
+      "stock fallback precedes persistent handover"
+    ],
+    "deviceEvidenceAdded": false,
+    "followup": "two issues corrected: architecture-specific G2 exit and config-file versus runtime statement"
+  },
+  "reconciledGaps": [
+    "replacement-biased sequencing despite two permitted architectures",
+    "Home integration discovery deferred behind prototype work",
+    "conditional editing requirement lacked explicit decision",
+    "lifecycle and no-promotion acceptance lacked coverage assignment",
+    "completed local sender release still worded as a pending prerequisite",
+    "old folder leftovers still mentioned in operations after owner deletion",
+    "historical runtime health and current config-file checks needed separate dates"
+  ],
+  "referenceSkill": {
+    "path": "C:/Dev/!RobCo/_RobCo-Archive/.claude/skills/checkpoint/SKILL.md",
+    "sha256": "0fadb46f5e9153f04faaa58c2ffb50fa6d39e4d0091f8007e9d6afe7260ca9b6",
+    "use": "read-only reference; no invocation, scripts or transplanted ritual"
+  },
+  "validation": {
+    "preEditHashesAgainstSourceCommit": "12 of 12 match",
+    "repositoryAccounting": "passed;193 original records and186 mapped source members; hashes/imports/current links",
+    "format": "full package formatting check passed; final two edited documents formatted again",
+    "whitespace": "git diff --check passed",
+    "sourceTests": "not rerun; documentation and evidence receipt only",
+    "advisorReview": "read-only planning review and followup; two reported issues corrected",
+    "deviceOrRuntimeChecks": "none; local config-file projection only"
+  }
+}

@@ -15,8 +15,9 @@ dated observations; the import receipt maps their source paths.
 | TV-local SDK test UI and bounded diagnostics | The TV-local test interface rendered; selected SDK version and fixed research calls returned bounded results. Static registry entries are definitions, not successful method calls. [Sanitized registry](../evidence/analysis/test-ui-static-registry-20261017.json).                     | An installer, Home writer, arbitrary execution, or support for every listed method.                                                                                             |
 | Bounded Home document/dependency read        | Historical run `8668beae673964819195dce450d79d5e` parsed the root and read one direct script; parser analysis was incomplete and the second script was unread. [Saved report](../evidence/results/isolated-main-8668beae673964819195dce450d79d5e.json).                                   | Complete Home source coverage, Home identity, catalog membership/order writer, launch routing, persistence or signed-delivery acceptance. `methods=[]` is not a negative proof. |
 
-The current Phase A input-only page has not been launched on a TV; its hosting
-flag remains off. The prepared local code and synthetic tests are not a
+At the2026-10-25 synthesis, the current Phase A input-only page had not been
+launched on a TV; its local config flag was off. Running listener/device state
+was not queried. G1 in the [strategy](plan.md) is the next proposed live test. The prepared local code and synthetic tests are not a
 demonstrated TV route.
 
 ## Explicitly unestablished

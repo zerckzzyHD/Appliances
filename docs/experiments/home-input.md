@@ -1,6 +1,7 @@
 # Remote input: next owner-present experiment
 
-Status: prepared and locally tested; OFF on the live host. All TV operations
+Status: prepared and locally tested; OFF in the local host config at the
+2026-10-25 file check. Running health requires fresh G0 preflight. All TV operations
 remain held until owner go-ahead. [Plan](../plan.md) owns priority and approval;
 [status](../status.md) owns current evidence. This is the protocol, not another queue.
 
@@ -28,10 +29,13 @@ navigation has ever worked. A page launch does not establish default Home owners
 
 ## Activation prerequisites
 
-Repository hosting-path cutover passed the checks in [operations](../operations.md).
-The owner must be present and agree that main TV can be interrupted. Release the
-earlier no-stop/replacement-launch hold explicitly before any sender cleanup or
-replacement launch. Do not infer idle from Cast state or operate bedroom implicitly.
+Repository hosting-path cutover passed the2026-10-23 checks in
+[operations](../operations.md); refresh local/LAN/config preflight before launch.
+The owner must be present and agree that main TV can be interrupted under the
+exact test/exit scope. The old local sender has already exited without TV STOP;
+that release needs no repeat approval. Any replacement launch/current session
+needs its own exact scope. Do not infer idle from Cast state or operate bedroom
+implicitly.
 
 Snapshot the existing ignored options privately after checking for secrets; do
 not copy any token or entire config into Git. Temporarily enable only
@@ -56,6 +60,14 @@ keys. Preserve physical exit. No TV setting, app/input launch or Home intercepti
 Owner chooses when to leave; no automatic STOP. After the owner ends the test,
 release only its lease, restore exact previous options after race checks, restart
 canonically and verify flag off/old run unavailable. Do not stop unrelated sessions.
+
+## Decision served
+
+This is G1 in the [strategy](../plan.md). It validates current Conjure input and
+exit only, not stock-Home feasibility or selection of the final architecture.
+Static destination and Home-owner work may proceed independently. G2 must prove
+how this page triggers a destination, and G3 must address Home entry/return
+before broad UI implementation.
 
 ## Branches
 

@@ -22,7 +22,9 @@ the running listener or Console lifecycle. The machine-local Console extension
 now points at src/hosting/vite-plugin.mjs here. The approved canonical restart
 used --no-proxy; LAN health reported all research flags false. Further option
 changes/restarts need their own exact scope. Prior source can be recovered from
-Git history; checked old folder leftovers are not the runtime source.
+Git history. The owner removed the old folder, and its absence was checked.
+The migration health observations date to2026-10-23; refresh host/LAN/config
+checks before a live experiment, especially after the reported dock/config issue.
 
 ## Research input page
 
@@ -36,14 +38,17 @@ when to exit.
 
 The precise Phase A steps, outputs and stop conditions are in
 [the input experiment](experiments/home-input.md). Before any live run, the
-owner must be present, release the earlier no-stop hold and approve the exact
-target, action, output, time window and exit behavior. The prior batch25 approval
+owner must be present and approve the exact target, action, output, time window
+and exit behavior, including any replacement of a current receiver. The earlier
+local-sender exit was already approved and performed without TV STOP; do not
+request its release again or treat it as authority for a new TV launch. The prior batch25 approval
 was consumed. No approval transfers to another phase or target.
 
 ## Current runtime hold and rollback boundary
 
 The approved hosting-path cutover and canonical restart passed health checks;
-`researchHomeInput` remains false. The old sender exited locally without TV STOP.
+`researchHomeInput` was false in the2026-10-25 config-file check; running state
+was not refreshed. The old sender exited locally without TV STOP.
 No live Phase A operation has run. Further credentials, option changes/restarts,
 TV requests, launches and cleanup require their own exact authorization; owner
 presence remains required for the physical-input test.

@@ -5,7 +5,9 @@ customizable Vizio Home without promotional content in the Home surface we
 control. Modifying stock Home and replacing it are both candidates. Mist Console
 is an optional existing read-only tile, not the project's identity.
 
-The project is still in research and preparation. An input-only Conjure page and
+The project is still in research and preparation. The [implementation strategy](docs/plan.md)
+connects stock-Home and replacement candidates to input, app actions, Home
+integration, settings and daily-use acceptance; neither architecture is selected. An input-only Conjure page and
 its host integration are prepared behind `researchHomeInput: false`. No live research
 option has been enabled. The approved Console module-path cutover and restart
 passed local/LAN health checks. The old sender exited locally without a TV STOP;
@@ -14,7 +16,7 @@ no TV operation ran during cutover. Owner-present input testing remains held.
 ## Start here
 
 - [Product scope and acceptance](docs/spec.md)
-- [TV-only priorities and approval state](docs/plan.md)
+- [Connected strategy, dependencies and decision gates](docs/plan.md)
 - [Current evidence and limits](docs/status.md)
 - [Routes that have actually worked](docs/routes.md)
 - [Host lifecycle and operation gates](docs/operations.md)
