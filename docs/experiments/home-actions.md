@@ -96,6 +96,14 @@ raise limits and fetch the second script merely to escape an uninformative resul
 If a future app-info lookup is selected, include a separately scoped absent-app
 control; a returned object alone is not proof of installed registration.
 
+## Tool choice for these questions
+
+The [tool evaluation](tool-evaluation.md) is conditional on a named question and
+eligible artifact. Existing direct inspection comes first; REA must add useful
+relationship/coverage evidence before adoption. Neither LeanREA nor an agent
+framework supplies the missing appInfo schema, artifact access or Home writer.
+No new raw-source capture or replay follows from this proposal.
+
 ## Decision at this checkpoint
 
 The next live experiment is still the prepared [G1 input test](home-input.md).

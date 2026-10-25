@@ -64,6 +64,15 @@ LAN/Vite/Tailscale extraction, in-Mist Tailscale configuration, task/Startup
 inventory and unrelated Console integration requests remain with their owning
 Mist/RobCo work; none is an operation in this TV project.
 
+## Analysis-tool boundary
+
+[Tool selection](plan.md) and [the proposed evaluation](experiments/tool-evaluation.md)
+are planning only. This checkpoint does not install LeanREA/REA, execute their
+examples, build fixtures or change client configuration. Direct tools retain the
+same artifact/privacy limits. A tool reporting read-only metadata is not an
+enforced permission boundary. Any future acquisition, runtime processing and
+MCP registration need the exact scope described by that protocol.
+
 ## Local development checks
 
 From the repository root, the available package scripts are:

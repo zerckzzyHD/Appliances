@@ -147,7 +147,8 @@ for the exact missing G2 argument/context contract, or prepare one bounded G3
 coverage question. Do not rerun the
 incomplete Home collector without a new hypothesis, parser reason distinction,
 coverage/control budget and exact approval. Retired raw-source exceptions stay
-retired. No website/repository claims were refreshed by this synthesis.
+retired. The original product synthesis used local records; the tooling checkpoint
+below adds pinned upstream reference inspection, not new device evidence.
 
 **Next with the owner:** G0 fresh local/LAN/config preflight, then one main-TV G1
 run after the existing hold is explicitly released for that exact action. The
@@ -161,11 +162,42 @@ behavior, this plan with the next decision, and the affected protocol. Record
 partial/unknown cases and remaining acceptance before advancing. This is manual
 planning reconciliation, not a newly installed checkpoint mechanism or gate.
 
-## Tooling assessment: REA6.8.0
+## Tool strategy synthesis: direct baseline -> optional REA CLI -> optional MCP
 
-[Release review](research/rea.md) now distinguishes the useful static JavaScript
-and offline-evidence lanes from the still-constrained firmware lane. Optional
-next step is a pinned CLI-only synthetic positive/decoy trial after exact package
-and local-write scope review. No installation, setup or real-source capture is
-approved by this entry. REA adoption is not a prerequisite for G1. The current
-input test was paused at owner request before flags changed or any TV launch.
+The [combined assessment](research/rea.md) incorporates the full documented REA
+capability map, LeanREA's actual skill/scripts/benchmark, and the owner-supplied
+learning-resource post with access limits. The [bounded evaluation procedure](experiments/tool-evaluation.md)
+owns the future steps; this section owns whether they should happen.
+
+**Decision:** ordinary direct inspection is the default. REA is selected only for
+useful additional evidence on a named G2/G3 gap. LeanREA is a routing/practice
+reference, not a replacement engine or a skill we have installed. No imported
+benchmark predicts this Ally's cost, speed or semantic accuracy. Learning
+resources and a fixed agent count are not product dependencies.
+
+| Selection gate         | Evidence to advance                                                                                                                                                          | Current state / branch                                                                                                                                    |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Question/artifact      | Exact G2/G3 question, eligible artifact, useful decision, privacy/output bounds and direct baseline.                                                                         | Plan prepared. Real appInfo normalization/source context and Home consumer remain unresolved. If direct inspection answers the question, stop tool setup. |
+| Trial footprint        | Pinned6.8.0 acquisition/dependencies, isolated .local/rea write/network footprint and cleanup reviewed and approved.                                                         | Not installed or approved by this checkpoint. No global config, skill, engine or Linux installation implied.                                              |
+| Capability and utility | Actual selected-lane Windows/schema checks; same known-truth input/questions for direct baseline and REA; source locations, missed edges and decoy false positives recorded. | No fixture or run exists. Useful additional evidence -> consider real artifact; unsupported/misleading/no added value -> stay direct.                     |
+| Real artifact          | Provenance/version, acquisition, processing, retention and output scope; no implied target execution or endpoint access.                                                     | Existing sanitized metadata is not source. Retired captures cannot be reused. New eligibility is a separate boundary.                                     |
+| MCP integration        | Useful CLI result, reason retained agent access helps, selected-client diff/backup/tool scope/lifecycle/rollback.                                                            | Deferred, separately approved change. No automatic registration, HTTP listener or blanket tools.                                                          |
+
+Priority within tooling: JS launch/Home tracing first if it answers a real gap;
+identified Vizio APK and eligible version comparison next; compatible capture,
+SQLite or native binary only against a concrete artifact-backed blocker. Other
+formats and active instrumentation remain conditional, not a growing install list.
+Reconstruction coverage is derived evidence linked here, not another queue.
+
+**What changed at this checkpoint:** connected product gates to this conditional
+selection ladder, corrected narrow platform assumptions, bounded LeanREA claims,
+and retained explicit unresolved cases. Before-edit input hashes, external pins,
+benchmark arithmetic and check results belong in
+[the checkpoint receipt](../evidence/provenance/tooling-checkpoint-2026-10-25.json).
+The original local synthesis receipt remains historical evidence. No normal
+RobCo queue, checkpoint preamble, control/runtime state or memory store changed.
+
+**Next owner decision:** whether to authorize the exact local-only tool trial
+footprint after reviewing its concrete acquisition plan. Do not silently begin
+installation or build fixtures from this planning checkpoint. G1 remains the next
+live TV experiment and is still paused for owner readiness; REA is not its prerequisite.

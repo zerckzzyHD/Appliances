@@ -24,6 +24,7 @@ no TV operation ran during cutover. Owner-present input testing remains held.
 - [Migration receipt and cleanup limits](docs/migration.md)
 - [Input experiment protocol](docs/experiments/home-input.md)
 - [Selected API and project references](docs/research/references.md)
+- [Direct tools, REA and LeanREA assessment](docs/research/rea.md)
 
 Current documents are the only active project authority. The original Forge
 documents and imported handoff records under `docs/history/` are dated source

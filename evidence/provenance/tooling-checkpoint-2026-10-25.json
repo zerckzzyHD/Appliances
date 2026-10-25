@@ -1,0 +1,121 @@
+{
+  "schema": 1,
+  "checkpointUTC": "2026-10-25T19:17:28.238009+00:00",
+  "writer": "primary executor; planning docs and receipt only",
+  "beforeHead": "590f83fb3a8589e6a6abfdb9d95e27e00e00ed22",
+  "branch": "main",
+  "beforeWorkingTree": "clean",
+  "remoteHeadObserved": "973151fc6dfa4d4bce09449f353713a8e05e0d00",
+  "remotePrivateObserved": true,
+  "publicationThisPass": false,
+  "inputHashes": {
+    "README.md": "6a609427168afeb7a0f90ddec80201e7e4a20a12edcbdab6a09a028d10dea7b5",
+    "AGENTS.md": "ebdcd521d052f3aefd8efd5474e46d64551b6ed21d8a11805986f048f4d7fd6a",
+    "docs/plan.md": "83cd837ea08656cbc8fc0b13e1754c47fd5bf96871429514f8f0cd93cd697d06",
+    "docs/spec.md": "a33a671f81ed9d813a10d22f4542e67c1bb0716a695fcf5da50228e1f0c9e175",
+    "docs/status.md": "ed134916dc369eaf0815ed2af88f431e7b9d36c11f6f2928d31b17375994bb3c",
+    "docs/routes.md": "82a190da18c0e166a5fe0b48e2e84999c64701f3bec130ac4832c9dd26473373",
+    "docs/operations.md": "49721405683aeb68d5851f692a132dea67a40dd23f27285cb2f43b51bc700504",
+    "docs/research/rea.md": "d44442fc3e4ad4a8ca6dc54dc348f02d6dda59abb713087e13fc63413ea2c934",
+    "docs/research/references.md": "713ce146fab65c87d53eea25c796f35f0a558e26652863605800c4356a5d4526",
+    "docs/experiments/home-actions.md": "8a54c10a69d0db74c6dd8dde61c8ec3628317d53ca4be6933d2d4fece9ac41dc"
+  },
+  "leanrea": {
+    "commit": "09ba4aa0217f82cd880f855a60b877f59f39b22b",
+    "sources": {
+      "README.md": "f4e1cb71d5f051182f9046544ad1ba81e812183311c081b57d33afa0d740b84a",
+      "leanrea/SKILL.md": "53581bd7fb1fae4352ab43252e67b84667b68895a68e372b99d302b58d9c782d",
+      "bench/BENCHMARK.md": "5f67e4561ecf84410d5052cd073673f18c4fa31f965a3eb59bcbeec284931bb3",
+      "bench/tasks.json": "a01519e504e67dda231eddd297a7390005d586ed1d1d443ac7a44e35bd4f22ca",
+      "bench/run.py": "729d157f4d6763478680d8f73ad2b6b7dd932592511f04943a2e601b08988762",
+      "bench/run_all.sh": "0f36867e4c7a2fef85bcba42910f6be3c19392391660d084a3279d6548ca6841",
+      "bench/setup.sh": "d51a9a7f891eedc3c1118d3e5fbb190a15eb79b052fc4372fb9fea27255aeb18",
+      "bench/results/final.jsonl": "19ce4681c474f99d672fbf26b7827eaf4afcb4f38bd4381b71b7959dbd7a721c"
+    },
+    "benchmarkRuns": 36,
+    "rawMetricsRecomputed": {
+      "lean": {
+        "runs": 12,
+        "wallSecondsSum": 387.7,
+        "costReportedSumUSD": 2.16818,
+        "turns": 55,
+        "rawScore": 74,
+        "possibleScore": 75
+      },
+      "none": {
+        "runs": 12,
+        "wallSecondsSum": 478.8,
+        "costReportedSumUSD": 2.20728,
+        "turns": 81,
+        "rawScore": 66,
+        "possibleScore": 75
+      },
+      "rea": {
+        "runs": 12,
+        "wallSecondsSum": 627.4,
+        "costReportedSumUSD": 3.35665,
+        "turns": 124,
+        "rawScore": 75,
+        "possibleScore": 75
+      }
+    },
+    "documentedNoSkillScoreCorrection": {
+      "raw": 66,
+      "corrected": 67,
+      "basis": "author reports regex false negative for Go version spelling"
+    },
+    "reproductionRun": false,
+    "applicability": "6.5.0/macOS/Claude Code/Sonnet5.5, not6.8.0/Windows/this session"
+  },
+  "rea": {
+    "release": "rea-agents-6.8.0",
+    "commit": "160d821ac9a0310afcb8d1fc427862dd6508add5",
+    "breadthSurvey": {
+      "topLevelGuides": 87,
+      "toolContractFiles": 47,
+      "fetched": 134,
+      "failed": 0,
+      "ceiling": "documentation/source-contract map, not full implementation audit, tool count, test or host verification"
+    }
+  },
+  "advisor": "Astra read-only challenge returned; no independent benchmark/tool run",
+  "scope": "planning synthesis only; no installation/configuration/build/fixture/REA execution/source acquisition/TV operation",
+  "remaining": [
+    "tool trial not authorized or implemented",
+    "real source eligibility and privacy scope unresolved",
+    "G1 owner-present input test still paused",
+    "new Home/app privileges/persistence/quiet toast/recovery unestablished"
+  ],
+  "resourcePost": {
+    "url": "https://x.com/sammy_capital/status/2113733817596834151",
+    "text": "retrieved from public X oembed and syndication responses",
+    "page": "403",
+    "image": "unreadable via available web image tool; not downloaded",
+    "linkedArticle": "403; not reviewed",
+    "resourceIndexCommit": "63d23e3197245a28028b21c8f342df18a9ac7859",
+    "indexScope": "introduction, task router and section inventory, not every linked resource",
+    "decision": "task-driven discovery only; no mandatory multi-agent configuration"
+  },
+  "decisions": [
+    "direct tools first under existing gates",
+    "optional pinned REA CLI only for useful additional G2/G3 evidence",
+    "LeanREA is a reference, not an installed replacement",
+    "equal-question ground-truth comparison before utility claims",
+    "real-artifact privacy/processing gate separate from acquisition",
+    "MCP only after utility and separate config review",
+    "G1 independent; no implementation begun"
+  ],
+  "changedAuthority": "existing plan remains sole backlog; new experiment file is bounded proposal, research page owns evidence",
+  "reviewResult": "Astra final five-document consistency review: no material contradiction; upstream arithmetic/capability/host verification remained executor scope",
+  "validation": {
+    "beforeInputHashes": "10 of 10 match beforeHead",
+    "benchmark": "36 retained rows recomputed as public data; no benchmark execution",
+    "repositoryAccounting": "passed:193 originals,186 mapped members, immutable hashes/imports/current links",
+    "format": "full package format:check passed",
+    "whitespace": "git diff --check passed",
+    "sourceTests": "not rerun; documentation and evidence receipt only; previous test observations retain original scope",
+    "runtimeAndTV": "not queried or changed during checkpoint"
+  },
+  "writerScopeEndedAt": "local commit carrying this receipt",
+  "checkpointRecordedUTC": "2026-10-25T19:22:46.543281+00:00"
+}

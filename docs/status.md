@@ -4,6 +4,29 @@ Planning checkpoint: 2026-10-25. Device and migration observations below retain
 their original dates; no fresh device or running-host health claim is implied. This page owns the concise current state; see
 [the plan](plan.md) for priorities and [routes](routes.md) for evidence claims.
 
+## Tooling synthesis checkpoint: 2026-10-25
+
+- [Plan](plan.md) now connects the TV gates to direct inspection first, conditional
+  pinned REA CLI evaluation and separately reviewed MCP integration. The
+  [assessment](research/rea.md) retains the broad capability map and LeanREA
+  comparison; [protocol](experiments/tool-evaluation.md) contains proposal-only steps.
+- LeanREA was inspected at09ba4aa0217f82cd880f855a60b877f59f39b22b. Recomputed
+  all36 published benchmark rows; no benchmark was executed here. Its6.5/macOS
+  results are not6.8/Windows proof and its shell recipes were not adopted.
+- The owner-supplied X post text/redirects were retrieved. Its infographic and
+  linked article were not readable with the available web tool. The primary
+  resource index was checked separately; no four-agent guarantee was accepted.
+- No installation, skill registration, config/runtime change, fixture build,
+  REA/third-party target execution, source capture or TV operation occurred.
+  Product G0–G5 acceptance remains unproved where previously recorded; no route
+  was upgraded. The earlier test-preparation health sample is not refreshed here.
+- Before this pass main was clean at590f83f; remote main was973151f and GitHub
+  reported private when queried. This checkpoint is local-only; no push is part
+  of its approval. [Receipt](../evidence/provenance/tooling-checkpoint-2026-10-25.json)
+  records source pins/hashes, arithmetic, review and validation limits.
+- Implementation remains held. Next technical decision is the exact local-only
+  acquisition/trial footprint; next live TV action remains owner-present G1.
+
 ## REA review and test pause: 2026-10-25
 
 - [Pinned6.8.0 applicability](research/rea.md) was reviewed from official release

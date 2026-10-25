@@ -37,3 +37,12 @@ firmware write or broad server is part of these lessons.
 
 [Full dated source-review record](../history/import-2026-10-23/forge/research/home-reference-projects.md)
 contains inspected file links, examples and evidence ceilings.
+
+## Analysis tools and learning references
+
+[The current tool assessment](rea.md) owns the pinned REA/LeanREA capability and
+benchmark findings; [the plan](../plan.md) owns adoption priority. LeanREA informs
+selective direct inspection; its scripts/skill are not installed or approved.
+The primary awesome-reverse-engineering index is a task-driven discovery shelf,
+not proof of a TV route. The owner-supplied X post's image/article access limits
+are retained in the assessment. Do not duplicate a tool backlog here.
