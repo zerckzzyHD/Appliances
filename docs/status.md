@@ -4,6 +4,32 @@ Planning checkpoint: 2026-10-25. Device and migration observations below retain
 their original dates; no fresh device or running-host health claim is implied. This page owns the concise current state; see
 [the plan](plan.md) for priorities and [routes](routes.md) for evidence claims.
 
+## Current facts and readiness
+
+- The product remains an owner-chosen, promotion-free controlled Home. Stock
+  modification and replacement are both candidates; no final architecture or
+  persistent integration has been demonstrated.
+- G1 is prepared and locally tested but has not run on the TV. The owner paused
+  live testing. Next live action is that input test after fresh preflight and
+  owner readiness; no tool installation is required to resume it.
+- Existing G2/G3 contract organization is recorded. The inspected retained
+  records do not settle the exact SDK normalization field or actual Home
+  consumer. No newly acquired source or additional app privileges are established.
+- Direct inspection is the default. REA/LeanREA adoption, a synthetic fixture and
+  MCP integration remain unimplemented. Tool approval is conditional on a named
+  analysis need and eligible artifact, not the mandatory next owner decision.
+- Config-restore concerns, host health and TV state have not been refreshed in
+  this reconciliation. Earlier readings below retain their measurement scope.
+- Local baseline for this pass was clean ee92cdb. Remote main read973151f; prior
+  privacy verification and upload remain dated facts. This pass makes local
+  documentation changes only.
+
+## Dated checkpoint records
+
+These preserve prior measurements and decisions. The current handover in
+[plan](plan.md) supersedes earlier next-step wording; old HEADs, readiness samples
+and historical holds are not new observations or extra approval requirements.
+
 ## Tooling synthesis checkpoint: 2026-10-25
 
 - [Plan](plan.md) now connects the TV gates to direct inspection first, conditional
@@ -24,8 +50,10 @@ their original dates; no fresh device or running-host health claim is implied. T
   reported private when queried. This checkpoint is local-only; no push is part
   of its approval. [Receipt](../evidence/provenance/tooling-checkpoint-2026-10-25.json)
   records source pins/hashes, arithmetic, review and validation limits.
-- Implementation remains held. Next technical decision is the exact local-only
-  acquisition/trial footprint; next live TV action remains owner-present G1.
+- Implementation remained held. The original next-step wording promoted a tool
+  acquisition/trial decision too early; the current handover above corrects it
+  to conditional adoption after a named need and eligible artifact. G1 stays
+  independent.
 
 ## REA review and test pause: 2026-10-25
 

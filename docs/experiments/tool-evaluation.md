@@ -11,7 +11,9 @@ Name one product question first: for example G2's normalizer-to-launch relation
 or G3's Home-route consumer. Specify the exact eligible artifact, required
 relationship evidence, known controls, useful decision and output/privacy scope.
 Use direct inspection if it answers the question; stop there. Missing artifact
-access is not solved by installing REA. Ordinary complete source is read with
+access is not solved by installing REA. Separate unavailable input from an
+analysis limitation on input we actually have. A synthetic fixture may assess
+tooling but cannot itself advance product G2/G3 evidence. Ordinary complete source is read with
 normal repository tools, not routed through REA as a matter of ceremony.
 
 If a REA trial remains useful, first review and obtain approval for pinned

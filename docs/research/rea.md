@@ -10,7 +10,9 @@ Use existing direct inspection first. Escalate to pinned REA6.8.0 CLI when a
 named G2/G3 question needs graph/semantic/cross-artifact evidence that the baseline
 cannot provide efficiently. Consider MCP only after demonstrated utility and a
 separately reviewed client-config delta. This is conditional adoption, not a
-mandatory benchmark project before Home testing. No LeanREA skill is installed.
+mandatory benchmark project before Home testing. Missing source is a separate
+problem from difficult analysis; installing REA addresses neither access nor
+retention permission. No LeanREA skill is installed.
 
 Ordinary complete C++/JS source repositories remain normal source-reading work.
 Do not use an analysis framework just to repeat rg. Conversely, a string hit does

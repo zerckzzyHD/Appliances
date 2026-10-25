@@ -117,5 +117,41 @@
     "runtimeAndTV": "not queried or changed during checkpoint"
   },
   "writerScopeEndedAt": "local commit carrying this receipt",
-  "checkpointRecordedUTC": "2026-10-25T19:22:46.543281+00:00"
+  "checkpointRecordedUTC": "2026-10-25T19:22:46.543281+00:00",
+  "reconciliations": [
+    {
+      "measuredUTC": "2026-10-25T21:01:35.131529+00:00",
+      "baselineHead": "ee92cdb7e3cafcfcab16a2b04855361c63e77070",
+      "beforeWorkingTree": "clean",
+      "remoteHeadRead": "973151fc6dfa4d4bce09449f353713a8e05e0d00",
+      "inputHashes": {
+        "docs/plan.md": "89f6981566469a67e8f496fc95c2e57e7f19940f0dbdfc4fa964922f9bda016b",
+        "docs/status.md": "340bf6f0e1c44b744c2ca266ddd4161a2fb7ec7073636518e6dcda45b97c47c7",
+        "docs/experiments/home-actions.md": "5946494555653de55b0ddb0f13cbceed4d419900f88cb85fff88962e03f8900e",
+        "docs/experiments/tool-evaluation.md": "a336ddf9cb5bece141677fff0ed41834188bde3fa1bcad1c6dbda6aad544d92c",
+        "docs/research/rea.md": "f263d17e1e06e185a00147c2fe55e86ed16d2c66c4a2292ec6327fb44b3f1054"
+      },
+      "findings": [
+        "conditional trial incorrectly presented as mandatory next owner decision",
+        "reviewed metadata limitations needed an exact-field boundary",
+        "dated status next-step claims needed separation from current handover"
+      ],
+      "corrections": [
+        "G1 remains next live action; trial optional",
+        "name missing evidence and eligible source before analysis setup",
+        "separate current facts from dated checkpoint records"
+      ],
+      "advisor": "read-only Astra review agreed; bounded insufficiency to inspected artifacts/field and separated missing access from difficult analysis",
+      "scope": "docs/receipt only; no install, fixture, runtime, TV or push",
+      "validation": {
+        "provenanceImportsLinks": "passed;193 original records and186 source members",
+        "format": "full package check passed",
+        "whitespace": "passed",
+        "priorReceiptFields": "unchanged; reconciliation appended",
+        "inputHashes": "5 of5 match baseline",
+        "sourceTests": "not rerun; docs/receipt only",
+        "runtimeTVConfig": "not operated or queried"
+      }
+    }
+  ]
 }

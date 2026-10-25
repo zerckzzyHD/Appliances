@@ -142,9 +142,13 @@ host REST, input listing, store and Home-routing evidence. Exact destination,
 SDK normalization/context and Home consumer remain unresolved. Nine synthetic
 failure-reason tests passed; no new device evidence was added.
 
-**Next without the owner:** use that ledger to resolve retained source references
-for the exact missing G2 argument/context contract, or prepare one bounded G3
-coverage question. Do not rerun the
+**Next without the owner:** formulate one exact missing-evidence question for
+G2 normalization/page context or G3 consumer/coverage, using the existing ledger
+to avoid repeating completed inspection. The reviewed retained records do not
+preserve enough to settle the exact G2 normalization field; this does not prove
+that all permissible sources lack it. Identify a specific eligible source or
+propose a bounded acquisition before analysis. Missing artifact access is not an
+analysis-tool problem and does not justify a REA installation. Do not rerun the
 incomplete Home collector without a new hypothesis, parser reason distinction,
 coverage/control budget and exact approval. Retired raw-source exceptions stay
 retired. The original product synthesis used local records; the tooling checkpoint
@@ -197,7 +201,10 @@ benchmark arithmetic and check results belong in
 The original local synthesis receipt remains historical evidence. No normal
 RobCo queue, checkpoint preamble, control/runtime state or memory store changed.
 
-**Next owner decision:** whether to authorize the exact local-only tool trial
-footprint after reviewing its concrete acquisition plan. Do not silently begin
-installation or build fixtures from this planning checkpoint. G1 remains the next
-live TV experiment and is still paused for owner readiness; REA is not its prerequisite.
+**Current handover:** G1 remains the next live TV experiment, paused for owner
+readiness. While it is held, the next planning work is a named G2/G3 evidence
+question and source eligibility, not another general tool survey. A REA trial
+becomes an owner decision only if direct inspection of an eligible artifact is
+insufficient and the proposed trial could add useful analysis evidence. Then
+review its exact footprint before authorization. Do not install tools or build
+fixtures from this checkpoint; neither a trial nor MCP is a prerequisite of G1.

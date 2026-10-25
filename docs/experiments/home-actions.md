@@ -108,7 +108,10 @@ No new raw-source capture or replay follows from this proposal.
 
 The next live experiment is still the prepared [G1 input test](home-input.md).
 There is enough static evidence to propose a native page launch path, but not to
-choose an installed destination or manufacture its argument schema. No extra SDK
+choose an installed destination or manufacture its argument schema. For that exact
+normalization field, the inspected retained artifacts are insufficient. Do not
+repeat an identical metadata search or infer that all external sources lack it;
+name the additional evidence needed and its eligible acquisition/processing scope. No extra SDK
 capture, Home read, app launch or settings write is requested by this document.
 After G1, resolve the named G2 prerequisites and present one concrete action test.
 A G3 read can be proposed independently when it answers an exact coverage or
