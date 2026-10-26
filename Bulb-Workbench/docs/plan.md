@@ -3,7 +3,7 @@
 Goal: a comfortable late-night station atmosphere for sleep, with restrained
 rain, an audible distant train and slow Pink/Purple/Blue lighting. The current
 [status](status.md) records owner observations, historical v5 acceptance and
-the subsequent revisions and current v8 coherence candidate awaiting listening.
+the subsequent revisions and current v9 presence candidate awaiting listening.
 The [imported specification](history/GE-SPEAKER-BULB-IR-PLAN-2026-10-22.md)
 retains the detailed earlier scene proposal and pinned upstream source leads.
 
@@ -24,8 +24,12 @@ retains the detailed earlier scene proposal and pinned upstream source leads.
    footsteps and found clicks too similar, sudden and random. Current v8 removes
    both scattered click/rattle families, adds shared slowing-wheel modulation
    and braking-linked envelopes during the train, and includes no footsteps.
-   Next is owner comparison around 1:00-1:29 for coherent movement and gentle
-   transitions. Measured RMS and common timing do not prove perceived realism.
+   The owner could not confidently identify v8 additions. V9 raises those same
+   coherent layers toward -3 dB versus the train-window bed and provides a
+   mechanics-only 30-second identification clip at the same mix level. Next is
+   comparing that solo with 1:00-1:30 of the full scene, then judging whether
+   the blend is audible, natural and comfortable. Rain/train stay unchanged.
+   Measured RMS and common timing do not prove perceived realism.
    Longer loops and optional PA remain later choices. No overnight suitability
    is established.
 3. Start lighting integration with a static, owner-selected Pink preset and

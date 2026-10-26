@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-26",
+  "durationSeconds": 180,
+  "sampleRateHz": 48000,
+  "channels": 2,
+  "sources": "Retained v8 procedural PCM components; no downloaded samples.",
+  "sourceHashes": {
+    "last-train-home-180s.wav": "f4f8a759f9ec900dd71a489f9d8c5a5af65fac37462f19a4e2991428b5aef50f",
+    "rail-texture-only-180s.wav": "54b1f6daf7c718fcd91a262adc2ee0113f69650aed17556eb7a18cd27a3b64c5",
+    "mechanical-rattle-only-180s.wav": "93f367ca143c75ce59b9a46cb3d5ebe0d9afec04790ee04218c6b3b30b2e0eb2"
+  },
+  "calibration": {
+    "rail": {
+      "bodySeconds": [
+        70,
+        78
+      ],
+      "gainDbVsV8": 5.614838753182067,
+      "achievedVsTrainWindowBedDb": -3.000004292259656
+    },
+    "rattle": {
+      "bodySeconds": [
+        78,
+        81
+      ],
+      "gainDbVsV8": 8.83650026173523,
+      "achievedVsTrainWindowBedDb": -2.999976458262415
+    }
+  },
+  "targetVsTrainWindowBedDb": -3.0,
+  "bedChange": "None; saved master minus original detail stems retained exactly.",
+  "normalization": "none; no limiter, rain/train gain change or solo gain boost",
+  "cueSeconds": {
+    "train": [
+      60,
+      89
+    ],
+    "rail": [
+      62,
+      89
+    ],
+    "rattle": [
+      73,
+      86
+    ],
+    "fadeOut": [
+      168,
+      180
+    ]
+  },
+  "diagnostic": {
+    "file": "mechanics-only-30s.mp3",
+    "durationSeconds": 30,
+    "sourceSceneSeconds": [
+      60,
+      90
+    ],
+    "gainDbRelativeToMix": 0,
+    "excludes": [
+      "rain",
+      "original train",
+      "station bed",
+      "footsteps"
+    ]
+  },
+  "footstepsIncluded": false,
+  "measurements": {
+    "last-train-home-180s.wav": {
+      "integratedLufs": -30.59,
+      "truePeakDbtp": -11.25
+    },
+    "last-train-home-180s.mp3": {
+      "integratedLufs": -30.97,
+      "truePeakDbtp": -11.74
+    },
+    "mechanics-only-30s.wav": {
+      "integratedLufs": -26.66,
+      "truePeakDbtp": -13.65
+    },
+    "mechanics-only-30s.mp3": {
+      "integratedLufs": -27.11,
+      "truePeakDbtp": -14.08
+    }
+  },
+  "validation": {
+    "unchangedOutsideDetailWindow": true,
+    "savedBedExact": true,
+    "pcmNoClipping": true,
+    "silentEdges": true,
+    "allFormatsDecoded": true,
+    "auditionedByAgent": false,
+    "ownerListening": "pending",
+    "deviceOperations": 0
+  },
+  "files": {
+    "last-train-home-180s.wav": {
+      "bytes": 34560044,
+      "sha256": "24ba684635db4953a08c90ac462f2413f32c23fc85bec3adf55d752faae2ca34"
+    },
+    "last-train-home-180s.mp3": {
+      "bytes": 2880812,
+      "sha256": "f554ccd3cddb1241cc7fab087c52bec4eee7015ecde5820775a14f55492b70a4"
+    },
+    "mechanics-only-30s.wav": {
+      "bytes": 5760044,
+      "sha256": "976e3376ea6efee9aab89559dac2aaa5117231794a9872efd3be47dbec7d9683"
+    },
+    "mechanics-only-30s.mp3": {
+      "bytes": 480812,
+      "sha256": "cb197e7f6597e61728f819b15051b080499e27176665730e4fc61daf88b39e80"
+    }
+  },
+  "generatorSha256": "1c52c4463b693c0f38a7a901b7de7220762bc18dccdc0b285af620611353147c",
+  "limits": [
+    "RMS ratio is not proof of perceived audibility or realism.",
+    "Solo is an identification aid, not a normalized comparison or separate scene."
+  ]
+}

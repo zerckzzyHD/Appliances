@@ -20,6 +20,30 @@ overnight comfort and combined lighting/audio behavior remain unverified.
 
 ## Saved assets and limits
 
+### Mechanical presence v9: 2026-10-26
+
+The owner was unsure whether they noticed the v8 rails/rattles, describing
+hearing mostly train, while allowing that the layers might blend together.
+No acceptance or demonstrated masking resolution follows from that feedback.
+[V9](../audio/last-train-home/scene-v9/README.md) raises only those two coherent
+textures toward -3 dB active-body RMS versus the actual train-window bed.
+Original rain/train bed, phase, envelopes, timing and panning stay unchanged;
+no footsteps are included.
+
+A 30-second mechanics-only identification clip corresponds to scene 1:00-1:30.
+Its PCM level is exactly the level used in the full mix, with no normalization
+or demonstration boost. It excludes rain and the original train. Owner
+comparison of solo versus full scene is pending; no agent audition or device
+operation is claimed.
+
+Executed v9 results: rail +5.61 dB and rattle +8.84 dB versus v8, each reaching
+-3 dB against its active train-window bed within 0.01 dB. The solo WAV exactly
+equals the added component in the full scene over 1:00-1:30. Outside 1:02-1:29,
+the scene is sample-identical to v8. Main WAV is -30.59 LUFS; main MP3 true
+peak is -11.74 dBTP. Both full and solo formats decoded, with exact PCM duration,
+silent edges and no clipping. The retained checker passed 33 audio hashes,
+nine generator hashes and 16 WAV files. Python syntax/format/whitespace passed.
+
 ### Coherent train textures v8: 2026-10-26
 
 The owner found v7 clicks similar to footsteps and too sudden/random. They
@@ -40,7 +64,9 @@ the old details were removed without changing the bed. The renderer checks
 the original v7 no-footstep master against its deterministic integer components
 before replacing them; new saved stem decomposition is also checked. These
 are source/sample checks, not agent audition. Owner comfort/realism acceptance
-of v8 remains pending. No playback or device operation occurred.
+of v8 was inconclusive: the owner could not confidently identify the added
+layers. V9 above addresses presence and identification. No playback or device
+operation occurred.
 
 Executed results: the v7 no-footstep reconstruction and saved new master/stem
 decomposition passed exactly. Outside the removed/added detail windows, v8 is
