@@ -4,6 +4,12 @@ This document describes the existing host boundary and the approvals required
 for later work. It does not authorize a TV action, runtime cutover or settings
 change.
 
+The 2026-10-26 Appliances path cutover now imports directly from the new
+workbench location; the temporary old TV junction is gone. Vite and both
+allowlisted LAN health endpoints passed after its removal. See the
+[cutover record](migration.md#appliances-runtime-cutover-2026-10-26). This
+supersedes the older host-path observations below, while retaining their dates.
+
 The approved module-path cutover was executed and health-checked; its receipt
 and cleanup limits are in [migration](migration.md). Owner presence is still
 required for the subsequent physical-input experiment.

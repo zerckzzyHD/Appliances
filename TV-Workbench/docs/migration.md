@@ -86,3 +86,30 @@ document/link/provenance, syntax, formatting and whitespace checks passed;
 post-removal research health remained HTTP200 with all four flags false. No live Phase A
 input test, TV query, launch, credential read or TV setting change occurred.
 Further device tests remain held for owner presence and exact authorization.
+
+## Appliances runtime cutover: 2026-10-26
+
+Following the Appliances consolidation, the owner explicitly approved rewriting
+the Console path and restarting it so the old TV directory could be retired.
+The ignored companion config now imports:
+
+```text
+C:/Dev/!Appliances/TV-Workbench/src/hosting/vite-plugin.mjs
+```
+
+The edit checked concurrent bytes and JSON equality except for `module`.
+All other options stayed unchanged and all four research flags were false.
+Canonical `node scripts/dev-server.js stop` returned STOPPED and exit 0;
+`node scripts/dev-server.js start --no-proxy` was invoked. The Python wrapper
+failed decoding start output with the Windows default encoding, so the start
+command's exit code was not retained. Separate HTTP checks established Vite,
+TV edge and main research health were up. No second restart was performed to
+compensate for an output-capture error.
+
+After verifying the exact junction target, only the `C:\Dev\!TV` junction was
+removed. All three HTTP checks passed again with the old path absent and all
+research flags false. Console tracked files stayed clean. No proxy settings,
+startup/task settings, credentials or TV operations were changed. No TV display
+or compatibility claim follows from these host observations. The non-secret
+[receipt](../evidence/provenance/appliances-runtime-cutover-2026-10-26.json)
+records this cutover separately from the dated original migration above.

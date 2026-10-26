@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-26",
+  "authorization": "Owner requested Console rewrite and restart to use new paths and remove the old TV directory before continuing bulb work.",
+  "moduleBefore": "C:/Dev/!TV/TV-Workbench/src/hosting/vite-plugin.mjs",
+  "moduleAfter": "C:/Dev/!Appliances/TV-Workbench/src/hosting/vite-plugin.mjs",
+  "configuration": {
+    "ignoredFile": true,
+    "concurrentBytesChecked": true,
+    "jsonEqualExceptModule": true,
+    "otherOptionsUnchanged": true,
+    "credentialsPrintedOrCopied": false
+  },
+  "canonicalLifecycle": {
+    "stop": { "exitCode": 0, "observedStatus": "STOPPED whole tree" },
+    "start": {
+      "arguments": ["start", "--no-proxy"],
+      "invoked": true,
+      "exitCode": null,
+      "captureError": "Python default cp1252 decoding failed; subsequent HTTP health checks established serving. No automatic second restart."
+    }
+  },
+  "retirement": {
+    "path": "C:/Dev/!TV",
+    "verifiedType": "Junction",
+    "verifiedTarget": "C:/Dev/!Appliances",
+    "removedJunctionOnly": true,
+    "oldPathAbsent": true,
+    "newSourceRetained": true
+  },
+  "afterJunctionRemoval": {
+    "viteRootHttpStatus": 200,
+    "tvEdgeHealthHttpStatus": 200,
+    "mainResearchHealthHttpStatus": 200,
+    "researchFlags": {
+      "document24": false,
+      "dependencies25": false,
+      "dashcastMarker": false,
+      "homeInput": false
+    },
+    "consoleTrackedTreeClean": true
+  },
+  "limits": [
+    "No TV request, display observation, input experiment, Bluetooth, IR or pairing operation.",
+    "No proxy, startup, task, installation or security-setting changes.",
+    "Health checks establish local hosting only; TV compatibility and current display remain unverified."
+  ]
+}

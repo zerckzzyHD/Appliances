@@ -12,11 +12,12 @@ history is retained without rewriting. Pre-migration TV HEAD was
 `973151fc6dfa4d4bce09449f353713a8e05e0d00`. Prior commits retain their old root
 paths; current commits use the TV-Workbench prefix.
 
-`C:\Dev\!TV` is a temporary directory junction to the new physical root.
-It preserves the existing Console extension's spelled import path. No Console
-settings, restart or runtime health request was performed. A junction does
-not prove uninterrupted process/watcher behavior. Keep it until a separately
-authorized Console path cutover; do not remove it as automatic cleanup.
+The initial consolidation retained `C:\Dev\!TV` as a temporary junction.
+The owner subsequently authorized the Console module-path rewrite, restart
+and retirement of that alias. That cutover ran on 2026-10-26: the ignored
+configuration now imports directly from the Appliances workbench, and the
+junction was removed after health checks. `C:\Dev\!TV` is absent. See the
+[cutover receipt](TV-Workbench/evidence/provenance/appliances-runtime-cutover-2026-10-26.json).
 
 The new bulb workbench retains all three preview versions with original
 generators, audio and provenance. Original chat delivery copies remain frozen
@@ -34,9 +35,9 @@ established. The prepared living-room remote-input test remains paused.
 
 Bulb v3 balance is owner-accepted. The next production proposal is a finite
 three-minute scene; combined IR/audio integration is still untested. No TV,
-Bluetooth, IR, installation, listener or runtime operation accompanies this
-consolidation. Private captures, credentials and raw supplied archives remain
-outside Git.
+Bluetooth, IR or installation operation accompanied consolidation or the later
+host cutover. Console restarted with unchanged listener options and research
+flags. Private captures, credentials and raw supplied archives remain outside Git.
 
 The root `migration-manifest.json` records retained source hashes. Check and
 push outcomes must be established by executed commands, not this document.

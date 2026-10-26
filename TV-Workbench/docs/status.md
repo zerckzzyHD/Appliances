@@ -1,8 +1,22 @@
 # Current status
 
-Planning checkpoint: 2026-10-25. Device and migration observations below retain
-their original dates; no fresh device or running-host health claim is implied. This page owns the concise current state; see
+Planning checkpoint: 2026-10-25; hosting cutover: 2026-10-26. Device and migration
+observations retain their original dates. Current host checks are scoped below.
+This page owns the concise current state; see
 [the plan](plan.md) for priorities and [routes](routes.md) for evidence claims.
+
+## Appliances host cutover: 2026-10-26
+
+The owner approved updating the ignored Console companion module path directly
+to Appliances, canonically restarting Console and removing the old TV junction.
+Only the module JSON field changed; listener options and four disabled research
+flags were preserved. The old `C:\Dev\!TV` path is now absent.
+
+After removal, Vite root, LAN TV-edge health and main research health returned
+HTTP 200. Research flags remained false. Console tracked files stayed clean.
+These are host checks, not TV display or input-test evidence; G1 remains paused.
+See the [receipt](../evidence/provenance/appliances-runtime-cutover-2026-10-26.json)
+and [migration record](migration.md#appliances-runtime-cutover-2026-10-26).
 
 ## Current facts and readiness
 
@@ -19,8 +33,9 @@ their original dates; no fresh device or running-host health claim is implied. T
 - Direct inspection is the default. REA/LeanREA adoption, a synthetic fixture and
   MCP integration remain unimplemented. Tool approval is conditional on a named
   analysis need and eligible artifact, not the mandatory next owner decision.
-- Config-restore concerns, host health and TV state have not been refreshed in
-  this reconciliation. Earlier readings below retain their measurement scope.
+- The source reconciliation did not refresh config-restore concerns or TV state.
+  Host health was subsequently refreshed in the cutover above. Earlier readings
+  below retain their measurement scope.
 - Source-audit baseline was clean `main` at `e73b459`. Read-only remote inspection
   returned `973151fc6dfa4d4bce09449f353713a8e05e0d00` for main; GitHub metadata
   confirmed private. This pass changes documentation and a provenance receipt
