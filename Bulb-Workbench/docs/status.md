@@ -26,8 +26,10 @@ Owner feedback on v4: much better mixing; rain could be a little quieter again,
 and the scene needs more sonic detail. V5 reduces rain/canopy/drops another
 0.75 dB, with the same seed, duration, non-rain synthesis and fixed master gain.
 [V5 assets](../audio/last-train-home/scene-v5/README.md) preserve the train timing
-and add no new sounds. Owner listening to v5 is pending. More ambient detail
-is the next production direction after settling this balance.
+and add no new sounds. The owner subsequently accepted v5: "YES that's good."
+This is the approved rain/train balance reference for further production.
+More ambient detail is next; sleep comfort over a full night and combined
+lighting/audio behavior remain unverified.
 
 Executed v5 checks: 180-second stereo PCM, silent edges, no clipping, WAV/MP3
 FFmpeg decode, master -31.33 LUFS and MP3 true peak -15.17 dBTP. The retained

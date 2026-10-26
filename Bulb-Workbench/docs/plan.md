@@ -2,7 +2,7 @@
 
 Goal: a comfortable late-night station atmosphere for sleep, with restrained
 rain, an audible distant train and slow Pink/Purple/Blue lighting. The current
-[status](status.md) records owner observations and the accepted v3 preview.
+[status](status.md) records owner observations and the accepted v5 balance.
 The [imported specification](history/GE-SPEAKER-BULB-IR-PLAN-2026-10-22.md)
 retains the detailed earlier scene proposal and pinned upstream source leads.
 
@@ -12,8 +12,9 @@ retains the detailed earlier scene proposal and pinned upstream source leads.
    the approved 60-second preview unchanged.
 2. The owner reports v4 mixing is much better but requests a smaller rain trim
    and more sonic detail. V5 reduces only rain-family gains another 0.75 dB.
-   Listen to that balance next. Then add restrained ambient detail in a separate
-   revision; sparse distant station movement or rail sounds are candidates,
+   The owner accepted v5. Preserve that rain/train balance while adding
+   restrained ambient detail in a separate revision; sparse distant station
+   movement or rail sounds are candidates,
    not selected or rendered additions. Keep new events gentle for sleep.
    Longer loops and optional PA remain later choices. No overnight suitability
    is established.

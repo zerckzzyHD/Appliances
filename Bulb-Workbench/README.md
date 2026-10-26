@@ -2,7 +2,8 @@
 
 Current scene: **Last train home**. The owner accepted preview v3's balance,
 then described three-minute v4 as much better mixing. V5 trims rain another
-0.75 dB below v4; owner listening to this smaller adjustment is pending.
+0.75 dB below v4; the owner accepted this balance on 2026-10-26. Use v5 as the
+reference for further ambient detail.
 
 - [Play or download the three-minute v5 MP3](audio/last-train-home/scene-v5/last-train-home-180s.mp3)
 - [V5 timing and provenance](audio/last-train-home/scene-v5/README.md)
