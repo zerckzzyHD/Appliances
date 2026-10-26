@@ -1,0 +1,143 @@
+{
+  "title": "Last train home - 180-second atmosphere scene v5",
+  "kind": "original procedural audio, not a field recording",
+  "revisionReason": "Owner reports much better mixing and requests a very small additional rain reduction; ambient detail remains a later step.",
+  "relativeStemGainsVsV1": {
+    "rain": 0.2731932749409271,
+    "canopy": 0.2731932749409271,
+    "drops": 0.2731932749409271,
+    "train": 2.24,
+    "brakes": 2.0,
+    "airRelease": 1.666667,
+    "ventilation": 1.0
+  },
+  "relativeStemGainsVsV2": {
+    "rainDb": -5.25,
+    "canopyDb": -5.25,
+    "dropsDb": -5.25,
+    "trainDb": 0,
+    "brakesDb": 0,
+    "airReleaseDb": 0,
+    "ventilationDb": 0
+  },
+  "comparisonCeiling": "Same seed, duration, event waveforms and fixed master gain as v4; only rain-family gains reduced. Owner listening required.",
+  "relativeStemGainsVsV3": {
+    "rainDb": -2.25,
+    "canopyDb": -2.25,
+    "dropsDb": -2.25,
+    "trainDb": 0,
+    "brakesDb": 0,
+    "airReleaseDb": 0,
+    "ventilationDb": 0
+  },
+  "relativeStemGainsVsV4": {
+    "rainDb": -0.75,
+    "canopyDb": -0.75,
+    "dropsDb": -0.75,
+    "trainDb": 0,
+    "brakesDb": 0,
+    "airReleaseDb": 0,
+    "ventilationDb": 0
+  },
+  "derivedFrom": "scene-v4/render_scene.py; same realization with a smaller rain-only trim",
+  "historicalReceiptCorrection": "V4 vs-v2 canopy/drops metadata said -3 dB; its actual shared RAIN_TRIM was -4.5 dB. Audio and v4-v3 comparison were correct. V4 snapshot retained unchanged.",
+  "date": "2026-10-26",
+  "seed": 251025,
+  "durationSeconds": 180.0,
+  "sampleRateHz": 48000,
+  "channels": 2,
+  "sources": "Original NumPy synthesis in render_scene.py; no downloaded samples, voices or music.",
+  "content": [
+    "sheltered rain",
+    "canopy/glass patter",
+    "low station ventilation",
+    "one distant train approach, braking and air release"
+  ],
+  "cueSeconds": {
+    "fadeIn": [
+      0,
+      4
+    ],
+    "train": [
+      60,
+      89
+    ],
+    "brakes": [
+      73,
+      86
+    ],
+    "airRelease": [
+      83,
+      88.5
+    ],
+    "fadeOut": [
+      168,
+      180
+    ]
+  },
+  "announcements": false,
+  "automaticLoop": false,
+  "normalization": {
+    "method": "fixed linear gain derived from v2 premaster/master PCM",
+    "fixedGain": 0.7186210417545735,
+    "targetIntegratedLufs": null,
+    "maximumTruePeakDbtp": -4
+  },
+  "premaster": {
+    "rms": 0.02410786278535404,
+    "samplePeak": 0.2557768242990766
+  },
+  "measurements": {
+    "last-train-home-180s.wav": {
+      "input_i": "-31.33",
+      "input_tp": "-14.70",
+      "input_lra": "5.90",
+      "input_thresh": "-41.52",
+      "output_i": "-27.03",
+      "output_tp": "-11.74",
+      "output_lra": "5.50",
+      "output_thresh": "-37.11",
+      "normalization_type": "dynamic",
+      "target_offset": "0.03"
+    },
+    "last-train-home-180s.mp3": {
+      "input_i": "-31.68",
+      "input_tp": "-15.17",
+      "input_lra": "5.80",
+      "input_thresh": "-41.86",
+      "output_i": "-27.02",
+      "output_tp": "-11.80",
+      "output_lra": "5.40",
+      "output_thresh": "-37.11",
+      "normalization_type": "dynamic",
+      "target_offset": "0.02"
+    }
+  },
+  "validation": {
+    "exactWavFrames": 8640000,
+    "clippedSamples": 0,
+    "firstAndLastFrameSilent": true,
+    "bothFormatsDecodedByFfmpeg": true,
+    "auditionedByAgent": false,
+    "testedOnPhoneOrBulbs": false
+  },
+  "files": {
+    "last-train-home-180s-premaster.wav": {
+      "bytes": 34560044,
+      "sha256": "100a2c99fb49e8639aa376e2059ccd942c078204316cd2c2f09958a0686fac24"
+    },
+    "last-train-home-180s.wav": {
+      "bytes": 34560124,
+      "sha256": "a83b39e91dc6cf4cd49e307735253c0d5f1217999f30127937087878d4b42411"
+    },
+    "last-train-home-180s.mp3": {
+      "bytes": 2880861,
+      "sha256": "ee039f9868486fd9092244e342cc354c835009d4cd686e152cb6a59b73ceaf55"
+    }
+  },
+  "generatorSha256": "8735823c119eee1ebf613aabae6b539c061ab9bfa015ef4956b36b92ef3fc216",
+  "limitations": [
+    "Offline measurements do not establish audible comfort or realism.",
+    "No Bluetooth pairing, playback, IR send, installation or public upload performed."
+  ]
+}

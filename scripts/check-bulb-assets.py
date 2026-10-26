@@ -9,11 +9,11 @@ import wave
 root = Path(__file__).resolve().parent.parent
 audio = root / "Bulb-Workbench" / "audio" / "last-train-home"
 count = 0
-versions = ("preview-v1", "preview-v2", "preview-v3", "scene-v4")
+versions = ("preview-v1", "preview-v2", "preview-v3", "scene-v4", "scene-v5")
 for version in versions:
     folder = audio / version
-    duration = 180 if version == "scene-v4" else 60
-    generator = "render_scene.py" if version == "scene-v4" else "render_preview.py"
+    duration = 180 if version.startswith("scene-") else 60
+    generator = "render_scene.py" if version.startswith("scene-") else "render_preview.py"
     receipt = json.loads((folder / "provenance.json").read_text(encoding="utf-8-sig"))
     for name, expected in receipt["files"].items():
         data = (folder / name).read_bytes()

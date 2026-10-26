@@ -20,6 +20,26 @@ overnight comfort and combined lighting/audio behavior remain unverified.
 
 ## Saved assets and limits
 
+### Three-minute scene v5: 2026-10-26
+
+Owner feedback on v4: much better mixing; rain could be a little quieter again,
+and the scene needs more sonic detail. V5 reduces rain/canopy/drops another
+0.75 dB, with the same seed, duration, non-rain synthesis and fixed master gain.
+[V5 assets](../audio/last-train-home/scene-v5/README.md) preserve the train timing
+and add no new sounds. Owner listening to v5 is pending. More ambient detail
+is the next production direction after settling this balance.
+
+Executed v5 checks: 180-second stereo PCM, silent edges, no clipping, WAV/MP3
+FFmpeg decode, master -31.33 LUFS and MP3 true peak -15.17 dBTP. The retained
+asset checker passes 15 audio hashes, five generator hashes and five masters.
+Source comparison confirms identical synthesis functions and master gain to
+v4; rain-family gain ratios are lower by exactly 0.75 dB. No device operation.
+
+Static inspection also found a historical v4 receipt metadata error: its vs-v2
+canopy/drop entries said -3 dB, while the shared synthesis gain was -4.5 dB.
+Actual audio and the documented v4-v3 reduction were correct. V5 records the
+correction; the v4 generator, receipt and audio remain unchanged.
+
 ### Three-minute scene v4: 2026-10-26
 
 The owner approved the extension and asked to lower rain slightly again.
@@ -30,7 +50,7 @@ synthesis changes sample waveforms; unchanged gains are not identical audio.
 
 The single arrival runs from 1:00 to 1:29, with the strongest train around
 1:15-1:18. Fade-out is 2:48-3:00. There is no PA, separate departure, automatic
-loop or lighting sequence. Owner listening to v4 is pending.
+loop or lighting sequence. Subsequent owner listening feedback is recorded above.
 
 Executed checks: exact 8,640,000-frame 48 kHz stereo PCM master, silent first
 and last frames, no clipped samples, both formats decoded through FFmpeg,
