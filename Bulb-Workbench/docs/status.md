@@ -20,6 +20,37 @@ overnight comfort and combined lighting/audio behavior remain unverified.
 
 ## Saved assets and limits
 
+### Coherent train textures v8: 2026-10-26
+
+The owner found v7 clicks similar to footsteps and too sudden/random. They
+explicitly removed footsteps and requested that all mechanical tracks work
+off one another. [V8](../audio/last-train-home/scene-v8/README.md) removes both
+scattered click/rattle families and uses continuous rail texture plus a
+braking-linked rattle. No footstep layer is included in this production version;
+earlier comparisons are retained as history.
+
+Both additions follow the original train's wheel phase and stereo progression,
+with a shared filtered-noise component. Rail texture builds at 1:02-1:08 and
+settles by 1:29; rattle follows braking at 1:13-1:26. The v7 underlying rain/train
+bed is retained. Quiet-bed reference levels and actual train-window ratios
+are recorded separately. No normalization or limiter is introduced.
+
+Astra advice required checking exact component reconstruction before claiming
+the old details were removed without changing the bed. The renderer checks
+the original v7 no-footstep master against its deterministic integer components
+before replacing them; new saved stem decomposition is also checked. These
+are source/sample checks, not agent audition. Owner comfort/realism acceptance
+of v8 remains pending. No playback or device operation occurred.
+
+Executed results: the v7 no-footstep reconstruction and saved new master/stem
+decomposition passed exactly. Outside the removed/added detail windows, v8 is
+sample-identical to v7. Added rail/rattle samples are confined to 1:02-1:29
+and 1:13-1:26 respectively. Rail/rattle active-body RMS is 0/-3 dB versus the
+quiet-bed reference, and -8.61/-11.84 dB versus the actual train-window bed.
+The master/MP3 decoded successfully; PCM -31.75 LUFS, MP3 true peak -14.35
+dBTP, silent edges and no clipping. The retained checker passed 29 audio
+hashes, eight generator hashes and 14 WAV files; syntax/formatting passed.
+
 ### Masking adjustment v7: 2026-10-26
 
 The owner reported hearing only rain/train in v6 and said rain still overshadows
@@ -39,8 +70,9 @@ maximum family boost. No master normalization or limiter is used.
 Read-only Astra advice challenged rain-stem isolation, active-window selection
 and summed/encoded headroom. The renderer checks original premaster reproduction,
 linear rain decomposition, saved footstep isolation and WAV/MP3 peaks. Advice
-and measured RMS do not establish perceived audibility; owner listening remains
-pending. No agent audition or device operation is claimed.
+and measured RMS do not establish perceived audibility. Subsequent owner
+listening found the clicks/steps too similar and clicks jarring, motivating
+v8 above. No agent audition or device operation is claimed.
 
 Executed results: rain -1.5 dB, clicks +18.71 dB and rattles +17.35 dB versus
 v6. Median active-body levels are 0 dB relative to the local bed and about

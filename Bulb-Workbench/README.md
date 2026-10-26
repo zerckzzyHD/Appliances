@@ -4,12 +4,13 @@ Current scene: **Last train home**. The owner accepted preview v3's balance,
 then described three-minute v4 as much better mixing. V5 trims rain another
 0.75 dB below v4; the owner accepted this balance on 2026-10-26. Use v5 as the
 reference for further ambient detail. The owner later reported rain masking
-the v6 details. V7 lowers rain another 1.5 dB and raises clicks/rattles toward
-the surrounding bed during their active windows; owner listening is pending.
+the v6 details. V7 lowered rain and raised details, but the owner found its
+clicks sudden/random and similar to footsteps. V8 removes footsteps and the
+scattered details, replacing them with train-linked rolling/braking textures.
+Owner listening to v8 is pending.
 
-- [V7 main mix without footsteps](audio/last-train-home/scene-v7/last-train-home-180s-no-footsteps.mp3)
-- [V7 optional footsteps comparison](audio/last-train-home/scene-v7/last-train-home-180s.mp3)
-- [V7 timing, measurements and provenance](audio/last-train-home/scene-v7/README.md)
+- [V8 coherent scene, no footsteps](audio/last-train-home/scene-v8/last-train-home-180s.mp3)
+- [V8 timing, stems and provenance](audio/last-train-home/scene-v8/README.md)
 - [Approved v5 reference](audio/last-train-home/scene-v5/last-train-home-180s.mp3)
 - [V5 timing and provenance](audio/last-train-home/scene-v5/README.md)
 - [V4 timing and provenance](audio/last-train-home/scene-v4/README.md)

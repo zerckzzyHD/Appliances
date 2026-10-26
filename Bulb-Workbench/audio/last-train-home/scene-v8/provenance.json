@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-26",
+  "durationSeconds": 180,
+  "sampleRateHz": 48000,
+  "channels": 2,
+  "sources": "Retained original v5 and v6 procedural synthesis; no downloaded samples.",
+  "sourceGeneratorHashes": {
+    "v5": "8735823c119eee1ebf613aabae6b539c061ab9bfa015ef4956b36b92ef3fc216",
+    "v6": "252a69471cd5d4cf46aa7932942cd6065fd979bb089fc0bd10ac53c3762c2300"
+  },
+  "baseMasterSha256": "a83b39e91dc6cf4cd49e307735253c0d5f1217999f30127937087878d4b42411",
+  "rainDbVsV5AndV6": -1.5,
+  "rainIsolation": "Identical seeded premaster renders differing only in linear rain amplitude; original reproduces saved premaster PCM, reconstruction tolerance 1e-14.",
+  "nonRainChange": "None; add only quantized rain delta to original master. No train gain change.",
+  "normalization": "none; no limiter or automatic gain",
+  "linkedTextureCalibration": {
+    "rail": {
+      "bodySeconds": [
+        70,
+        78
+      ],
+      "targetVsQuietBedDb": 0.0,
+      "achievedVsQuietBedDb": 3.274876406166108e-06,
+      "achievedVsTrainWindowBedDb": -8.614838753182067,
+      "onsetSeconds": 6.0,
+      "phase": "same decelerating wheel phase as original v5 train",
+      "supportSeconds": [
+        62,
+        89
+      ]
+    },
+    "rattle": {
+      "bodySeconds": [
+        78,
+        81
+      ],
+      "targetVsQuietBedDb": -3.0,
+      "achievedVsQuietBedDb": -2.999983214386816,
+      "achievedVsTrainWindowBedDb": -11.83650026173523,
+      "onsetSeconds": 6.0,
+      "phase": "same decelerating wheel phase as original v5 train",
+      "supportSeconds": [
+        62,
+        89
+      ]
+    }
+  },
+  "quietBedReferenceSeconds": [
+    50,
+    53
+  ],
+  "v7NoFootstepMasterReconstructedExactly": true,
+  "calibrationCeiling": "Active-body RMS targets use a quiet-bed reference; actual train-window ratios are also reported. Shared phase/envelopes express intended physical coherence, not verified realism.",
+  "cueSeconds": {
+    "train": [
+      60,
+      89
+    ],
+    "railTexture": [
+      62,
+      89
+    ],
+    "brakingRattle": [
+      73,
+      86
+    ],
+    "fadeOut": [
+      168,
+      180
+    ]
+  },
+  "footstepsIncluded": false,
+  "scatteredClickAndRattleFamiliesIncluded": false,
+  "measurements": {
+    "last-train-home-180s.wav": {
+      "integratedLufs": -31.75,
+      "truePeakDbtp": -13.84
+    },
+    "last-train-home-180s.mp3": {
+      "integratedLufs": -32.11,
+      "truePeakDbtp": -14.35
+    }
+  },
+  "validation": {
+    "exactWavFrames": 8640000,
+    "clippedSamples": 0,
+    "silentEdges": true,
+    "masterAndMp3Decoded": true,
+    "savedMasterMinusNewStemsExactlyV7Bed": true,
+    "auditionedByAgent": false,
+    "ownerListening": "pending",
+    "deviceOperations": 0
+  },
+  "files": {
+    "last-train-home-180s.wav": {
+      "bytes": 34560044,
+      "sha256": "f4f8a759f9ec900dd71a489f9d8c5a5af65fac37462f19a4e2991428b5aef50f"
+    },
+    "last-train-home-180s.mp3": {
+      "bytes": 2880812,
+      "sha256": "cc3060ff809e4c5d53bec8d65a20bad3d22d330de3b4989b410dfe372aedfdea"
+    },
+    "rail-texture-only-180s.wav": {
+      "bytes": 34560044,
+      "sha256": "54b1f6daf7c718fcd91a262adc2ee0113f69650aed17556eb7a18cd27a3b64c5"
+    },
+    "mechanical-rattle-only-180s.wav": {
+      "bytes": 34560044,
+      "sha256": "93f367ca143c75ce59b9a46cb3d5ebe0d9afec04790ee04218c6b3b30b2e0eb2"
+    }
+  },
+  "generatorSha256": "c31c02fdd671804faefcddd2862417510d78531d1918a9ff7e446d04f1d1e275",
+  "limits": [
+    "Synthetic sounds, not field recordings. Owner listening is the acceptance test.",
+    "No speech, horn, automatic loop, playback, pairing or IR operation."
+  ]
+}
