@@ -9,11 +9,11 @@ import wave
 root = Path(__file__).resolve().parent.parent
 audio = root / "Bulb-Workbench" / "audio" / "last-train-home"
 count = 0
-versions = ("preview-v1", "preview-v2", "preview-v3", "scene-v4", "scene-v5", "scene-v6", "scene-v7", "scene-v8", "scene-v9", "scene-v10", "scene-v11", "scene-v12")
+versions = ("preview-v1", "preview-v2", "preview-v3", "scene-v4", "scene-v5", "scene-v6", "scene-v7", "scene-v8", "scene-v9", "scene-v10", "scene-v11", "scene-v12", "scene-v13")
 wav_count = 0
 for version in versions:
     folder = audio / version
-    duration = 180 if version.startswith("scene-") else 60
+    duration = 300 if version == "scene-v13" else (180 if version.startswith("scene-") else 60)
     generator = "render_scene.py" if version.startswith("scene-") else "render_preview.py"
     if version == "scene-v6":
         generator = "render_details.py"
@@ -29,6 +29,8 @@ for version in versions:
         generator = "render_station_balance.py"
     if version == "scene-v12":
         generator = "render_resonance_trim.py"
+    if version == "scene-v13":
+        generator = "render_story.py"
     receipt = json.loads((folder / "provenance.json").read_text(encoding="utf-8-sig"))
     for name, expected in receipt["files"].items():
         data = (folder / name).read_bytes()
@@ -36,6 +38,9 @@ for version in versions:
         assert hashlib.sha256(data).hexdigest() == expected["sha256"], (version, name, "hash")
         count += 1
     assert hashlib.sha256((folder / generator).read_bytes()).hexdigest() == receipt["generatorSha256"]
+    if version == "scene-v13":
+        assert hashlib.sha256((folder / "render_pa.ps1").read_bytes()).hexdigest() == receipt["speechScriptSha256"]
+        assert json.loads((folder / "speech-provenance.json").read_text(encoding="utf-8-sig")) == receipt["speechEngine"]
     wav_names = [f"last-train-home-{duration}s.wav"]
     if version in ("scene-v6", "scene-v7"):
         wav_names += ["last-train-home-180s-no-footsteps.wav", "footsteps-only-180s.wav"]
@@ -49,6 +54,8 @@ for version in versions:
         wav_names += ["station-details-only-180s.wav", "station-only-30s.wav"]
     if version == "scene-v12":
         wav_names += ["shelter-resonance-only-180s.wav"]
+    if version == "scene-v13":
+        wav_names += ["last-train-home-300s-no-pa.wav"]
     for name in wav_names:
         wav_duration = 30 if name in ("mechanics-only-30s.wav", "station-only-30s.wav") else duration
         with wave.open(str(folder / name), "rb") as wav:

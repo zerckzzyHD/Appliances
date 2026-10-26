@@ -1,13 +1,14 @@
 # Bulb Workbench
 
-Current scene: **Last train home**, a finite three-minute atmosphere. V12
-reduces shelter resonance 2 dB after owner feedback that v11 was too loud in
-that layer. Airflow, rain, continuous bed, train and mechanics are unchanged.
-No footsteps or scattered clicks. Owner listening to v12 is pending; dated
-feedback and version history live in docs/status.md.
+Current scene: **Last train home**, now a finite five-minute station story.
+V13 carries forward v12's quieter resonance and adds a departure, evolving
+weather, roof runoff, another shelter response and optional fictional PA.
+An announcement-free alternate is included. No footsteps, horns or scattered
+clicks. Owner listening is pending; dated feedback lives in docs/status.md.
 
-- [V12 full scene, no footsteps](audio/last-train-home/scene-v12/last-train-home-180s.mp3)
-- [V12 complete timeline and provenance](audio/last-train-home/scene-v12/README.md)
+- [V13 five-minute scene with PA](audio/last-train-home/scene-v13/last-train-home-300s.mp3)
+- [V13 five-minute scene without PA](audio/last-train-home/scene-v13/last-train-home-300s-no-pa.mp3)
+- [V13 complete timeline and provenance](audio/last-train-home/scene-v13/README.md)
 - [Approved v5 reference](audio/last-train-home/scene-v5/last-train-home-180s.mp3)
 - [V5 timing and provenance](audio/last-train-home/scene-v5/README.md)
 - [V4 timing and provenance](audio/last-train-home/scene-v4/README.md)

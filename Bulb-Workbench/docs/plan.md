@@ -3,7 +3,7 @@
 Goal: a comfortable late-night station atmosphere for sleep, with restrained
 rain, an audible distant train and slow Pink/Purple/Blue lighting. The current
 [status](status.md) records owner observations, historical v5 acceptance and
-the subsequent revisions and current v12 resonance-trim candidate awaiting listening.
+the subsequent revisions and current v13 five-minute story awaiting listening.
 The [imported specification](history/GE-SPEAKER-BULB-IR-PLAN-2026-10-22.md)
 retains the detailed earlier scene proposal and pinned upstream source leads.
 
@@ -44,8 +44,12 @@ retains the detailed earlier scene proposal and pinned upstream source leads.
    work; separating the wash from rain is the next useful broader mixing step.
    Original train and v10 mechanics stay unchanged; no footsteps or impacts.
    Measured RMS and common timing do not prove perceived realism.
-   Longer loops and optional PA remain later choices. No overnight suitability
-   is established.
+   The owner then authorized a departure plus further additions before listening.
+   V13 is a finite five-minute story with a shared-motion departure, late
+   weather/runoff/shelter sequence and two short optional fictional PA lines.
+   A no-PA alternate is retained. Next is owner comparison using its complete
+   timeline, particularly the 3:05-3:48 departure and 3:55-4:35 weather sequence.
+   Loops and overnight suitability remain unverified and unimplemented.
 3. Start lighting integration with a static, owner-selected Pink preset and
    manual audio playback. Confirm the actual speaker destination and stop
    controls during an explicitly approved owner-present test.

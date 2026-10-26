@@ -1,0 +1,231 @@
+{
+  "date": "2026-10-26",
+  "durationSeconds": 300,
+  "sampleRateHz": 48000,
+  "channels": 2,
+  "sources": "Retained original v12 master; original procedural tail/departure/weather; original scripted local Windows speech.",
+  "sourceMasterSha256": "7852b6695624d18a9927676921e8a1b8e43a7503e23ef002fe3a028128d096e2",
+  "sourceResonanceSha256": "ed721bf84d2ba8b3efdb24ad6a7cec7379a2bc304fc58888894117968365a3ab",
+  "levels": {
+    "tail_bed_db": 0.0,
+    "departure_db_vs_quiet": 7.0,
+    "late_airflow_db_vs_quiet": -1.0,
+    "runoff_db_vs_quiet": -4.0,
+    "resonance_db_vs_v12": 0.0,
+    "pa_db_vs_quiet": 1.0
+  },
+  "normalization": "none; tail bed calibration and bounded stem gains only, no limiter",
+  "tailBedCalibration": "Same synthesis bands/coefficient proportions, matched quiet RMS; new noise realization with no perceptual continuity claim.",
+  "preservedNoPaPrefixSeconds": [
+    0,
+    156
+  ],
+  "transitionSeconds": [
+    156,
+    168
+  ],
+  "transitionMeasurements": [
+    {
+      "seconds": [
+        144,
+        156
+      ],
+      "rms": 406.47220248954466,
+      "dbVsQuietReference": 0.08396408013951721
+    },
+    {
+      "seconds": [
+        156,
+        168
+      ],
+      "rms": 412.4800614488923,
+      "dbVsQuietReference": 0.21140627265229875
+    },
+    {
+      "seconds": [
+        168,
+        180
+      ],
+      "rms": 403.13159057058806,
+      "dbVsQuietReference": 0.012283706661873468
+    }
+  ],
+  "announcements": [
+    {
+      "startSeconds": 44,
+      "endSeconds": 48.3838125,
+      "text": "The late local service is now approaching platform two.",
+      "sourceSha256": "2cf4d61481c95ccd70e8ad844fdbcb8ae2ed65e78c6fd73ca445a51716890ddf"
+    },
+    {
+      "startSeconds": 170,
+      "endSeconds": 174.59875,
+      "text": "The late local service at platform two will depart shortly.",
+      "sourceSha256": "5273bb4d198d3d539e74c38cc8e33d48e4e6b5998b195284cea4f255f98ba10d"
+    }
+  ],
+  "speechEngine": {
+    "voiceCulture": "en-US",
+    "lines": [
+      {
+        "text": "The late local service is now approaching platform two.",
+        "file": "pa-approach-raw.wav"
+      },
+      {
+        "text": "The late local service at platform two will depart shortly.",
+        "file": "pa-departure-raw.wav"
+      }
+    ],
+    "output": "WAV file only; no playback or online fallback",
+    "engine": "Windows System.Speech local installed synthesis",
+    "voiceNameSha256": "2f0e1adf1733204e51b120cc82a38feef257ec31c59821e182e2fb294c583121",
+    "rate": -1
+  },
+  "cueSeconds": {
+    "fadeIn": [
+      0,
+      4
+    ],
+    "existingAirflow": [
+      [
+        18,
+        36
+      ],
+      [
+        120,
+        143
+      ]
+    ],
+    "existingResonance": [
+      [
+        22,
+        35
+      ],
+      [
+        124,
+        142
+      ]
+    ],
+    "arrival": [
+      60,
+      89
+    ],
+    "arrivalPeak": [
+      75,
+      78
+    ],
+    "arrivalRail": [
+      62,
+      85
+    ],
+    "arrivalBraking": [
+      73,
+      86
+    ],
+    "arrivalRattle": [
+      73,
+      85
+    ],
+    "arrivalMechanicsFade": [
+      79,
+      85
+    ],
+    "arrivalAirRelease": [
+      83,
+      88.5
+    ],
+    "departure": [
+      185,
+      228
+    ],
+    "departureStrongest": [
+      197,
+      205
+    ],
+    "lateAirflow": [
+      235,
+      265
+    ],
+    "lateRainEaseAndReturn": [
+      235,
+      285
+    ],
+    "roofRunoff": [
+      243,
+      275
+    ],
+    "lateResonance": [
+      247,
+      265
+    ],
+    "fadeOut": [
+      285,
+      300
+    ]
+  },
+  "footstepsIncluded": false,
+  "hornsIncluded": false,
+  "automaticLoop": false,
+  "measurements": {
+    "last-train-home-300s.wav": {
+      "integratedLufs": -31.42,
+      "truePeakDbtp": -12.74
+    },
+    "last-train-home-300s.mp3": {
+      "integratedLufs": -31.81,
+      "truePeakDbtp": -13.08
+    },
+    "last-train-home-300s-no-pa.wav": {
+      "integratedLufs": -31.43,
+      "truePeakDbtp": -12.74
+    },
+    "last-train-home-300s-no-pa.mp3": {
+      "integratedLufs": -31.82,
+      "truePeakDbtp": -13.08
+    }
+  },
+  "validation": {
+    "exactFrames": 14400000,
+    "noPaPrefixExact": true,
+    "paOnlyDifferenceExact": true,
+    "paWindowsFit": true,
+    "pcmNoClipping": true,
+    "silentEdges": true,
+    "allDeliveryFormatsDecoded": true,
+    "auditionedByAgent": false,
+    "ownerListening": "pending",
+    "deviceOperations": 0
+  },
+  "files": {
+    "last-train-home-300s.wav": {
+      "bytes": 57600044,
+      "sha256": "9e7a48e6aef19aecd8cb91ea02ae29368ae996389781b73ea9487cbd1b32e46d"
+    },
+    "last-train-home-300s.mp3": {
+      "bytes": 4800812,
+      "sha256": "8de71d7c35cf6a853b9e868d91fda26e065cd84d5441d2a85ebb2a7f58b91c11"
+    },
+    "last-train-home-300s-no-pa.wav": {
+      "bytes": 57600044,
+      "sha256": "9cd66ca1a27c7d6cd6ec16acb265a8b569fc9cf68016c182579a5af58556e6f1"
+    },
+    "last-train-home-300s-no-pa.mp3": {
+      "bytes": 4800812,
+      "sha256": "e465ccd75c1f967d390e48c72728cd919ccdc53ee4ba2ce1d703fb85e2fc85d9"
+    },
+    "pa-approach-raw.wav": {
+      "bytes": 182788,
+      "sha256": "2cf4d61481c95ccd70e8ad844fdbcb8ae2ed65e78c6fd73ca445a51716890ddf"
+    },
+    "pa-departure-raw.wav": {
+      "bytes": 192266,
+      "sha256": "5273bb4d198d3d539e74c38cc8e33d48e4e6b5998b195284cea4f255f98ba10d"
+    }
+  },
+  "generatorSha256": "504614221be177406591f605f20904d00639ac8e3d521f71526897edb6d0ee70",
+  "speechScriptSha256": "0ccbf85cdd35c2b6de28ff3cc23d87a0ab59322ed702cd7a1178d28563c0f475",
+  "limits": [
+    "Causal realism, speech intelligibility, join smoothness and sleep comfort require owner listening.",
+    "Five-minute finite scene; no seamless-loop claim or playback operation."
+  ]
+}

@@ -20,6 +20,40 @@ overnight comfort and combined lighting/audio behavior remain unverified.
 
 ## Saved assets and limits
 
+### Five-minute station story v13: 2026-10-26
+
+The owner authorized adding more than departure before listening. V13 adds a
+shared-motion departure at 3:05-3:48, weather easing/return at 3:55-4:45,
+airflow at 3:55-4:25, lagging runoff at 4:03-4:35 and a quieter shelter response
+at 4:07-4:25. The last event ends before the 4:45-5:00 fade. The existing arrival
+and v12 resonance trim are retained; v12 itself was not owner-accepted yet.
+
+Two original fictional PA lines use an already installed local English voice,
+explicitly selected and rendered to files without speaker output or online
+fallback. Actual PA supports are 0:44-0:48.384 and 2:50-2:54.599. Both
+[with-PA and no-PA versions](../audio/last-train-home/scene-v13/README.md) are
+finite five-minute files. No footsteps, horns, scattered clicks or automatic
+loop are included. No device playback, pairing, IR or installation occurred.
+
+Astra reviewed the longer story, bed transition, shared departure motion,
+weather/runoff lag and speech boundaries. Advice is separate from measured
+evidence. No-PA samples before 2:36 must match v12 exactly; the 2:36-2:48 join
+uses an independently synthesized bed with matched bands, coefficients and
+quiet RMS. V13 PA differs from no-PA only within the two speech supports.
+Perceived continuity, realism, intelligibility and comfort await owner listening.
+
+Executed v13 checks: both PCM versions contain exactly 14,400,000 stereo frames
+at 48 kHz (300 seconds), silent edges and no clipped samples. Saved no-PA
+prefix through 2:36 matches v12 exactly; saved PA/no-PA differences are confined
+to the two declared announcement supports. All four delivery formats decode;
+PA/no-PA MP3 true peaks both measure -13.08 dBTP. The join RMS is +0.21 dB
+versus the quiet reference. Tail/prefix band-energy differences are within
+0.42 dB across 80-400, 400-2000 and 2000-9000 Hz; stereo correlation is
+0.886/0.872. The separate transition receipt records that bounded check without
+claiming perceptual seamlessness. Retained checks pass 51 audio hashes,
+thirteen Python generator hashes and 26 delivery/stem WAV files; speech-source
+PowerShell parsing, Python syntax, formatting and whitespace checks pass.
+
 ### Shelter resonance trim v12: 2026-10-26
 
 The owner found v11 shelter resonance a little too loud. V12 reduces only

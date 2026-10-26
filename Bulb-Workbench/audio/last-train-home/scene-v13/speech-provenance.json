@@ -1,0 +1,17 @@
+{
+  "voiceCulture": "en-US",
+  "lines": [
+    {
+      "text": "The late local service is now approaching platform two.",
+      "file": "pa-approach-raw.wav"
+    },
+    {
+      "text": "The late local service at platform two will depart shortly.",
+      "file": "pa-departure-raw.wav"
+    }
+  ],
+  "output": "WAV file only; no playback or online fallback",
+  "engine": "Windows System.Speech local installed synthesis",
+  "voiceNameSha256": "2f0e1adf1733204e51b120cc82a38feef257ec31c59821e182e2fb294c583121",
+  "rate": -1
+}
