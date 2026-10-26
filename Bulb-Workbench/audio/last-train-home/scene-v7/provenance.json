@@ -1,0 +1,267 @@
+{
+  "date": "2026-10-26",
+  "durationSeconds": 180,
+  "sampleRateHz": 48000,
+  "channels": 2,
+  "sources": "Retained original v5 and v6 procedural synthesis; no downloaded samples.",
+  "sourceGeneratorHashes": {
+    "v5": "8735823c119eee1ebf613aabae6b539c061ab9bfa015ef4956b36b92ef3fc216",
+    "v6": "252a69471cd5d4cf46aa7932942cd6065fd979bb089fc0bd10ac53c3762c2300"
+  },
+  "baseMasterSha256": "a83b39e91dc6cf4cd49e307735253c0d5f1217999f30127937087878d4b42411",
+  "rainDbVsV5AndV6": -1.5,
+  "rainIsolation": "Identical seeded premaster renders differing only in linear rain amplitude; original reproduces saved premaster PCM, reconstruction tolerance 1e-14.",
+  "nonRainChange": "None; add only quantized rain delta to original master. No train gain change.",
+  "normalization": "none; no limiter or automatic gain",
+  "detailCalibration": {
+    "clicks": {
+      "gainDbVsV6": 18.71183165465945,
+      "targetVsBedDb": 0.0,
+      "maximumBoostDb": 30.0,
+      "capped": false,
+      "activeWindows": [
+        {
+          "windowSeconds": [
+            24.035,
+            24.135
+          ],
+          "detailVsBedDb": -0.6266203053011955,
+          "detailVsRainDb": 2.2194560444992697
+        },
+        {
+          "windowSeconds": [
+            46.535,
+            46.635
+          ],
+          "detailVsBedDb": -0.21961159370553107,
+          "detailVsRainDb": 3.0257804239593318
+        },
+        {
+          "windowSeconds": [
+            54.235,
+            54.335
+          ],
+          "detailVsBedDb": 0.2527635248583457,
+          "detailVsRainDb": 3.2871180339786026
+        },
+        {
+          "windowSeconds": [
+            92.035,
+            92.135
+          ],
+          "detailVsBedDb": 0.22521118809610852,
+          "detailVsRainDb": 3.5017764709538044
+        },
+        {
+          "windowSeconds": [
+            129.035,
+            129.135
+          ],
+          "detailVsBedDb": -0.6303503278297763,
+          "detailVsRainDb": 3.3287776563954274
+        },
+        {
+          "windowSeconds": [
+            153.035,
+            153.135
+          ],
+          "detailVsBedDb": 0.9332595860183315,
+          "detailVsRainDb": 3.9552110667194573
+        }
+      ]
+    },
+    "rattles": {
+      "gainDbVsV6": 17.353756929084483,
+      "targetVsBedDb": 0.0,
+      "maximumBoostDb": 30.0,
+      "capped": false,
+      "activeWindows": [
+        {
+          "windowSeconds": [
+            37.1,
+            38.9
+          ],
+          "detailVsBedDb": -0.16150775994490082,
+          "detailVsRainDb": 3.114563815187912
+        },
+        {
+          "windowSeconds": [
+            99.45,
+            101.55
+          ],
+          "detailVsBedDb": 0.16378155253973434,
+          "detailVsRainDb": 3.706014050981046
+        },
+        {
+          "windowSeconds": [
+            145.45,
+            147.55
+          ],
+          "detailVsBedDb": -2.486613875742159e-06,
+          "detailVsRainDb": 3.1243873758309815
+        }
+      ]
+    },
+    "optionalFootsteps": {
+      "gainDbVsV6": 17.752993835989553,
+      "targetVsBedDb": -3.0,
+      "maximumBoostDb": 30.0,
+      "capped": false,
+      "activeWindows": [
+        {
+          "windowSeconds": [
+            110.835,
+            110.935
+          ],
+          "detailVsBedDb": -1.2274781497685388,
+          "detailVsRainDb": 1.5662669490057506
+        },
+        {
+          "windowSeconds": [
+            111.685,
+            111.78500000000001
+          ],
+          "detailVsBedDb": -1.2601184128075429,
+          "detailVsRainDb": 1.1178282925761103
+        },
+        {
+          "windowSeconds": [
+            112.535,
+            112.635
+          ],
+          "detailVsBedDb": -3.000139113466287,
+          "detailVsRainDb": 0.08339674796330679
+        },
+        {
+          "windowSeconds": [
+            113.435,
+            113.53500000000001
+          ],
+          "detailVsBedDb": -2.921067091926466,
+          "detailVsRainDb": 0.20574714332724175
+        },
+        {
+          "windowSeconds": [
+            114.335,
+            114.435
+          ],
+          "detailVsBedDb": -5.195492927831062,
+          "detailVsRainDb": -1.6660489218084717
+        },
+        {
+          "windowSeconds": [
+            115.235,
+            115.33500000000001
+          ],
+          "detailVsBedDb": -4.58577485847621,
+          "detailVsRainDb": -1.7347170541722299
+        },
+        {
+          "windowSeconds": [
+            116.13499999999999,
+            116.235
+          ],
+          "detailVsBedDb": -7.008508443299438,
+          "detailVsRainDb": -3.76407985099425
+        }
+      ]
+    }
+  },
+  "calibrationCeiling": "Median active-body RMS relative to underlying revised bed, excluding added sounds. Broadband RMS does not prove perceived loudness, masking resolution or comfort.",
+  "cueSeconds": {
+    "train": [
+      60,
+      89
+    ],
+    "railClicks": [
+      24.0,
+      46.5,
+      54.2,
+      92.0,
+      129.0,
+      153.0
+    ],
+    "rattleWindows": [
+      [
+        35.0,
+        41.0
+      ],
+      [
+        97.0,
+        104.0
+      ],
+      [
+        143.0,
+        150.0
+      ]
+    ],
+    "footsteps": [
+      110.8,
+      111.65,
+      112.5,
+      113.4,
+      114.3,
+      115.2,
+      116.1
+    ],
+    "fadeOut": [
+      168,
+      180
+    ]
+  },
+  "measurements": {
+    "last-train-home-180s.wav": {
+      "integratedLufs": -31.88,
+      "truePeakDbtp": -14.85
+    },
+    "last-train-home-180s.mp3": {
+      "integratedLufs": -32.24,
+      "truePeakDbtp": -15.3
+    },
+    "last-train-home-180s-no-footsteps.wav": {
+      "integratedLufs": -31.89,
+      "truePeakDbtp": -14.85
+    },
+    "last-train-home-180s-no-footsteps.mp3": {
+      "integratedLufs": -32.25,
+      "truePeakDbtp": -15.3
+    }
+  },
+  "validation": {
+    "exactWavFrames": 8640000,
+    "clippedSamples": 0,
+    "silentEdges": true,
+    "bothMixesAndMp3sDecoded": true,
+    "savedPcmDifferenceExactlyFootstepStem": true,
+    "auditionedByAgent": false,
+    "ownerListening": "pending",
+    "deviceOperations": 0
+  },
+  "files": {
+    "last-train-home-180s.wav": {
+      "bytes": 34560044,
+      "sha256": "6cf531b24def41474411222694251c50368d08ef65fcd379a58034a9d42c5ccd"
+    },
+    "last-train-home-180s.mp3": {
+      "bytes": 2880812,
+      "sha256": "534dfb4b972a7a789df8324c33a724d5d09f282ff3cb78d1855e3dce7d5296c1"
+    },
+    "last-train-home-180s-no-footsteps.wav": {
+      "bytes": 34560044,
+      "sha256": "326f634b44ffa8f791b53addd8876e93845f96dbe9c09be2e57e83f59e32417c"
+    },
+    "last-train-home-180s-no-footsteps.mp3": {
+      "bytes": 2880812,
+      "sha256": "52c8b45dba5cae4da63bc6b9b078a0573c0d11e85f9ac30ed291e7ceb7ae75f7"
+    },
+    "footsteps-only-180s.wav": {
+      "bytes": 34560044,
+      "sha256": "118b2411256b677ae9e017a00eb8d6ebed006d73a0deb09ca40f4917648969e8"
+    }
+  },
+  "generatorSha256": "e01290a132f63d59cd964c37617b79dea1c4511b2cadb860d7cd0c1962531fde",
+  "limits": [
+    "Synthetic sounds, not field recordings. Owner listening is the acceptance test.",
+    "No speech, horn, automatic loop, playback, pairing or IR operation."
+  ]
+}

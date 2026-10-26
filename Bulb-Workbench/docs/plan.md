@@ -2,7 +2,8 @@
 
 Goal: a comfortable late-night station atmosphere for sleep, with restrained
 rain, an audible distant train and slow Pink/Purple/Blue lighting. The current
-[status](status.md) records owner observations and the accepted v5 balance.
+[status](status.md) records owner observations, historical v5 acceptance and
+the subsequent v7 masking adjustment awaiting listening.
 The [imported specification](history/GE-SPEAKER-BULB-IR-PLAN-2026-10-22.md)
 retains the detailed earlier scene proposal and pinned upstream source leads.
 
@@ -16,8 +17,12 @@ retains the detailed earlier scene proposal and pinned upstream source leads.
    restrained ambient detail. V6 adds sparse rail contacts, faint mechanical
    rattles and seven soft receding footsteps. The owner approved trying steps
    but flagged apartment-related unease; provide both with/without-step mixes
-   and an isolated removable step layer. Next is owner comparison, especially
-   around 1:51-1:57. Keep new events gentle for sleep.
+   and an isolated removable step layer. The owner then reported v6 rain masks
+   the added sounds and asked for quieter rain and details near its level.
+   V7 reduces rain another 1.5 dB, calibrates active clicks/rattles toward the
+   surrounding bed and keeps the original train gain. Next is owner comparison:
+   click at 0:24, rattle at 0:35-0:41, then optional steps at 1:51-1:57. Default
+   to the mix without steps. Measured RMS does not establish perceived audibility.
    Longer loops and optional PA remain later choices. No overnight suitability
    is established.
 3. Start lighting integration with a static, owner-selected Pink preset and

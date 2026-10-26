@@ -9,7 +9,7 @@ import wave
 root = Path(__file__).resolve().parent.parent
 audio = root / "Bulb-Workbench" / "audio" / "last-train-home"
 count = 0
-versions = ("preview-v1", "preview-v2", "preview-v3", "scene-v4", "scene-v5", "scene-v6")
+versions = ("preview-v1", "preview-v2", "preview-v3", "scene-v4", "scene-v5", "scene-v6", "scene-v7")
 wav_count = 0
 for version in versions:
     folder = audio / version
@@ -17,6 +17,8 @@ for version in versions:
     generator = "render_scene.py" if version.startswith("scene-") else "render_preview.py"
     if version == "scene-v6":
         generator = "render_details.py"
+    if version == "scene-v7":
+        generator = "render_balance.py"
     receipt = json.loads((folder / "provenance.json").read_text(encoding="utf-8-sig"))
     for name, expected in receipt["files"].items():
         data = (folder / name).read_bytes()
@@ -25,7 +27,7 @@ for version in versions:
         count += 1
     assert hashlib.sha256((folder / generator).read_bytes()).hexdigest() == receipt["generatorSha256"]
     wav_names = [f"last-train-home-{duration}s.wav"]
-    if version == "scene-v6":
+    if version in ("scene-v6", "scene-v7"):
         wav_names += ["last-train-home-180s-no-footsteps.wav", "footsteps-only-180s.wav"]
     for name in wav_names:
         with wave.open(str(folder / name), "rb") as wav:

@@ -20,6 +20,37 @@ overnight comfort and combined lighting/audio behavior remain unverified.
 
 ## Saved assets and limits
 
+### Masking adjustment v7: 2026-10-26
+
+The owner reported hearing only rain/train in v6 and said rain still overshadows
+everything. They requested quieter rain and other sounds near or slightly
+above its level. This supersedes retaining v5 rain unchanged as a requirement;
+v5's earlier acceptance remains historical evidence.
+
+[V7 main mix](../audio/last-train-home/scene-v7/last-train-home-180s-no-footsteps.mp3)
+omits footsteps; an [optional comparison](../audio/last-train-home/scene-v7/last-train-home-180s.mp3)
+retains the separate step layer. Rain-family gain drops 1.5 dB versus v5/v6;
+train and other original bed gains stay unchanged. Clicks/rattles are calibrated
+separately toward 0 dB median active-body RMS versus the revised local bed,
+excluding the added sound; optional footsteps target -3 dB. The receipt records
+per-event ratios versus both the isolated rain and the full bed, plus a 30 dB
+maximum family boost. No master normalization or limiter is used.
+
+Read-only Astra advice challenged rain-stem isolation, active-window selection
+and summed/encoded headroom. The renderer checks original premaster reproduction,
+linear rain decomposition, saved footstep isolation and WAV/MP3 peaks. Advice
+and measured RMS do not establish perceived audibility; owner listening remains
+pending. No agent audition or device operation is claimed.
+
+Executed results: rain -1.5 dB, clicks +18.71 dB and rattles +17.35 dB versus
+v6. Median active-body levels are 0 dB relative to the local bed and about
+3.31/3.12 dB above rain-only for clicks/rattles. Optional footsteps are -3 dB
+relative to the bed, about 0.08 dB above rain-only. No family hit the gain cap.
+Both PCM mixes are 180 seconds, with silent edges and no clipping. Both decoded
+MP3 true peaks measured -15.30 dBTP. Saved PCM footstep isolation passed;
+the retained checker passed 25 audio hashes, seven generator hashes and 11
+WAV files. Source syntax, formatting and whitespace checks passed.
+
 ### Station details v6: 2026-10-26
 
 The owner authorized rail/mechanical detail and a trial of footsteps, while
@@ -32,8 +63,9 @@ gain with no normalization, preserving its rain/train mix.
 Rail contacts: 0:24, 0:46.5, 0:54.2, 1:32, 2:09, 2:33. Rattle windows:
 0:35-0:41, 1:37-1:44 and 2:23-2:30. Seven receding steps are around 1:51-1:57;
 their layer can be omitted without changing the other details. These are
-synthetic textures, not field recordings. Owner realism/comfort comparison is
-pending. No playback, IR or other device operation is performed.
+synthetic textures, not field recordings. The subsequent owner comparison found
+the added details masked by rain, motivating v7 above. No playback, IR or other
+device operation was performed by the agent.
 
 Executed checks: both mixes and their MP3s decoded through FFmpeg; both PCM
 masters are exactly 180 seconds with silent edges and no clipped samples.
