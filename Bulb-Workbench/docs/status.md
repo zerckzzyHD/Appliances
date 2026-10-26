@@ -20,6 +20,32 @@ overnight comfort and combined lighting/audio behavior remain unverified.
 
 ## Saved assets and limits
 
+### Shelter detail and train clarity v10: 2026-10-26
+
+Owner feedback established that v9 mechanics were audible, but could overtake
+the original train near the end. The owner requested a small reduction, more
+details and timestamps for everything. [V10](../audio/last-train-home/scene-v10/README.md)
+trims rail/rattle 1.5 dB and adds a six-second release at 1:19-1:25. It retains
+the original train, braking, air release and rain at their existing levels.
+
+New airflow/ventilation swells at 0:18-0:36 and 2:00-2:23 are paired with low
+shelter-frame resonance at 0:22-0:35 and 2:04-2:22. All have gradual envelopes;
+the new station layers are silent during 1:00-1:30. These are original synthetic
+artistic textures, not field recordings or a validated physical simulation.
+Footsteps and scattered clicks remain excluded. No speech or loop is added.
+
+The complete timing table is saved with the assets. Owner acceptance of v10,
+its station detail and the revised train balance is pending. No agent audition,
+playback, IR or device operation occurred.
+
+Executed v10 checks: saved master minus its new stems recovers the unchanged
+bed exactly; station detail is confined to 0:18-0:36 and 2:00-2:23 and silent
+during the train; mechanics are silent after 1:25. WAV/MP3 decoding passed;
+master -31.02 LUFS, MP3 true peak -13.07 dBTP, exact 180-second PCM, silent
+edges and no clipping. The retained checker passed 37 audio hashes, ten
+generator hashes and 19 WAV files. Syntax, current local links, formatting and
+whitespace passed. These checks do not establish perceived comfort or realism.
+
 ### Mechanical presence v9: 2026-10-26
 
 The owner was unsure whether they noticed the v8 rails/rattles, describing
@@ -33,8 +59,9 @@ no footsteps are included.
 A 30-second mechanics-only identification clip corresponds to scene 1:00-1:30.
 Its PCM level is exactly the level used in the full mix, with no normalization
 or demonstration boost. It excludes rain and the original train. Owner
-comparison of solo versus full scene is pending; no agent audition or device
-operation is claimed.
+comparison subsequently confirmed audible layers but found them intrusive near
+the train ending, motivating v10 above. No agent audition or device operation
+is claimed.
 
 Executed v9 results: rail +5.61 dB and rattle +8.84 dB versus v8, each reaching
 -3 dB against its active train-window bed within 0.01 dB. The solo WAV exactly

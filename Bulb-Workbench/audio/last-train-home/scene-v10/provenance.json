@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-26",
+  "durationSeconds": 180,
+  "sampleRateHz": 48000,
+  "channels": 2,
+  "sources": "Retained original PCM components plus original procedural airflow and shelter-frame resonance; no downloaded samples.",
+  "sourceHashes": {
+    "scene-v8/last-train-home-180s.wav": "f4f8a759f9ec900dd71a489f9d8c5a5af65fac37462f19a4e2991428b5aef50f",
+    "scene-v8/rail-texture-only-180s.wav": "54b1f6daf7c718fcd91a262adc2ee0113f69650aed17556eb7a18cd27a3b64c5",
+    "scene-v8/mechanical-rattle-only-180s.wav": "93f367ca143c75ce59b9a46cb3d5ebe0d9afec04790ee04218c6b3b30b2e0eb2",
+    "scene-v9/last-train-home-180s.wav": "24ba684635db4953a08c90ac462f2413f32c23fc85bec3adf55d752faae2ca34"
+  },
+  "helperGeneratorSha256": "252a69471cd5d4cf46aa7932942cd6065fd979bb089fc0bd10ac53c3762c2300",
+  "seed": 261030,
+  "mechanicsTrimDbVsV9": -1.5,
+  "additionalMechanicsReleaseSeconds": [
+    79,
+    85
+  ],
+  "normalization": "none; no limiter or original rain/train gain change",
+  "newStationEvents": [
+    {
+      "airflowSeconds": [
+        18,
+        36
+      ],
+      "airflowTargetVsQuietBedDb": -5,
+      "canopySeconds": [
+        22,
+        35
+      ],
+      "canopyTargetVsQuietBedDb": -8
+    },
+    {
+      "airflowSeconds": [
+        120,
+        143
+      ],
+      "airflowTargetVsQuietBedDb": -5,
+      "canopySeconds": [
+        124,
+        142
+      ],
+      "canopyTargetVsQuietBedDb": -8
+    }
+  ],
+  "quietBedReferenceSeconds": [
+    50,
+    53
+  ],
+  "cueSeconds": {
+    "masterFadeIn": [
+      0,
+      4
+    ],
+    "continuousRainAndStationBed": [
+      0,
+      180
+    ],
+    "train": [
+      60,
+      89
+    ],
+    "trainStrongest": [
+      75,
+      78
+    ],
+    "railTexture": [
+      62,
+      85
+    ],
+    "braking": [
+      73,
+      86
+    ],
+    "rattle": [
+      73,
+      85
+    ],
+    "airRelease": [
+      83,
+      88.5
+    ],
+    "mechanicsExtraFade": [
+      79,
+      85
+    ],
+    "masterFadeOut": [
+      168,
+      180
+    ]
+  },
+  "footstepsIncluded": false,
+  "scatteredClicksIncluded": false,
+  "measurements": {
+    "last-train-home-180s.wav": {
+      "integratedLufs": -31.02,
+      "truePeakDbtp": -12.67
+    },
+    "last-train-home-180s.mp3": {
+      "integratedLufs": -31.39,
+      "truePeakDbtp": -13.07
+    }
+  },
+  "validation": {
+    "savedBedExact": true,
+    "newStationLayersSilentDuringTrain": true,
+    "addedMechanicsSilentAfter85Seconds": true,
+    "allWavFrames": 8640000,
+    "pcmNoClipping": true,
+    "silentEdges": true,
+    "mainFormatsDecoded": true,
+    "auditionedByAgent": false,
+    "ownerListening": "pending",
+    "deviceOperations": 0
+  },
+  "files": {
+    "last-train-home-180s.wav": {
+      "bytes": 34560044,
+      "sha256": "1ccd2048ec6f8d3466719a9b57db682e0b0ac1f5d207a4a25b73c3438f098bfc"
+    },
+    "last-train-home-180s.mp3": {
+      "bytes": 2880812,
+      "sha256": "e7b6c79f1f96489f17f3eea90dd62c223e6bde5eedf574b90bfa643f845a2a3d"
+    },
+    "station-details-only-180s.wav": {
+      "bytes": 34560044,
+      "sha256": "69d96de3e9f9b0e5cc72da85d31557800c0f4693b7964b1af93fda16f62e1a01"
+    },
+    "trimmed-mechanics-only-180s.wav": {
+      "bytes": 34560044,
+      "sha256": "35f48791c0da06c32185626942c3a0824954aa2eb9b200dccee2b79947e7934b"
+    }
+  },
+  "generatorSha256": "1e08a87e3afefd1399657cafb94a96e64962ad3e9b5fc9037ffc241649df8345",
+  "limits": [
+    "Original synthesis is not a field recording. Comfort, realism and train clarity await owner listening.",
+    "Wind-linked frame resonance is an artistic approximation, not a verified physical model."
+  ]
+}

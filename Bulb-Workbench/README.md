@@ -7,12 +7,12 @@ reference for further ambient detail. The owner later reported rain masking
 the v6 details. V7 lowered rain and raised details, but the owner found its
 clicks sudden/random and similar to footsteps. V8 removes footsteps and the
 scattered details, replacing them with train-linked rolling/braking textures.
-The owner was unsure whether those additions were audible. V9 raises the same
-textures and provides an unboosted mechanics-only identification clip.
+The owner could hear v9 additions but found them intrusive near the train's end.
+V10 trims them slightly, fades them earlier, and adds gradual wind-linked
+shelter details outside the train window. Owner listening to v10 is pending.
 
-- [V9 coherent scene, no footsteps](audio/last-train-home/scene-v9/last-train-home-180s.mp3)
-- [V9 added mechanics alone, 30 seconds](audio/last-train-home/scene-v9/mechanics-only-30s.mp3)
-- [V9 timing, measurements and provenance](audio/last-train-home/scene-v9/README.md)
+- [V10 full scene, no footsteps](audio/last-train-home/scene-v10/last-train-home-180s.mp3)
+- [V10 complete timeline, stems and provenance](audio/last-train-home/scene-v10/README.md)
 - [Approved v5 reference](audio/last-train-home/scene-v5/last-train-home-180s.mp3)
 - [V5 timing and provenance](audio/last-train-home/scene-v5/README.md)
 - [V4 timing and provenance](audio/last-train-home/scene-v4/README.md)

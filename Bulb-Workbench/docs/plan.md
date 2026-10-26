@@ -3,7 +3,7 @@
 Goal: a comfortable late-night station atmosphere for sleep, with restrained
 rain, an audible distant train and slow Pink/Purple/Blue lighting. The current
 [status](status.md) records owner observations, historical v5 acceptance and
-the subsequent revisions and current v9 presence candidate awaiting listening.
+the subsequent revisions and current v10 shelter-detail candidate awaiting listening.
 The [imported specification](history/GE-SPEAKER-BULB-IR-PLAN-2026-10-22.md)
 retains the detailed earlier scene proposal and pinned upstream source leads.
 
@@ -26,9 +26,13 @@ retains the detailed earlier scene proposal and pinned upstream source leads.
    and braking-linked envelopes during the train, and includes no footsteps.
    The owner could not confidently identify v8 additions. V9 raises those same
    coherent layers toward -3 dB versus the train-window bed and provides a
-   mechanics-only 30-second identification clip at the same mix level. Next is
-   comparing that solo with 1:00-1:30 of the full scene, then judging whether
-   the blend is audible, natural and comfortable. Rain/train stay unchanged.
+   mechanics-only 30-second identification clip at the same mix level. The owner
+   heard the additions but found them overtake the train's end and authorized
+   more detail. V10 trims mechanics 1.5 dB and fades them at 1:19-1:25, retaining
+   the original train ending. Wind-linked airflow/frame resonance pairs add
+   detail before and after the train. Next is owner comparison using the
+   [complete timeline](../audio/last-train-home/scene-v10/README.md#complete-timeline).
+   Rain and original train remain unchanged; no footsteps or abrupt impacts.
    Measured RMS and common timing do not prove perceived realism.
    Longer loops and optional PA remain later choices. No overnight suitability
    is established.
