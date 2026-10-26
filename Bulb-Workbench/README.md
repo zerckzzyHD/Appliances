@@ -8,11 +8,14 @@ the v6 details. V7 lowered rain and raised details, but the owner found its
 clicks sudden/random and similar to footsteps. V8 removes footsteps and the
 scattered details, replacing them with train-linked rolling/braking textures.
 The owner could hear v9 additions but found them intrusive near the train's end.
-V10 trims them slightly, fades them earlier, and adds gradual wind-linked
-shelter details outside the train window. Owner listening to v10 is pending.
+V10 trimmed them and added gradual shelter details, but the owner still found
+rain dominant and ventilation barely audible. V11 lowers the rain layer another
+1.5 dB and raises the new station layers against the whole underlying bed.
+Owner listening to v11 is pending.
 
-- [V10 full scene, no footsteps](audio/last-train-home/scene-v10/last-train-home-180s.mp3)
-- [V10 complete timeline, stems and provenance](audio/last-train-home/scene-v10/README.md)
+- [V11 full scene, no footsteps](audio/last-train-home/scene-v11/last-train-home-180s.mp3)
+- [V11 first station event alone, 30 seconds](audio/last-train-home/scene-v11/station-only-30s.mp3)
+- [V11 complete timeline and provenance](audio/last-train-home/scene-v11/README.md)
 - [Approved v5 reference](audio/last-train-home/scene-v5/last-train-home-180s.mp3)
 - [V5 timing and provenance](audio/last-train-home/scene-v5/README.md)
 - [V4 timing and provenance](audio/last-train-home/scene-v4/README.md)

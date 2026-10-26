@@ -1,0 +1,274 @@
+{
+  "date": "2026-10-26",
+  "durationSeconds": 180,
+  "sampleRateHz": 48000,
+  "channels": 2,
+  "sources": "Retained procedural v5/v6/v10 components; no downloads or new scene events.",
+  "sourceHashes": {
+    "last-train-home-180s.wav": "1ccd2048ec6f8d3466719a9b57db682e0b0ac1f5d207a4a25b73c3438f098bfc",
+    "station-details-only-180s.wav": "69d96de3e9f9b0e5cc72da85d31557800c0f4693b7964b1af93fda16f62e1a01",
+    "trimmed-mechanics-only-180s.wav": "35f48791c0da06c32185626942c3a0824954aa2eb9b200dccee2b79947e7934b"
+  },
+  "rainDbVsV10": -1.5,
+  "backgroundComposition": [
+    {
+      "seconds": [
+        7,
+        15
+      ],
+      "oldRainRms": 310.8199962507291,
+      "oldNonRainBedRms": 319.84397843014585,
+      "underlyingBedChangeDb": -0.6644271809738965
+    },
+    {
+      "seconds": [
+        45,
+        53
+      ],
+      "oldRainRms": 306.6818440727106,
+      "oldNonRainBedRms": 319.914595002346,
+      "underlyingBedChangeDb": -0.6538112116135784
+    },
+    {
+      "seconds": [
+        100,
+        108
+      ],
+      "oldRainRms": 304.89381736200653,
+      "oldNonRainBedRms": 325.4161642124634,
+      "underlyingBedChangeDb": -0.6372008349564301
+    },
+    {
+      "seconds": [
+        153,
+        165
+      ],
+      "oldRainRms": 309.41723295809135,
+      "oldNonRainBedRms": 325.05010108190936,
+      "underlyingBedChangeDb": -0.6490555909170144
+    }
+  ],
+  "calibration": {
+    "airflow": {
+      "gainDbVsV10": 5.68050405525238,
+      "targetVsUnderlyingBedDb": 1.0,
+      "coreWindows": [
+        {
+          "seconds": [
+            25,
+            27
+          ],
+          "vsUnderlyingBedDb": 0.8850465020539383,
+          "vsRainOnlyDb": 4.738452500935443
+        },
+        {
+          "seconds": [
+            127,
+            129
+          ],
+          "vsUnderlyingBedDb": 1.116393582327361,
+          "vsRainOnlyDb": 5.808518870856938
+        }
+      ]
+    },
+    "canopy": {
+      "gainDbVsV10": 5.601014883406591,
+      "targetVsUnderlyingBedDb": -2.0,
+      "coreWindows": [
+        {
+          "seconds": [
+            26,
+            28
+          ],
+          "vsUnderlyingBedDb": -2.0969858486430706,
+          "vsRainOnlyDb": 1.7128597014127274
+        },
+        {
+          "seconds": [
+            128,
+            130
+          ],
+          "vsUnderlyingBedDb": -1.902120204125587,
+          "vsRainOnlyDb": 2.509996712366659
+        }
+      ]
+    }
+  },
+  "overlapMeasurements": [
+    {
+      "seconds": [
+        26,
+        28
+      ],
+      "combinedStationVsUnderlyingBedDb": 3.0740765549524056
+    },
+    {
+      "seconds": [
+        128,
+        130
+      ],
+      "combinedStationVsUnderlyingBedDb": 3.179317278873239
+    }
+  ],
+  "fadeMeasurements": [
+    {
+      "seconds": [
+        18,
+        21
+      ],
+      "combinedStationVsUnderlyingBedDb": -10.784626020800307
+    },
+    {
+      "seconds": [
+        33,
+        36
+      ],
+      "combinedStationVsUnderlyingBedDb": -13.80534841148876
+    },
+    {
+      "seconds": [
+        120,
+        123
+      ],
+      "combinedStationVsUnderlyingBedDb": -11.12695156400729
+    },
+    {
+      "seconds": [
+        140,
+        143
+      ],
+      "combinedStationVsUnderlyingBedDb": -13.977697254115967
+    }
+  ],
+  "normalization": "none; no limiter or preserved non-rain bed/mechanics gain change",
+  "cueSeconds": {
+    "masterFadeIn": [
+      0,
+      4
+    ],
+    "continuousRainAndStationBed": [
+      0,
+      180
+    ],
+    "train": [
+      60,
+      89
+    ],
+    "trainStrongest": [
+      75,
+      78
+    ],
+    "railTexture": [
+      62,
+      85
+    ],
+    "braking": [
+      73,
+      86
+    ],
+    "rattle": [
+      73,
+      85
+    ],
+    "airRelease": [
+      83,
+      88.5
+    ],
+    "mechanicsExtraFade": [
+      79,
+      85
+    ],
+    "masterFadeOut": [
+      168,
+      180
+    ]
+  },
+  "newStationEvents": [
+    {
+      "airflowSeconds": [
+        18,
+        36
+      ],
+      "canopySeconds": [
+        22,
+        35
+      ]
+    },
+    {
+      "airflowSeconds": [
+        120,
+        143
+      ],
+      "canopySeconds": [
+        124,
+        142
+      ]
+    }
+  ],
+  "diagnostic": {
+    "durationSeconds": 30,
+    "sceneSeconds": [
+      12,
+      42
+    ],
+    "gainRelativeToMixDb": 0
+  },
+  "footstepsIncluded": false,
+  "measurements": {
+    "last-train-home-180s.wav": {
+      "integratedLufs": -31.21,
+      "truePeakDbtp": -12.74
+    },
+    "last-train-home-180s.mp3": {
+      "integratedLufs": -31.6,
+      "truePeakDbtp": -13.08
+    },
+    "station-only-30s.wav": {
+      "integratedLufs": -34.36,
+      "truePeakDbtp": -22.16
+    },
+    "station-only-30s.mp3": {
+      "integratedLufs": -34.8,
+      "truePeakDbtp": -22.59
+    }
+  },
+  "validation": {
+    "v10StationReconstructedExactly": true,
+    "savedBedExact": true,
+    "preservedMechanicsExact": true,
+    "newStationSilentDuringTrain": true,
+    "pcmNoClipping": true,
+    "silentEdges": true,
+    "allFormatsDecoded": true,
+    "auditionedByAgent": false,
+    "ownerListening": "pending",
+    "deviceOperations": 0
+  },
+  "files": {
+    "last-train-home-180s.wav": {
+      "bytes": 34560044,
+      "sha256": "09734f1934f91297ac41131fcc06a39806455de1b81898d6235475b2dff1175b"
+    },
+    "last-train-home-180s.mp3": {
+      "bytes": 2880812,
+      "sha256": "48bc374df888aeef1b879cd4acd22c1856bf12f4a1cf87a0b0962b872d486e39"
+    },
+    "station-details-only-180s.wav": {
+      "bytes": 34560044,
+      "sha256": "a1e647e44ff08118b26b41cb73169afdc64bb1f54cb8534446efaec0e4f84aa5"
+    },
+    "station-only-30s.wav": {
+      "bytes": 5760044,
+      "sha256": "451e876c9c39799983caef7baf2d5b4e9fe378826386bb75e3e43038015d2a6e"
+    },
+    "station-only-30s.mp3": {
+      "bytes": 480812,
+      "sha256": "6192f6d15730a6be76ec3eb1bd6139c3eb102f193d00cac9d3a90e060752a2ca"
+    }
+  },
+  "generatorSha256": "b98eb74797970283abb8ee65db922c394b3cc42d76e20ca13b8842747d2b5c57",
+  "limits": [
+    "Rain-family reduction is not the same as total background reduction; constant non-rain bed is retained.",
+    "RMS and phase relationships do not establish perceived loudness, comfort or realism."
+  ]
+}

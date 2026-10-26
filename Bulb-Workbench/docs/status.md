@@ -20,6 +20,37 @@ overnight comfort and combined lighting/audio behavior remain unverified.
 
 ## Saved assets and limits
 
+### Station balance candidate v11: 2026-10-26
+
+The owner found rain still dominant and could barely hear the new ventilation
+in v10. V11 lowers rain-family gain another 1.5 dB, raises active airflow toward
++1 dB and frame resonance toward -2 dB RMS versus the revised local underlying
+bed, and retains the original train and v10 mechanics unchanged. No events or
+timings change. [Full scene and exact-level station-only identification clip](../audio/last-train-home/scene-v11/README.md)
+await owner listening.
+
+Composition was measured before calibration in quiet windows at 0:07-0:15,
+0:45-0:53, 1:40-1:48 and 2:33-2:45. Existing non-rain continuous station bed is
+roughly as strong as rain. The rain-only trim therefore reduces total wash
+by just 0.64-0.66 dB there. Existing non-rain bed is preserved; rain gain and
+overall background reduction are not interchangeable claims.
+
+Read-only Astra advice required that composition check, separate calibration
+against the full bed excluding both new layers, overlap/fade measurement and
+combined/encoded headroom checks. Advice and RMS levels do not establish that
+masking is resolved. Original v10 station PCM must reconstruct exactly before
+level changes. No normalization, limiter, agent audition or device action.
+
+Executed v11 results: airflow +5.68 dB and canopy +5.60 dB versus v10.
+Median active-core ratios reach the +1/-2 dB targets within 0.01 dB. Combined
+station layers measure about +3.07/+3.18 dB over the underlying bed during
+their measured overlap cores; fade measurements are separately retained.
+Both full/solo delivery formats decode. Main WAV -31.21 LUFS, main MP3 true
+peak -13.08 dBTP. Silent PCM edges, exact durations and no clipping passed;
+the solo equals the station layer at its actual mix level. The retained checker
+passed 42 audio hashes, eleven generator hashes and 22 WAV files. Syntax,
+formatting and whitespace passed. Owner acceptance remains pending.
+
 ### Shelter detail and train clarity v10: 2026-10-26
 
 Owner feedback established that v9 mechanics were audible, but could overtake
@@ -34,9 +65,9 @@ the new station layers are silent during 1:00-1:30. These are original synthetic
 artistic textures, not field recordings or a validated physical simulation.
 Footsteps and scattered clicks remain excluded. No speech or loop is added.
 
-The complete timing table is saved with the assets. Owner acceptance of v10,
-its station detail and the revised train balance is pending. No agent audition,
-playback, IR or device operation occurred.
+The complete timing table is saved with the assets. Subsequent owner listening
+found new station detail still masked by rain, motivating v11 above. No agent
+audition, playback, IR or device operation occurred.
 
 Executed v10 checks: saved master minus its new stems recovers the unchanged
 bed exactly; station detail is confined to 0:18-0:36 and 2:00-2:23 and silent

@@ -9,7 +9,7 @@ import wave
 root = Path(__file__).resolve().parent.parent
 audio = root / "Bulb-Workbench" / "audio" / "last-train-home"
 count = 0
-versions = ("preview-v1", "preview-v2", "preview-v3", "scene-v4", "scene-v5", "scene-v6", "scene-v7", "scene-v8", "scene-v9", "scene-v10")
+versions = ("preview-v1", "preview-v2", "preview-v3", "scene-v4", "scene-v5", "scene-v6", "scene-v7", "scene-v8", "scene-v9", "scene-v10", "scene-v11")
 wav_count = 0
 for version in versions:
     folder = audio / version
@@ -25,6 +25,8 @@ for version in versions:
         generator = "render_presence.py"
     if version == "scene-v10":
         generator = "render_shelter.py"
+    if version == "scene-v11":
+        generator = "render_station_balance.py"
     receipt = json.loads((folder / "provenance.json").read_text(encoding="utf-8-sig"))
     for name, expected in receipt["files"].items():
         data = (folder / name).read_bytes()
@@ -41,8 +43,10 @@ for version in versions:
         wav_names += ["mechanics-only-30s.wav"]
     if version == "scene-v10":
         wav_names += ["station-details-only-180s.wav", "trimmed-mechanics-only-180s.wav"]
+    if version == "scene-v11":
+        wav_names += ["station-details-only-180s.wav", "station-only-30s.wav"]
     for name in wav_names:
-        wav_duration = 30 if name == "mechanics-only-30s.wav" else duration
+        wav_duration = 30 if name in ("mechanics-only-30s.wav", "station-only-30s.wav") else duration
         with wave.open(str(folder / name), "rb") as wav:
             assert (wav.getnchannels(), wav.getsampwidth(), wav.getframerate(), wav.getnframes()) == (2, 2, 48000, wav_duration * 48000)
             samples = array.array("h", wav.readframes(wav.getnframes()))
