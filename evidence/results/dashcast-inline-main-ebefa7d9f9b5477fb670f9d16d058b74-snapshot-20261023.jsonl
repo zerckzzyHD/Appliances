@@ -1,4 +1,0 @@
-{"run": "ebefa7d9f9b5477fb670f9d16d058b74", "target": "main", "stage": "url_sent", "messages": 1, "autoStop": false, "visualResult": "unobserved"}
-{"run": "ebefa7d9f9b5477fb670f9d16d058b74", "target": "main", "stage": "awaiting_owner", "commands": ["status", "stop"], "autoStop": false}
-{"run": "ebefa7d9f9b5477fb670f9d16d058b74", "target": "main", "stage": "url_echo", "received": true}
-{"run": "ebefa7d9f9b5477fb670f9d16d058b74", "target": "main", "stage": "session_lost_before_stop", "stopSent": false}

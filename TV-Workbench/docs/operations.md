@@ -75,7 +75,8 @@ MCP registration need the exact scope described by that protocol.
 
 ## Local development checks
 
-From the repository root, the available package scripts are:
+From the `TV-Workbench` package directory inside Appliances, the available
+package scripts are:
 
 ```powershell
 npm run check

@@ -1,0 +1,123 @@
+{
+  "title": "Last train home - 60-second atmosphere preview v3",
+  "kind": "original procedural audio, not a field recording",
+  "revisionReason": "Owner requests a further small rain reduction for sleep, with train remaining audible in the background.",
+  "relativeStemGainsVsV1": {
+    "rain": 0.35397289219206896,
+    "canopy": 0.35397289219206896,
+    "drops": 0.35397289219206896,
+    "train": 2.24,
+    "brakes": 2.0,
+    "airRelease": 1.666667,
+    "ventilation": 1.0
+  },
+  "relativeStemGainsVsV2": {
+    "rainDb": -3,
+    "canopyDb": -3,
+    "dropsDb": -3,
+    "trainDb": 0,
+    "brakesDb": 0,
+    "airReleaseDb": 0,
+    "ventilationDb": 0
+  },
+  "comparisonCeiling": "Same fixed master gain as v2; subjective comfort and audibility require owner listening.",
+  "date": "2026-10-25",
+  "seed": 251025,
+  "durationSeconds": 60.0,
+  "sampleRateHz": 48000,
+  "channels": 2,
+  "sources": "Original NumPy synthesis in render_preview.py; no downloaded samples, voices or music.",
+  "content": [
+    "sheltered rain",
+    "canopy/glass patter",
+    "low station ventilation",
+    "one distant train approach, braking and air release"
+  ],
+  "cueSeconds": {
+    "fadeIn": [
+      0,
+      4
+    ],
+    "train": [
+      16,
+      45
+    ],
+    "brakes": [
+      29,
+      42
+    ],
+    "airRelease": [
+      39,
+      44.5
+    ],
+    "fadeOut": [
+      53,
+      60
+    ]
+  },
+  "announcements": false,
+  "automaticLoop": false,
+  "normalization": {
+    "method": "fixed linear gain derived from v2 premaster/master PCM",
+    "fixedGain": 0.7186210417545735,
+    "targetIntegratedLufs": null,
+    "maximumTruePeakDbtp": -4
+  },
+  "premaster": {
+    "rms": 0.03213192812679948,
+    "samplePeak": 0.27170590746365303
+  },
+  "measurements": {
+    "last-train-home-60s.wav": {
+      "input_i": "-28.80",
+      "input_tp": "-14.19",
+      "input_lra": "8.00",
+      "input_thresh": "-39.27",
+      "output_i": "-26.23",
+      "output_tp": "-12.73",
+      "output_lra": "6.00",
+      "output_thresh": "-36.43",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.77"
+    },
+    "last-train-home-60s.mp3": {
+      "input_i": "-29.15",
+      "input_tp": "-14.92",
+      "input_lra": "8.00",
+      "input_thresh": "-39.62",
+      "output_i": "-26.24",
+      "output_tp": "-13.11",
+      "output_lra": "6.00",
+      "output_thresh": "-36.44",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.76"
+    }
+  },
+  "validation": {
+    "exactWavFrames": 2880000,
+    "clippedSamples": 0,
+    "firstAndLastFrameSilent": true,
+    "bothFormatsDecodedByFfmpeg": true,
+    "auditionedByAgent": false,
+    "testedOnPhoneOrBulbs": false
+  },
+  "files": {
+    "last-train-home-60s-premaster.wav": {
+      "bytes": 11520044,
+      "sha256": "92cb610cd4bcde266138d2f0527b876661f70896addd8f4809ee9ee70085a605"
+    },
+    "last-train-home-60s.wav": {
+      "bytes": 11520126,
+      "sha256": "815c094874730f6ab56c70934834436a3ac777d7b6ac847cb05b019ee5f155d0"
+    },
+    "last-train-home-60s.mp3": {
+      "bytes": 960862,
+      "sha256": "89338ddab1b661fe374c33f9336d6286e529b59a4135e72f2a5e9da41de6e689"
+    }
+  },
+  "generatorSha256": "46bebe0c6c03ddc3e38c9cc764838d80578e34091cf35b69a8f262ced8c014a8",
+  "limitations": [
+    "Offline measurements do not establish audible comfort or realism.",
+    "No Bluetooth pairing, playback, IR send, installation or public upload performed."
+  ]
+}

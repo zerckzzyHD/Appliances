@@ -1,0 +1,102 @@
+{
+  "title": "Last train home - 60-second atmosphere preview v1",
+  "kind": "original procedural audio, not a field recording",
+  "date": "2026-10-25",
+  "seed": 251025,
+  "durationSeconds": 60.0,
+  "sampleRateHz": 48000,
+  "channels": 2,
+  "sources": "Original NumPy synthesis in render_preview.py; no downloaded samples, voices or music.",
+  "content": [
+    "sheltered rain",
+    "canopy/glass patter",
+    "low station ventilation",
+    "one distant train approach, braking and air release"
+  ],
+  "cueSeconds": {
+    "fadeIn": [
+      0,
+      4
+    ],
+    "train": [
+      16,
+      45
+    ],
+    "brakes": [
+      29,
+      42
+    ],
+    "airRelease": [
+      39,
+      44.5
+    ],
+    "fadeOut": [
+      53,
+      60
+    ]
+  },
+  "announcements": false,
+  "automaticLoop": false,
+  "normalization": {
+    "targetIntegratedLufs": -24,
+    "targetTruePeakDbtp": -5,
+    "method": "FFmpeg loudnorm two-pass"
+  },
+  "premaster": {
+    "rms": 0.05607923420856473,
+    "samplePeak": 0.31648533729228207
+  },
+  "measurements": {
+    "last-train-home-60s.wav": {
+      "input_i": "-24.00",
+      "input_tp": "-14.31",
+      "input_lra": "3.30",
+      "input_thresh": "-34.41",
+      "output_i": "-23.88",
+      "output_tp": "-14.16",
+      "output_lra": "1.60",
+      "output_thresh": "-34.08",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.12"
+    },
+    "last-train-home-60s.mp3": {
+      "input_i": "-24.28",
+      "input_tp": "-14.66",
+      "input_lra": "3.40",
+      "input_thresh": "-34.70",
+      "output_i": "-23.89",
+      "output_tp": "-13.87",
+      "output_lra": "1.60",
+      "output_thresh": "-34.09",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.11"
+    }
+  },
+  "validation": {
+    "exactWavFrames": 2880000,
+    "clippedSamples": 0,
+    "firstAndLastFrameSilent": true,
+    "bothFormatsDecodedByFfmpeg": true,
+    "auditionedByAgent": false,
+    "testedOnPhoneOrBulbs": false
+  },
+  "files": {
+    "last-train-home-60s-premaster.wav": {
+      "bytes": 11520044,
+      "sha256": "1b83b57cdb0c9b134ebfcc66d6045a85cf31035b728028de3ee5aa227bfdcecc"
+    },
+    "last-train-home-60s.wav": {
+      "bytes": 11520122,
+      "sha256": "e2f27e6142e96c30db4503a5e3bc81f8d5ac253702b8fdb212123f88e95cb26f"
+    },
+    "last-train-home-60s.mp3": {
+      "bytes": 960859,
+      "sha256": "a738a84b5886fc857a79893e19013df8fe56f606feb38cd39a5437b612d15ba0"
+    }
+  },
+  "generatorSha256": "73d14f9eea9b62d18e150d0dff495203d5005ce3c4e222c09a6c61c38fb22725",
+  "limitations": [
+    "Offline measurements do not establish audible comfort or realism.",
+    "No Bluetooth pairing, playback, IR send, installation or public upload performed."
+  ]
+}
