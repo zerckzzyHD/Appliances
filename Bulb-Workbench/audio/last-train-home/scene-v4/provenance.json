@@ -1,0 +1,133 @@
+{
+  "title": "Last train home - 180-second atmosphere scene v4",
+  "kind": "original procedural audio, not a field recording",
+  "revisionReason": "Owner requests a further small rain reduction for sleep, with train remaining audible in the background.",
+  "relativeStemGainsVsV1": {
+    "rain": 0.29783107176450524,
+    "canopy": 0.29783107176450524,
+    "drops": 0.29783107176450524,
+    "train": 2.24,
+    "brakes": 2.0,
+    "airRelease": 1.666667,
+    "ventilation": 1.0
+  },
+  "relativeStemGainsVsV2": {
+    "rainDb": -4.5,
+    "canopyDb": -3,
+    "dropsDb": -3,
+    "trainDb": 0,
+    "brakesDb": 0,
+    "airReleaseDb": 0,
+    "ventilationDb": 0
+  },
+  "comparisonCeiling": "Same fixed master gain as v3/v2 and same train source gains. Longer synthesis changes noise samples; not a sample-identical train. Owner listening required.",
+  "relativeStemGainsVsV3": {
+    "rainDb": -1.5,
+    "canopyDb": -1.5,
+    "dropsDb": -1.5,
+    "trainDb": 0,
+    "brakesDb": 0,
+    "airReleaseDb": 0,
+    "ventilationDb": 0
+  },
+  "derivedFrom": "preview-v3/render_preview.py; longer noise realization, unchanged event gains, arrival shifted by 44 seconds",
+  "date": "2026-10-26",
+  "seed": 251025,
+  "durationSeconds": 180.0,
+  "sampleRateHz": 48000,
+  "channels": 2,
+  "sources": "Original NumPy synthesis in render_preview.py; no downloaded samples, voices or music.",
+  "content": [
+    "sheltered rain",
+    "canopy/glass patter",
+    "low station ventilation",
+    "one distant train approach, braking and air release"
+  ],
+  "cueSeconds": {
+    "fadeIn": [
+      0,
+      4
+    ],
+    "train": [
+      60,
+      89
+    ],
+    "brakes": [
+      73,
+      86
+    ],
+    "airRelease": [
+      83,
+      88.5
+    ],
+    "fadeOut": [
+      168,
+      180
+    ]
+  },
+  "announcements": false,
+  "automaticLoop": false,
+  "normalization": {
+    "method": "fixed linear gain derived from v2 premaster/master PCM",
+    "fixedGain": 0.7186210417545735,
+    "targetIntegratedLufs": null,
+    "maximumTruePeakDbtp": -4
+  },
+  "premaster": {
+    "rms": 0.024995114155549177,
+    "samplePeak": 0.2582767697967396
+  },
+  "measurements": {
+    "last-train-home-180s.wav": {
+      "input_i": "-30.89",
+      "input_tp": "-14.61",
+      "input_lra": "5.60",
+      "input_thresh": "-41.07",
+      "output_i": "-26.99",
+      "output_tp": "-11.80",
+      "output_lra": "5.20",
+      "output_thresh": "-37.08",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.01"
+    },
+    "last-train-home-180s.mp3": {
+      "input_i": "-31.22",
+      "input_tp": "-15.00",
+      "input_lra": "5.50",
+      "input_thresh": "-41.41",
+      "output_i": "-26.98",
+      "output_tp": "-11.78",
+      "output_lra": "5.20",
+      "output_thresh": "-37.07",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.02"
+    }
+  },
+  "validation": {
+    "exactWavFrames": 8640000,
+    "clippedSamples": 0,
+    "firstAndLastFrameSilent": true,
+    "bothFormatsDecodedByFfmpeg": true,
+    "auditionedByAgent": false,
+    "testedOnPhoneOrBulbs": false
+  },
+  "files": {
+    "last-train-home-180s-premaster.wav": {
+      "bytes": 34560044,
+      "sha256": "f7c6bb70ba7613d116c754ea7259068e2816cfb8efa12bba67e5acca79583088"
+    },
+    "last-train-home-180s.wav": {
+      "bytes": 34560124,
+      "sha256": "20171beb5d17584d286a84a74373d1b0e17a7d5c2b1b5a6efe06b8d95127adc4"
+    },
+    "last-train-home-180s.mp3": {
+      "bytes": 2880861,
+      "sha256": "32a54c189dac46cb07399583c9bdbe4c83ffee636c0a4d1ca58de03e827da883"
+    }
+  },
+  "generatorSha256": "f200be632cd8497530c785a7a56e9a9b8ad43028de7e469f23e2f87a7fcf8cbe",
+  "limitations": [
+    "Offline measurements do not establish audible comfort or realism.",
+    "No Bluetooth pairing, playback, IR send, installation or public upload performed."
+  ]
+}
