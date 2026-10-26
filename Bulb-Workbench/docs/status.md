@@ -20,6 +20,27 @@ overnight comfort and combined lighting/audio behavior remain unverified.
 
 ## Saved assets and limits
 
+### Shelter resonance trim v12: 2026-10-26
+
+The owner found v11 shelter resonance a little too loud. V12 reduces only
+resonance by 2 dB, retaining airflow and every other PCM component exactly.
+All timings remain unchanged; resonance occurs at 0:22-0:35 and 2:04-2:22.
+[Current scene and complete timeline](../audio/last-train-home/scene-v12/README.md)
+await owner listening. No footsteps or new scene elements are included.
+
+The generator has a single configuration block with independent, actually
+consumed airflow/resonance gains. A broader five-family mix matrix is not yet
+implemented. V11 station components must reconstruct exactly before the trim;
+saved non-resonance component equality is checked afterward. No normalization,
+limiter, agent audition or device action is introduced.
+
+Executed v12 results: resonance trim measured -2.00014 dB in both active cores;
+outside its two windows the new master is sample-identical to v11. Saved
+non-resonance equality and unchanged airflow checks passed. Main WAV/MP3
+decode passed; WAV -31.25 LUFS, MP3 true peak -13.08 dBTP, exact 180-second
+PCM, silent edges and no clipping. Retained checks passed 45 audio hashes,
+twelve generator hashes and 24 WAV files; syntax/format/whitespace passed.
+
 ### Station balance candidate v11: 2026-10-26
 
 The owner found rain still dominant and could barely hear the new ventilation
@@ -27,7 +48,7 @@ in v10. V11 lowers rain-family gain another 1.5 dB, raises active airflow toward
 +1 dB and frame resonance toward -2 dB RMS versus the revised local underlying
 bed, and retains the original train and v10 mechanics unchanged. No events or
 timings change. [Full scene and exact-level station-only identification clip](../audio/last-train-home/scene-v11/README.md)
-await owner listening.
+were followed by owner feedback that resonance was too loud, motivating v12.
 
 Composition was measured before calibration in quiet windows at 0:07-0:15,
 0:45-0:53, 1:40-1:48 and 2:33-2:45. Existing non-rain continuous station bed is

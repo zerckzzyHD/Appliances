@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-26",
+  "durationSeconds": 180,
+  "sampleRateHz": 48000,
+  "channels": 2,
+  "sources": "Retained original procedural v6/v10/v11 sources and PCM; no downloaded samples.",
+  "sourceMasterSha256": "09734f1934f91297ac41131fcc06a39806455de1b81898d6235475b2dff1175b",
+  "layerGainsDbVsV11": {
+    "airflow": 0.0,
+    "shelter_resonance": -2.0
+  },
+  "measuredResonanceChanges": [
+    {
+      "seconds": [
+        26,
+        28
+      ],
+      "resonanceChangeDb": -2.000137320994869
+    },
+    {
+      "seconds": [
+        128,
+        130
+      ],
+      "resonanceChangeDb": -2.000137320994869
+    }
+  ],
+  "controlsScope": "Independent airflow and shelter resonance controls; five-family background/train mixer remains future work.",
+  "normalization": "none; no limiter or other-layer gain change",
+  "cueSeconds": {
+    "masterFadeIn": [
+      0,
+      4
+    ],
+    "continuousRainAndStationBed": [
+      0,
+      180
+    ],
+    "train": [
+      60,
+      89
+    ],
+    "trainStrongest": [
+      75,
+      78
+    ],
+    "railTexture": [
+      62,
+      85
+    ],
+    "braking": [
+      73,
+      86
+    ],
+    "rattle": [
+      73,
+      85
+    ],
+    "airRelease": [
+      83,
+      88.5
+    ],
+    "mechanicsExtraFade": [
+      79,
+      85
+    ],
+    "masterFadeOut": [
+      168,
+      180
+    ]
+  },
+  "newStationEvents": [
+    {
+      "airflowSeconds": [
+        18,
+        36
+      ],
+      "canopySeconds": [
+        22,
+        35
+      ]
+    },
+    {
+      "airflowSeconds": [
+        120,
+        143
+      ],
+      "canopySeconds": [
+        124,
+        142
+      ]
+    }
+  ],
+  "footstepsIncluded": false,
+  "measurements": {
+    "last-train-home-180s.wav": {
+      "integratedLufs": -31.25,
+      "truePeakDbtp": -12.74
+    },
+    "last-train-home-180s.mp3": {
+      "integratedLufs": -31.64,
+      "truePeakDbtp": -13.08
+    }
+  },
+  "validation": {
+    "v11StationReconstructedExactly": true,
+    "savedAllNonResonanceComponentsExact": true,
+    "airflowUnchanged": true,
+    "pcmNoClipping": true,
+    "silentEdges": true,
+    "mainFormatsDecoded": true,
+    "auditionedByAgent": false,
+    "ownerListening": "pending",
+    "deviceOperations": 0
+  },
+  "files": {
+    "last-train-home-180s.wav": {
+      "bytes": 34560044,
+      "sha256": "7852b6695624d18a9927676921e8a1b8e43a7503e23ef002fe3a028128d096e2"
+    },
+    "last-train-home-180s.mp3": {
+      "bytes": 2880812,
+      "sha256": "10c8da1851e2bc6561c8d6e9ed773b943373b45039d777d52a76697c6dfa7450"
+    },
+    "shelter-resonance-only-180s.wav": {
+      "bytes": 34560044,
+      "sha256": "ed721bf84d2ba8b3efdb24ad6a7cec7379a2bc304fc58888894117968365a3ab"
+    }
+  },
+  "generatorSha256": "47c6ebfc6a36cf76e63ea0047e8e47f63318c1a815ece2e582e583c4b185b96b",
+  "limits": [
+    "RMS and sample checks do not establish perceived comfort or realism."
+  ]
+}

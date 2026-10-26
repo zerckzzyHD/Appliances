@@ -3,7 +3,7 @@
 Goal: a comfortable late-night station atmosphere for sleep, with restrained
 rain, an audible distant train and slow Pink/Purple/Blue lighting. The current
 [status](status.md) records owner observations, historical v5 acceptance and
-the subsequent revisions and current v11 station-balance candidate awaiting listening.
+the subsequent revisions and current v12 resonance-trim candidate awaiting listening.
 The [imported specification](history/GE-SPEAKER-BULB-IR-PLAN-2026-10-22.md)
 retains the detailed earlier scene proposal and pinned upstream source leads.
 
@@ -21,7 +21,7 @@ retains the detailed earlier scene proposal and pinned upstream source leads.
    the added sounds and asked for quieter rain and details near its level.
    V7 reduces rain another 1.5 dB, calibrates active clicks/rattles toward the
    surrounding bed and keeps the original train gain. The owner then rejected
-   footsteps and found clicks too similar, sudden and random. Current v8 removes
+   footsteps and found clicks too similar, sudden and random. V8 removes
    both scattered click/rattle families, adds shared slowing-wheel modulation
    and braking-linked envelopes during the train, and includes no footsteps.
    The owner could not confidently identify v8 additions. V9 raises those same
@@ -37,6 +37,11 @@ retains the detailed earlier scene proposal and pinned upstream source leads.
    so that rain trim changes total wash only about 0.65 dB. Next is owner
    comparison of the full scene and exact-level station-only identification
    clip, using the [complete timeline](../audio/last-train-home/scene-v11/README.md).
+   The owner found v11 resonance too loud. V12 trims only resonance 2 dB, with
+   independent working airflow/resonance controls. Next is owner listening to
+   v12, especially 0:22-0:35 and 2:04-2:22. A full five-family configuration for
+   rain, continuous wash, airflow, train/mechanics and resonance remains future
+   work; separating the wash from rain is the next useful broader mixing step.
    Original train and v10 mechanics stay unchanged; no footsteps or impacts.
    Measured RMS and common timing do not prove perceived realism.
    Longer loops and optional PA remain later choices. No overnight suitability

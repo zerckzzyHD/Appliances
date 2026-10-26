@@ -9,7 +9,7 @@ import wave
 root = Path(__file__).resolve().parent.parent
 audio = root / "Bulb-Workbench" / "audio" / "last-train-home"
 count = 0
-versions = ("preview-v1", "preview-v2", "preview-v3", "scene-v4", "scene-v5", "scene-v6", "scene-v7", "scene-v8", "scene-v9", "scene-v10", "scene-v11")
+versions = ("preview-v1", "preview-v2", "preview-v3", "scene-v4", "scene-v5", "scene-v6", "scene-v7", "scene-v8", "scene-v9", "scene-v10", "scene-v11", "scene-v12")
 wav_count = 0
 for version in versions:
     folder = audio / version
@@ -27,6 +27,8 @@ for version in versions:
         generator = "render_shelter.py"
     if version == "scene-v11":
         generator = "render_station_balance.py"
+    if version == "scene-v12":
+        generator = "render_resonance_trim.py"
     receipt = json.loads((folder / "provenance.json").read_text(encoding="utf-8-sig"))
     for name, expected in receipt["files"].items():
         data = (folder / name).read_bytes()
@@ -45,6 +47,8 @@ for version in versions:
         wav_names += ["station-details-only-180s.wav", "trimmed-mechanics-only-180s.wav"]
     if version == "scene-v11":
         wav_names += ["station-details-only-180s.wav", "station-only-30s.wav"]
+    if version == "scene-v12":
+        wav_names += ["shelter-resonance-only-180s.wav"]
     for name in wav_names:
         wav_duration = 30 if name in ("mechanics-only-30s.wav", "station-only-30s.wav") else duration
         with wave.open(str(folder / name), "rb") as wav:
