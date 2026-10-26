@@ -13,9 +13,11 @@ retains the detailed earlier scene proposal and pinned upstream source leads.
 2. The owner reports v4 mixing is much better but requests a smaller rain trim
    and more sonic detail. V5 reduces only rain-family gains another 0.75 dB.
    The owner accepted v5. Preserve that rain/train balance while adding
-   restrained ambient detail in a separate revision; sparse distant station
-   movement or rail sounds are candidates,
-   not selected or rendered additions. Keep new events gentle for sleep.
+   restrained ambient detail. V6 adds sparse rail contacts, faint mechanical
+   rattles and seven soft receding footsteps. The owner approved trying steps
+   but flagged apartment-related unease; provide both with/without-step mixes
+   and an isolated removable step layer. Next is owner comparison, especially
+   around 1:51-1:57. Keep new events gentle for sleep.
    Longer loops and optional PA remain later choices. No overnight suitability
    is established.
 3. Start lighting integration with a static, owner-selected Pink preset and

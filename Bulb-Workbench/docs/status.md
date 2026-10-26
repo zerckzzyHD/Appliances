@@ -20,6 +20,30 @@ overnight comfort and combined lighting/audio behavior remain unverified.
 
 ## Saved assets and limits
 
+### Station details v6: 2026-10-26
+
+The owner authorized rail/mechanical detail and a trial of footsteps, while
+noting that footsteps could feel scary in their apartment. V6 supplies both
+[with-footsteps](../audio/last-train-home/scene-v6/last-train-home-180s.mp3) and
+[without-footsteps](../audio/last-train-home/scene-v6/last-train-home-180s-no-footsteps.mp3)
+mixes and an isolated step layer. The approved v5 PCM bed is retained at unity
+gain with no normalization, preserving its rain/train mix.
+
+Rail contacts: 0:24, 0:46.5, 0:54.2, 1:32, 2:09, 2:33. Rattle windows:
+0:35-0:41, 1:37-1:44 and 2:23-2:30. Seven receding steps are around 1:51-1:57;
+their layer can be omitted without changing the other details. These are
+synthetic textures, not field recordings. Owner realism/comfort comparison is
+pending. No playback, IR or other device operation is performed.
+
+Executed checks: both mixes and their MP3s decoded through FFmpeg; both PCM
+masters are exactly 180 seconds with silent edges and no clipped samples.
+Both measured -31.33 LUFS PCM / -31.68 LUFS MP3; MP3 true peak -15.17 dBTP.
+Saved WAV comparison confirms the mix difference equals the isolated step
+stem exactly, and the alternate equals the v5 PCM plus the regenerated detail
+stem. Both added layers contain nonzero samples. The retained checker passes
+20 audio hashes, six generator hashes and eight WAV files. No agent audition
+or owner acceptance of v6 is claimed.
+
 ### Three-minute scene v5: 2026-10-26
 
 Owner feedback on v4: much better mixing; rain could be a little quieter again,
