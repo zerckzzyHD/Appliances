@@ -1,6 +1,6 @@
 # Bulb status
 
-Checkpoint: 2026-10-26. This is the current bulb authority. The imported
+Checkpoint: 2026-10-27. This is the current bulb authority. The imported
 [Revision 3 reconciliation](history/GE-SPEAKER-BULB-IR-PLAN-2026-10-22.md)
 preserves the earlier specification and evidence; its planning-only/no-audio
 statements are historical and superseded here.
@@ -19,6 +19,24 @@ balance acceptance for the preview. Playback destination, Bluetooth grouping,
 overnight comfort and combined lighting/audio behavior remain unverified.
 
 ## Saved assets and limits
+
+### Resumption checkpoint: 2026-10-27
+
+Latest production remains v13 at source commit `5618a84`: two finite
+five-minute alternatives, with/without original fictional PA. Owner acceptance
+of v12/v13 is not recorded. Next is owner listening using the v13 timeline;
+no additional scene or device operation was requested for this checkpoint.
+All earlier sources, stems and render receipts remain retained.
+
+The asset checker was rerun successfully: 51 audio hashes, 13 Python generator
+hashes, 26 delivery/stem WAV files, the speech script/receipt and imported-plan
+hash. This refresh checks saved integrity and WAV structure; render-time
+decode/level/transition results below retain their original dates. No agent
+audition, fresh runtime health check, playback, TV, IR or Bluetooth operation.
+Git was clean at checkpoint start; the 11 local commits since remote
+`ebffa9f` remained local. The checkpoint itself adds a documentation commit;
+no push is part of this request. Root CHECKPOINT.md owns the resumption pointer,
+while this status and the existing plan remain the bulb authority.
 
 ### Five-minute station story v13: 2026-10-26
 

@@ -17,6 +17,6 @@ clicks. Owner listening is pending; dated feedback lives in docs/status.md.
 - [Current plan](docs/plan.md) and [current status](docs/status.md)
 - [Imported reconciliation](docs/history/GE-SPEAKER-BULB-IR-PLAN-2026-10-22.md)
 
-All three previews and three-minute revisions, with their generators, retained
+All three previews, three-minute revisions and five-minute alternatives, with their generators, retained
 masters, stems and provenance, are saved. Their README/provenance statements describe render-time
 status; current owner feedback is recorded in docs/status.md.

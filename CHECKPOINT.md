@@ -1,4 +1,58 @@
-# Appliances consolidation checkpoint
+# Appliances checkpoint
+
+Current checkpoint: **2026-10-27**. Physical home: `C:\Dev\!Appliances`.
+This page is a resumption pointer; each workbench's plan/status remain its
+authoritative project records. The dated consolidation receipt follows below.
+
+## Current bulb delivery
+
+**Last train home v13** is a finite five-minute station story:
+
+- [With two fictional PA announcements](Bulb-Workbench/audio/last-train-home/scene-v13/last-train-home-300s.mp3).
+- [Announcement-free alternative](Bulb-Workbench/audio/last-train-home/scene-v13/last-train-home-300s-no-pa.mp3).
+- [Complete timeline and reproduction notes](Bulb-Workbench/audio/last-train-home/scene-v13/README.md).
+- [Current bulb status](Bulb-Workbench/docs/status.md) and [plan](Bulb-Workbench/docs/plan.md).
+
+It carries forward v12's 2 dB resonance reduction and adds departure at
+3:05-3:48, later airflow/weather, roof runoff and a quieter shelter response.
+Optional PA occurs at 0:44-0:48.384 and 2:50-2:54.599. All earlier versions,
+sources, stems and provenance remain retained. Footsteps, scattered clicks,
+horns, automatic looping and device playback are excluded from the current scene.
+
+Owner acceptance of v12/v13 is not recorded. The next step is owner listening
+to v13 and feedback on overall balance, departure, weather and optional PA.
+Speech clarity, perceived realism, comfort and overnight suitability remain
+unverified. No new scene production, device action or installation accompanies
+this checkpoint. The full five-family mixer and lighting/audio integration
+remain unfinished; follow the existing bulb plan rather than adding a queue.
+
+## Checkpoint checks and Git
+
+At checkpoint start, `main` was clean at source commit
+`5618a84dfddd5d86a44eed6c45241fc4e5f5a1f7` (`5618a84`). The checkpoint documentation is a subsequent
+local commit. GitHub currently reports `zerckzzyHD/Appliances` PRIVATE.
+`git ls-remote` returned remote main
+`ebffa9f063dfebcc953ddd70da43e72034e80118`; 11 local commits were ahead before
+this checkpoint commit. No push is part of the current checkpoint request.
+
+The saved asset checker was rerun: 51 audio hashes, 13 Python generator hashes,
+26 delivery/stem WAV files, the speech script/receipt and the imported plan
+passed. These are file integrity/structure checks. Original render-time decode,
+level, prefix, PA-difference and transition results retain their recorded dates
+and scope; they do not establish listening acceptance.
+
+## TV and hosting boundary
+
+TV research remains paused under its existing
+[plan](TV-Workbench/docs/plan.md) and [status](TV-Workbench/docs/status.md).
+The G1 physical-input test has not run. No TV, Bluetooth or IR action is
+authorized by this checkpoint. Console's 2026-10-26 path cutover and health
+checks remain dated evidence, not freshly measured runtime health.
+The old `C:\Dev\!TV` path was checked absent again on 2026-10-27.
+Private settings, credentials, raw captures and the handoff dock remain outside
+this checkpoint's edits and Git staging.
+
+## Retained consolidation receipt: 2026-10-26
 
 Date: 2026-10-26. Owner requested one private Appliances repository containing
 TV-Workbench and Bulb-Workbench, superseding the separate bulb repository idea.

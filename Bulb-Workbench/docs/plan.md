@@ -7,6 +7,19 @@ the subsequent revisions and current v13 five-minute story awaiting listening.
 The [imported specification](history/GE-SPEAKER-BULB-IR-PLAN-2026-10-22.md)
 retains the detailed earlier scene proposal and pinned upstream source leads.
 
+## Resume here: 2026-10-27
+
+V13 is saved with and without PA. Owner listening acceptance remains unrecorded.
+Next is comparing those deliveries with the
+[v13 complete timeline](../audio/last-train-home/scene-v13/README.md#complete-timeline),
+then recording feedback before another balance revision. In particular: train
+clarity, 3:05-3:48 departure, later weather/runoff, shelter resonance and PA
+intelligibility/comfort. No render, playback or device operation accompanies
+the checkpoint. Five-family mixing controls, lighting integration and any
+longer loop remain unfinished under this same plan.
+
+## Retained development sequence and integration gates
+
 1. The owner approved the three-minute extension and requested slightly quieter
    rain again. Scene v4 is rendered with rain layers 1.5 dB below v3, unchanged
    train source/master gains, one arrival and no announcement or horn. Retain
